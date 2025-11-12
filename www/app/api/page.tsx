@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Search } from "lucide-react";
 import { GridaLogo } from "@/components/grida-logo";
 import {
   Sidebar,
@@ -16,12 +15,12 @@ import {
   SidebarMenuItem,
   SidebarProvider,
 } from "@/components/ui/sidebar";
-import { Button } from "@/components/ui/button";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
 } from "@/components/ui/input-group";
+import { Search } from "lucide-react";
 
 // Icon sets data - this will be replaced with actual data later
 const iconSets = [
@@ -30,12 +29,6 @@ const iconSets = [
   { name: "Unicons", id: "unicons", count: 1200 },
   { name: "Ant Design", id: "antd", count: 800 },
 ];
-
-// Mock icon data - will be replaced with actual icons
-const mockIcons = Array.from({ length: 48 }, (_, i) => ({
-  id: `icon-${i + 1}`,
-  name: `Icon ${i + 1}`,
-}));
 
 function AppSidebar() {
   return (
@@ -55,11 +48,13 @@ function AppSidebar() {
             <SidebarMenu>
               {iconSets.map((set) => (
                 <SidebarMenuItem key={set.id}>
-                  <SidebarMenuButton>
-                    <span>{set.name}</span>
-                    <span className="ml-auto text-xs text-muted-foreground">
-                      {set.count}
-                    </span>
+                  <SidebarMenuButton asChild>
+                    <Link href="/">
+                      <span>{set.name}</span>
+                      <span className="ml-auto text-xs text-muted-foreground">
+                        {set.count}
+                      </span>
+                    </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
@@ -72,14 +67,22 @@ function AppSidebar() {
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <a href="https://fonts.grida.co" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://fonts.grida.co"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span>Fonts</span>
                   </a>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <a href="https://grida.co/library" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://grida.co/library"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span>Photos</span>
                   </a>
                 </SidebarMenuButton>
@@ -110,7 +113,7 @@ function AppSidebar() {
   );
 }
 
-export default function Home() {
+export default function ApiPage() {
   return (
     <SidebarProvider>
       <div className="flex h-screen w-full">
@@ -120,10 +123,7 @@ export default function Home() {
           <div className="border-b px-6 py-4">
             <div className="max-w-md">
               <InputGroup>
-                <InputGroupInput
-                  type="search"
-                  placeholder="Search icons..."
-                />
+                <InputGroupInput type="search" placeholder="Search icons..." />
                 <InputGroupAddon align="inline-end">
                   <Search />
                 </InputGroupAddon>
@@ -131,22 +131,13 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Icon Grid */}
+          {/* API Content */}
           <div className="flex-1 overflow-y-auto p-6">
-            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
-              {mockIcons.map((icon) => (
-                <div key={icon.id} className="aspect-square">
-                  <Button
-                    variant="ghost"
-                    className="group flex h-full w-full flex-col items-center justify-center p-4"
-                  >
-                    <div className="mb-2 h-12 w-12 shrink-0 rounded border bg-muted" />
-                    <span className="text-xs text-muted-foreground group-hover:text-foreground">
-                      {icon.name}
-                    </span>
-                  </Button>
-                </div>
-              ))}
+            <div className="mx-auto max-w-3xl">
+              <h1 className="mb-6 text-3xl font-bold">API</h1>
+              <p className="text-muted-foreground">
+                API documentation coming soon.
+              </p>
             </div>
           </div>
         </main>
