@@ -1,25 +1,56 @@
-# reflect-icons
+# Grida Icons
 
-> reflect-icons
+> A comprehensive icon library with rich metadata for easy search, preview, and import. Built for developers and AI agents.
 
-Reflect UI Icons
+## Overview
 
-## Platforms
+**Grida Icons** is a curated collection of icons that combines:
 
-- web svg - `@reflect-ui/icons-svg`
-- react - `@reflect-ui/icons-react`
-- vue - `@reflect-ui/icons-vue`
-- svelte - `@reflect-ui/icons-svelte`
-- flutter - `reflect_ui_icons`
-- android - WIP
-- ios - WIP
+- **Grida-made icons** - Original icon designs created by Grida
+- **Popular icon sets** - Mirrored and enhanced versions of famous icon libraries like:
+  - [Material Icons](https://fonts.google.com/icons)
+  - [Lucide (feather)](https://lucide.dev)
+    - [Feather Icons](https://feathericons.com)
+  - [Radix UI](https://www.radix-ui.com)
+  - And more...
 
-## The Design Source
+## Features
 
-The origin source design of reflect icons are available on [figma here][reflect-ui-icons-on-figma]
+### 🎯 Rich Metadata
 
-[reflect-ui-icons-on-figma]: https://www.figma.com/file/OtJtR0466ehNOaJIZmzydg/reflect-ui-icons
+Every icon comes with comprehensive metadata including:
 
-## See also
+- **Keywords** - For better searchability
+- **Visual descriptions** - Detailed descriptions of icon appearance and meaning
+- **Categorization** - Organized for easy browsing
 
-- [reflect-ui/emoji](https://github.com/reflect-ui/emoji) - All open emojis combined
+### 🔍 Enhanced Search & Discovery
+
+- Powerful search capabilities powered by metadata
+- Visual preview of icons
+- Easy import and integration
+
+### 🤖 AI Agent Library
+
+Designed with AI agents in mind, Grida Icons provides:
+
+- Structured metadata that AI systems can understand
+- Semantic descriptions for intelligent icon selection
+- Machine-readable formats for automated workflows
+
+## Purpose
+
+Grida Icons serves as both a **developer tool** and an **AI agent library**, making it easier than ever to:
+
+- Search and discover the perfect icon
+- Preview icons before importing
+- Import icons into your projects
+- Enable AI systems to intelligently select and use icons based on context
+
+## Contributing
+
+We welcome contributions! Whether you're adding new icons, improving metadata, or enhancing search capabilities, your help makes Grida Icons better for everyone.
+
+## License
+
+See [LICENSE](./LICENSE) for details.
