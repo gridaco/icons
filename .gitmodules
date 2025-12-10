@@ -1,3 +1,6 @@
 [submodule "vendor/svgl"]
 	path = vendor/svgl
 	url = https://github.com/pheralb/svgl
+[submodule "vendor/radix-ui-icons"]
+	path = vendor/radix-ui-icons
+	url = https://github.com/radix-ui/icons
