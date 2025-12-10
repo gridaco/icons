@@ -13,3 +13,6 @@
 [submodule "vendor/octicons"]
 	path = vendor/octicons
 	url = https://github.com/primer/octicons
+[submodule "vendor/lucide-icons"]
+	path = vendor/lucide-icons
+	url = https://github.com/lucide-icons/lucide

@@ -10,6 +10,7 @@
 | octicons              | Octicons              | [primer/octicons](https://github.com/primer/octicons)                           | [./octicons](./octicons)             | ready   | [primer.style/octicons](https://primer.style/octicons/)  | MIT        | 2025-12-10   |
 | heroicons             | Heroicons             | [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons)             | [./heroicons](./heroicons)           | ready   | [heroicons.com](https://heroicons.com/)                  | MIT        | 2025-12-10   |
 | phosphor-icons        | Phosphor Icons        | [phosphor-icons/core](https://github.com/phosphor-icons/core)                   | [./phosphor-icons](./phosphor-icons) | ready   | [phosphoricons.com](https://phosphoricons.com/)          | MIT        | 2025-12-10   |
+| lucide-icons          | Lucide Icons          | [lucide-icons/lucide](https://github.com/lucide-icons/lucide)                   | [./lucide-icons](./lucide-icons)     | ready   | [lucide.dev](https://lucide.dev/)                        | ISC        | 2025-12-10   |
 | bootstrap-icons       | Bootstrap Icons       | [twbs/icons](https://github.com/twbs/icons)                                     | planned                              | planned | [icons.getbootstrap.com](https://icons.getbootstrap.com) | MIT        | -            |
 
 ## Vendor Selection Criteria
