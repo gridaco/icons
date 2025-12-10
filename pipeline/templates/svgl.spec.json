@@ -1,0 +1,10 @@
+{
+  "name": "SVGL",
+  "vendor": "svgl",
+  "version": "5.0.0",
+  "url": "https://svgl.app",
+  "repository": "https://github.com/pheralb/svgl",
+  "description": "SVG logo library with structured metadata and API routes.",
+  "license": "MIT"
+}
+

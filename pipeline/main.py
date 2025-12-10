@@ -1,3 +1,4 @@
+import json
 import shutil
 from pathlib import Path
 
@@ -147,34 +148,14 @@ def _write_merged_license():
         out.write_text("No vendor licenses found.\n")
 
 
-@click.group(invoke_without_command=True)
+@click.command()
 @click.pass_context
 def dist(ctx):
-    """
-    Dist tasks. Default runs dist build (clean cache, cache all, copy to dist/).
-    """
-    if ctx.invoked_subcommand is None:
-        ctx.invoke(dist_build)
-
-
-@dist.command(name="clean")
-def dist_clean():
-    """Remove the dist directory."""
-    if DIST_DIR.exists():
-        shutil.rmtree(DIST_DIR)
-        click.echo(f"Removed dist directory: {DIST_DIR}")
-    _ensure_dist_placeholders()
-    click.echo("Dist directory reset with placeholders (.gitkeep, README.md, LICENSE).")
-
-
-@dist.command(name="build")
-@click.pass_context
-def dist_build(ctx):
     """
     Build dist outputs: clean cache, cache all vendors, then copy metadata and SVGs into dist/.
     """
     # Clean dist first
-    ctx.invoke(dist_clean)
+    ctx.invoke(clean)
     # Clean cache first
     ctx.invoke(cache_clean)
     # Rebuild cache
@@ -236,15 +217,55 @@ def dist_build(ctx):
         DIST_DIR / "svgl" / "src",
     )
 
+    # Package metadata (SPEC package schema) -> dist/<vendor>/data.json
+    vendor_packages = {
+        "radix-ui-icons": {},
+        "heroicons": {},
+        "lucide-icons": {},
+        "phosphor-icons": {},
+        "octicons": {},
+        "svgl": {},
+    }
+    templates_dir = ROOT / "pipeline" / "templates"
+    # Attach flat file list (relative paths under dist/<vendor>)
+    for vendor, pkg in vendor_packages.items():
+        template_path = templates_dir / f"{vendor}.spec.json"
+        if template_path.exists():
+            try:
+                pkg.update(json.loads(template_path.read_text()))
+            except Exception:
+                pass
+        src_root = DIST_DIR / vendor / "src"
+        files = []
+        if src_root.exists():
+            for p in src_root.rglob("*"):
+                if p.is_file():
+                    files.append(str(p.relative_to(DIST_DIR / vendor)))
+        pkg["files"] = sorted(files)
+        out_pkg = DIST_DIR / vendor / "data.json"
+        out_pkg.parent.mkdir(parents=True, exist_ok=True)
+        out_pkg.write_text(json.dumps(pkg, indent=2))
+
     # Merge licenses into dist/LICENSE
     _write_merged_license()
 
     click.echo(f"Dist build complete at {DIST_DIR}")
 
 
+@click.command(name="clean")
+def clean():
+    """Remove the dist directory and recreate placeholders."""
+    if DIST_DIR.exists():
+        shutil.rmtree(DIST_DIR)
+        click.echo(f"Removed dist directory: {DIST_DIR}")
+    _ensure_dist_placeholders()
+    click.echo("Dist directory reset with placeholders (.gitkeep, README.md).")
+
+
 # Expose only cache and dist at the root
 cli.add_command(cache, name="cache")
 cli.add_command(dist, name="dist")
+cli.add_command(clean, name="clean")
 
 
 if __name__ == "__main__":

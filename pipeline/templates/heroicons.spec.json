@@ -1,0 +1,10 @@
+{
+  "name": "Heroicons",
+  "vendor": "heroicons",
+  "version": "2.2.0",
+  "url": "https://heroicons.com",
+  "repository": "https://github.com/tailwindlabs/heroicons",
+  "description": "MIT-licensed SVG icons for UI development from Tailwind Labs.",
+  "license": "MIT"
+}
+

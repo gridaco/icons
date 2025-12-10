@@ -1,0 +1,9 @@
+{
+  "name": "Lucide Icons",
+  "vendor": "lucide-icons",
+  "version": "0.0.0",
+  "url": "https://lucide.dev",
+  "repository": "https://github.com/lucide-icons/lucide",
+  "description": "Community-driven fork of Feather with 1,655+ stroke-based icons.",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Primer Octicons",
+  "vendor": "octicons",
+  "version": "19.21.1",
+  "url": "https://primer.style/octicons/",
+  "repository": "https://github.com/primer/octicons",
+  "description": "GitHub’s official icon set for actions, states, and UI concepts.",
+  "license": "MIT"
+}
+
