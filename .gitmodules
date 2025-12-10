@@ -7,3 +7,6 @@
 [submodule "vendor/phosphor-icons"]
 	path = vendor/phosphor-icons
 	url = https://github.com/phosphor-icons/core
+[submodule "vendor/heroicons"]
+	path = vendor/heroicons
+	url = https://github.com/tailwindlabs/heroicons
