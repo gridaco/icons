@@ -1,0 +1,8287 @@
+{
+  "name": "Lucide Icons",
+  "vendor": "lucide-icons",
+  "version": "0.0.0",
+  "url": "https://lucide.dev",
+  "repository": "https://github.com/lucide-icons/lucide",
+  "description": "Community-driven fork of Feather with 1,655+ stroke-based icons.",
+  "license": "ISC",
+  "variants": {},
+  "files": [
+    {
+      "name": "a-arrow-down",
+      "file": "src/a-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "a-arrow-up",
+      "file": "src/a-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "a-large-small",
+      "file": "src/a-large-small.svg",
+      "properties": {}
+    },
+    {
+      "name": "accessibility",
+      "file": "src/accessibility.svg",
+      "properties": {}
+    },
+    {
+      "name": "activity",
+      "file": "src/activity.svg",
+      "properties": {}
+    },
+    {
+      "name": "air-vent",
+      "file": "src/air-vent.svg",
+      "properties": {}
+    },
+    {
+      "name": "airplay",
+      "file": "src/airplay.svg",
+      "properties": {}
+    },
+    {
+      "name": "alarm-clock-check",
+      "file": "src/alarm-clock-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "alarm-clock-minus",
+      "file": "src/alarm-clock-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "alarm-clock-off",
+      "file": "src/alarm-clock-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "alarm-clock-plus",
+      "file": "src/alarm-clock-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "alarm-clock",
+      "file": "src/alarm-clock.svg",
+      "properties": {}
+    },
+    {
+      "name": "alarm-smoke",
+      "file": "src/alarm-smoke.svg",
+      "properties": {}
+    },
+    {
+      "name": "album",
+      "file": "src/album.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-center-horizontal",
+      "file": "src/align-center-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-center-vertical",
+      "file": "src/align-center-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-end-horizontal",
+      "file": "src/align-end-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-end-vertical",
+      "file": "src/align-end-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-distribute-center",
+      "file": "src/align-horizontal-distribute-center.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-distribute-end",
+      "file": "src/align-horizontal-distribute-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-distribute-start",
+      "file": "src/align-horizontal-distribute-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-justify-center",
+      "file": "src/align-horizontal-justify-center.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-justify-end",
+      "file": "src/align-horizontal-justify-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-justify-start",
+      "file": "src/align-horizontal-justify-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-space-around",
+      "file": "src/align-horizontal-space-around.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-horizontal-space-between",
+      "file": "src/align-horizontal-space-between.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-start-horizontal",
+      "file": "src/align-start-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-start-vertical",
+      "file": "src/align-start-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-distribute-center",
+      "file": "src/align-vertical-distribute-center.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-distribute-end",
+      "file": "src/align-vertical-distribute-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-distribute-start",
+      "file": "src/align-vertical-distribute-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-justify-center",
+      "file": "src/align-vertical-justify-center.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-justify-end",
+      "file": "src/align-vertical-justify-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-justify-start",
+      "file": "src/align-vertical-justify-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-space-around",
+      "file": "src/align-vertical-space-around.svg",
+      "properties": {}
+    },
+    {
+      "name": "align-vertical-space-between",
+      "file": "src/align-vertical-space-between.svg",
+      "properties": {}
+    },
+    {
+      "name": "ambulance",
+      "file": "src/ambulance.svg",
+      "properties": {}
+    },
+    {
+      "name": "ampersand",
+      "file": "src/ampersand.svg",
+      "properties": {}
+    },
+    {
+      "name": "ampersands",
+      "file": "src/ampersands.svg",
+      "properties": {}
+    },
+    {
+      "name": "amphora",
+      "file": "src/amphora.svg",
+      "properties": {}
+    },
+    {
+      "name": "anchor",
+      "file": "src/anchor.svg",
+      "properties": {}
+    },
+    {
+      "name": "angry",
+      "file": "src/angry.svg",
+      "properties": {}
+    },
+    {
+      "name": "annoyed",
+      "file": "src/annoyed.svg",
+      "properties": {}
+    },
+    {
+      "name": "antenna",
+      "file": "src/antenna.svg",
+      "properties": {}
+    },
+    {
+      "name": "anvil",
+      "file": "src/anvil.svg",
+      "properties": {}
+    },
+    {
+      "name": "aperture",
+      "file": "src/aperture.svg",
+      "properties": {}
+    },
+    {
+      "name": "app-window-mac",
+      "file": "src/app-window-mac.svg",
+      "properties": {}
+    },
+    {
+      "name": "app-window",
+      "file": "src/app-window.svg",
+      "properties": {}
+    },
+    {
+      "name": "apple",
+      "file": "src/apple.svg",
+      "properties": {}
+    },
+    {
+      "name": "archive-restore",
+      "file": "src/archive-restore.svg",
+      "properties": {}
+    },
+    {
+      "name": "archive-x",
+      "file": "src/archive-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "archive",
+      "file": "src/archive.svg",
+      "properties": {}
+    },
+    {
+      "name": "armchair",
+      "file": "src/armchair.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-down-dash",
+      "file": "src/arrow-big-down-dash.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-down",
+      "file": "src/arrow-big-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-left-dash",
+      "file": "src/arrow-big-left-dash.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-left",
+      "file": "src/arrow-big-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-right-dash",
+      "file": "src/arrow-big-right-dash.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-right",
+      "file": "src/arrow-big-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-up-dash",
+      "file": "src/arrow-big-up-dash.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-big-up",
+      "file": "src/arrow-big-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-0-1",
+      "file": "src/arrow-down-0-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-1-0",
+      "file": "src/arrow-down-1-0.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-a-z",
+      "file": "src/arrow-down-a-z.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-from-line",
+      "file": "src/arrow-down-from-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-left",
+      "file": "src/arrow-down-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-narrow-wide",
+      "file": "src/arrow-down-narrow-wide.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-right",
+      "file": "src/arrow-down-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-to-dot",
+      "file": "src/arrow-down-to-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-to-line",
+      "file": "src/arrow-down-to-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-up",
+      "file": "src/arrow-down-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-wide-narrow",
+      "file": "src/arrow-down-wide-narrow.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down-z-a",
+      "file": "src/arrow-down-z-a.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-down",
+      "file": "src/arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-left-from-line",
+      "file": "src/arrow-left-from-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-left-right",
+      "file": "src/arrow-left-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-left-to-line",
+      "file": "src/arrow-left-to-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-left",
+      "file": "src/arrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-right-from-line",
+      "file": "src/arrow-right-from-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-right-left",
+      "file": "src/arrow-right-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-right-to-line",
+      "file": "src/arrow-right-to-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-right",
+      "file": "src/arrow-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-0-1",
+      "file": "src/arrow-up-0-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-1-0",
+      "file": "src/arrow-up-1-0.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-a-z",
+      "file": "src/arrow-up-a-z.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-down",
+      "file": "src/arrow-up-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-from-dot",
+      "file": "src/arrow-up-from-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-from-line",
+      "file": "src/arrow-up-from-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-left",
+      "file": "src/arrow-up-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-narrow-wide",
+      "file": "src/arrow-up-narrow-wide.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-right",
+      "file": "src/arrow-up-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-to-line",
+      "file": "src/arrow-up-to-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-wide-narrow",
+      "file": "src/arrow-up-wide-narrow.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up-z-a",
+      "file": "src/arrow-up-z-a.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrow-up",
+      "file": "src/arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "arrows-up-from-line",
+      "file": "src/arrows-up-from-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "asterisk",
+      "file": "src/asterisk.svg",
+      "properties": {}
+    },
+    {
+      "name": "at-sign",
+      "file": "src/at-sign.svg",
+      "properties": {}
+    },
+    {
+      "name": "atom",
+      "file": "src/atom.svg",
+      "properties": {}
+    },
+    {
+      "name": "audio-lines",
+      "file": "src/audio-lines.svg",
+      "properties": {}
+    },
+    {
+      "name": "audio-waveform",
+      "file": "src/audio-waveform.svg",
+      "properties": {}
+    },
+    {
+      "name": "award",
+      "file": "src/award.svg",
+      "properties": {}
+    },
+    {
+      "name": "axe",
+      "file": "src/axe.svg",
+      "properties": {}
+    },
+    {
+      "name": "axis-3d",
+      "file": "src/axis-3d.svg",
+      "properties": {}
+    },
+    {
+      "name": "baby",
+      "file": "src/baby.svg",
+      "properties": {}
+    },
+    {
+      "name": "backpack",
+      "file": "src/backpack.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-alert",
+      "file": "src/badge-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-cent",
+      "file": "src/badge-cent.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-check",
+      "file": "src/badge-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-dollar-sign",
+      "file": "src/badge-dollar-sign.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-euro",
+      "file": "src/badge-euro.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-indian-rupee",
+      "file": "src/badge-indian-rupee.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-info",
+      "file": "src/badge-info.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-japanese-yen",
+      "file": "src/badge-japanese-yen.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-minus",
+      "file": "src/badge-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-percent",
+      "file": "src/badge-percent.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-plus",
+      "file": "src/badge-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-pound-sterling",
+      "file": "src/badge-pound-sterling.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-question-mark",
+      "file": "src/badge-question-mark.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-russian-ruble",
+      "file": "src/badge-russian-ruble.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-swiss-franc",
+      "file": "src/badge-swiss-franc.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-turkish-lira",
+      "file": "src/badge-turkish-lira.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge-x",
+      "file": "src/badge-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "badge",
+      "file": "src/badge.svg",
+      "properties": {}
+    },
+    {
+      "name": "baggage-claim",
+      "file": "src/baggage-claim.svg",
+      "properties": {}
+    },
+    {
+      "name": "ban",
+      "file": "src/ban.svg",
+      "properties": {}
+    },
+    {
+      "name": "banana",
+      "file": "src/banana.svg",
+      "properties": {}
+    },
+    {
+      "name": "bandage",
+      "file": "src/bandage.svg",
+      "properties": {}
+    },
+    {
+      "name": "banknote-arrow-down",
+      "file": "src/banknote-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "banknote-arrow-up",
+      "file": "src/banknote-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "banknote-x",
+      "file": "src/banknote-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "banknote",
+      "file": "src/banknote.svg",
+      "properties": {}
+    },
+    {
+      "name": "barcode",
+      "file": "src/barcode.svg",
+      "properties": {}
+    },
+    {
+      "name": "barrel",
+      "file": "src/barrel.svg",
+      "properties": {}
+    },
+    {
+      "name": "baseline",
+      "file": "src/baseline.svg",
+      "properties": {}
+    },
+    {
+      "name": "bath",
+      "file": "src/bath.svg",
+      "properties": {}
+    },
+    {
+      "name": "battery-charging",
+      "file": "src/battery-charging.svg",
+      "properties": {}
+    },
+    {
+      "name": "battery-full",
+      "file": "src/battery-full.svg",
+      "properties": {}
+    },
+    {
+      "name": "battery-low",
+      "file": "src/battery-low.svg",
+      "properties": {}
+    },
+    {
+      "name": "battery-medium",
+      "file": "src/battery-medium.svg",
+      "properties": {}
+    },
+    {
+      "name": "battery-plus",
+      "file": "src/battery-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "battery-warning",
+      "file": "src/battery-warning.svg",
+      "properties": {}
+    },
+    {
+      "name": "battery",
+      "file": "src/battery.svg",
+      "properties": {}
+    },
+    {
+      "name": "beaker",
+      "file": "src/beaker.svg",
+      "properties": {}
+    },
+    {
+      "name": "bean-off",
+      "file": "src/bean-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "bean",
+      "file": "src/bean.svg",
+      "properties": {}
+    },
+    {
+      "name": "bed-double",
+      "file": "src/bed-double.svg",
+      "properties": {}
+    },
+    {
+      "name": "bed-single",
+      "file": "src/bed-single.svg",
+      "properties": {}
+    },
+    {
+      "name": "bed",
+      "file": "src/bed.svg",
+      "properties": {}
+    },
+    {
+      "name": "beef",
+      "file": "src/beef.svg",
+      "properties": {}
+    },
+    {
+      "name": "beer-off",
+      "file": "src/beer-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "beer",
+      "file": "src/beer.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell-dot",
+      "file": "src/bell-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell-electric",
+      "file": "src/bell-electric.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell-minus",
+      "file": "src/bell-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell-off",
+      "file": "src/bell-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell-plus",
+      "file": "src/bell-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell-ring",
+      "file": "src/bell-ring.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell",
+      "file": "src/bell.svg",
+      "properties": {}
+    },
+    {
+      "name": "between-horizontal-end",
+      "file": "src/between-horizontal-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "between-horizontal-start",
+      "file": "src/between-horizontal-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "between-vertical-end",
+      "file": "src/between-vertical-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "between-vertical-start",
+      "file": "src/between-vertical-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "biceps-flexed",
+      "file": "src/biceps-flexed.svg",
+      "properties": {}
+    },
+    {
+      "name": "bike",
+      "file": "src/bike.svg",
+      "properties": {}
+    },
+    {
+      "name": "binary",
+      "file": "src/binary.svg",
+      "properties": {}
+    },
+    {
+      "name": "binoculars",
+      "file": "src/binoculars.svg",
+      "properties": {}
+    },
+    {
+      "name": "biohazard",
+      "file": "src/biohazard.svg",
+      "properties": {}
+    },
+    {
+      "name": "bird",
+      "file": "src/bird.svg",
+      "properties": {}
+    },
+    {
+      "name": "birdhouse",
+      "file": "src/birdhouse.svg",
+      "properties": {}
+    },
+    {
+      "name": "bitcoin",
+      "file": "src/bitcoin.svg",
+      "properties": {}
+    },
+    {
+      "name": "blend",
+      "file": "src/blend.svg",
+      "properties": {}
+    },
+    {
+      "name": "blinds",
+      "file": "src/blinds.svg",
+      "properties": {}
+    },
+    {
+      "name": "blocks",
+      "file": "src/blocks.svg",
+      "properties": {}
+    },
+    {
+      "name": "bluetooth-connected",
+      "file": "src/bluetooth-connected.svg",
+      "properties": {}
+    },
+    {
+      "name": "bluetooth-off",
+      "file": "src/bluetooth-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "bluetooth-searching",
+      "file": "src/bluetooth-searching.svg",
+      "properties": {}
+    },
+    {
+      "name": "bluetooth",
+      "file": "src/bluetooth.svg",
+      "properties": {}
+    },
+    {
+      "name": "bold",
+      "file": "src/bold.svg",
+      "properties": {}
+    },
+    {
+      "name": "bolt",
+      "file": "src/bolt.svg",
+      "properties": {}
+    },
+    {
+      "name": "bomb",
+      "file": "src/bomb.svg",
+      "properties": {}
+    },
+    {
+      "name": "bone",
+      "file": "src/bone.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-a",
+      "file": "src/book-a.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-alert",
+      "file": "src/book-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-audio",
+      "file": "src/book-audio.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-check",
+      "file": "src/book-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-copy",
+      "file": "src/book-copy.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-dashed",
+      "file": "src/book-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-down",
+      "file": "src/book-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-headphones",
+      "file": "src/book-headphones.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-heart",
+      "file": "src/book-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-image",
+      "file": "src/book-image.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-key",
+      "file": "src/book-key.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-lock",
+      "file": "src/book-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-marked",
+      "file": "src/book-marked.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-minus",
+      "file": "src/book-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-open-check",
+      "file": "src/book-open-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-open-text",
+      "file": "src/book-open-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-open",
+      "file": "src/book-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-plus",
+      "file": "src/book-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-search",
+      "file": "src/book-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-text",
+      "file": "src/book-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-type",
+      "file": "src/book-type.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-up-2",
+      "file": "src/book-up-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-up",
+      "file": "src/book-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-user",
+      "file": "src/book-user.svg",
+      "properties": {}
+    },
+    {
+      "name": "book-x",
+      "file": "src/book-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "book",
+      "file": "src/book.svg",
+      "properties": {}
+    },
+    {
+      "name": "bookmark-check",
+      "file": "src/bookmark-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "bookmark-minus",
+      "file": "src/bookmark-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "bookmark-plus",
+      "file": "src/bookmark-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "bookmark-x",
+      "file": "src/bookmark-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "bookmark",
+      "file": "src/bookmark.svg",
+      "properties": {}
+    },
+    {
+      "name": "boom-box",
+      "file": "src/boom-box.svg",
+      "properties": {}
+    },
+    {
+      "name": "bot-message-square",
+      "file": "src/bot-message-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "bot-off",
+      "file": "src/bot-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "bot",
+      "file": "src/bot.svg",
+      "properties": {}
+    },
+    {
+      "name": "bottle-wine",
+      "file": "src/bottle-wine.svg",
+      "properties": {}
+    },
+    {
+      "name": "bow-arrow",
+      "file": "src/bow-arrow.svg",
+      "properties": {}
+    },
+    {
+      "name": "box",
+      "file": "src/box.svg",
+      "properties": {}
+    },
+    {
+      "name": "boxes",
+      "file": "src/boxes.svg",
+      "properties": {}
+    },
+    {
+      "name": "braces",
+      "file": "src/braces.svg",
+      "properties": {}
+    },
+    {
+      "name": "brackets",
+      "file": "src/brackets.svg",
+      "properties": {}
+    },
+    {
+      "name": "brain-circuit",
+      "file": "src/brain-circuit.svg",
+      "properties": {}
+    },
+    {
+      "name": "brain-cog",
+      "file": "src/brain-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "brain",
+      "file": "src/brain.svg",
+      "properties": {}
+    },
+    {
+      "name": "brick-wall-fire",
+      "file": "src/brick-wall-fire.svg",
+      "properties": {}
+    },
+    {
+      "name": "brick-wall-shield",
+      "file": "src/brick-wall-shield.svg",
+      "properties": {}
+    },
+    {
+      "name": "brick-wall",
+      "file": "src/brick-wall.svg",
+      "properties": {}
+    },
+    {
+      "name": "briefcase-business",
+      "file": "src/briefcase-business.svg",
+      "properties": {}
+    },
+    {
+      "name": "briefcase-conveyor-belt",
+      "file": "src/briefcase-conveyor-belt.svg",
+      "properties": {}
+    },
+    {
+      "name": "briefcase-medical",
+      "file": "src/briefcase-medical.svg",
+      "properties": {}
+    },
+    {
+      "name": "briefcase",
+      "file": "src/briefcase.svg",
+      "properties": {}
+    },
+    {
+      "name": "bring-to-front",
+      "file": "src/bring-to-front.svg",
+      "properties": {}
+    },
+    {
+      "name": "brush-cleaning",
+      "file": "src/brush-cleaning.svg",
+      "properties": {}
+    },
+    {
+      "name": "brush",
+      "file": "src/brush.svg",
+      "properties": {}
+    },
+    {
+      "name": "bubbles",
+      "file": "src/bubbles.svg",
+      "properties": {}
+    },
+    {
+      "name": "bug-off",
+      "file": "src/bug-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "bug-play",
+      "file": "src/bug-play.svg",
+      "properties": {}
+    },
+    {
+      "name": "bug",
+      "file": "src/bug.svg",
+      "properties": {}
+    },
+    {
+      "name": "building-2",
+      "file": "src/building-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "building",
+      "file": "src/building.svg",
+      "properties": {}
+    },
+    {
+      "name": "bus-front",
+      "file": "src/bus-front.svg",
+      "properties": {}
+    },
+    {
+      "name": "bus",
+      "file": "src/bus.svg",
+      "properties": {}
+    },
+    {
+      "name": "cable-car",
+      "file": "src/cable-car.svg",
+      "properties": {}
+    },
+    {
+      "name": "cable",
+      "file": "src/cable.svg",
+      "properties": {}
+    },
+    {
+      "name": "cake-slice",
+      "file": "src/cake-slice.svg",
+      "properties": {}
+    },
+    {
+      "name": "cake",
+      "file": "src/cake.svg",
+      "properties": {}
+    },
+    {
+      "name": "calculator",
+      "file": "src/calculator.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-1",
+      "file": "src/calendar-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-arrow-down",
+      "file": "src/calendar-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-arrow-up",
+      "file": "src/calendar-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-check-2",
+      "file": "src/calendar-check-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-check",
+      "file": "src/calendar-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-clock",
+      "file": "src/calendar-clock.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-cog",
+      "file": "src/calendar-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-days",
+      "file": "src/calendar-days.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-fold",
+      "file": "src/calendar-fold.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-heart",
+      "file": "src/calendar-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-minus-2",
+      "file": "src/calendar-minus-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-minus",
+      "file": "src/calendar-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-off",
+      "file": "src/calendar-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-plus-2",
+      "file": "src/calendar-plus-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-plus",
+      "file": "src/calendar-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-range",
+      "file": "src/calendar-range.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-search",
+      "file": "src/calendar-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-sync",
+      "file": "src/calendar-sync.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-x-2",
+      "file": "src/calendar-x-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-x",
+      "file": "src/calendar-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar",
+      "file": "src/calendar.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendars",
+      "file": "src/calendars.svg",
+      "properties": {}
+    },
+    {
+      "name": "camera-off",
+      "file": "src/camera-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "camera",
+      "file": "src/camera.svg",
+      "properties": {}
+    },
+    {
+      "name": "candy-cane",
+      "file": "src/candy-cane.svg",
+      "properties": {}
+    },
+    {
+      "name": "candy-off",
+      "file": "src/candy-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "candy",
+      "file": "src/candy.svg",
+      "properties": {}
+    },
+    {
+      "name": "cannabis",
+      "file": "src/cannabis.svg",
+      "properties": {}
+    },
+    {
+      "name": "captions-off",
+      "file": "src/captions-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "captions",
+      "file": "src/captions.svg",
+      "properties": {}
+    },
+    {
+      "name": "car-front",
+      "file": "src/car-front.svg",
+      "properties": {}
+    },
+    {
+      "name": "car-taxi-front",
+      "file": "src/car-taxi-front.svg",
+      "properties": {}
+    },
+    {
+      "name": "car",
+      "file": "src/car.svg",
+      "properties": {}
+    },
+    {
+      "name": "caravan",
+      "file": "src/caravan.svg",
+      "properties": {}
+    },
+    {
+      "name": "card-sim",
+      "file": "src/card-sim.svg",
+      "properties": {}
+    },
+    {
+      "name": "carrot",
+      "file": "src/carrot.svg",
+      "properties": {}
+    },
+    {
+      "name": "case-lower",
+      "file": "src/case-lower.svg",
+      "properties": {}
+    },
+    {
+      "name": "case-sensitive",
+      "file": "src/case-sensitive.svg",
+      "properties": {}
+    },
+    {
+      "name": "case-upper",
+      "file": "src/case-upper.svg",
+      "properties": {}
+    },
+    {
+      "name": "cassette-tape",
+      "file": "src/cassette-tape.svg",
+      "properties": {}
+    },
+    {
+      "name": "cast",
+      "file": "src/cast.svg",
+      "properties": {}
+    },
+    {
+      "name": "castle",
+      "file": "src/castle.svg",
+      "properties": {}
+    },
+    {
+      "name": "cat",
+      "file": "src/cat.svg",
+      "properties": {}
+    },
+    {
+      "name": "cctv",
+      "file": "src/cctv.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-area",
+      "file": "src/chart-area.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-bar-big",
+      "file": "src/chart-bar-big.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-bar-decreasing",
+      "file": "src/chart-bar-decreasing.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-bar-increasing",
+      "file": "src/chart-bar-increasing.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-bar-stacked",
+      "file": "src/chart-bar-stacked.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-bar",
+      "file": "src/chart-bar.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-candlestick",
+      "file": "src/chart-candlestick.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-column-big",
+      "file": "src/chart-column-big.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-column-decreasing",
+      "file": "src/chart-column-decreasing.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-column-increasing",
+      "file": "src/chart-column-increasing.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-column-stacked",
+      "file": "src/chart-column-stacked.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-column",
+      "file": "src/chart-column.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-gantt",
+      "file": "src/chart-gantt.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-line",
+      "file": "src/chart-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-network",
+      "file": "src/chart-network.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-no-axes-column-decreasing",
+      "file": "src/chart-no-axes-column-decreasing.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-no-axes-column-increasing",
+      "file": "src/chart-no-axes-column-increasing.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-no-axes-column",
+      "file": "src/chart-no-axes-column.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "file": "src/chart-no-axes-combined.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-no-axes-gantt",
+      "file": "src/chart-no-axes-gantt.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-pie",
+      "file": "src/chart-pie.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-scatter",
+      "file": "src/chart-scatter.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-spline",
+      "file": "src/chart-spline.svg",
+      "properties": {}
+    },
+    {
+      "name": "check-check",
+      "file": "src/check-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "check-line",
+      "file": "src/check-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "check",
+      "file": "src/check.svg",
+      "properties": {}
+    },
+    {
+      "name": "chef-hat",
+      "file": "src/chef-hat.svg",
+      "properties": {}
+    },
+    {
+      "name": "cherry",
+      "file": "src/cherry.svg",
+      "properties": {}
+    },
+    {
+      "name": "chess-bishop",
+      "file": "src/chess-bishop.svg",
+      "properties": {}
+    },
+    {
+      "name": "chess-king",
+      "file": "src/chess-king.svg",
+      "properties": {}
+    },
+    {
+      "name": "chess-knight",
+      "file": "src/chess-knight.svg",
+      "properties": {}
+    },
+    {
+      "name": "chess-pawn",
+      "file": "src/chess-pawn.svg",
+      "properties": {}
+    },
+    {
+      "name": "chess-queen",
+      "file": "src/chess-queen.svg",
+      "properties": {}
+    },
+    {
+      "name": "chess-rook",
+      "file": "src/chess-rook.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevron-down",
+      "file": "src/chevron-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevron-first",
+      "file": "src/chevron-first.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevron-last",
+      "file": "src/chevron-last.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevron-left",
+      "file": "src/chevron-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevron-right",
+      "file": "src/chevron-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevron-up",
+      "file": "src/chevron-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-down-up",
+      "file": "src/chevrons-down-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-down",
+      "file": "src/chevrons-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-left-right-ellipsis",
+      "file": "src/chevrons-left-right-ellipsis.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-left-right",
+      "file": "src/chevrons-left-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-left",
+      "file": "src/chevrons-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-right-left",
+      "file": "src/chevrons-right-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-right",
+      "file": "src/chevrons-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-up-down",
+      "file": "src/chevrons-up-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "chevrons-up",
+      "file": "src/chevrons-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "chromium",
+      "file": "src/chromium.svg",
+      "properties": {}
+    },
+    {
+      "name": "church",
+      "file": "src/church.svg",
+      "properties": {}
+    },
+    {
+      "name": "cigarette-off",
+      "file": "src/cigarette-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "cigarette",
+      "file": "src/cigarette.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-alert",
+      "file": "src/circle-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-down",
+      "file": "src/circle-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-left",
+      "file": "src/circle-arrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-out-down-left",
+      "file": "src/circle-arrow-out-down-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-out-down-right",
+      "file": "src/circle-arrow-out-down-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-out-up-left",
+      "file": "src/circle-arrow-out-up-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-out-up-right",
+      "file": "src/circle-arrow-out-up-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-right",
+      "file": "src/circle-arrow-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-up",
+      "file": "src/circle-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-check-big",
+      "file": "src/circle-check-big.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-check",
+      "file": "src/circle-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevron-down",
+      "file": "src/circle-chevron-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevron-left",
+      "file": "src/circle-chevron-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevron-right",
+      "file": "src/circle-chevron-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevron-up",
+      "file": "src/circle-chevron-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-dashed",
+      "file": "src/circle-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-divide",
+      "file": "src/circle-divide.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-dollar-sign",
+      "file": "src/circle-dollar-sign.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-dot-dashed",
+      "file": "src/circle-dot-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-dot",
+      "file": "src/circle-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-ellipsis",
+      "file": "src/circle-ellipsis.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-equal",
+      "file": "src/circle-equal.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-fading-arrow-up",
+      "file": "src/circle-fading-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-fading-plus",
+      "file": "src/circle-fading-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-gauge",
+      "file": "src/circle-gauge.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-minus",
+      "file": "src/circle-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-off",
+      "file": "src/circle-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-parking-off",
+      "file": "src/circle-parking-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-parking",
+      "file": "src/circle-parking.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-pause",
+      "file": "src/circle-pause.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-percent",
+      "file": "src/circle-percent.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-play",
+      "file": "src/circle-play.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-plus",
+      "file": "src/circle-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-pound-sterling",
+      "file": "src/circle-pound-sterling.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-power",
+      "file": "src/circle-power.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-question-mark",
+      "file": "src/circle-question-mark.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-slash-2",
+      "file": "src/circle-slash-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-slash",
+      "file": "src/circle-slash.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-small",
+      "file": "src/circle-small.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-star",
+      "file": "src/circle-star.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-stop",
+      "file": "src/circle-stop.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-user-round",
+      "file": "src/circle-user-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-user",
+      "file": "src/circle-user.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-x",
+      "file": "src/circle-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle",
+      "file": "src/circle.svg",
+      "properties": {}
+    },
+    {
+      "name": "circuit-board",
+      "file": "src/circuit-board.svg",
+      "properties": {}
+    },
+    {
+      "name": "citrus",
+      "file": "src/citrus.svg",
+      "properties": {}
+    },
+    {
+      "name": "clapperboard",
+      "file": "src/clapperboard.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-check",
+      "file": "src/clipboard-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-clock",
+      "file": "src/clipboard-clock.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-copy",
+      "file": "src/clipboard-copy.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-list",
+      "file": "src/clipboard-list.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-minus",
+      "file": "src/clipboard-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-paste",
+      "file": "src/clipboard-paste.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-pen-line",
+      "file": "src/clipboard-pen-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-pen",
+      "file": "src/clipboard-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-plus",
+      "file": "src/clipboard-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-type",
+      "file": "src/clipboard-type.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard-x",
+      "file": "src/clipboard-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "clipboard",
+      "file": "src/clipboard.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-1",
+      "file": "src/clock-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-10",
+      "file": "src/clock-10.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-11",
+      "file": "src/clock-11.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-12",
+      "file": "src/clock-12.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-2",
+      "file": "src/clock-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-3",
+      "file": "src/clock-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-4",
+      "file": "src/clock-4.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-5",
+      "file": "src/clock-5.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-6",
+      "file": "src/clock-6.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-7",
+      "file": "src/clock-7.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-8",
+      "file": "src/clock-8.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-9",
+      "file": "src/clock-9.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-alert",
+      "file": "src/clock-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-arrow-down",
+      "file": "src/clock-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-arrow-up",
+      "file": "src/clock-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-check",
+      "file": "src/clock-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-fading",
+      "file": "src/clock-fading.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-plus",
+      "file": "src/clock-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock",
+      "file": "src/clock.svg",
+      "properties": {}
+    },
+    {
+      "name": "closed-caption",
+      "file": "src/closed-caption.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-alert",
+      "file": "src/cloud-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-check",
+      "file": "src/cloud-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-cog",
+      "file": "src/cloud-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-download",
+      "file": "src/cloud-download.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-drizzle",
+      "file": "src/cloud-drizzle.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-fog",
+      "file": "src/cloud-fog.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-hail",
+      "file": "src/cloud-hail.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-lightning",
+      "file": "src/cloud-lightning.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-moon-rain",
+      "file": "src/cloud-moon-rain.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-moon",
+      "file": "src/cloud-moon.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-off",
+      "file": "src/cloud-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-rain-wind",
+      "file": "src/cloud-rain-wind.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-rain",
+      "file": "src/cloud-rain.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-snow",
+      "file": "src/cloud-snow.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-sun-rain",
+      "file": "src/cloud-sun-rain.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-sun",
+      "file": "src/cloud-sun.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud-upload",
+      "file": "src/cloud-upload.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloud",
+      "file": "src/cloud.svg",
+      "properties": {}
+    },
+    {
+      "name": "cloudy",
+      "file": "src/cloudy.svg",
+      "properties": {}
+    },
+    {
+      "name": "clover",
+      "file": "src/clover.svg",
+      "properties": {}
+    },
+    {
+      "name": "club",
+      "file": "src/club.svg",
+      "properties": {}
+    },
+    {
+      "name": "code-xml",
+      "file": "src/code-xml.svg",
+      "properties": {}
+    },
+    {
+      "name": "code",
+      "file": "src/code.svg",
+      "properties": {}
+    },
+    {
+      "name": "codepen",
+      "file": "src/codepen.svg",
+      "properties": {}
+    },
+    {
+      "name": "codesandbox",
+      "file": "src/codesandbox.svg",
+      "properties": {}
+    },
+    {
+      "name": "coffee",
+      "file": "src/coffee.svg",
+      "properties": {}
+    },
+    {
+      "name": "cog",
+      "file": "src/cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "coins",
+      "file": "src/coins.svg",
+      "properties": {}
+    },
+    {
+      "name": "columns-2",
+      "file": "src/columns-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "columns-3-cog",
+      "file": "src/columns-3-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "columns-3",
+      "file": "src/columns-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "columns-4",
+      "file": "src/columns-4.svg",
+      "properties": {}
+    },
+    {
+      "name": "combine",
+      "file": "src/combine.svg",
+      "properties": {}
+    },
+    {
+      "name": "command",
+      "file": "src/command.svg",
+      "properties": {}
+    },
+    {
+      "name": "compass",
+      "file": "src/compass.svg",
+      "properties": {}
+    },
+    {
+      "name": "component",
+      "file": "src/component.svg",
+      "properties": {}
+    },
+    {
+      "name": "computer",
+      "file": "src/computer.svg",
+      "properties": {}
+    },
+    {
+      "name": "concierge-bell",
+      "file": "src/concierge-bell.svg",
+      "properties": {}
+    },
+    {
+      "name": "cone",
+      "file": "src/cone.svg",
+      "properties": {}
+    },
+    {
+      "name": "construction",
+      "file": "src/construction.svg",
+      "properties": {}
+    },
+    {
+      "name": "contact-round",
+      "file": "src/contact-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "contact",
+      "file": "src/contact.svg",
+      "properties": {}
+    },
+    {
+      "name": "container",
+      "file": "src/container.svg",
+      "properties": {}
+    },
+    {
+      "name": "contrast",
+      "file": "src/contrast.svg",
+      "properties": {}
+    },
+    {
+      "name": "cookie",
+      "file": "src/cookie.svg",
+      "properties": {}
+    },
+    {
+      "name": "cooking-pot",
+      "file": "src/cooking-pot.svg",
+      "properties": {}
+    },
+    {
+      "name": "copy-check",
+      "file": "src/copy-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "copy-minus",
+      "file": "src/copy-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "copy-plus",
+      "file": "src/copy-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "copy-slash",
+      "file": "src/copy-slash.svg",
+      "properties": {}
+    },
+    {
+      "name": "copy-x",
+      "file": "src/copy-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "copy",
+      "file": "src/copy.svg",
+      "properties": {}
+    },
+    {
+      "name": "copyleft",
+      "file": "src/copyleft.svg",
+      "properties": {}
+    },
+    {
+      "name": "copyright",
+      "file": "src/copyright.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-down-left",
+      "file": "src/corner-down-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-down-right",
+      "file": "src/corner-down-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-left-down",
+      "file": "src/corner-left-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-left-up",
+      "file": "src/corner-left-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-right-down",
+      "file": "src/corner-right-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-right-up",
+      "file": "src/corner-right-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-up-left",
+      "file": "src/corner-up-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "corner-up-right",
+      "file": "src/corner-up-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "cpu",
+      "file": "src/cpu.svg",
+      "properties": {}
+    },
+    {
+      "name": "creative-commons",
+      "file": "src/creative-commons.svg",
+      "properties": {}
+    },
+    {
+      "name": "credit-card",
+      "file": "src/credit-card.svg",
+      "properties": {}
+    },
+    {
+      "name": "croissant",
+      "file": "src/croissant.svg",
+      "properties": {}
+    },
+    {
+      "name": "crop",
+      "file": "src/crop.svg",
+      "properties": {}
+    },
+    {
+      "name": "cross",
+      "file": "src/cross.svg",
+      "properties": {}
+    },
+    {
+      "name": "crosshair",
+      "file": "src/crosshair.svg",
+      "properties": {}
+    },
+    {
+      "name": "crown",
+      "file": "src/crown.svg",
+      "properties": {}
+    },
+    {
+      "name": "cuboid",
+      "file": "src/cuboid.svg",
+      "properties": {}
+    },
+    {
+      "name": "cup-soda",
+      "file": "src/cup-soda.svg",
+      "properties": {}
+    },
+    {
+      "name": "currency",
+      "file": "src/currency.svg",
+      "properties": {}
+    },
+    {
+      "name": "cylinder",
+      "file": "src/cylinder.svg",
+      "properties": {}
+    },
+    {
+      "name": "dam",
+      "file": "src/dam.svg",
+      "properties": {}
+    },
+    {
+      "name": "database-backup",
+      "file": "src/database-backup.svg",
+      "properties": {}
+    },
+    {
+      "name": "database-zap",
+      "file": "src/database-zap.svg",
+      "properties": {}
+    },
+    {
+      "name": "database",
+      "file": "src/database.svg",
+      "properties": {}
+    },
+    {
+      "name": "decimals-arrow-left",
+      "file": "src/decimals-arrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "decimals-arrow-right",
+      "file": "src/decimals-arrow-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "delete",
+      "file": "src/delete.svg",
+      "properties": {}
+    },
+    {
+      "name": "dessert",
+      "file": "src/dessert.svg",
+      "properties": {}
+    },
+    {
+      "name": "diameter",
+      "file": "src/diameter.svg",
+      "properties": {}
+    },
+    {
+      "name": "diamond-minus",
+      "file": "src/diamond-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "diamond-percent",
+      "file": "src/diamond-percent.svg",
+      "properties": {}
+    },
+    {
+      "name": "diamond-plus",
+      "file": "src/diamond-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "diamond",
+      "file": "src/diamond.svg",
+      "properties": {}
+    },
+    {
+      "name": "dice-1",
+      "file": "src/dice-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "dice-2",
+      "file": "src/dice-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "dice-3",
+      "file": "src/dice-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "dice-4",
+      "file": "src/dice-4.svg",
+      "properties": {}
+    },
+    {
+      "name": "dice-5",
+      "file": "src/dice-5.svg",
+      "properties": {}
+    },
+    {
+      "name": "dice-6",
+      "file": "src/dice-6.svg",
+      "properties": {}
+    },
+    {
+      "name": "dices",
+      "file": "src/dices.svg",
+      "properties": {}
+    },
+    {
+      "name": "diff",
+      "file": "src/diff.svg",
+      "properties": {}
+    },
+    {
+      "name": "disc-2",
+      "file": "src/disc-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "disc-3",
+      "file": "src/disc-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "disc-album",
+      "file": "src/disc-album.svg",
+      "properties": {}
+    },
+    {
+      "name": "disc",
+      "file": "src/disc.svg",
+      "properties": {}
+    },
+    {
+      "name": "divide",
+      "file": "src/divide.svg",
+      "properties": {}
+    },
+    {
+      "name": "dna-off",
+      "file": "src/dna-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "dna",
+      "file": "src/dna.svg",
+      "properties": {}
+    },
+    {
+      "name": "dock",
+      "file": "src/dock.svg",
+      "properties": {}
+    },
+    {
+      "name": "dog",
+      "file": "src/dog.svg",
+      "properties": {}
+    },
+    {
+      "name": "dollar-sign",
+      "file": "src/dollar-sign.svg",
+      "properties": {}
+    },
+    {
+      "name": "donut",
+      "file": "src/donut.svg",
+      "properties": {}
+    },
+    {
+      "name": "door-closed-locked",
+      "file": "src/door-closed-locked.svg",
+      "properties": {}
+    },
+    {
+      "name": "door-closed",
+      "file": "src/door-closed.svg",
+      "properties": {}
+    },
+    {
+      "name": "door-open",
+      "file": "src/door-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "dot",
+      "file": "src/dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "download",
+      "file": "src/download.svg",
+      "properties": {}
+    },
+    {
+      "name": "drafting-compass",
+      "file": "src/drafting-compass.svg",
+      "properties": {}
+    },
+    {
+      "name": "drama",
+      "file": "src/drama.svg",
+      "properties": {}
+    },
+    {
+      "name": "dribbble",
+      "file": "src/dribbble.svg",
+      "properties": {}
+    },
+    {
+      "name": "drill",
+      "file": "src/drill.svg",
+      "properties": {}
+    },
+    {
+      "name": "drone",
+      "file": "src/drone.svg",
+      "properties": {}
+    },
+    {
+      "name": "droplet-off",
+      "file": "src/droplet-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "droplet",
+      "file": "src/droplet.svg",
+      "properties": {}
+    },
+    {
+      "name": "droplets",
+      "file": "src/droplets.svg",
+      "properties": {}
+    },
+    {
+      "name": "drum",
+      "file": "src/drum.svg",
+      "properties": {}
+    },
+    {
+      "name": "drumstick",
+      "file": "src/drumstick.svg",
+      "properties": {}
+    },
+    {
+      "name": "dumbbell",
+      "file": "src/dumbbell.svg",
+      "properties": {}
+    },
+    {
+      "name": "ear-off",
+      "file": "src/ear-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "ear",
+      "file": "src/ear.svg",
+      "properties": {}
+    },
+    {
+      "name": "earth-lock",
+      "file": "src/earth-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "earth",
+      "file": "src/earth.svg",
+      "properties": {}
+    },
+    {
+      "name": "eclipse",
+      "file": "src/eclipse.svg",
+      "properties": {}
+    },
+    {
+      "name": "egg-fried",
+      "file": "src/egg-fried.svg",
+      "properties": {}
+    },
+    {
+      "name": "egg-off",
+      "file": "src/egg-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "egg",
+      "file": "src/egg.svg",
+      "properties": {}
+    },
+    {
+      "name": "ellipsis-vertical",
+      "file": "src/ellipsis-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "ellipsis",
+      "file": "src/ellipsis.svg",
+      "properties": {}
+    },
+    {
+      "name": "equal-approximately",
+      "file": "src/equal-approximately.svg",
+      "properties": {}
+    },
+    {
+      "name": "equal-not",
+      "file": "src/equal-not.svg",
+      "properties": {}
+    },
+    {
+      "name": "equal",
+      "file": "src/equal.svg",
+      "properties": {}
+    },
+    {
+      "name": "eraser",
+      "file": "src/eraser.svg",
+      "properties": {}
+    },
+    {
+      "name": "ethernet-port",
+      "file": "src/ethernet-port.svg",
+      "properties": {}
+    },
+    {
+      "name": "euro",
+      "file": "src/euro.svg",
+      "properties": {}
+    },
+    {
+      "name": "ev-charger",
+      "file": "src/ev-charger.svg",
+      "properties": {}
+    },
+    {
+      "name": "expand",
+      "file": "src/expand.svg",
+      "properties": {}
+    },
+    {
+      "name": "external-link",
+      "file": "src/external-link.svg",
+      "properties": {}
+    },
+    {
+      "name": "eye-closed",
+      "file": "src/eye-closed.svg",
+      "properties": {}
+    },
+    {
+      "name": "eye-off",
+      "file": "src/eye-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "eye",
+      "file": "src/eye.svg",
+      "properties": {}
+    },
+    {
+      "name": "facebook",
+      "file": "src/facebook.svg",
+      "properties": {}
+    },
+    {
+      "name": "factory",
+      "file": "src/factory.svg",
+      "properties": {}
+    },
+    {
+      "name": "fan",
+      "file": "src/fan.svg",
+      "properties": {}
+    },
+    {
+      "name": "fast-forward",
+      "file": "src/fast-forward.svg",
+      "properties": {}
+    },
+    {
+      "name": "feather",
+      "file": "src/feather.svg",
+      "properties": {}
+    },
+    {
+      "name": "fence",
+      "file": "src/fence.svg",
+      "properties": {}
+    },
+    {
+      "name": "ferris-wheel",
+      "file": "src/ferris-wheel.svg",
+      "properties": {}
+    },
+    {
+      "name": "figma",
+      "file": "src/figma.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-archive",
+      "file": "src/file-archive.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-axis-3d",
+      "file": "src/file-axis-3d.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-badge",
+      "file": "src/file-badge.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-box",
+      "file": "src/file-box.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-braces-corner",
+      "file": "src/file-braces-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-braces",
+      "file": "src/file-braces.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-chart-column-increasing",
+      "file": "src/file-chart-column-increasing.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-chart-column",
+      "file": "src/file-chart-column.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-chart-line",
+      "file": "src/file-chart-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-chart-pie",
+      "file": "src/file-chart-pie.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-check-corner",
+      "file": "src/file-check-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-check",
+      "file": "src/file-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-clock",
+      "file": "src/file-clock.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-code-corner",
+      "file": "src/file-code-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-code",
+      "file": "src/file-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-cog",
+      "file": "src/file-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-diff",
+      "file": "src/file-diff.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-digit",
+      "file": "src/file-digit.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-down",
+      "file": "src/file-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-exclamation-point",
+      "file": "src/file-exclamation-point.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-headphone",
+      "file": "src/file-headphone.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-heart",
+      "file": "src/file-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-image",
+      "file": "src/file-image.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-input",
+      "file": "src/file-input.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-key",
+      "file": "src/file-key.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-lock",
+      "file": "src/file-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-minus-corner",
+      "file": "src/file-minus-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-minus",
+      "file": "src/file-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-music",
+      "file": "src/file-music.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-output",
+      "file": "src/file-output.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-pen-line",
+      "file": "src/file-pen-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-pen",
+      "file": "src/file-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-play",
+      "file": "src/file-play.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-plus-corner",
+      "file": "src/file-plus-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-plus",
+      "file": "src/file-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-question-mark",
+      "file": "src/file-question-mark.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-scan",
+      "file": "src/file-scan.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-search-corner",
+      "file": "src/file-search-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-search",
+      "file": "src/file-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-signal",
+      "file": "src/file-signal.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-sliders",
+      "file": "src/file-sliders.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-spreadsheet",
+      "file": "src/file-spreadsheet.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-stack",
+      "file": "src/file-stack.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-symlink",
+      "file": "src/file-symlink.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-terminal",
+      "file": "src/file-terminal.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-text",
+      "file": "src/file-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-type-corner",
+      "file": "src/file-type-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-type",
+      "file": "src/file-type.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-up",
+      "file": "src/file-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-user",
+      "file": "src/file-user.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-video-camera",
+      "file": "src/file-video-camera.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-volume",
+      "file": "src/file-volume.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-x-corner",
+      "file": "src/file-x-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "file-x",
+      "file": "src/file-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "file",
+      "file": "src/file.svg",
+      "properties": {}
+    },
+    {
+      "name": "files",
+      "file": "src/files.svg",
+      "properties": {}
+    },
+    {
+      "name": "film",
+      "file": "src/film.svg",
+      "properties": {}
+    },
+    {
+      "name": "fingerprint-pattern",
+      "file": "src/fingerprint-pattern.svg",
+      "properties": {}
+    },
+    {
+      "name": "fire-extinguisher",
+      "file": "src/fire-extinguisher.svg",
+      "properties": {}
+    },
+    {
+      "name": "fish-off",
+      "file": "src/fish-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "fish-symbol",
+      "file": "src/fish-symbol.svg",
+      "properties": {}
+    },
+    {
+      "name": "fish",
+      "file": "src/fish.svg",
+      "properties": {}
+    },
+    {
+      "name": "flag-off",
+      "file": "src/flag-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "flag-triangle-left",
+      "file": "src/flag-triangle-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "flag-triangle-right",
+      "file": "src/flag-triangle-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "flag",
+      "file": "src/flag.svg",
+      "properties": {}
+    },
+    {
+      "name": "flame-kindling",
+      "file": "src/flame-kindling.svg",
+      "properties": {}
+    },
+    {
+      "name": "flame",
+      "file": "src/flame.svg",
+      "properties": {}
+    },
+    {
+      "name": "flashlight-off",
+      "file": "src/flashlight-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "flashlight",
+      "file": "src/flashlight.svg",
+      "properties": {}
+    },
+    {
+      "name": "flask-conical-off",
+      "file": "src/flask-conical-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "flask-conical",
+      "file": "src/flask-conical.svg",
+      "properties": {}
+    },
+    {
+      "name": "flask-round",
+      "file": "src/flask-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "flip-horizontal-2",
+      "file": "src/flip-horizontal-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "flip-horizontal",
+      "file": "src/flip-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "flip-vertical-2",
+      "file": "src/flip-vertical-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "flip-vertical",
+      "file": "src/flip-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "flower-2",
+      "file": "src/flower-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "flower",
+      "file": "src/flower.svg",
+      "properties": {}
+    },
+    {
+      "name": "focus",
+      "file": "src/focus.svg",
+      "properties": {}
+    },
+    {
+      "name": "fold-horizontal",
+      "file": "src/fold-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "fold-vertical",
+      "file": "src/fold-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-archive",
+      "file": "src/folder-archive.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-check",
+      "file": "src/folder-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-clock",
+      "file": "src/folder-clock.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-closed",
+      "file": "src/folder-closed.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-code",
+      "file": "src/folder-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-cog",
+      "file": "src/folder-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-dot",
+      "file": "src/folder-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-down",
+      "file": "src/folder-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-git-2",
+      "file": "src/folder-git-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-git",
+      "file": "src/folder-git.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-heart",
+      "file": "src/folder-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-input",
+      "file": "src/folder-input.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-kanban",
+      "file": "src/folder-kanban.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-key",
+      "file": "src/folder-key.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-lock",
+      "file": "src/folder-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-minus",
+      "file": "src/folder-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-open-dot",
+      "file": "src/folder-open-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-open",
+      "file": "src/folder-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-output",
+      "file": "src/folder-output.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-pen",
+      "file": "src/folder-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-plus",
+      "file": "src/folder-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-root",
+      "file": "src/folder-root.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-search-2",
+      "file": "src/folder-search-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-search",
+      "file": "src/folder-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-symlink",
+      "file": "src/folder-symlink.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-sync",
+      "file": "src/folder-sync.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-tree",
+      "file": "src/folder-tree.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-up",
+      "file": "src/folder-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-x",
+      "file": "src/folder-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder",
+      "file": "src/folder.svg",
+      "properties": {}
+    },
+    {
+      "name": "folders",
+      "file": "src/folders.svg",
+      "properties": {}
+    },
+    {
+      "name": "footprints",
+      "file": "src/footprints.svg",
+      "properties": {}
+    },
+    {
+      "name": "forklift",
+      "file": "src/forklift.svg",
+      "properties": {}
+    },
+    {
+      "name": "form",
+      "file": "src/form.svg",
+      "properties": {}
+    },
+    {
+      "name": "forward",
+      "file": "src/forward.svg",
+      "properties": {}
+    },
+    {
+      "name": "frame",
+      "file": "src/frame.svg",
+      "properties": {}
+    },
+    {
+      "name": "framer",
+      "file": "src/framer.svg",
+      "properties": {}
+    },
+    {
+      "name": "frown",
+      "file": "src/frown.svg",
+      "properties": {}
+    },
+    {
+      "name": "fuel",
+      "file": "src/fuel.svg",
+      "properties": {}
+    },
+    {
+      "name": "fullscreen",
+      "file": "src/fullscreen.svg",
+      "properties": {}
+    },
+    {
+      "name": "funnel-plus",
+      "file": "src/funnel-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "funnel-x",
+      "file": "src/funnel-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "funnel",
+      "file": "src/funnel.svg",
+      "properties": {}
+    },
+    {
+      "name": "gallery-horizontal-end",
+      "file": "src/gallery-horizontal-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "gallery-horizontal",
+      "file": "src/gallery-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "gallery-thumbnails",
+      "file": "src/gallery-thumbnails.svg",
+      "properties": {}
+    },
+    {
+      "name": "gallery-vertical-end",
+      "file": "src/gallery-vertical-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "gallery-vertical",
+      "file": "src/gallery-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "gamepad-2",
+      "file": "src/gamepad-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "gamepad-directional",
+      "file": "src/gamepad-directional.svg",
+      "properties": {}
+    },
+    {
+      "name": "gamepad",
+      "file": "src/gamepad.svg",
+      "properties": {}
+    },
+    {
+      "name": "gauge",
+      "file": "src/gauge.svg",
+      "properties": {}
+    },
+    {
+      "name": "gavel",
+      "file": "src/gavel.svg",
+      "properties": {}
+    },
+    {
+      "name": "gem",
+      "file": "src/gem.svg",
+      "properties": {}
+    },
+    {
+      "name": "georgian-lari",
+      "file": "src/georgian-lari.svg",
+      "properties": {}
+    },
+    {
+      "name": "ghost",
+      "file": "src/ghost.svg",
+      "properties": {}
+    },
+    {
+      "name": "gift",
+      "file": "src/gift.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-branch-minus",
+      "file": "src/git-branch-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-branch-plus",
+      "file": "src/git-branch-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-branch",
+      "file": "src/git-branch.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-commit-horizontal",
+      "file": "src/git-commit-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-commit-vertical",
+      "file": "src/git-commit-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-compare-arrows",
+      "file": "src/git-compare-arrows.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-compare",
+      "file": "src/git-compare.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-fork",
+      "file": "src/git-fork.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-graph",
+      "file": "src/git-graph.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-merge",
+      "file": "src/git-merge.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-pull-request-arrow",
+      "file": "src/git-pull-request-arrow.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-pull-request-closed",
+      "file": "src/git-pull-request-closed.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-pull-request-create-arrow",
+      "file": "src/git-pull-request-create-arrow.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-pull-request-create",
+      "file": "src/git-pull-request-create.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-pull-request-draft",
+      "file": "src/git-pull-request-draft.svg",
+      "properties": {}
+    },
+    {
+      "name": "git-pull-request",
+      "file": "src/git-pull-request.svg",
+      "properties": {}
+    },
+    {
+      "name": "github",
+      "file": "src/github.svg",
+      "properties": {}
+    },
+    {
+      "name": "gitlab",
+      "file": "src/gitlab.svg",
+      "properties": {}
+    },
+    {
+      "name": "glass-water",
+      "file": "src/glass-water.svg",
+      "properties": {}
+    },
+    {
+      "name": "glasses",
+      "file": "src/glasses.svg",
+      "properties": {}
+    },
+    {
+      "name": "globe-lock",
+      "file": "src/globe-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "globe",
+      "file": "src/globe.svg",
+      "properties": {}
+    },
+    {
+      "name": "goal",
+      "file": "src/goal.svg",
+      "properties": {}
+    },
+    {
+      "name": "gpu",
+      "file": "src/gpu.svg",
+      "properties": {}
+    },
+    {
+      "name": "graduation-cap",
+      "file": "src/graduation-cap.svg",
+      "properties": {}
+    },
+    {
+      "name": "grape",
+      "file": "src/grape.svg",
+      "properties": {}
+    },
+    {
+      "name": "grid-2x2-check",
+      "file": "src/grid-2x2-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "grid-2x2-plus",
+      "file": "src/grid-2x2-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "grid-2x2-x",
+      "file": "src/grid-2x2-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "grid-2x2",
+      "file": "src/grid-2x2.svg",
+      "properties": {}
+    },
+    {
+      "name": "grid-3x2",
+      "file": "src/grid-3x2.svg",
+      "properties": {}
+    },
+    {
+      "name": "grid-3x3",
+      "file": "src/grid-3x3.svg",
+      "properties": {}
+    },
+    {
+      "name": "grip-horizontal",
+      "file": "src/grip-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "grip-vertical",
+      "file": "src/grip-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "grip",
+      "file": "src/grip.svg",
+      "properties": {}
+    },
+    {
+      "name": "group",
+      "file": "src/group.svg",
+      "properties": {}
+    },
+    {
+      "name": "guitar",
+      "file": "src/guitar.svg",
+      "properties": {}
+    },
+    {
+      "name": "ham",
+      "file": "src/ham.svg",
+      "properties": {}
+    },
+    {
+      "name": "hamburger",
+      "file": "src/hamburger.svg",
+      "properties": {}
+    },
+    {
+      "name": "hammer",
+      "file": "src/hammer.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand-coins",
+      "file": "src/hand-coins.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand-fist",
+      "file": "src/hand-fist.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand-grab",
+      "file": "src/hand-grab.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand-heart",
+      "file": "src/hand-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand-helping",
+      "file": "src/hand-helping.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand-metal",
+      "file": "src/hand-metal.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand-platter",
+      "file": "src/hand-platter.svg",
+      "properties": {}
+    },
+    {
+      "name": "hand",
+      "file": "src/hand.svg",
+      "properties": {}
+    },
+    {
+      "name": "handbag",
+      "file": "src/handbag.svg",
+      "properties": {}
+    },
+    {
+      "name": "handshake",
+      "file": "src/handshake.svg",
+      "properties": {}
+    },
+    {
+      "name": "hard-drive-download",
+      "file": "src/hard-drive-download.svg",
+      "properties": {}
+    },
+    {
+      "name": "hard-drive-upload",
+      "file": "src/hard-drive-upload.svg",
+      "properties": {}
+    },
+    {
+      "name": "hard-drive",
+      "file": "src/hard-drive.svg",
+      "properties": {}
+    },
+    {
+      "name": "hard-hat",
+      "file": "src/hard-hat.svg",
+      "properties": {}
+    },
+    {
+      "name": "hash",
+      "file": "src/hash.svg",
+      "properties": {}
+    },
+    {
+      "name": "hat-glasses",
+      "file": "src/hat-glasses.svg",
+      "properties": {}
+    },
+    {
+      "name": "haze",
+      "file": "src/haze.svg",
+      "properties": {}
+    },
+    {
+      "name": "hdmi-port",
+      "file": "src/hdmi-port.svg",
+      "properties": {}
+    },
+    {
+      "name": "heading-1",
+      "file": "src/heading-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "heading-2",
+      "file": "src/heading-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "heading-3",
+      "file": "src/heading-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "heading-4",
+      "file": "src/heading-4.svg",
+      "properties": {}
+    },
+    {
+      "name": "heading-5",
+      "file": "src/heading-5.svg",
+      "properties": {}
+    },
+    {
+      "name": "heading-6",
+      "file": "src/heading-6.svg",
+      "properties": {}
+    },
+    {
+      "name": "heading",
+      "file": "src/heading.svg",
+      "properties": {}
+    },
+    {
+      "name": "headphone-off",
+      "file": "src/headphone-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "headphones",
+      "file": "src/headphones.svg",
+      "properties": {}
+    },
+    {
+      "name": "headset",
+      "file": "src/headset.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart-crack",
+      "file": "src/heart-crack.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart-handshake",
+      "file": "src/heart-handshake.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart-minus",
+      "file": "src/heart-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart-off",
+      "file": "src/heart-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart-plus",
+      "file": "src/heart-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart-pulse",
+      "file": "src/heart-pulse.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart",
+      "file": "src/heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "heater",
+      "file": "src/heater.svg",
+      "properties": {}
+    },
+    {
+      "name": "helicopter",
+      "file": "src/helicopter.svg",
+      "properties": {}
+    },
+    {
+      "name": "hexagon",
+      "file": "src/hexagon.svg",
+      "properties": {}
+    },
+    {
+      "name": "highlighter",
+      "file": "src/highlighter.svg",
+      "properties": {}
+    },
+    {
+      "name": "history",
+      "file": "src/history.svg",
+      "properties": {}
+    },
+    {
+      "name": "hop-off",
+      "file": "src/hop-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "hop",
+      "file": "src/hop.svg",
+      "properties": {}
+    },
+    {
+      "name": "hospital",
+      "file": "src/hospital.svg",
+      "properties": {}
+    },
+    {
+      "name": "hotel",
+      "file": "src/hotel.svg",
+      "properties": {}
+    },
+    {
+      "name": "hourglass",
+      "file": "src/hourglass.svg",
+      "properties": {}
+    },
+    {
+      "name": "house-heart",
+      "file": "src/house-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "house-plug",
+      "file": "src/house-plug.svg",
+      "properties": {}
+    },
+    {
+      "name": "house-plus",
+      "file": "src/house-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "house-wifi",
+      "file": "src/house-wifi.svg",
+      "properties": {}
+    },
+    {
+      "name": "house",
+      "file": "src/house.svg",
+      "properties": {}
+    },
+    {
+      "name": "ice-cream-bowl",
+      "file": "src/ice-cream-bowl.svg",
+      "properties": {}
+    },
+    {
+      "name": "ice-cream-cone",
+      "file": "src/ice-cream-cone.svg",
+      "properties": {}
+    },
+    {
+      "name": "id-card-lanyard",
+      "file": "src/id-card-lanyard.svg",
+      "properties": {}
+    },
+    {
+      "name": "id-card",
+      "file": "src/id-card.svg",
+      "properties": {}
+    },
+    {
+      "name": "image-down",
+      "file": "src/image-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "image-minus",
+      "file": "src/image-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "image-off",
+      "file": "src/image-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "image-play",
+      "file": "src/image-play.svg",
+      "properties": {}
+    },
+    {
+      "name": "image-plus",
+      "file": "src/image-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "image-up",
+      "file": "src/image-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "image-upscale",
+      "file": "src/image-upscale.svg",
+      "properties": {}
+    },
+    {
+      "name": "image",
+      "file": "src/image.svg",
+      "properties": {}
+    },
+    {
+      "name": "images",
+      "file": "src/images.svg",
+      "properties": {}
+    },
+    {
+      "name": "import",
+      "file": "src/import.svg",
+      "properties": {}
+    },
+    {
+      "name": "inbox",
+      "file": "src/inbox.svg",
+      "properties": {}
+    },
+    {
+      "name": "indian-rupee",
+      "file": "src/indian-rupee.svg",
+      "properties": {}
+    },
+    {
+      "name": "infinity",
+      "file": "src/infinity.svg",
+      "properties": {}
+    },
+    {
+      "name": "info",
+      "file": "src/info.svg",
+      "properties": {}
+    },
+    {
+      "name": "inspection-panel",
+      "file": "src/inspection-panel.svg",
+      "properties": {}
+    },
+    {
+      "name": "instagram",
+      "file": "src/instagram.svg",
+      "properties": {}
+    },
+    {
+      "name": "italic",
+      "file": "src/italic.svg",
+      "properties": {}
+    },
+    {
+      "name": "iteration-ccw",
+      "file": "src/iteration-ccw.svg",
+      "properties": {}
+    },
+    {
+      "name": "iteration-cw",
+      "file": "src/iteration-cw.svg",
+      "properties": {}
+    },
+    {
+      "name": "japanese-yen",
+      "file": "src/japanese-yen.svg",
+      "properties": {}
+    },
+    {
+      "name": "joystick",
+      "file": "src/joystick.svg",
+      "properties": {}
+    },
+    {
+      "name": "kanban",
+      "file": "src/kanban.svg",
+      "properties": {}
+    },
+    {
+      "name": "kayak",
+      "file": "src/kayak.svg",
+      "properties": {}
+    },
+    {
+      "name": "key-round",
+      "file": "src/key-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "key-square",
+      "file": "src/key-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "key",
+      "file": "src/key.svg",
+      "properties": {}
+    },
+    {
+      "name": "keyboard-music",
+      "file": "src/keyboard-music.svg",
+      "properties": {}
+    },
+    {
+      "name": "keyboard-off",
+      "file": "src/keyboard-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "keyboard",
+      "file": "src/keyboard.svg",
+      "properties": {}
+    },
+    {
+      "name": "lamp-ceiling",
+      "file": "src/lamp-ceiling.svg",
+      "properties": {}
+    },
+    {
+      "name": "lamp-desk",
+      "file": "src/lamp-desk.svg",
+      "properties": {}
+    },
+    {
+      "name": "lamp-floor",
+      "file": "src/lamp-floor.svg",
+      "properties": {}
+    },
+    {
+      "name": "lamp-wall-down",
+      "file": "src/lamp-wall-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "lamp-wall-up",
+      "file": "src/lamp-wall-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "lamp",
+      "file": "src/lamp.svg",
+      "properties": {}
+    },
+    {
+      "name": "land-plot",
+      "file": "src/land-plot.svg",
+      "properties": {}
+    },
+    {
+      "name": "landmark",
+      "file": "src/landmark.svg",
+      "properties": {}
+    },
+    {
+      "name": "languages",
+      "file": "src/languages.svg",
+      "properties": {}
+    },
+    {
+      "name": "laptop-minimal-check",
+      "file": "src/laptop-minimal-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "laptop-minimal",
+      "file": "src/laptop-minimal.svg",
+      "properties": {}
+    },
+    {
+      "name": "laptop",
+      "file": "src/laptop.svg",
+      "properties": {}
+    },
+    {
+      "name": "lasso-select",
+      "file": "src/lasso-select.svg",
+      "properties": {}
+    },
+    {
+      "name": "lasso",
+      "file": "src/lasso.svg",
+      "properties": {}
+    },
+    {
+      "name": "laugh",
+      "file": "src/laugh.svg",
+      "properties": {}
+    },
+    {
+      "name": "layers-2",
+      "file": "src/layers-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "layers",
+      "file": "src/layers.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-dashboard",
+      "file": "src/layout-dashboard.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-grid",
+      "file": "src/layout-grid.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-list",
+      "file": "src/layout-list.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-panel-left",
+      "file": "src/layout-panel-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-panel-top",
+      "file": "src/layout-panel-top.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-template",
+      "file": "src/layout-template.svg",
+      "properties": {}
+    },
+    {
+      "name": "leaf",
+      "file": "src/leaf.svg",
+      "properties": {}
+    },
+    {
+      "name": "leafy-green",
+      "file": "src/leafy-green.svg",
+      "properties": {}
+    },
+    {
+      "name": "lectern",
+      "file": "src/lectern.svg",
+      "properties": {}
+    },
+    {
+      "name": "library-big",
+      "file": "src/library-big.svg",
+      "properties": {}
+    },
+    {
+      "name": "library",
+      "file": "src/library.svg",
+      "properties": {}
+    },
+    {
+      "name": "life-buoy",
+      "file": "src/life-buoy.svg",
+      "properties": {}
+    },
+    {
+      "name": "ligature",
+      "file": "src/ligature.svg",
+      "properties": {}
+    },
+    {
+      "name": "lightbulb-off",
+      "file": "src/lightbulb-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "lightbulb",
+      "file": "src/lightbulb.svg",
+      "properties": {}
+    },
+    {
+      "name": "line-squiggle",
+      "file": "src/line-squiggle.svg",
+      "properties": {}
+    },
+    {
+      "name": "link-2-off",
+      "file": "src/link-2-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "link-2",
+      "file": "src/link-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "link",
+      "file": "src/link.svg",
+      "properties": {}
+    },
+    {
+      "name": "linkedin",
+      "file": "src/linkedin.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-check",
+      "file": "src/list-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-checks",
+      "file": "src/list-checks.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-chevrons-down-up",
+      "file": "src/list-chevrons-down-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-chevrons-up-down",
+      "file": "src/list-chevrons-up-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-collapse",
+      "file": "src/list-collapse.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-end",
+      "file": "src/list-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-filter-plus",
+      "file": "src/list-filter-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-filter",
+      "file": "src/list-filter.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-indent-decrease",
+      "file": "src/list-indent-decrease.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-indent-increase",
+      "file": "src/list-indent-increase.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-minus",
+      "file": "src/list-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-music",
+      "file": "src/list-music.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-ordered",
+      "file": "src/list-ordered.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-plus",
+      "file": "src/list-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-restart",
+      "file": "src/list-restart.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-start",
+      "file": "src/list-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-todo",
+      "file": "src/list-todo.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-tree",
+      "file": "src/list-tree.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-video",
+      "file": "src/list-video.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-x",
+      "file": "src/list-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "list",
+      "file": "src/list.svg",
+      "properties": {}
+    },
+    {
+      "name": "loader-circle",
+      "file": "src/loader-circle.svg",
+      "properties": {}
+    },
+    {
+      "name": "loader-pinwheel",
+      "file": "src/loader-pinwheel.svg",
+      "properties": {}
+    },
+    {
+      "name": "loader",
+      "file": "src/loader.svg",
+      "properties": {}
+    },
+    {
+      "name": "locate-fixed",
+      "file": "src/locate-fixed.svg",
+      "properties": {}
+    },
+    {
+      "name": "locate-off",
+      "file": "src/locate-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "locate",
+      "file": "src/locate.svg",
+      "properties": {}
+    },
+    {
+      "name": "lock-keyhole-open",
+      "file": "src/lock-keyhole-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "lock-keyhole",
+      "file": "src/lock-keyhole.svg",
+      "properties": {}
+    },
+    {
+      "name": "lock-open",
+      "file": "src/lock-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "lock",
+      "file": "src/lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "log-in",
+      "file": "src/log-in.svg",
+      "properties": {}
+    },
+    {
+      "name": "log-out",
+      "file": "src/log-out.svg",
+      "properties": {}
+    },
+    {
+      "name": "logs",
+      "file": "src/logs.svg",
+      "properties": {}
+    },
+    {
+      "name": "lollipop",
+      "file": "src/lollipop.svg",
+      "properties": {}
+    },
+    {
+      "name": "luggage",
+      "file": "src/luggage.svg",
+      "properties": {}
+    },
+    {
+      "name": "magnet",
+      "file": "src/magnet.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-check",
+      "file": "src/mail-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-minus",
+      "file": "src/mail-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-open",
+      "file": "src/mail-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-plus",
+      "file": "src/mail-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-question-mark",
+      "file": "src/mail-question-mark.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-search",
+      "file": "src/mail-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-warning",
+      "file": "src/mail-warning.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-x",
+      "file": "src/mail-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail",
+      "file": "src/mail.svg",
+      "properties": {}
+    },
+    {
+      "name": "mailbox",
+      "file": "src/mailbox.svg",
+      "properties": {}
+    },
+    {
+      "name": "mails",
+      "file": "src/mails.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-minus",
+      "file": "src/map-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-check-inside",
+      "file": "src/map-pin-check-inside.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-check",
+      "file": "src/map-pin-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-house",
+      "file": "src/map-pin-house.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-minus-inside",
+      "file": "src/map-pin-minus-inside.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-minus",
+      "file": "src/map-pin-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-off",
+      "file": "src/map-pin-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-pen",
+      "file": "src/map-pin-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-plus-inside",
+      "file": "src/map-pin-plus-inside.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-plus",
+      "file": "src/map-pin-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-x-inside",
+      "file": "src/map-pin-x-inside.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin-x",
+      "file": "src/map-pin-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pin",
+      "file": "src/map-pin.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-pinned",
+      "file": "src/map-pinned.svg",
+      "properties": {}
+    },
+    {
+      "name": "map-plus",
+      "file": "src/map-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "map",
+      "file": "src/map.svg",
+      "properties": {}
+    },
+    {
+      "name": "mars-stroke",
+      "file": "src/mars-stroke.svg",
+      "properties": {}
+    },
+    {
+      "name": "mars",
+      "file": "src/mars.svg",
+      "properties": {}
+    },
+    {
+      "name": "martini",
+      "file": "src/martini.svg",
+      "properties": {}
+    },
+    {
+      "name": "maximize-2",
+      "file": "src/maximize-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "maximize",
+      "file": "src/maximize.svg",
+      "properties": {}
+    },
+    {
+      "name": "medal",
+      "file": "src/medal.svg",
+      "properties": {}
+    },
+    {
+      "name": "megaphone-off",
+      "file": "src/megaphone-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "megaphone",
+      "file": "src/megaphone.svg",
+      "properties": {}
+    },
+    {
+      "name": "meh",
+      "file": "src/meh.svg",
+      "properties": {}
+    },
+    {
+      "name": "memory-stick",
+      "file": "src/memory-stick.svg",
+      "properties": {}
+    },
+    {
+      "name": "menu",
+      "file": "src/menu.svg",
+      "properties": {}
+    },
+    {
+      "name": "merge",
+      "file": "src/merge.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-code",
+      "file": "src/message-circle-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-dashed",
+      "file": "src/message-circle-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-heart",
+      "file": "src/message-circle-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-more",
+      "file": "src/message-circle-more.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-off",
+      "file": "src/message-circle-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-plus",
+      "file": "src/message-circle-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-question-mark",
+      "file": "src/message-circle-question-mark.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-reply",
+      "file": "src/message-circle-reply.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-warning",
+      "file": "src/message-circle-warning.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle-x",
+      "file": "src/message-circle-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-circle",
+      "file": "src/message-circle.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-code",
+      "file": "src/message-square-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-dashed",
+      "file": "src/message-square-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-diff",
+      "file": "src/message-square-diff.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-dot",
+      "file": "src/message-square-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-heart",
+      "file": "src/message-square-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-lock",
+      "file": "src/message-square-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-more",
+      "file": "src/message-square-more.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-off",
+      "file": "src/message-square-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-plus",
+      "file": "src/message-square-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-quote",
+      "file": "src/message-square-quote.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-reply",
+      "file": "src/message-square-reply.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-share",
+      "file": "src/message-square-share.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-text",
+      "file": "src/message-square-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-warning",
+      "file": "src/message-square-warning.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-x",
+      "file": "src/message-square-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square",
+      "file": "src/message-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "messages-square",
+      "file": "src/messages-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "mic-off",
+      "file": "src/mic-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "mic-vocal",
+      "file": "src/mic-vocal.svg",
+      "properties": {}
+    },
+    {
+      "name": "mic",
+      "file": "src/mic.svg",
+      "properties": {}
+    },
+    {
+      "name": "microchip",
+      "file": "src/microchip.svg",
+      "properties": {}
+    },
+    {
+      "name": "microscope",
+      "file": "src/microscope.svg",
+      "properties": {}
+    },
+    {
+      "name": "microwave",
+      "file": "src/microwave.svg",
+      "properties": {}
+    },
+    {
+      "name": "milestone",
+      "file": "src/milestone.svg",
+      "properties": {}
+    },
+    {
+      "name": "milk-off",
+      "file": "src/milk-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "milk",
+      "file": "src/milk.svg",
+      "properties": {}
+    },
+    {
+      "name": "minimize-2",
+      "file": "src/minimize-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "minimize",
+      "file": "src/minimize.svg",
+      "properties": {}
+    },
+    {
+      "name": "minus",
+      "file": "src/minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-check",
+      "file": "src/monitor-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-cloud",
+      "file": "src/monitor-cloud.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-cog",
+      "file": "src/monitor-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-dot",
+      "file": "src/monitor-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-down",
+      "file": "src/monitor-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-off",
+      "file": "src/monitor-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-pause",
+      "file": "src/monitor-pause.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-play",
+      "file": "src/monitor-play.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-smartphone",
+      "file": "src/monitor-smartphone.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-speaker",
+      "file": "src/monitor-speaker.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-stop",
+      "file": "src/monitor-stop.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-up",
+      "file": "src/monitor-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor-x",
+      "file": "src/monitor-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "monitor",
+      "file": "src/monitor.svg",
+      "properties": {}
+    },
+    {
+      "name": "moon-star",
+      "file": "src/moon-star.svg",
+      "properties": {}
+    },
+    {
+      "name": "moon",
+      "file": "src/moon.svg",
+      "properties": {}
+    },
+    {
+      "name": "motorbike",
+      "file": "src/motorbike.svg",
+      "properties": {}
+    },
+    {
+      "name": "mountain-snow",
+      "file": "src/mountain-snow.svg",
+      "properties": {}
+    },
+    {
+      "name": "mountain",
+      "file": "src/mountain.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse-off",
+      "file": "src/mouse-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse-pointer-2-off",
+      "file": "src/mouse-pointer-2-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse-pointer-2",
+      "file": "src/mouse-pointer-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse-pointer-ban",
+      "file": "src/mouse-pointer-ban.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse-pointer-click",
+      "file": "src/mouse-pointer-click.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse-pointer",
+      "file": "src/mouse-pointer.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse",
+      "file": "src/mouse.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-3d",
+      "file": "src/move-3d.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-diagonal-2",
+      "file": "src/move-diagonal-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-diagonal",
+      "file": "src/move-diagonal.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-down-left",
+      "file": "src/move-down-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-down-right",
+      "file": "src/move-down-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-down",
+      "file": "src/move-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-horizontal",
+      "file": "src/move-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-left",
+      "file": "src/move-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-right",
+      "file": "src/move-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-up-left",
+      "file": "src/move-up-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-up-right",
+      "file": "src/move-up-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-up",
+      "file": "src/move-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "move-vertical",
+      "file": "src/move-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "move",
+      "file": "src/move.svg",
+      "properties": {}
+    },
+    {
+      "name": "music-2",
+      "file": "src/music-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "music-3",
+      "file": "src/music-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "music-4",
+      "file": "src/music-4.svg",
+      "properties": {}
+    },
+    {
+      "name": "music",
+      "file": "src/music.svg",
+      "properties": {}
+    },
+    {
+      "name": "navigation-2-off",
+      "file": "src/navigation-2-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "navigation-2",
+      "file": "src/navigation-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "navigation-off",
+      "file": "src/navigation-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "navigation",
+      "file": "src/navigation.svg",
+      "properties": {}
+    },
+    {
+      "name": "network",
+      "file": "src/network.svg",
+      "properties": {}
+    },
+    {
+      "name": "newspaper",
+      "file": "src/newspaper.svg",
+      "properties": {}
+    },
+    {
+      "name": "nfc",
+      "file": "src/nfc.svg",
+      "properties": {}
+    },
+    {
+      "name": "non-binary",
+      "file": "src/non-binary.svg",
+      "properties": {}
+    },
+    {
+      "name": "notebook-pen",
+      "file": "src/notebook-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "notebook-tabs",
+      "file": "src/notebook-tabs.svg",
+      "properties": {}
+    },
+    {
+      "name": "notebook-text",
+      "file": "src/notebook-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "notebook",
+      "file": "src/notebook.svg",
+      "properties": {}
+    },
+    {
+      "name": "notepad-text-dashed",
+      "file": "src/notepad-text-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "notepad-text",
+      "file": "src/notepad-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "nut-off",
+      "file": "src/nut-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "nut",
+      "file": "src/nut.svg",
+      "properties": {}
+    },
+    {
+      "name": "octagon-alert",
+      "file": "src/octagon-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "octagon-minus",
+      "file": "src/octagon-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "octagon-pause",
+      "file": "src/octagon-pause.svg",
+      "properties": {}
+    },
+    {
+      "name": "octagon-x",
+      "file": "src/octagon-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "octagon",
+      "file": "src/octagon.svg",
+      "properties": {}
+    },
+    {
+      "name": "omega",
+      "file": "src/omega.svg",
+      "properties": {}
+    },
+    {
+      "name": "option",
+      "file": "src/option.svg",
+      "properties": {}
+    },
+    {
+      "name": "orbit",
+      "file": "src/orbit.svg",
+      "properties": {}
+    },
+    {
+      "name": "origami",
+      "file": "src/origami.svg",
+      "properties": {}
+    },
+    {
+      "name": "package-2",
+      "file": "src/package-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "package-check",
+      "file": "src/package-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "package-minus",
+      "file": "src/package-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "package-open",
+      "file": "src/package-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "package-plus",
+      "file": "src/package-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "package-search",
+      "file": "src/package-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "package-x",
+      "file": "src/package-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "package",
+      "file": "src/package.svg",
+      "properties": {}
+    },
+    {
+      "name": "paint-bucket",
+      "file": "src/paint-bucket.svg",
+      "properties": {}
+    },
+    {
+      "name": "paint-roller",
+      "file": "src/paint-roller.svg",
+      "properties": {}
+    },
+    {
+      "name": "paintbrush-vertical",
+      "file": "src/paintbrush-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "paintbrush",
+      "file": "src/paintbrush.svg",
+      "properties": {}
+    },
+    {
+      "name": "palette",
+      "file": "src/palette.svg",
+      "properties": {}
+    },
+    {
+      "name": "panda",
+      "file": "src/panda.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-bottom-close",
+      "file": "src/panel-bottom-close.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-bottom-dashed",
+      "file": "src/panel-bottom-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-bottom-open",
+      "file": "src/panel-bottom-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-bottom",
+      "file": "src/panel-bottom.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-left-close",
+      "file": "src/panel-left-close.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-left-dashed",
+      "file": "src/panel-left-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-left-open",
+      "file": "src/panel-left-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-left-right-dashed",
+      "file": "src/panel-left-right-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-left",
+      "file": "src/panel-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-right-close",
+      "file": "src/panel-right-close.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-right-dashed",
+      "file": "src/panel-right-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-right-open",
+      "file": "src/panel-right-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-right",
+      "file": "src/panel-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-top-bottom-dashed",
+      "file": "src/panel-top-bottom-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-top-close",
+      "file": "src/panel-top-close.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-top-dashed",
+      "file": "src/panel-top-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-top-open",
+      "file": "src/panel-top-open.svg",
+      "properties": {}
+    },
+    {
+      "name": "panel-top",
+      "file": "src/panel-top.svg",
+      "properties": {}
+    },
+    {
+      "name": "panels-left-bottom",
+      "file": "src/panels-left-bottom.svg",
+      "properties": {}
+    },
+    {
+      "name": "panels-right-bottom",
+      "file": "src/panels-right-bottom.svg",
+      "properties": {}
+    },
+    {
+      "name": "panels-top-left",
+      "file": "src/panels-top-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "paperclip",
+      "file": "src/paperclip.svg",
+      "properties": {}
+    },
+    {
+      "name": "parentheses",
+      "file": "src/parentheses.svg",
+      "properties": {}
+    },
+    {
+      "name": "parking-meter",
+      "file": "src/parking-meter.svg",
+      "properties": {}
+    },
+    {
+      "name": "party-popper",
+      "file": "src/party-popper.svg",
+      "properties": {}
+    },
+    {
+      "name": "pause",
+      "file": "src/pause.svg",
+      "properties": {}
+    },
+    {
+      "name": "paw-print",
+      "file": "src/paw-print.svg",
+      "properties": {}
+    },
+    {
+      "name": "pc-case",
+      "file": "src/pc-case.svg",
+      "properties": {}
+    },
+    {
+      "name": "pen-line",
+      "file": "src/pen-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "pen-off",
+      "file": "src/pen-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "pen-tool",
+      "file": "src/pen-tool.svg",
+      "properties": {}
+    },
+    {
+      "name": "pen",
+      "file": "src/pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "pencil-line",
+      "file": "src/pencil-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "pencil-off",
+      "file": "src/pencil-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "pencil-ruler",
+      "file": "src/pencil-ruler.svg",
+      "properties": {}
+    },
+    {
+      "name": "pencil",
+      "file": "src/pencil.svg",
+      "properties": {}
+    },
+    {
+      "name": "pentagon",
+      "file": "src/pentagon.svg",
+      "properties": {}
+    },
+    {
+      "name": "percent",
+      "file": "src/percent.svg",
+      "properties": {}
+    },
+    {
+      "name": "person-standing",
+      "file": "src/person-standing.svg",
+      "properties": {}
+    },
+    {
+      "name": "philippine-peso",
+      "file": "src/philippine-peso.svg",
+      "properties": {}
+    },
+    {
+      "name": "phone-call",
+      "file": "src/phone-call.svg",
+      "properties": {}
+    },
+    {
+      "name": "phone-forwarded",
+      "file": "src/phone-forwarded.svg",
+      "properties": {}
+    },
+    {
+      "name": "phone-incoming",
+      "file": "src/phone-incoming.svg",
+      "properties": {}
+    },
+    {
+      "name": "phone-missed",
+      "file": "src/phone-missed.svg",
+      "properties": {}
+    },
+    {
+      "name": "phone-off",
+      "file": "src/phone-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "phone-outgoing",
+      "file": "src/phone-outgoing.svg",
+      "properties": {}
+    },
+    {
+      "name": "phone",
+      "file": "src/phone.svg",
+      "properties": {}
+    },
+    {
+      "name": "pi",
+      "file": "src/pi.svg",
+      "properties": {}
+    },
+    {
+      "name": "piano",
+      "file": "src/piano.svg",
+      "properties": {}
+    },
+    {
+      "name": "pickaxe",
+      "file": "src/pickaxe.svg",
+      "properties": {}
+    },
+    {
+      "name": "picture-in-picture-2",
+      "file": "src/picture-in-picture-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "picture-in-picture",
+      "file": "src/picture-in-picture.svg",
+      "properties": {}
+    },
+    {
+      "name": "piggy-bank",
+      "file": "src/piggy-bank.svg",
+      "properties": {}
+    },
+    {
+      "name": "pilcrow-left",
+      "file": "src/pilcrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "pilcrow-right",
+      "file": "src/pilcrow-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "pilcrow",
+      "file": "src/pilcrow.svg",
+      "properties": {}
+    },
+    {
+      "name": "pill-bottle",
+      "file": "src/pill-bottle.svg",
+      "properties": {}
+    },
+    {
+      "name": "pill",
+      "file": "src/pill.svg",
+      "properties": {}
+    },
+    {
+      "name": "pin-off",
+      "file": "src/pin-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "pin",
+      "file": "src/pin.svg",
+      "properties": {}
+    },
+    {
+      "name": "pipette",
+      "file": "src/pipette.svg",
+      "properties": {}
+    },
+    {
+      "name": "pizza",
+      "file": "src/pizza.svg",
+      "properties": {}
+    },
+    {
+      "name": "plane-landing",
+      "file": "src/plane-landing.svg",
+      "properties": {}
+    },
+    {
+      "name": "plane-takeoff",
+      "file": "src/plane-takeoff.svg",
+      "properties": {}
+    },
+    {
+      "name": "plane",
+      "file": "src/plane.svg",
+      "properties": {}
+    },
+    {
+      "name": "play",
+      "file": "src/play.svg",
+      "properties": {}
+    },
+    {
+      "name": "plug-2",
+      "file": "src/plug-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "plug-zap",
+      "file": "src/plug-zap.svg",
+      "properties": {}
+    },
+    {
+      "name": "plug",
+      "file": "src/plug.svg",
+      "properties": {}
+    },
+    {
+      "name": "plus",
+      "file": "src/plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "pocket-knife",
+      "file": "src/pocket-knife.svg",
+      "properties": {}
+    },
+    {
+      "name": "pocket",
+      "file": "src/pocket.svg",
+      "properties": {}
+    },
+    {
+      "name": "podcast",
+      "file": "src/podcast.svg",
+      "properties": {}
+    },
+    {
+      "name": "pointer-off",
+      "file": "src/pointer-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "pointer",
+      "file": "src/pointer.svg",
+      "properties": {}
+    },
+    {
+      "name": "popcorn",
+      "file": "src/popcorn.svg",
+      "properties": {}
+    },
+    {
+      "name": "popsicle",
+      "file": "src/popsicle.svg",
+      "properties": {}
+    },
+    {
+      "name": "pound-sterling",
+      "file": "src/pound-sterling.svg",
+      "properties": {}
+    },
+    {
+      "name": "power-off",
+      "file": "src/power-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "power",
+      "file": "src/power.svg",
+      "properties": {}
+    },
+    {
+      "name": "presentation",
+      "file": "src/presentation.svg",
+      "properties": {}
+    },
+    {
+      "name": "printer-check",
+      "file": "src/printer-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "printer",
+      "file": "src/printer.svg",
+      "properties": {}
+    },
+    {
+      "name": "projector",
+      "file": "src/projector.svg",
+      "properties": {}
+    },
+    {
+      "name": "proportions",
+      "file": "src/proportions.svg",
+      "properties": {}
+    },
+    {
+      "name": "puzzle",
+      "file": "src/puzzle.svg",
+      "properties": {}
+    },
+    {
+      "name": "pyramid",
+      "file": "src/pyramid.svg",
+      "properties": {}
+    },
+    {
+      "name": "qr-code",
+      "file": "src/qr-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "quote",
+      "file": "src/quote.svg",
+      "properties": {}
+    },
+    {
+      "name": "rabbit",
+      "file": "src/rabbit.svg",
+      "properties": {}
+    },
+    {
+      "name": "radar",
+      "file": "src/radar.svg",
+      "properties": {}
+    },
+    {
+      "name": "radiation",
+      "file": "src/radiation.svg",
+      "properties": {}
+    },
+    {
+      "name": "radical",
+      "file": "src/radical.svg",
+      "properties": {}
+    },
+    {
+      "name": "radio-receiver",
+      "file": "src/radio-receiver.svg",
+      "properties": {}
+    },
+    {
+      "name": "radio-tower",
+      "file": "src/radio-tower.svg",
+      "properties": {}
+    },
+    {
+      "name": "radio",
+      "file": "src/radio.svg",
+      "properties": {}
+    },
+    {
+      "name": "radius",
+      "file": "src/radius.svg",
+      "properties": {}
+    },
+    {
+      "name": "rail-symbol",
+      "file": "src/rail-symbol.svg",
+      "properties": {}
+    },
+    {
+      "name": "rainbow",
+      "file": "src/rainbow.svg",
+      "properties": {}
+    },
+    {
+      "name": "rat",
+      "file": "src/rat.svg",
+      "properties": {}
+    },
+    {
+      "name": "ratio",
+      "file": "src/ratio.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-cent",
+      "file": "src/receipt-cent.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-euro",
+      "file": "src/receipt-euro.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-indian-rupee",
+      "file": "src/receipt-indian-rupee.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-japanese-yen",
+      "file": "src/receipt-japanese-yen.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-pound-sterling",
+      "file": "src/receipt-pound-sterling.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-russian-ruble",
+      "file": "src/receipt-russian-ruble.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-swiss-franc",
+      "file": "src/receipt-swiss-franc.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-text",
+      "file": "src/receipt-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt-turkish-lira",
+      "file": "src/receipt-turkish-lira.svg",
+      "properties": {}
+    },
+    {
+      "name": "receipt",
+      "file": "src/receipt.svg",
+      "properties": {}
+    },
+    {
+      "name": "rectangle-circle",
+      "file": "src/rectangle-circle.svg",
+      "properties": {}
+    },
+    {
+      "name": "rectangle-ellipsis",
+      "file": "src/rectangle-ellipsis.svg",
+      "properties": {}
+    },
+    {
+      "name": "rectangle-goggles",
+      "file": "src/rectangle-goggles.svg",
+      "properties": {}
+    },
+    {
+      "name": "rectangle-horizontal",
+      "file": "src/rectangle-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "rectangle-vertical",
+      "file": "src/rectangle-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "recycle",
+      "file": "src/recycle.svg",
+      "properties": {}
+    },
+    {
+      "name": "redo-2",
+      "file": "src/redo-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "redo-dot",
+      "file": "src/redo-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "redo",
+      "file": "src/redo.svg",
+      "properties": {}
+    },
+    {
+      "name": "refresh-ccw-dot",
+      "file": "src/refresh-ccw-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "refresh-ccw",
+      "file": "src/refresh-ccw.svg",
+      "properties": {}
+    },
+    {
+      "name": "refresh-cw-off",
+      "file": "src/refresh-cw-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "refresh-cw",
+      "file": "src/refresh-cw.svg",
+      "properties": {}
+    },
+    {
+      "name": "refrigerator",
+      "file": "src/refrigerator.svg",
+      "properties": {}
+    },
+    {
+      "name": "regex",
+      "file": "src/regex.svg",
+      "properties": {}
+    },
+    {
+      "name": "remove-formatting",
+      "file": "src/remove-formatting.svg",
+      "properties": {}
+    },
+    {
+      "name": "repeat-1",
+      "file": "src/repeat-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "repeat-2",
+      "file": "src/repeat-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "repeat",
+      "file": "src/repeat.svg",
+      "properties": {}
+    },
+    {
+      "name": "replace-all",
+      "file": "src/replace-all.svg",
+      "properties": {}
+    },
+    {
+      "name": "replace",
+      "file": "src/replace.svg",
+      "properties": {}
+    },
+    {
+      "name": "reply-all",
+      "file": "src/reply-all.svg",
+      "properties": {}
+    },
+    {
+      "name": "reply",
+      "file": "src/reply.svg",
+      "properties": {}
+    },
+    {
+      "name": "rewind",
+      "file": "src/rewind.svg",
+      "properties": {}
+    },
+    {
+      "name": "ribbon",
+      "file": "src/ribbon.svg",
+      "properties": {}
+    },
+    {
+      "name": "rocket",
+      "file": "src/rocket.svg",
+      "properties": {}
+    },
+    {
+      "name": "rocking-chair",
+      "file": "src/rocking-chair.svg",
+      "properties": {}
+    },
+    {
+      "name": "roller-coaster",
+      "file": "src/roller-coaster.svg",
+      "properties": {}
+    },
+    {
+      "name": "rose",
+      "file": "src/rose.svg",
+      "properties": {}
+    },
+    {
+      "name": "rotate-3d",
+      "file": "src/rotate-3d.svg",
+      "properties": {}
+    },
+    {
+      "name": "rotate-ccw-key",
+      "file": "src/rotate-ccw-key.svg",
+      "properties": {}
+    },
+    {
+      "name": "rotate-ccw-square",
+      "file": "src/rotate-ccw-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "rotate-ccw",
+      "file": "src/rotate-ccw.svg",
+      "properties": {}
+    },
+    {
+      "name": "rotate-cw-square",
+      "file": "src/rotate-cw-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "rotate-cw",
+      "file": "src/rotate-cw.svg",
+      "properties": {}
+    },
+    {
+      "name": "route-off",
+      "file": "src/route-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "route",
+      "file": "src/route.svg",
+      "properties": {}
+    },
+    {
+      "name": "router",
+      "file": "src/router.svg",
+      "properties": {}
+    },
+    {
+      "name": "rows-2",
+      "file": "src/rows-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "rows-3",
+      "file": "src/rows-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "rows-4",
+      "file": "src/rows-4.svg",
+      "properties": {}
+    },
+    {
+      "name": "rss",
+      "file": "src/rss.svg",
+      "properties": {}
+    },
+    {
+      "name": "ruler-dimension-line",
+      "file": "src/ruler-dimension-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "ruler",
+      "file": "src/ruler.svg",
+      "properties": {}
+    },
+    {
+      "name": "russian-ruble",
+      "file": "src/russian-ruble.svg",
+      "properties": {}
+    },
+    {
+      "name": "sailboat",
+      "file": "src/sailboat.svg",
+      "properties": {}
+    },
+    {
+      "name": "salad",
+      "file": "src/salad.svg",
+      "properties": {}
+    },
+    {
+      "name": "sandwich",
+      "file": "src/sandwich.svg",
+      "properties": {}
+    },
+    {
+      "name": "satellite-dish",
+      "file": "src/satellite-dish.svg",
+      "properties": {}
+    },
+    {
+      "name": "satellite",
+      "file": "src/satellite.svg",
+      "properties": {}
+    },
+    {
+      "name": "saudi-riyal",
+      "file": "src/saudi-riyal.svg",
+      "properties": {}
+    },
+    {
+      "name": "save-all",
+      "file": "src/save-all.svg",
+      "properties": {}
+    },
+    {
+      "name": "save-off",
+      "file": "src/save-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "save",
+      "file": "src/save.svg",
+      "properties": {}
+    },
+    {
+      "name": "scale-3d",
+      "file": "src/scale-3d.svg",
+      "properties": {}
+    },
+    {
+      "name": "scale",
+      "file": "src/scale.svg",
+      "properties": {}
+    },
+    {
+      "name": "scaling",
+      "file": "src/scaling.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-barcode",
+      "file": "src/scan-barcode.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-eye",
+      "file": "src/scan-eye.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-face",
+      "file": "src/scan-face.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-heart",
+      "file": "src/scan-heart.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-line",
+      "file": "src/scan-line.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-qr-code",
+      "file": "src/scan-qr-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-search",
+      "file": "src/scan-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan-text",
+      "file": "src/scan-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "scan",
+      "file": "src/scan.svg",
+      "properties": {}
+    },
+    {
+      "name": "school",
+      "file": "src/school.svg",
+      "properties": {}
+    },
+    {
+      "name": "scissors-line-dashed",
+      "file": "src/scissors-line-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "scissors",
+      "file": "src/scissors.svg",
+      "properties": {}
+    },
+    {
+      "name": "scooter",
+      "file": "src/scooter.svg",
+      "properties": {}
+    },
+    {
+      "name": "screen-share-off",
+      "file": "src/screen-share-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "screen-share",
+      "file": "src/screen-share.svg",
+      "properties": {}
+    },
+    {
+      "name": "scroll-text",
+      "file": "src/scroll-text.svg",
+      "properties": {}
+    },
+    {
+      "name": "scroll",
+      "file": "src/scroll.svg",
+      "properties": {}
+    },
+    {
+      "name": "search-check",
+      "file": "src/search-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "search-code",
+      "file": "src/search-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "search-slash",
+      "file": "src/search-slash.svg",
+      "properties": {}
+    },
+    {
+      "name": "search-x",
+      "file": "src/search-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "search",
+      "file": "src/search.svg",
+      "properties": {}
+    },
+    {
+      "name": "section",
+      "file": "src/section.svg",
+      "properties": {}
+    },
+    {
+      "name": "send-horizontal",
+      "file": "src/send-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "send-to-back",
+      "file": "src/send-to-back.svg",
+      "properties": {}
+    },
+    {
+      "name": "send",
+      "file": "src/send.svg",
+      "properties": {}
+    },
+    {
+      "name": "separator-horizontal",
+      "file": "src/separator-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "separator-vertical",
+      "file": "src/separator-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "server-cog",
+      "file": "src/server-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "server-crash",
+      "file": "src/server-crash.svg",
+      "properties": {}
+    },
+    {
+      "name": "server-off",
+      "file": "src/server-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "server",
+      "file": "src/server.svg",
+      "properties": {}
+    },
+    {
+      "name": "settings-2",
+      "file": "src/settings-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "settings",
+      "file": "src/settings.svg",
+      "properties": {}
+    },
+    {
+      "name": "shapes",
+      "file": "src/shapes.svg",
+      "properties": {}
+    },
+    {
+      "name": "share-2",
+      "file": "src/share-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "share",
+      "file": "src/share.svg",
+      "properties": {}
+    },
+    {
+      "name": "sheet",
+      "file": "src/sheet.svg",
+      "properties": {}
+    },
+    {
+      "name": "shell",
+      "file": "src/shell.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-alert",
+      "file": "src/shield-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-ban",
+      "file": "src/shield-ban.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-check",
+      "file": "src/shield-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-ellipsis",
+      "file": "src/shield-ellipsis.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-half",
+      "file": "src/shield-half.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-minus",
+      "file": "src/shield-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-off",
+      "file": "src/shield-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-plus",
+      "file": "src/shield-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-question-mark",
+      "file": "src/shield-question-mark.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-user",
+      "file": "src/shield-user.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-x",
+      "file": "src/shield-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield",
+      "file": "src/shield.svg",
+      "properties": {}
+    },
+    {
+      "name": "ship-wheel",
+      "file": "src/ship-wheel.svg",
+      "properties": {}
+    },
+    {
+      "name": "ship",
+      "file": "src/ship.svg",
+      "properties": {}
+    },
+    {
+      "name": "shirt",
+      "file": "src/shirt.svg",
+      "properties": {}
+    },
+    {
+      "name": "shopping-bag",
+      "file": "src/shopping-bag.svg",
+      "properties": {}
+    },
+    {
+      "name": "shopping-basket",
+      "file": "src/shopping-basket.svg",
+      "properties": {}
+    },
+    {
+      "name": "shopping-cart",
+      "file": "src/shopping-cart.svg",
+      "properties": {}
+    },
+    {
+      "name": "shovel",
+      "file": "src/shovel.svg",
+      "properties": {}
+    },
+    {
+      "name": "shower-head",
+      "file": "src/shower-head.svg",
+      "properties": {}
+    },
+    {
+      "name": "shredder",
+      "file": "src/shredder.svg",
+      "properties": {}
+    },
+    {
+      "name": "shrimp",
+      "file": "src/shrimp.svg",
+      "properties": {}
+    },
+    {
+      "name": "shrink",
+      "file": "src/shrink.svg",
+      "properties": {}
+    },
+    {
+      "name": "shrub",
+      "file": "src/shrub.svg",
+      "properties": {}
+    },
+    {
+      "name": "shuffle",
+      "file": "src/shuffle.svg",
+      "properties": {}
+    },
+    {
+      "name": "sigma",
+      "file": "src/sigma.svg",
+      "properties": {}
+    },
+    {
+      "name": "signal-high",
+      "file": "src/signal-high.svg",
+      "properties": {}
+    },
+    {
+      "name": "signal-low",
+      "file": "src/signal-low.svg",
+      "properties": {}
+    },
+    {
+      "name": "signal-medium",
+      "file": "src/signal-medium.svg",
+      "properties": {}
+    },
+    {
+      "name": "signal-zero",
+      "file": "src/signal-zero.svg",
+      "properties": {}
+    },
+    {
+      "name": "signal",
+      "file": "src/signal.svg",
+      "properties": {}
+    },
+    {
+      "name": "signature",
+      "file": "src/signature.svg",
+      "properties": {}
+    },
+    {
+      "name": "signpost-big",
+      "file": "src/signpost-big.svg",
+      "properties": {}
+    },
+    {
+      "name": "signpost",
+      "file": "src/signpost.svg",
+      "properties": {}
+    },
+    {
+      "name": "siren",
+      "file": "src/siren.svg",
+      "properties": {}
+    },
+    {
+      "name": "skip-back",
+      "file": "src/skip-back.svg",
+      "properties": {}
+    },
+    {
+      "name": "skip-forward",
+      "file": "src/skip-forward.svg",
+      "properties": {}
+    },
+    {
+      "name": "skull",
+      "file": "src/skull.svg",
+      "properties": {}
+    },
+    {
+      "name": "slack",
+      "file": "src/slack.svg",
+      "properties": {}
+    },
+    {
+      "name": "slash",
+      "file": "src/slash.svg",
+      "properties": {}
+    },
+    {
+      "name": "slice",
+      "file": "src/slice.svg",
+      "properties": {}
+    },
+    {
+      "name": "sliders-horizontal",
+      "file": "src/sliders-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "sliders-vertical",
+      "file": "src/sliders-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "smartphone-charging",
+      "file": "src/smartphone-charging.svg",
+      "properties": {}
+    },
+    {
+      "name": "smartphone-nfc",
+      "file": "src/smartphone-nfc.svg",
+      "properties": {}
+    },
+    {
+      "name": "smartphone",
+      "file": "src/smartphone.svg",
+      "properties": {}
+    },
+    {
+      "name": "smile-plus",
+      "file": "src/smile-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "smile",
+      "file": "src/smile.svg",
+      "properties": {}
+    },
+    {
+      "name": "snail",
+      "file": "src/snail.svg",
+      "properties": {}
+    },
+    {
+      "name": "snowflake",
+      "file": "src/snowflake.svg",
+      "properties": {}
+    },
+    {
+      "name": "soap-dispenser-droplet",
+      "file": "src/soap-dispenser-droplet.svg",
+      "properties": {}
+    },
+    {
+      "name": "sofa",
+      "file": "src/sofa.svg",
+      "properties": {}
+    },
+    {
+      "name": "solar-panel",
+      "file": "src/solar-panel.svg",
+      "properties": {}
+    },
+    {
+      "name": "soup",
+      "file": "src/soup.svg",
+      "properties": {}
+    },
+    {
+      "name": "space",
+      "file": "src/space.svg",
+      "properties": {}
+    },
+    {
+      "name": "spade",
+      "file": "src/spade.svg",
+      "properties": {}
+    },
+    {
+      "name": "sparkle",
+      "file": "src/sparkle.svg",
+      "properties": {}
+    },
+    {
+      "name": "sparkles",
+      "file": "src/sparkles.svg",
+      "properties": {}
+    },
+    {
+      "name": "speaker",
+      "file": "src/speaker.svg",
+      "properties": {}
+    },
+    {
+      "name": "speech",
+      "file": "src/speech.svg",
+      "properties": {}
+    },
+    {
+      "name": "spell-check-2",
+      "file": "src/spell-check-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "spell-check",
+      "file": "src/spell-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "spline-pointer",
+      "file": "src/spline-pointer.svg",
+      "properties": {}
+    },
+    {
+      "name": "spline",
+      "file": "src/spline.svg",
+      "properties": {}
+    },
+    {
+      "name": "split",
+      "file": "src/split.svg",
+      "properties": {}
+    },
+    {
+      "name": "spool",
+      "file": "src/spool.svg",
+      "properties": {}
+    },
+    {
+      "name": "spotlight",
+      "file": "src/spotlight.svg",
+      "properties": {}
+    },
+    {
+      "name": "spray-can",
+      "file": "src/spray-can.svg",
+      "properties": {}
+    },
+    {
+      "name": "sprout",
+      "file": "src/sprout.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-activity",
+      "file": "src/square-activity.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-down-left",
+      "file": "src/square-arrow-down-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-down-right",
+      "file": "src/square-arrow-down-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-down",
+      "file": "src/square-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-left",
+      "file": "src/square-arrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-out-down-left",
+      "file": "src/square-arrow-out-down-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-out-down-right",
+      "file": "src/square-arrow-out-down-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-out-up-left",
+      "file": "src/square-arrow-out-up-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-out-up-right",
+      "file": "src/square-arrow-out-up-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-right",
+      "file": "src/square-arrow-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-up-left",
+      "file": "src/square-arrow-up-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-up-right",
+      "file": "src/square-arrow-up-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-up",
+      "file": "src/square-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-asterisk",
+      "file": "src/square-asterisk.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-bottom-dashed-scissors",
+      "file": "src/square-bottom-dashed-scissors.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chart-gantt",
+      "file": "src/square-chart-gantt.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-check-big",
+      "file": "src/square-check-big.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-check",
+      "file": "src/square-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chevron-down",
+      "file": "src/square-chevron-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chevron-left",
+      "file": "src/square-chevron-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chevron-right",
+      "file": "src/square-chevron-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chevron-up",
+      "file": "src/square-chevron-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-code",
+      "file": "src/square-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-bottom-code",
+      "file": "src/square-dashed-bottom-code.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-bottom",
+      "file": "src/square-dashed-bottom.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-kanban",
+      "file": "src/square-dashed-kanban.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-mouse-pointer",
+      "file": "src/square-dashed-mouse-pointer.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-top-solid",
+      "file": "src/square-dashed-top-solid.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed",
+      "file": "src/square-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-divide",
+      "file": "src/square-divide.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dot",
+      "file": "src/square-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-equal",
+      "file": "src/square-equal.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-function",
+      "file": "src/square-function.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-kanban",
+      "file": "src/square-kanban.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-library",
+      "file": "src/square-library.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-m",
+      "file": "src/square-m.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-menu",
+      "file": "src/square-menu.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-minus",
+      "file": "src/square-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-mouse-pointer",
+      "file": "src/square-mouse-pointer.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-parking-off",
+      "file": "src/square-parking-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-parking",
+      "file": "src/square-parking.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-pause",
+      "file": "src/square-pause.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-pen",
+      "file": "src/square-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-percent",
+      "file": "src/square-percent.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-pi",
+      "file": "src/square-pi.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-pilcrow",
+      "file": "src/square-pilcrow.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-play",
+      "file": "src/square-play.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-plus",
+      "file": "src/square-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-power",
+      "file": "src/square-power.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-radical",
+      "file": "src/square-radical.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-round-corner",
+      "file": "src/square-round-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-scissors",
+      "file": "src/square-scissors.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-sigma",
+      "file": "src/square-sigma.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-slash",
+      "file": "src/square-slash.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-split-horizontal",
+      "file": "src/square-split-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-split-vertical",
+      "file": "src/square-split-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-square",
+      "file": "src/square-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-stack",
+      "file": "src/square-stack.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-star",
+      "file": "src/square-star.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-stop",
+      "file": "src/square-stop.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-terminal",
+      "file": "src/square-terminal.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-user-round",
+      "file": "src/square-user-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-user",
+      "file": "src/square-user.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-x",
+      "file": "src/square-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "square",
+      "file": "src/square.svg",
+      "properties": {}
+    },
+    {
+      "name": "squares-exclude",
+      "file": "src/squares-exclude.svg",
+      "properties": {}
+    },
+    {
+      "name": "squares-intersect",
+      "file": "src/squares-intersect.svg",
+      "properties": {}
+    },
+    {
+      "name": "squares-subtract",
+      "file": "src/squares-subtract.svg",
+      "properties": {}
+    },
+    {
+      "name": "squares-unite",
+      "file": "src/squares-unite.svg",
+      "properties": {}
+    },
+    {
+      "name": "squircle-dashed",
+      "file": "src/squircle-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "squircle",
+      "file": "src/squircle.svg",
+      "properties": {}
+    },
+    {
+      "name": "squirrel",
+      "file": "src/squirrel.svg",
+      "properties": {}
+    },
+    {
+      "name": "stamp",
+      "file": "src/stamp.svg",
+      "properties": {}
+    },
+    {
+      "name": "star-half",
+      "file": "src/star-half.svg",
+      "properties": {}
+    },
+    {
+      "name": "star-off",
+      "file": "src/star-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "star",
+      "file": "src/star.svg",
+      "properties": {}
+    },
+    {
+      "name": "step-back",
+      "file": "src/step-back.svg",
+      "properties": {}
+    },
+    {
+      "name": "step-forward",
+      "file": "src/step-forward.svg",
+      "properties": {}
+    },
+    {
+      "name": "stethoscope",
+      "file": "src/stethoscope.svg",
+      "properties": {}
+    },
+    {
+      "name": "sticker",
+      "file": "src/sticker.svg",
+      "properties": {}
+    },
+    {
+      "name": "sticky-note",
+      "file": "src/sticky-note.svg",
+      "properties": {}
+    },
+    {
+      "name": "store",
+      "file": "src/store.svg",
+      "properties": {}
+    },
+    {
+      "name": "stretch-horizontal",
+      "file": "src/stretch-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "stretch-vertical",
+      "file": "src/stretch-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "strikethrough",
+      "file": "src/strikethrough.svg",
+      "properties": {}
+    },
+    {
+      "name": "subscript",
+      "file": "src/subscript.svg",
+      "properties": {}
+    },
+    {
+      "name": "sun-dim",
+      "file": "src/sun-dim.svg",
+      "properties": {}
+    },
+    {
+      "name": "sun-medium",
+      "file": "src/sun-medium.svg",
+      "properties": {}
+    },
+    {
+      "name": "sun-moon",
+      "file": "src/sun-moon.svg",
+      "properties": {}
+    },
+    {
+      "name": "sun-snow",
+      "file": "src/sun-snow.svg",
+      "properties": {}
+    },
+    {
+      "name": "sun",
+      "file": "src/sun.svg",
+      "properties": {}
+    },
+    {
+      "name": "sunrise",
+      "file": "src/sunrise.svg",
+      "properties": {}
+    },
+    {
+      "name": "sunset",
+      "file": "src/sunset.svg",
+      "properties": {}
+    },
+    {
+      "name": "superscript",
+      "file": "src/superscript.svg",
+      "properties": {}
+    },
+    {
+      "name": "swatch-book",
+      "file": "src/swatch-book.svg",
+      "properties": {}
+    },
+    {
+      "name": "swiss-franc",
+      "file": "src/swiss-franc.svg",
+      "properties": {}
+    },
+    {
+      "name": "switch-camera",
+      "file": "src/switch-camera.svg",
+      "properties": {}
+    },
+    {
+      "name": "sword",
+      "file": "src/sword.svg",
+      "properties": {}
+    },
+    {
+      "name": "swords",
+      "file": "src/swords.svg",
+      "properties": {}
+    },
+    {
+      "name": "syringe",
+      "file": "src/syringe.svg",
+      "properties": {}
+    },
+    {
+      "name": "table-2",
+      "file": "src/table-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "table-cells-merge",
+      "file": "src/table-cells-merge.svg",
+      "properties": {}
+    },
+    {
+      "name": "table-cells-split",
+      "file": "src/table-cells-split.svg",
+      "properties": {}
+    },
+    {
+      "name": "table-columns-split",
+      "file": "src/table-columns-split.svg",
+      "properties": {}
+    },
+    {
+      "name": "table-of-contents",
+      "file": "src/table-of-contents.svg",
+      "properties": {}
+    },
+    {
+      "name": "table-properties",
+      "file": "src/table-properties.svg",
+      "properties": {}
+    },
+    {
+      "name": "table-rows-split",
+      "file": "src/table-rows-split.svg",
+      "properties": {}
+    },
+    {
+      "name": "table",
+      "file": "src/table.svg",
+      "properties": {}
+    },
+    {
+      "name": "tablet-smartphone",
+      "file": "src/tablet-smartphone.svg",
+      "properties": {}
+    },
+    {
+      "name": "tablet",
+      "file": "src/tablet.svg",
+      "properties": {}
+    },
+    {
+      "name": "tablets",
+      "file": "src/tablets.svg",
+      "properties": {}
+    },
+    {
+      "name": "tag",
+      "file": "src/tag.svg",
+      "properties": {}
+    },
+    {
+      "name": "tags",
+      "file": "src/tags.svg",
+      "properties": {}
+    },
+    {
+      "name": "tally-1",
+      "file": "src/tally-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "tally-2",
+      "file": "src/tally-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "tally-3",
+      "file": "src/tally-3.svg",
+      "properties": {}
+    },
+    {
+      "name": "tally-4",
+      "file": "src/tally-4.svg",
+      "properties": {}
+    },
+    {
+      "name": "tally-5",
+      "file": "src/tally-5.svg",
+      "properties": {}
+    },
+    {
+      "name": "tangent",
+      "file": "src/tangent.svg",
+      "properties": {}
+    },
+    {
+      "name": "target",
+      "file": "src/target.svg",
+      "properties": {}
+    },
+    {
+      "name": "telescope",
+      "file": "src/telescope.svg",
+      "properties": {}
+    },
+    {
+      "name": "tent-tree",
+      "file": "src/tent-tree.svg",
+      "properties": {}
+    },
+    {
+      "name": "tent",
+      "file": "src/tent.svg",
+      "properties": {}
+    },
+    {
+      "name": "terminal",
+      "file": "src/terminal.svg",
+      "properties": {}
+    },
+    {
+      "name": "test-tube-diagonal",
+      "file": "src/test-tube-diagonal.svg",
+      "properties": {}
+    },
+    {
+      "name": "test-tube",
+      "file": "src/test-tube.svg",
+      "properties": {}
+    },
+    {
+      "name": "test-tubes",
+      "file": "src/test-tubes.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-center",
+      "file": "src/text-align-center.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-end",
+      "file": "src/text-align-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-justify",
+      "file": "src/text-align-justify.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-start",
+      "file": "src/text-align-start.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-cursor-input",
+      "file": "src/text-cursor-input.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-cursor",
+      "file": "src/text-cursor.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-initial",
+      "file": "src/text-initial.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-quote",
+      "file": "src/text-quote.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-search",
+      "file": "src/text-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-select",
+      "file": "src/text-select.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-wrap",
+      "file": "src/text-wrap.svg",
+      "properties": {}
+    },
+    {
+      "name": "theater",
+      "file": "src/theater.svg",
+      "properties": {}
+    },
+    {
+      "name": "thermometer-snowflake",
+      "file": "src/thermometer-snowflake.svg",
+      "properties": {}
+    },
+    {
+      "name": "thermometer-sun",
+      "file": "src/thermometer-sun.svg",
+      "properties": {}
+    },
+    {
+      "name": "thermometer",
+      "file": "src/thermometer.svg",
+      "properties": {}
+    },
+    {
+      "name": "thumbs-down",
+      "file": "src/thumbs-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "thumbs-up",
+      "file": "src/thumbs-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "ticket-check",
+      "file": "src/ticket-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "ticket-minus",
+      "file": "src/ticket-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "ticket-percent",
+      "file": "src/ticket-percent.svg",
+      "properties": {}
+    },
+    {
+      "name": "ticket-plus",
+      "file": "src/ticket-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "ticket-slash",
+      "file": "src/ticket-slash.svg",
+      "properties": {}
+    },
+    {
+      "name": "ticket-x",
+      "file": "src/ticket-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "ticket",
+      "file": "src/ticket.svg",
+      "properties": {}
+    },
+    {
+      "name": "tickets-plane",
+      "file": "src/tickets-plane.svg",
+      "properties": {}
+    },
+    {
+      "name": "tickets",
+      "file": "src/tickets.svg",
+      "properties": {}
+    },
+    {
+      "name": "timer-off",
+      "file": "src/timer-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "timer-reset",
+      "file": "src/timer-reset.svg",
+      "properties": {}
+    },
+    {
+      "name": "timer",
+      "file": "src/timer.svg",
+      "properties": {}
+    },
+    {
+      "name": "toggle-left",
+      "file": "src/toggle-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "toggle-right",
+      "file": "src/toggle-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "toilet",
+      "file": "src/toilet.svg",
+      "properties": {}
+    },
+    {
+      "name": "tool-case",
+      "file": "src/tool-case.svg",
+      "properties": {}
+    },
+    {
+      "name": "tornado",
+      "file": "src/tornado.svg",
+      "properties": {}
+    },
+    {
+      "name": "torus",
+      "file": "src/torus.svg",
+      "properties": {}
+    },
+    {
+      "name": "touchpad-off",
+      "file": "src/touchpad-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "touchpad",
+      "file": "src/touchpad.svg",
+      "properties": {}
+    },
+    {
+      "name": "tower-control",
+      "file": "src/tower-control.svg",
+      "properties": {}
+    },
+    {
+      "name": "toy-brick",
+      "file": "src/toy-brick.svg",
+      "properties": {}
+    },
+    {
+      "name": "tractor",
+      "file": "src/tractor.svg",
+      "properties": {}
+    },
+    {
+      "name": "traffic-cone",
+      "file": "src/traffic-cone.svg",
+      "properties": {}
+    },
+    {
+      "name": "train-front-tunnel",
+      "file": "src/train-front-tunnel.svg",
+      "properties": {}
+    },
+    {
+      "name": "train-front",
+      "file": "src/train-front.svg",
+      "properties": {}
+    },
+    {
+      "name": "train-track",
+      "file": "src/train-track.svg",
+      "properties": {}
+    },
+    {
+      "name": "tram-front",
+      "file": "src/tram-front.svg",
+      "properties": {}
+    },
+    {
+      "name": "transgender",
+      "file": "src/transgender.svg",
+      "properties": {}
+    },
+    {
+      "name": "trash-2",
+      "file": "src/trash-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "trash",
+      "file": "src/trash.svg",
+      "properties": {}
+    },
+    {
+      "name": "tree-deciduous",
+      "file": "src/tree-deciduous.svg",
+      "properties": {}
+    },
+    {
+      "name": "tree-palm",
+      "file": "src/tree-palm.svg",
+      "properties": {}
+    },
+    {
+      "name": "tree-pine",
+      "file": "src/tree-pine.svg",
+      "properties": {}
+    },
+    {
+      "name": "trees",
+      "file": "src/trees.svg",
+      "properties": {}
+    },
+    {
+      "name": "trello",
+      "file": "src/trello.svg",
+      "properties": {}
+    },
+    {
+      "name": "trending-down",
+      "file": "src/trending-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "trending-up-down",
+      "file": "src/trending-up-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "trending-up",
+      "file": "src/trending-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "triangle-alert",
+      "file": "src/triangle-alert.svg",
+      "properties": {}
+    },
+    {
+      "name": "triangle-dashed",
+      "file": "src/triangle-dashed.svg",
+      "properties": {}
+    },
+    {
+      "name": "triangle-right",
+      "file": "src/triangle-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "triangle",
+      "file": "src/triangle.svg",
+      "properties": {}
+    },
+    {
+      "name": "trophy",
+      "file": "src/trophy.svg",
+      "properties": {}
+    },
+    {
+      "name": "truck-electric",
+      "file": "src/truck-electric.svg",
+      "properties": {}
+    },
+    {
+      "name": "truck",
+      "file": "src/truck.svg",
+      "properties": {}
+    },
+    {
+      "name": "turkish-lira",
+      "file": "src/turkish-lira.svg",
+      "properties": {}
+    },
+    {
+      "name": "turntable",
+      "file": "src/turntable.svg",
+      "properties": {}
+    },
+    {
+      "name": "turtle",
+      "file": "src/turtle.svg",
+      "properties": {}
+    },
+    {
+      "name": "tv-minimal-play",
+      "file": "src/tv-minimal-play.svg",
+      "properties": {}
+    },
+    {
+      "name": "tv-minimal",
+      "file": "src/tv-minimal.svg",
+      "properties": {}
+    },
+    {
+      "name": "tv",
+      "file": "src/tv.svg",
+      "properties": {}
+    },
+    {
+      "name": "twitch",
+      "file": "src/twitch.svg",
+      "properties": {}
+    },
+    {
+      "name": "twitter",
+      "file": "src/twitter.svg",
+      "properties": {}
+    },
+    {
+      "name": "type-outline",
+      "file": "src/type-outline.svg",
+      "properties": {}
+    },
+    {
+      "name": "type",
+      "file": "src/type.svg",
+      "properties": {}
+    },
+    {
+      "name": "umbrella-off",
+      "file": "src/umbrella-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "umbrella",
+      "file": "src/umbrella.svg",
+      "properties": {}
+    },
+    {
+      "name": "underline",
+      "file": "src/underline.svg",
+      "properties": {}
+    },
+    {
+      "name": "undo-2",
+      "file": "src/undo-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "undo-dot",
+      "file": "src/undo-dot.svg",
+      "properties": {}
+    },
+    {
+      "name": "undo",
+      "file": "src/undo.svg",
+      "properties": {}
+    },
+    {
+      "name": "unfold-horizontal",
+      "file": "src/unfold-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "unfold-vertical",
+      "file": "src/unfold-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "ungroup",
+      "file": "src/ungroup.svg",
+      "properties": {}
+    },
+    {
+      "name": "university",
+      "file": "src/university.svg",
+      "properties": {}
+    },
+    {
+      "name": "unlink-2",
+      "file": "src/unlink-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "unlink",
+      "file": "src/unlink.svg",
+      "properties": {}
+    },
+    {
+      "name": "unplug",
+      "file": "src/unplug.svg",
+      "properties": {}
+    },
+    {
+      "name": "upload",
+      "file": "src/upload.svg",
+      "properties": {}
+    },
+    {
+      "name": "usb",
+      "file": "src/usb.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-check",
+      "file": "src/user-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-cog",
+      "file": "src/user-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-lock",
+      "file": "src/user-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-minus",
+      "file": "src/user-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-pen",
+      "file": "src/user-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-plus",
+      "file": "src/user-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-check",
+      "file": "src/user-round-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-cog",
+      "file": "src/user-round-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-minus",
+      "file": "src/user-round-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-pen",
+      "file": "src/user-round-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-plus",
+      "file": "src/user-round-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-search",
+      "file": "src/user-round-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-x",
+      "file": "src/user-round-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round",
+      "file": "src/user-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-search",
+      "file": "src/user-search.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-star",
+      "file": "src/user-star.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-x",
+      "file": "src/user-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "user",
+      "file": "src/user.svg",
+      "properties": {}
+    },
+    {
+      "name": "users-round",
+      "file": "src/users-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "users",
+      "file": "src/users.svg",
+      "properties": {}
+    },
+    {
+      "name": "utensils-crossed",
+      "file": "src/utensils-crossed.svg",
+      "properties": {}
+    },
+    {
+      "name": "utensils",
+      "file": "src/utensils.svg",
+      "properties": {}
+    },
+    {
+      "name": "utility-pole",
+      "file": "src/utility-pole.svg",
+      "properties": {}
+    },
+    {
+      "name": "van",
+      "file": "src/van.svg",
+      "properties": {}
+    },
+    {
+      "name": "variable",
+      "file": "src/variable.svg",
+      "properties": {}
+    },
+    {
+      "name": "vault",
+      "file": "src/vault.svg",
+      "properties": {}
+    },
+    {
+      "name": "vector-square",
+      "file": "src/vector-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "vegan",
+      "file": "src/vegan.svg",
+      "properties": {}
+    },
+    {
+      "name": "venetian-mask",
+      "file": "src/venetian-mask.svg",
+      "properties": {}
+    },
+    {
+      "name": "venus-and-mars",
+      "file": "src/venus-and-mars.svg",
+      "properties": {}
+    },
+    {
+      "name": "venus",
+      "file": "src/venus.svg",
+      "properties": {}
+    },
+    {
+      "name": "vibrate-off",
+      "file": "src/vibrate-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "vibrate",
+      "file": "src/vibrate.svg",
+      "properties": {}
+    },
+    {
+      "name": "video-off",
+      "file": "src/video-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "video",
+      "file": "src/video.svg",
+      "properties": {}
+    },
+    {
+      "name": "videotape",
+      "file": "src/videotape.svg",
+      "properties": {}
+    },
+    {
+      "name": "view",
+      "file": "src/view.svg",
+      "properties": {}
+    },
+    {
+      "name": "voicemail",
+      "file": "src/voicemail.svg",
+      "properties": {}
+    },
+    {
+      "name": "volleyball",
+      "file": "src/volleyball.svg",
+      "properties": {}
+    },
+    {
+      "name": "volume-1",
+      "file": "src/volume-1.svg",
+      "properties": {}
+    },
+    {
+      "name": "volume-2",
+      "file": "src/volume-2.svg",
+      "properties": {}
+    },
+    {
+      "name": "volume-off",
+      "file": "src/volume-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "volume-x",
+      "file": "src/volume-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "volume",
+      "file": "src/volume.svg",
+      "properties": {}
+    },
+    {
+      "name": "vote",
+      "file": "src/vote.svg",
+      "properties": {}
+    },
+    {
+      "name": "wallet-cards",
+      "file": "src/wallet-cards.svg",
+      "properties": {}
+    },
+    {
+      "name": "wallet-minimal",
+      "file": "src/wallet-minimal.svg",
+      "properties": {}
+    },
+    {
+      "name": "wallet",
+      "file": "src/wallet.svg",
+      "properties": {}
+    },
+    {
+      "name": "wallpaper",
+      "file": "src/wallpaper.svg",
+      "properties": {}
+    },
+    {
+      "name": "wand-sparkles",
+      "file": "src/wand-sparkles.svg",
+      "properties": {}
+    },
+    {
+      "name": "wand",
+      "file": "src/wand.svg",
+      "properties": {}
+    },
+    {
+      "name": "warehouse",
+      "file": "src/warehouse.svg",
+      "properties": {}
+    },
+    {
+      "name": "washing-machine",
+      "file": "src/washing-machine.svg",
+      "properties": {}
+    },
+    {
+      "name": "watch",
+      "file": "src/watch.svg",
+      "properties": {}
+    },
+    {
+      "name": "waves-arrow-down",
+      "file": "src/waves-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "waves-arrow-up",
+      "file": "src/waves-arrow-up.svg",
+      "properties": {}
+    },
+    {
+      "name": "waves-ladder",
+      "file": "src/waves-ladder.svg",
+      "properties": {}
+    },
+    {
+      "name": "waves",
+      "file": "src/waves.svg",
+      "properties": {}
+    },
+    {
+      "name": "waypoints",
+      "file": "src/waypoints.svg",
+      "properties": {}
+    },
+    {
+      "name": "webcam",
+      "file": "src/webcam.svg",
+      "properties": {}
+    },
+    {
+      "name": "webhook-off",
+      "file": "src/webhook-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "webhook",
+      "file": "src/webhook.svg",
+      "properties": {}
+    },
+    {
+      "name": "weight-tilde",
+      "file": "src/weight-tilde.svg",
+      "properties": {}
+    },
+    {
+      "name": "weight",
+      "file": "src/weight.svg",
+      "properties": {}
+    },
+    {
+      "name": "wheat-off",
+      "file": "src/wheat-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "wheat",
+      "file": "src/wheat.svg",
+      "properties": {}
+    },
+    {
+      "name": "whole-word",
+      "file": "src/whole-word.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi-cog",
+      "file": "src/wifi-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi-high",
+      "file": "src/wifi-high.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi-low",
+      "file": "src/wifi-low.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi-off",
+      "file": "src/wifi-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi-pen",
+      "file": "src/wifi-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi-sync",
+      "file": "src/wifi-sync.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi-zero",
+      "file": "src/wifi-zero.svg",
+      "properties": {}
+    },
+    {
+      "name": "wifi",
+      "file": "src/wifi.svg",
+      "properties": {}
+    },
+    {
+      "name": "wind-arrow-down",
+      "file": "src/wind-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "wind",
+      "file": "src/wind.svg",
+      "properties": {}
+    },
+    {
+      "name": "wine-off",
+      "file": "src/wine-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "wine",
+      "file": "src/wine.svg",
+      "properties": {}
+    },
+    {
+      "name": "workflow",
+      "file": "src/workflow.svg",
+      "properties": {}
+    },
+    {
+      "name": "worm",
+      "file": "src/worm.svg",
+      "properties": {}
+    },
+    {
+      "name": "wrench",
+      "file": "src/wrench.svg",
+      "properties": {}
+    },
+    {
+      "name": "x",
+      "file": "src/x.svg",
+      "properties": {}
+    },
+    {
+      "name": "youtube",
+      "file": "src/youtube.svg",
+      "properties": {}
+    },
+    {
+      "name": "zap-off",
+      "file": "src/zap-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "zap",
+      "file": "src/zap.svg",
+      "properties": {}
+    },
+    {
+      "name": "zoom-in",
+      "file": "src/zoom-in.svg",
+      "properties": {}
+    },
+    {
+      "name": "zoom-out",
+      "file": "src/zoom-out.svg",
+      "properties": {}
+    }
+  ]
+}

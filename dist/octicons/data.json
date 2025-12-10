@@ -1,0 +1,5065 @@
+{
+  "name": "Primer Octicons",
+  "vendor": "octicons",
+  "version": "19.21.1",
+  "url": "https://primer.style/octicons/",
+  "repository": "https://github.com/primer/octicons",
+  "description": "GitHub\u2019s official icon set for actions, states, and UI concepts.",
+  "license": "MIT",
+  "variants": {
+    "size": {
+      "title": "Size",
+      "default": "24",
+      "enum": [
+        "12",
+        "16",
+        "24",
+        "32",
+        "48",
+        "96"
+      ]
+    }
+  },
+  "files": [
+    {
+      "name": "accessibility-16",
+      "file": "src/accessibility-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "accessibility-24",
+      "file": "src/accessibility-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "accessibility-inset-16",
+      "file": "src/accessibility-inset-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "accessibility-inset-24",
+      "file": "src/accessibility-inset-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "agent-16",
+      "file": "src/agent-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "agent-24",
+      "file": "src/agent-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "ai-model-16",
+      "file": "src/ai-model-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "ai-model-24",
+      "file": "src/ai-model-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "alert-16",
+      "file": "src/alert-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "alert-24",
+      "file": "src/alert-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "alert-fill-12",
+      "file": "src/alert-fill-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "alert-fill-16",
+      "file": "src/alert-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "alert-fill-24",
+      "file": "src/alert-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "apps-16",
+      "file": "src/apps-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "apps-24",
+      "file": "src/apps-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "archive-16",
+      "file": "src/archive-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "archive-24",
+      "file": "src/archive-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-both-16",
+      "file": "src/arrow-both-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-both-24",
+      "file": "src/arrow-both-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-down-16",
+      "file": "src/arrow-down-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-down-24",
+      "file": "src/arrow-down-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-down-left-16",
+      "file": "src/arrow-down-left-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-down-left-24",
+      "file": "src/arrow-down-left-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-down-right-16",
+      "file": "src/arrow-down-right-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-down-right-24",
+      "file": "src/arrow-down-right-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-left-16",
+      "file": "src/arrow-left-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-left-24",
+      "file": "src/arrow-left-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-right-16",
+      "file": "src/arrow-right-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-right-24",
+      "file": "src/arrow-right-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-switch-16",
+      "file": "src/arrow-switch-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-switch-24",
+      "file": "src/arrow-switch-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-up-16",
+      "file": "src/arrow-up-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-up-24",
+      "file": "src/arrow-up-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-up-left-16",
+      "file": "src/arrow-up-left-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-up-left-24",
+      "file": "src/arrow-up-left-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "arrow-up-right-16",
+      "file": "src/arrow-up-right-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "arrow-up-right-24",
+      "file": "src/arrow-up-right-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "beaker-16",
+      "file": "src/beaker-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "beaker-24",
+      "file": "src/beaker-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bell-16",
+      "file": "src/bell-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bell-24",
+      "file": "src/bell-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bell-fill-16",
+      "file": "src/bell-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bell-fill-24",
+      "file": "src/bell-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bell-slash-16",
+      "file": "src/bell-slash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bell-slash-24",
+      "file": "src/bell-slash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "blocked-16",
+      "file": "src/blocked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "blocked-24",
+      "file": "src/blocked-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bold-16",
+      "file": "src/bold-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bold-24",
+      "file": "src/bold-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "book-16",
+      "file": "src/book-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "book-24",
+      "file": "src/book-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bookmark-16",
+      "file": "src/bookmark-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bookmark-24",
+      "file": "src/bookmark-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bookmark-fill-24",
+      "file": "src/bookmark-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bookmark-filled-16",
+      "file": "src/bookmark-filled-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bookmark-slash-16",
+      "file": "src/bookmark-slash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bookmark-slash-24",
+      "file": "src/bookmark-slash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bookmark-slash-fill-16",
+      "file": "src/bookmark-slash-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bookmark-slash-fill-24",
+      "file": "src/bookmark-slash-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "boolean-off-16",
+      "file": "src/boolean-off-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "boolean-off-24",
+      "file": "src/boolean-off-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "boolean-on-16",
+      "file": "src/boolean-on-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "boolean-on-24",
+      "file": "src/boolean-on-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "briefcase-16",
+      "file": "src/briefcase-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "briefcase-24",
+      "file": "src/briefcase-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "broadcast-16",
+      "file": "src/broadcast-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "broadcast-24",
+      "file": "src/broadcast-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "browser-16",
+      "file": "src/browser-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "browser-24",
+      "file": "src/browser-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "bug-16",
+      "file": "src/bug-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "bug-24",
+      "file": "src/bug-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "cache-16",
+      "file": "src/cache-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "cache-24",
+      "file": "src/cache-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "calendar-16",
+      "file": "src/calendar-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "calendar-24",
+      "file": "src/calendar-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "check-16",
+      "file": "src/check-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "check-24",
+      "file": "src/check-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "check-circle-16",
+      "file": "src/check-circle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "check-circle-24",
+      "file": "src/check-circle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "check-circle-fill-12",
+      "file": "src/check-circle-fill-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "check-circle-fill-16",
+      "file": "src/check-circle-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "check-circle-fill-24",
+      "file": "src/check-circle-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "checkbox-16",
+      "file": "src/checkbox-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "checkbox-24",
+      "file": "src/checkbox-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "checkbox-fill-16",
+      "file": "src/checkbox-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "checkbox-fill-24",
+      "file": "src/checkbox-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "checklist-16",
+      "file": "src/checklist-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "checklist-24",
+      "file": "src/checklist-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "chevron-down-12",
+      "file": "src/chevron-down-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "chevron-down-16",
+      "file": "src/chevron-down-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chevron-down-24",
+      "file": "src/chevron-down-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "chevron-left-12",
+      "file": "src/chevron-left-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "chevron-left-16",
+      "file": "src/chevron-left-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chevron-left-24",
+      "file": "src/chevron-left-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "chevron-right-12",
+      "file": "src/chevron-right-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "chevron-right-16",
+      "file": "src/chevron-right-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chevron-right-24",
+      "file": "src/chevron-right-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "chevron-up-12",
+      "file": "src/chevron-up-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "chevron-up-16",
+      "file": "src/chevron-up-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chevron-up-24",
+      "file": "src/chevron-up-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "circle-16",
+      "file": "src/circle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "circle-24",
+      "file": "src/circle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "circle-slash-16",
+      "file": "src/circle-slash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "circle-slash-24",
+      "file": "src/circle-slash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "clock-16",
+      "file": "src/clock-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "clock-24",
+      "file": "src/clock-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "clock-fill-16",
+      "file": "src/clock-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "clock-fill-24",
+      "file": "src/clock-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "cloud-16",
+      "file": "src/cloud-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "cloud-24",
+      "file": "src/cloud-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "cloud-offline-16",
+      "file": "src/cloud-offline-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "cloud-offline-24",
+      "file": "src/cloud-offline-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "code-16",
+      "file": "src/code-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "code-24",
+      "file": "src/code-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "code-of-conduct-16",
+      "file": "src/code-of-conduct-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "code-of-conduct-24",
+      "file": "src/code-of-conduct-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "code-review-16",
+      "file": "src/code-review-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "code-review-24",
+      "file": "src/code-review-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "code-square-16",
+      "file": "src/code-square-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "code-square-24",
+      "file": "src/code-square-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "codescan-16",
+      "file": "src/codescan-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "codescan-24",
+      "file": "src/codescan-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "codescan-checkmark-16",
+      "file": "src/codescan-checkmark-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "codescan-checkmark-24",
+      "file": "src/codescan-checkmark-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "codespaces-16",
+      "file": "src/codespaces-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "codespaces-24",
+      "file": "src/codespaces-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "columns-16",
+      "file": "src/columns-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "columns-24",
+      "file": "src/columns-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "command-palette-16",
+      "file": "src/command-palette-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "command-palette-24",
+      "file": "src/command-palette-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "comment-16",
+      "file": "src/comment-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "comment-24",
+      "file": "src/comment-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "comment-ai-16",
+      "file": "src/comment-ai-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "comment-ai-24",
+      "file": "src/comment-ai-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "comment-discussion-16",
+      "file": "src/comment-discussion-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "comment-discussion-24",
+      "file": "src/comment-discussion-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "compose-16",
+      "file": "src/compose-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "compose-24",
+      "file": "src/compose-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "container-16",
+      "file": "src/container-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "container-24",
+      "file": "src/container-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "copilot-16",
+      "file": "src/copilot-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "copilot-24",
+      "file": "src/copilot-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "copilot-48",
+      "file": "src/copilot-48.svg",
+      "properties": {
+        "size": "48"
+      }
+    },
+    {
+      "name": "copilot-96",
+      "file": "src/copilot-96.svg",
+      "properties": {
+        "size": "96"
+      }
+    },
+    {
+      "name": "copilot-error-16",
+      "file": "src/copilot-error-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "copilot-warning-16",
+      "file": "src/copilot-warning-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "copy-16",
+      "file": "src/copy-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "copy-24",
+      "file": "src/copy-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "cpu-16",
+      "file": "src/cpu-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "cpu-24",
+      "file": "src/cpu-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "credit-card-16",
+      "file": "src/credit-card-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "credit-card-24",
+      "file": "src/credit-card-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "cross-reference-16",
+      "file": "src/cross-reference-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "cross-reference-24",
+      "file": "src/cross-reference-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "crosshairs-16",
+      "file": "src/crosshairs-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "crosshairs-24",
+      "file": "src/crosshairs-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "dash-16",
+      "file": "src/dash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "dash-24",
+      "file": "src/dash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "database-16",
+      "file": "src/database-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "database-24",
+      "file": "src/database-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "dependabot-16",
+      "file": "src/dependabot-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "dependabot-24",
+      "file": "src/dependabot-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "desktop-download-16",
+      "file": "src/desktop-download-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "desktop-download-24",
+      "file": "src/desktop-download-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "device-camera-16",
+      "file": "src/device-camera-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "device-camera-24",
+      "file": "src/device-camera-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "device-camera-video-16",
+      "file": "src/device-camera-video-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "device-camera-video-24",
+      "file": "src/device-camera-video-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "device-desktop-16",
+      "file": "src/device-desktop-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "device-desktop-24",
+      "file": "src/device-desktop-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "device-mobile-16",
+      "file": "src/device-mobile-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "device-mobile-24",
+      "file": "src/device-mobile-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "devices-16",
+      "file": "src/devices-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "devices-24",
+      "file": "src/devices-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "diamond-16",
+      "file": "src/diamond-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "diamond-24",
+      "file": "src/diamond-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "dice-16",
+      "file": "src/dice-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "dice-24",
+      "file": "src/dice-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "diff-16",
+      "file": "src/diff-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "diff-24",
+      "file": "src/diff-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "diff-added-16",
+      "file": "src/diff-added-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "diff-added-24",
+      "file": "src/diff-added-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "diff-ignored-16",
+      "file": "src/diff-ignored-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "diff-ignored-24",
+      "file": "src/diff-ignored-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "diff-modified-16",
+      "file": "src/diff-modified-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "diff-modified-24",
+      "file": "src/diff-modified-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "diff-removed-16",
+      "file": "src/diff-removed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "diff-removed-24",
+      "file": "src/diff-removed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "diff-renamed-16",
+      "file": "src/diff-renamed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "diff-renamed-24",
+      "file": "src/diff-renamed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "discussion-closed-16",
+      "file": "src/discussion-closed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "discussion-closed-24",
+      "file": "src/discussion-closed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "discussion-duplicate-16",
+      "file": "src/discussion-duplicate-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "discussion-duplicate-24",
+      "file": "src/discussion-duplicate-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "discussion-outdated-16",
+      "file": "src/discussion-outdated-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "discussion-outdated-24",
+      "file": "src/discussion-outdated-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "dot-16",
+      "file": "src/dot-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "dot-24",
+      "file": "src/dot-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "dot-fill-16",
+      "file": "src/dot-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "dot-fill-24",
+      "file": "src/dot-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "download-16",
+      "file": "src/download-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "download-24",
+      "file": "src/download-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "duplicate-16",
+      "file": "src/duplicate-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "duplicate-24",
+      "file": "src/duplicate-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "ellipsis-16",
+      "file": "src/ellipsis-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "ellipsis-24",
+      "file": "src/ellipsis-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "exclamation-16",
+      "file": "src/exclamation-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "exclamation-24",
+      "file": "src/exclamation-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "eye-16",
+      "file": "src/eye-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "eye-24",
+      "file": "src/eye-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "eye-closed-16",
+      "file": "src/eye-closed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "eye-closed-24",
+      "file": "src/eye-closed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "feed-discussion-16",
+      "file": "src/feed-discussion-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-forked-16",
+      "file": "src/feed-forked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-heart-16",
+      "file": "src/feed-heart-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-issue-closed-16",
+      "file": "src/feed-issue-closed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-issue-draft-16",
+      "file": "src/feed-issue-draft-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-issue-open-16",
+      "file": "src/feed-issue-open-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-issue-reopen-16",
+      "file": "src/feed-issue-reopen-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-merged-16",
+      "file": "src/feed-merged-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-person-16",
+      "file": "src/feed-person-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-plus-16",
+      "file": "src/feed-plus-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-public-16",
+      "file": "src/feed-public-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-pull-request-closed-16",
+      "file": "src/feed-pull-request-closed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-pull-request-draft-16",
+      "file": "src/feed-pull-request-draft-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-pull-request-open-16",
+      "file": "src/feed-pull-request-open-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-repo-16",
+      "file": "src/feed-repo-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-rocket-16",
+      "file": "src/feed-rocket-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-star-16",
+      "file": "src/feed-star-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-tag-16",
+      "file": "src/feed-tag-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "feed-trophy-16",
+      "file": "src/feed-trophy-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-16",
+      "file": "src/file-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-24",
+      "file": "src/file-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-added-16",
+      "file": "src/file-added-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-added-24",
+      "file": "src/file-added-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-badge-16",
+      "file": "src/file-badge-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-badge-24",
+      "file": "src/file-badge-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-binary-16",
+      "file": "src/file-binary-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-binary-24",
+      "file": "src/file-binary-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-check-16",
+      "file": "src/file-check-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-check-24",
+      "file": "src/file-check-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-code-16",
+      "file": "src/file-code-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-code-24",
+      "file": "src/file-code-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-diff-16",
+      "file": "src/file-diff-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-diff-24",
+      "file": "src/file-diff-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-directory-16",
+      "file": "src/file-directory-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-directory-24",
+      "file": "src/file-directory-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-directory-fill-16",
+      "file": "src/file-directory-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-directory-fill-24",
+      "file": "src/file-directory-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-directory-open-fill-16",
+      "file": "src/file-directory-open-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-directory-open-fill-24",
+      "file": "src/file-directory-open-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-directory-symlink-16",
+      "file": "src/file-directory-symlink-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-directory-symlink-24",
+      "file": "src/file-directory-symlink-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-media-16",
+      "file": "src/file-media-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-media-24",
+      "file": "src/file-media-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-moved-16",
+      "file": "src/file-moved-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-moved-24",
+      "file": "src/file-moved-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-removed-16",
+      "file": "src/file-removed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-removed-24",
+      "file": "src/file-removed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-submodule-16",
+      "file": "src/file-submodule-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-submodule-24",
+      "file": "src/file-submodule-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-symlink-file-16",
+      "file": "src/file-symlink-file-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-symlink-file-24",
+      "file": "src/file-symlink-file-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "file-zip-16",
+      "file": "src/file-zip-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "file-zip-24",
+      "file": "src/file-zip-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "filter-16",
+      "file": "src/filter-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "filter-24",
+      "file": "src/filter-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "filter-remove-16",
+      "file": "src/filter-remove-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "filter-remove-24",
+      "file": "src/filter-remove-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "fiscal-host-16",
+      "file": "src/fiscal-host-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "fiscal-host-24",
+      "file": "src/fiscal-host-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "flame-16",
+      "file": "src/flame-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "flame-24",
+      "file": "src/flame-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "flowchart-16",
+      "file": "src/flowchart-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "flowchart-24",
+      "file": "src/flowchart-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "focus-center-16",
+      "file": "src/focus-center-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "focus-center-24",
+      "file": "src/focus-center-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "fold-16",
+      "file": "src/fold-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "fold-24",
+      "file": "src/fold-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "fold-down-16",
+      "file": "src/fold-down-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "fold-down-24",
+      "file": "src/fold-down-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "fold-up-16",
+      "file": "src/fold-up-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "fold-up-24",
+      "file": "src/fold-up-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "gear-16",
+      "file": "src/gear-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "gear-24",
+      "file": "src/gear-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "gift-16",
+      "file": "src/gift-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "gift-24",
+      "file": "src/gift-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-branch-16",
+      "file": "src/git-branch-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-branch-24",
+      "file": "src/git-branch-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-branch-check-16",
+      "file": "src/git-branch-check-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-branch-check-24",
+      "file": "src/git-branch-check-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-commit-16",
+      "file": "src/git-commit-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-commit-24",
+      "file": "src/git-commit-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-compare-16",
+      "file": "src/git-compare-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-compare-24",
+      "file": "src/git-compare-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-merge-16",
+      "file": "src/git-merge-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-merge-24",
+      "file": "src/git-merge-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-merge-queue-16",
+      "file": "src/git-merge-queue-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-merge-queue-24",
+      "file": "src/git-merge-queue-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-pull-request-16",
+      "file": "src/git-pull-request-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-pull-request-24",
+      "file": "src/git-pull-request-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-pull-request-closed-16",
+      "file": "src/git-pull-request-closed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-pull-request-closed-24",
+      "file": "src/git-pull-request-closed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "git-pull-request-draft-16",
+      "file": "src/git-pull-request-draft-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-pull-request-draft-24",
+      "file": "src/git-pull-request-draft-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "globe-16",
+      "file": "src/globe-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "globe-24",
+      "file": "src/globe-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "goal-16",
+      "file": "src/goal-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "goal-24",
+      "file": "src/goal-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "grabber-16",
+      "file": "src/grabber-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "grabber-24",
+      "file": "src/grabber-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "graph-16",
+      "file": "src/graph-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "graph-24",
+      "file": "src/graph-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "graph-bar-horizontal-16",
+      "file": "src/graph-bar-horizontal-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "graph-bar-horizontal-24",
+      "file": "src/graph-bar-horizontal-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "graph-bar-vertical-16",
+      "file": "src/graph-bar-vertical-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "graph-bar-vertical-24",
+      "file": "src/graph-bar-vertical-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "hash-16",
+      "file": "src/hash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "hash-24",
+      "file": "src/hash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "heading-16",
+      "file": "src/heading-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "heading-24",
+      "file": "src/heading-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "heart-16",
+      "file": "src/heart-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "heart-24",
+      "file": "src/heart-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "heart-fill-16",
+      "file": "src/heart-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "heart-fill-24",
+      "file": "src/heart-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "history-16",
+      "file": "src/history-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "history-24",
+      "file": "src/history-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "home-16",
+      "file": "src/home-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "home-24",
+      "file": "src/home-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "home-fill-16",
+      "file": "src/home-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "home-fill-24",
+      "file": "src/home-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "horizontal-rule-16",
+      "file": "src/horizontal-rule-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "horizontal-rule-24",
+      "file": "src/horizontal-rule-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "hourglass-16",
+      "file": "src/hourglass-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "hourglass-24",
+      "file": "src/hourglass-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "hubot-16",
+      "file": "src/hubot-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "hubot-24",
+      "file": "src/hubot-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "id-badge-16",
+      "file": "src/id-badge-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "id-badge-24",
+      "file": "src/id-badge-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "image-16",
+      "file": "src/image-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "image-24",
+      "file": "src/image-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "inbox-16",
+      "file": "src/inbox-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "inbox-24",
+      "file": "src/inbox-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "inbox-fill-16",
+      "file": "src/inbox-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "inbox-fill-24",
+      "file": "src/inbox-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "infinity-16",
+      "file": "src/infinity-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "infinity-24",
+      "file": "src/infinity-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "info-16",
+      "file": "src/info-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "info-24",
+      "file": "src/info-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "issue-closed-16",
+      "file": "src/issue-closed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "issue-closed-24",
+      "file": "src/issue-closed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "issue-draft-16",
+      "file": "src/issue-draft-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "issue-draft-24",
+      "file": "src/issue-draft-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "issue-opened-16",
+      "file": "src/issue-opened-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "issue-opened-24",
+      "file": "src/issue-opened-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "issue-reopened-16",
+      "file": "src/issue-reopened-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "issue-reopened-24",
+      "file": "src/issue-reopened-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "issue-tracked-by-16",
+      "file": "src/issue-tracked-by-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "issue-tracked-by-24",
+      "file": "src/issue-tracked-by-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "issue-tracks-16",
+      "file": "src/issue-tracks-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "issue-tracks-24",
+      "file": "src/issue-tracks-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "italic-16",
+      "file": "src/italic-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "italic-24",
+      "file": "src/italic-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "iterations-16",
+      "file": "src/iterations-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "iterations-24",
+      "file": "src/iterations-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "kebab-horizontal-16",
+      "file": "src/kebab-horizontal-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "kebab-horizontal-24",
+      "file": "src/kebab-horizontal-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "key-16",
+      "file": "src/key-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "key-24",
+      "file": "src/key-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "key-asterisk-16",
+      "file": "src/key-asterisk-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "key-asterisk-24",
+      "file": "src/key-asterisk-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "law-16",
+      "file": "src/law-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "law-24",
+      "file": "src/law-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "light-bulb-16",
+      "file": "src/light-bulb-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "light-bulb-24",
+      "file": "src/light-bulb-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "link-16",
+      "file": "src/link-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "link-24",
+      "file": "src/link-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "link-external-16",
+      "file": "src/link-external-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "link-external-24",
+      "file": "src/link-external-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "list-ordered-16",
+      "file": "src/list-ordered-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "list-ordered-24",
+      "file": "src/list-ordered-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "list-unordered-16",
+      "file": "src/list-unordered-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "list-unordered-24",
+      "file": "src/list-unordered-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "location-16",
+      "file": "src/location-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "location-24",
+      "file": "src/location-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "lock-16",
+      "file": "src/lock-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "lock-24",
+      "file": "src/lock-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "log-16",
+      "file": "src/log-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "log-24",
+      "file": "src/log-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "logo-gist-16",
+      "file": "src/logo-gist-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "logo-gist-24",
+      "file": "src/logo-gist-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "logo-github-16",
+      "file": "src/logo-github-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "logo-github-24",
+      "file": "src/logo-github-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "loop-16",
+      "file": "src/loop-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "loop-24",
+      "file": "src/loop-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "mail-16",
+      "file": "src/mail-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "mail-24",
+      "file": "src/mail-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "mark-github-16",
+      "file": "src/mark-github-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "mark-github-24",
+      "file": "src/mark-github-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "markdown-16",
+      "file": "src/markdown-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "markdown-24",
+      "file": "src/markdown-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "maximize-16",
+      "file": "src/maximize-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "maximize-24",
+      "file": "src/maximize-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "mcp-16",
+      "file": "src/mcp-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "mcp-24",
+      "file": "src/mcp-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "megaphone-16",
+      "file": "src/megaphone-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "megaphone-24",
+      "file": "src/megaphone-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "mention-16",
+      "file": "src/mention-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "mention-24",
+      "file": "src/mention-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "meter-16",
+      "file": "src/meter-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "meter-24",
+      "file": "src/meter-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "milestone-16",
+      "file": "src/milestone-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "milestone-24",
+      "file": "src/milestone-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "minimize-16",
+      "file": "src/minimize-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "minimize-24",
+      "file": "src/minimize-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "mirror-16",
+      "file": "src/mirror-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "mirror-24",
+      "file": "src/mirror-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "moon-16",
+      "file": "src/moon-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "moon-24",
+      "file": "src/moon-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "mortar-board-16",
+      "file": "src/mortar-board-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "mortar-board-24",
+      "file": "src/mortar-board-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "move-to-bottom-16",
+      "file": "src/move-to-bottom-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "move-to-bottom-24",
+      "file": "src/move-to-bottom-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "move-to-end-16",
+      "file": "src/move-to-end-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "move-to-end-24",
+      "file": "src/move-to-end-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "move-to-start-16",
+      "file": "src/move-to-start-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "move-to-start-24",
+      "file": "src/move-to-start-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "move-to-top-16",
+      "file": "src/move-to-top-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "move-to-top-24",
+      "file": "src/move-to-top-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "multi-select-16",
+      "file": "src/multi-select-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "multi-select-24",
+      "file": "src/multi-select-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "mute-16",
+      "file": "src/mute-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "mute-24",
+      "file": "src/mute-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "no-entry-16",
+      "file": "src/no-entry-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "no-entry-24",
+      "file": "src/no-entry-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "no-entry-fill-12",
+      "file": "src/no-entry-fill-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "node-16",
+      "file": "src/node-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "node-24",
+      "file": "src/node-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "north-star-16",
+      "file": "src/north-star-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "north-star-24",
+      "file": "src/north-star-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "note-16",
+      "file": "src/note-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "note-24",
+      "file": "src/note-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "number-16",
+      "file": "src/number-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "number-24",
+      "file": "src/number-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "organization-16",
+      "file": "src/organization-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "organization-24",
+      "file": "src/organization-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "package-16",
+      "file": "src/package-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "package-24",
+      "file": "src/package-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "package-dependencies-16",
+      "file": "src/package-dependencies-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "package-dependencies-24",
+      "file": "src/package-dependencies-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "package-dependents-16",
+      "file": "src/package-dependents-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "package-dependents-24",
+      "file": "src/package-dependents-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "paintbrush-16",
+      "file": "src/paintbrush-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "paintbrush-24",
+      "file": "src/paintbrush-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "paper-airplane-16",
+      "file": "src/paper-airplane-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "paper-airplane-24",
+      "file": "src/paper-airplane-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "paperclip-16",
+      "file": "src/paperclip-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "paperclip-24",
+      "file": "src/paperclip-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "passkey-fill-16",
+      "file": "src/passkey-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "passkey-fill-24",
+      "file": "src/passkey-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "paste-16",
+      "file": "src/paste-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "paste-24",
+      "file": "src/paste-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "pause-16",
+      "file": "src/pause-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pause-24",
+      "file": "src/pause-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "pencil-16",
+      "file": "src/pencil-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pencil-24",
+      "file": "src/pencil-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "pencil-ai-16",
+      "file": "src/pencil-ai-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pencil-ai-24",
+      "file": "src/pencil-ai-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "people-16",
+      "file": "src/people-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "people-24",
+      "file": "src/people-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "person-16",
+      "file": "src/person-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "person-24",
+      "file": "src/person-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "person-add-16",
+      "file": "src/person-add-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "person-add-24",
+      "file": "src/person-add-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "person-fill-16",
+      "file": "src/person-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "person-fill-24",
+      "file": "src/person-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "pin-16",
+      "file": "src/pin-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pin-24",
+      "file": "src/pin-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "pin-slash-16",
+      "file": "src/pin-slash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pin-slash-24",
+      "file": "src/pin-slash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "pivot-column-16",
+      "file": "src/pivot-column-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pivot-column-24",
+      "file": "src/pivot-column-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "play-16",
+      "file": "src/play-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "play-24",
+      "file": "src/play-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "plug-16",
+      "file": "src/plug-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "plug-24",
+      "file": "src/plug-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "plus-16",
+      "file": "src/plus-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "plus-24",
+      "file": "src/plus-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "plus-circle-16",
+      "file": "src/plus-circle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "plus-circle-24",
+      "file": "src/plus-circle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "project-16",
+      "file": "src/project-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "project-24",
+      "file": "src/project-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "project-roadmap-16",
+      "file": "src/project-roadmap-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "project-roadmap-24",
+      "file": "src/project-roadmap-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "project-symlink-16",
+      "file": "src/project-symlink-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "project-symlink-24",
+      "file": "src/project-symlink-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "project-template-16",
+      "file": "src/project-template-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "project-template-24",
+      "file": "src/project-template-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "pulse-16",
+      "file": "src/pulse-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pulse-24",
+      "file": "src/pulse-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "question-16",
+      "file": "src/question-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "question-24",
+      "file": "src/question-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "quote-16",
+      "file": "src/quote-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "quote-24",
+      "file": "src/quote-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "read-16",
+      "file": "src/read-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "read-24",
+      "file": "src/read-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "redo-16",
+      "file": "src/redo-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "redo-24",
+      "file": "src/redo-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "rel-file-path-16",
+      "file": "src/rel-file-path-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "rel-file-path-24",
+      "file": "src/rel-file-path-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "reply-16",
+      "file": "src/reply-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "reply-24",
+      "file": "src/reply-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-16",
+      "file": "src/repo-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-24",
+      "file": "src/repo-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-clone-16",
+      "file": "src/repo-clone-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-clone-24",
+      "file": "src/repo-clone-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-delete-24",
+      "file": "src/repo-delete-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-deleted-16",
+      "file": "src/repo-deleted-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-forked-16",
+      "file": "src/repo-forked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-forked-24",
+      "file": "src/repo-forked-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-locked-16",
+      "file": "src/repo-locked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-locked-24",
+      "file": "src/repo-locked-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-pull-16",
+      "file": "src/repo-pull-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-pull-24",
+      "file": "src/repo-pull-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-push-16",
+      "file": "src/repo-push-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-push-24",
+      "file": "src/repo-push-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "repo-template-16",
+      "file": "src/repo-template-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-template-24",
+      "file": "src/repo-template-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "report-16",
+      "file": "src/report-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "report-24",
+      "file": "src/report-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "rocket-16",
+      "file": "src/rocket-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "rocket-24",
+      "file": "src/rocket-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "rows-16",
+      "file": "src/rows-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "rows-24",
+      "file": "src/rows-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "rss-16",
+      "file": "src/rss-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "rss-24",
+      "file": "src/rss-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "ruby-16",
+      "file": "src/ruby-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "ruby-24",
+      "file": "src/ruby-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "screen-full-16",
+      "file": "src/screen-full-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "screen-full-24",
+      "file": "src/screen-full-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "screen-normal-16",
+      "file": "src/screen-normal-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "screen-normal-24",
+      "file": "src/screen-normal-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "search-16",
+      "file": "src/search-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "search-24",
+      "file": "src/search-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "server-16",
+      "file": "src/server-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "server-24",
+      "file": "src/server-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "share-16",
+      "file": "src/share-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "share-24",
+      "file": "src/share-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "share-android-16",
+      "file": "src/share-android-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "share-android-24",
+      "file": "src/share-android-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "shield-16",
+      "file": "src/shield-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "shield-24",
+      "file": "src/shield-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "shield-check-16",
+      "file": "src/shield-check-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "shield-check-24",
+      "file": "src/shield-check-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "shield-lock-16",
+      "file": "src/shield-lock-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "shield-lock-24",
+      "file": "src/shield-lock-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "shield-slash-16",
+      "file": "src/shield-slash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "shield-slash-24",
+      "file": "src/shield-slash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "shield-x-16",
+      "file": "src/shield-x-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "shield-x-24",
+      "file": "src/shield-x-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sidebar-collapse-16",
+      "file": "src/sidebar-collapse-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sidebar-collapse-24",
+      "file": "src/sidebar-collapse-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sidebar-expand-16",
+      "file": "src/sidebar-expand-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sidebar-expand-24",
+      "file": "src/sidebar-expand-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sign-in-16",
+      "file": "src/sign-in-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sign-in-24",
+      "file": "src/sign-in-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sign-out-16",
+      "file": "src/sign-out-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sign-out-24",
+      "file": "src/sign-out-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "single-select-16",
+      "file": "src/single-select-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "single-select-24",
+      "file": "src/single-select-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "skip-16",
+      "file": "src/skip-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "skip-24",
+      "file": "src/skip-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "skip-fill-16",
+      "file": "src/skip-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "skip-fill-24",
+      "file": "src/skip-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sliders-16",
+      "file": "src/sliders-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sliders-24",
+      "file": "src/sliders-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "smiley-16",
+      "file": "src/smiley-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "smiley-24",
+      "file": "src/smiley-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "smiley-frown-16",
+      "file": "src/smiley-frown-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "smiley-frown-24",
+      "file": "src/smiley-frown-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "smiley-frustrated-16",
+      "file": "src/smiley-frustrated-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "smiley-frustrated-24",
+      "file": "src/smiley-frustrated-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "smiley-grin-16",
+      "file": "src/smiley-grin-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "smiley-grin-24",
+      "file": "src/smiley-grin-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "smiley-neutral-16",
+      "file": "src/smiley-neutral-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "smiley-neutral-24",
+      "file": "src/smiley-neutral-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sort-asc-16",
+      "file": "src/sort-asc-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sort-asc-24",
+      "file": "src/sort-asc-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sort-desc-16",
+      "file": "src/sort-desc-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sort-desc-24",
+      "file": "src/sort-desc-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "space-16",
+      "file": "src/space-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "space-24",
+      "file": "src/space-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "spacing-large-16",
+      "file": "src/spacing-large-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "spacing-large-24",
+      "file": "src/spacing-large-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "spacing-medium-16",
+      "file": "src/spacing-medium-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "spacing-medium-24",
+      "file": "src/spacing-medium-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "spacing-small-16",
+      "file": "src/spacing-small-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "spacing-small-24",
+      "file": "src/spacing-small-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sparkle-16",
+      "file": "src/sparkle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sparkle-24",
+      "file": "src/sparkle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sparkle-fill-16",
+      "file": "src/sparkle-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sparkle-fill-24",
+      "file": "src/sparkle-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sparkles-fill-16",
+      "file": "src/sparkles-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sparkles-fill-24",
+      "file": "src/sparkles-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "split-view-16",
+      "file": "src/split-view-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "split-view-24",
+      "file": "src/split-view-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sponsor-tiers-16",
+      "file": "src/sponsor-tiers-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sponsor-tiers-24",
+      "file": "src/sponsor-tiers-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "square-16",
+      "file": "src/square-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "square-24",
+      "file": "src/square-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "square-circle-16",
+      "file": "src/square-circle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "square-circle-24",
+      "file": "src/square-circle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "square-fill-16",
+      "file": "src/square-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "square-fill-24",
+      "file": "src/square-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "squirrel-16",
+      "file": "src/squirrel-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "squirrel-24",
+      "file": "src/squirrel-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "stack-16",
+      "file": "src/stack-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "stack-24",
+      "file": "src/stack-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "star-16",
+      "file": "src/star-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "star-24",
+      "file": "src/star-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "star-fill-16",
+      "file": "src/star-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "star-fill-24",
+      "file": "src/star-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "stop-16",
+      "file": "src/stop-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "stop-24",
+      "file": "src/stop-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "stopwatch-16",
+      "file": "src/stopwatch-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "stopwatch-24",
+      "file": "src/stopwatch-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "strikethrough-16",
+      "file": "src/strikethrough-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "strikethrough-24",
+      "file": "src/strikethrough-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sun-16",
+      "file": "src/sun-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sun-24",
+      "file": "src/sun-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "sync-16",
+      "file": "src/sync-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "sync-24",
+      "file": "src/sync-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "tab-16",
+      "file": "src/tab-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "tab-24",
+      "file": "src/tab-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "tab-external-16",
+      "file": "src/tab-external-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "tab-external-24",
+      "file": "src/tab-external-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "table-16",
+      "file": "src/table-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "table-24",
+      "file": "src/table-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "tag-16",
+      "file": "src/tag-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "tag-24",
+      "file": "src/tag-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "tasklist-16",
+      "file": "src/tasklist-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "tasklist-24",
+      "file": "src/tasklist-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "telescope-16",
+      "file": "src/telescope-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "telescope-24",
+      "file": "src/telescope-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "telescope-fill-16",
+      "file": "src/telescope-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "telescope-fill-24",
+      "file": "src/telescope-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "terminal-16",
+      "file": "src/terminal-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "terminal-24",
+      "file": "src/terminal-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "three-bars-16",
+      "file": "src/three-bars-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "three-bars-24",
+      "file": "src/three-bars-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "thumbsdown-16",
+      "file": "src/thumbsdown-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "thumbsdown-24",
+      "file": "src/thumbsdown-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "thumbsup-16",
+      "file": "src/thumbsup-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "thumbsup-24",
+      "file": "src/thumbsup-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "tools-16",
+      "file": "src/tools-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "tools-24",
+      "file": "src/tools-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "tracked-by-closed-completed-16",
+      "file": "src/tracked-by-closed-completed-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "tracked-by-closed-completed-24",
+      "file": "src/tracked-by-closed-completed-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "tracked-by-closed-not-planned-16",
+      "file": "src/tracked-by-closed-not-planned-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "tracked-by-closed-not-planned-24",
+      "file": "src/tracked-by-closed-not-planned-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "trash-16",
+      "file": "src/trash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "trash-24",
+      "file": "src/trash-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "triangle-down-16",
+      "file": "src/triangle-down-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "triangle-down-24",
+      "file": "src/triangle-down-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "triangle-left-16",
+      "file": "src/triangle-left-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "triangle-left-24",
+      "file": "src/triangle-left-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "triangle-right-16",
+      "file": "src/triangle-right-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "triangle-right-24",
+      "file": "src/triangle-right-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "triangle-up-16",
+      "file": "src/triangle-up-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "triangle-up-24",
+      "file": "src/triangle-up-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "trophy-16",
+      "file": "src/trophy-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "trophy-24",
+      "file": "src/trophy-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "typography-16",
+      "file": "src/typography-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "typography-24",
+      "file": "src/typography-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "undo-16",
+      "file": "src/undo-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "undo-24",
+      "file": "src/undo-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "unfold-16",
+      "file": "src/unfold-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "unfold-24",
+      "file": "src/unfold-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "unlink-16",
+      "file": "src/unlink-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "unlink-24",
+      "file": "src/unlink-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "unlock-16",
+      "file": "src/unlock-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "unlock-24",
+      "file": "src/unlock-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "unmute-16",
+      "file": "src/unmute-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "unmute-24",
+      "file": "src/unmute-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "unread-16",
+      "file": "src/unread-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "unread-24",
+      "file": "src/unread-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "unverified-16",
+      "file": "src/unverified-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "unverified-24",
+      "file": "src/unverified-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "unwrap-16",
+      "file": "src/unwrap-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "unwrap-24",
+      "file": "src/unwrap-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "upload-16",
+      "file": "src/upload-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "upload-24",
+      "file": "src/upload-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "verified-16",
+      "file": "src/verified-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "verified-24",
+      "file": "src/verified-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "versions-16",
+      "file": "src/versions-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "versions-24",
+      "file": "src/versions-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "video-16",
+      "file": "src/video-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "video-24",
+      "file": "src/video-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "vscode-16",
+      "file": "src/vscode-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "vscode-32",
+      "file": "src/vscode-32.svg",
+      "properties": {
+        "size": "32"
+      }
+    },
+    {
+      "name": "vscode-48",
+      "file": "src/vscode-48.svg",
+      "properties": {
+        "size": "48"
+      }
+    },
+    {
+      "name": "webhook-16",
+      "file": "src/webhook-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "workflow-16",
+      "file": "src/workflow-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "workflow-24",
+      "file": "src/workflow-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "wrap-16",
+      "file": "src/wrap-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "wrap-24",
+      "file": "src/wrap-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "x-12",
+      "file": "src/x-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "x-16",
+      "file": "src/x-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "x-24",
+      "file": "src/x-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "x-circle-16",
+      "file": "src/x-circle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "x-circle-24",
+      "file": "src/x-circle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "x-circle-fill-12",
+      "file": "src/x-circle-fill-12.svg",
+      "properties": {
+        "size": "12"
+      }
+    },
+    {
+      "name": "x-circle-fill-16",
+      "file": "src/x-circle-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "x-circle-fill-24",
+      "file": "src/x-circle-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "zap-16",
+      "file": "src/zap-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "zap-24",
+      "file": "src/zap-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "zoom-in-16",
+      "file": "src/zoom-in-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "zoom-in-24",
+      "file": "src/zoom-in-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "zoom-out-16",
+      "file": "src/zoom-out-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "zoom-out-24",
+      "file": "src/zoom-out-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    }
+  ]
+}
