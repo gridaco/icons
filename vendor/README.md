@@ -2,15 +2,15 @@
 
 ## Vendor List
 
-| ID                    | Vendor                | Repo                                                                            | Local (Submodule) | Status | Website                                                  | License    | Last Updated |
-| --------------------- | --------------------- | ------------------------------------------------------------------------------- | ----------------- | ------ | -------------------------------------------------------- | ---------- | ------------ |
-| svgl                  | svgl                  | [pheralb/svgl](https://github.com/pheralb/svgl)                                 | ✅ Ready          | Active | [svgl.app](https://svgl.app/)                            | MIT        | 2025-12-10   |
-| material-design-icons | Material Design Icons | [google/material-design-icons](https://github.com/google/material-design-icons) | ✅ Ready          | Active | [fonts.google.com/icons](https://fonts.google.com/icons) | Apache 2.0 | 2025-12-10   |
-| radix-ui-icons        | Radix UI Icons        | [radix-ui/icons](https://github.com/radix-ui/icons)                             | ✅ Ready          | Active | [radix-ui.com/icons](https://www.radix-ui.com/icons)     | MIT        | 2025-12-10   |
-| octicons              | Octicons              | [primer/octicons](https://github.com/primer/octicons)                           | planned           | Active | [primer.style/octicons](https://primer.style/octicons/)  | MIT        | -            |
-| heroicons             | Heroicons             | [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons)             | planned           | Active | [heroicons.com](https://heroicons.com/)                  | MIT        | -            |
-| phosphor-icons        | Phosphor Icons        | [phosphor-icons/core](https://github.com/phosphor-icons/core)                   | planned           | Active | [phosphoricons.com](https://phosphoricons.com/)          | MIT        | -            |
-| bootstrap-icons       | Bootstrap Icons       | [twbs/icons](https://github.com/twbs/icons)                                     | planned           | Active | [icons.getbootstrap.com](https://icons.getbootstrap.com) | MIT        | -            |
+| ID                    | Vendor                | Repo                                                                            | Local (Submodule)                    | Status  | Website                                                  | License    | Last Updated |
+| --------------------- | --------------------- | ------------------------------------------------------------------------------- | ------------------------------------ | ------- | -------------------------------------------------------- | ---------- | ------------ |
+| svgl                  | svgl                  | [pheralb/svgl](https://github.com/pheralb/svgl)                                 | [./svgl](./svgl)                     | ready   | [svgl.app](https://svgl.app/)                            | MIT        | 2025-12-10   |
+| material-design-icons | Material Design Icons | [google/material-design-icons](https://github.com/google/material-design-icons) | planned                              | planned | [fonts.google.com/icons](https://fonts.google.com/icons) | Apache 2.0 | 2025-12-10   |
+| radix-ui-icons        | Radix UI Icons        | [radix-ui/icons](https://github.com/radix-ui/icons)                             | [./radix-ui-icons](./radix-ui-icons) | ready   | [radix-ui.com/icons](https://www.radix-ui.com/icons)     | MIT        | 2025-12-10   |
+| octicons              | Octicons              | [primer/octicons](https://github.com/primer/octicons)                           | planned                              | planned | [primer.style/octicons](https://primer.style/octicons/)  | MIT        | -            |
+| heroicons             | Heroicons             | [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons)             | planned                              | planned | [heroicons.com](https://heroicons.com/)                  | MIT        | -            |
+| phosphor-icons        | Phosphor Icons        | [phosphor-icons/core](https://github.com/phosphor-icons/core)                   | [./phosphor-icons](./phosphor-icons) | ready   | [phosphoricons.com](https://phosphoricons.com/)          | MIT        | 2025-12-10   |
+| bootstrap-icons       | Bootstrap Icons       | [twbs/icons](https://github.com/twbs/icons)                                     | planned                              | planned | [icons.getbootstrap.com](https://icons.getbootstrap.com) | MIT        | -            |
 
 ## Vendor Selection Criteria
 

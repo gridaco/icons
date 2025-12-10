@@ -4,3 +4,6 @@
 [submodule "vendor/radix-ui-icons"]
 	path = vendor/radix-ui-icons
 	url = https://github.com/radix-ui/icons
+[submodule "vendor/phosphor-icons"]
+	path = vendor/phosphor-icons
+	url = https://github.com/phosphor-icons/core
