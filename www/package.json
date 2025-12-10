@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prebuild": "rm -rf public/dist && cp -R ../dist public/dist"
+    "copy-dist": "rm -rf public/dist && cp -R ../dist public/dist",
+    "prebuild": "pnpm run copy-dist"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
