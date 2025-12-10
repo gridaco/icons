@@ -16,9 +16,7 @@ Octicons are a set of SVG icons built by GitHub for GitHub. They are designed to
 
 - **Total SVG Files**: 720 files
 - **Unique Icons**: ~380 unique icon names
-- **Icon Sizes**: 16×16 and 24×24 pixels
-- **16×16 Icons**: 365 icons
-- **24×24 Icons**: 342 icons
+- **Icon Sizes**: 12, 16, 24, 32, 48, 96 pixels (majority are 16 and 24; some icons exist in other sizes)
 - **Package Version**: 19.21.1
 
 ## File Structure
@@ -26,9 +24,9 @@ Octicons are a set of SVG icons built by GitHub for GitHub. They are designed to
 ### SVG Icons
 
 - **Location**: `icons/` - Contains all SVG icon files
-- **Naming Convention**: `icon-name-<size>.svg` (e.g., `alert-16.svg`, `alert-24.svg`)
-- **Size Variants**: Icons are available in 16px and 24px sizes
-- **Special Variants**: Some icons have `-inset` variants (e.g., `accessibility-inset-16.svg`)
+- **Naming Convention**: `icon-name-<size>.svg` (e.g., `alert-16.svg`, `alert-24.svg`, `alert-32.svg`, `alert-48.svg`, `alert-96.svg`)
+- **Size Variants**: 12, 16, 24, 32, 48, 96
+- **Special Variants**: Some icons have `-inset` variants (e.g., `accessibility-inset-16.svg`, `accessibility-inset-24.svg`)
 
 ### Library Implementations
 
@@ -116,19 +114,14 @@ The build process generates `lib/build/data.json` which contains:
 
 ## Size Variants
 
-### 16×16 Icons
+### Size Variants
 
-- **Use Case**: Small icons for compact UIs, inline elements, toolbars
-- **ViewBox**: `0 0 16 16`
-- **Count**: 365 icons
-
-### 24×24 Icons
-
-- **Use Case**: Larger icons for prominent UI elements, buttons, headers
-- **ViewBox**: `0 0 24 24`
-- **Count**: 342 icons
-
-**Note**: Not all icons are available in both sizes. Some icons may only exist in one size variant.
+- **12×12**: Present for some icons
+- **16×16**: Core set
+- **24×24**: Core set
+- **32×32, 48×48, 96×96**: Present for select icons
+- **ViewBox**: Matches the width/height for each size
+- **Note**: Not all icons are available in every size.
 
 ## Special Variants
 

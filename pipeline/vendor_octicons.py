@@ -20,9 +20,25 @@ def _load_keywords(base_dir: Path) -> dict:
 def _base_icon_name(stem: str) -> str:
     # Remove size suffix (-16 or -24). Also handle -inset-16, etc.
     parts = stem.split("-")
-    if parts and parts[-1] in {"16", "24"}:
+    if parts and parts[-1] in {"12", "16", "24", "32", "48", "96"}:
         parts = parts[:-1]
     return "-".join(parts)
+
+
+def _extract_size_and_inset(stem: str) -> tuple[str | None, bool]:
+    """
+    From a filename stem like `alert-16` or `accessibility-inset-24`,
+    extract size and inset flag.
+    """
+    parts = stem.split("-")
+    size = None
+    inset = False
+    if parts and parts[-1].isdigit():
+        size = parts[-1]
+        base_parts = parts[:-1]
+        if base_parts and base_parts[-1] == "inset":
+            inset = True
+    return size, inset
 
 
 @click.command()
@@ -59,6 +75,7 @@ def process(out: Path):
     for svg_file in svg_files:
         stem = svg_file.stem
         base_name = _base_icon_name(stem)
+        size, inset = _extract_size_and_inset(stem)
         svg_meta = parse_svg_basic(svg_file)
         records.append(
             {
@@ -66,6 +83,8 @@ def process(out: Path):
                 "file": stem,
                 "path": str(svg_file.relative_to(base_dir)),
                 "keywords": keywords_map.get(base_name, []),
+                "size": size,
+                "inset": inset,
                 "svg": svg_meta,
             }
         )

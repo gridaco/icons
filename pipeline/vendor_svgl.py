@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -32,6 +33,21 @@ def _parse_svgs_ts(ts_path: Path) -> list:
         return json5.loads(array_text)
     except Exception:
         return []
+
+
+def _infer_theme_kind(stem: str) -> tuple[str | None, str]:
+    """
+    Infer theme (light/dark/None) and kind (wordmark/symbol) from filename stem.
+    Splits on ., -, _ and checks tokens.
+    """
+    tokens = re.split(r"[._-]+", stem.lower())
+    theme = "light"  # default
+    if "dark" in tokens:
+        theme = "dark"
+    elif "light" in tokens:
+        theme = "light"
+    kind = "wordmark" if "wordmark" in tokens else "symbol"
+    return theme, kind
 
 
 @click.command()
@@ -81,10 +97,13 @@ def process(out: Path):
         key = str(rel)
         matched = by_route.get(key)
         svg_meta = parse_svg_basic(svg_file)
+        theme, kind = _infer_theme_kind(svg_file.stem)
         records.append(
             {
                 "file": svg_file.name,
                 "path": str(svg_file.relative_to(base_dir)),
+                "theme": theme,
+                "kind": kind,
                 "svg": svg_meta,
                 "meta": matched,
             }

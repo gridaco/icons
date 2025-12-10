@@ -35,6 +35,12 @@ SVGL is a library of optimized SVG logos for brands and companies. It provides a
   - Light/Dark variants: `react-light.svg`, `react-dark.svg`
   - Wordmarks: `react-wordmark.svg`, `react-wordmark-light.svg`
   - Special formats: `github_light.svg`, `github_dark.svg`
+- **Filename inference (theme/kind)**:
+  - Tokens are split on `.`, `-`, `_`
+  - `light` → theme: light
+  - `dark` → theme: dark
+  - `wordmark` → kind: wordmark
+  - Otherwise, kind defaults to symbol
 
 ### API Implementation
 
