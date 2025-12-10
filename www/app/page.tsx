@@ -157,7 +157,6 @@ export default function Home() {
   const listParentRef = useRef<HTMLDivElement | null>(null);
   const [columns, setColumns] = useState(2);
 
-  // Fetch vendors first for sidebar names
   useEffect(() => {
     const controller = new AbortController();
     const loadVendors = async () => {
@@ -215,18 +214,18 @@ export default function Home() {
     });
   }, [icons, vendors]);
 
-  // Track column count based on container width to match CSS grid breakpoints
+  // Keep a simple breakpoint-based column count to align with the grid classes
   useEffect(() => {
     if (typeof window === "undefined") return;
     const node = listParentRef.current;
     if (!node) return;
 
     const calcColumns = (width: number) => {
-      if (width >= 1280) return 8; // xl
-      if (width >= 1024) return 6; // lg
+      if (width >= 1280) return 6; // xl
+      if (width >= 1024) return 5; // lg
       if (width >= 768) return 4; // md
       if (width >= 640) return 3; // sm
-      return 2; // base
+      return 2;
     };
 
     const resizeObserver = new ResizeObserver((entries) => {
@@ -235,10 +234,9 @@ export default function Home() {
       const next = calcColumns(entry.contentRect.width);
       setColumns((prev) => (prev === next ? prev : next));
     });
+
     resizeObserver.observe(node);
-    // initialize once
-    const initial = calcColumns(node.getBoundingClientRect().width);
-    setColumns(initial);
+    setColumns(calcColumns(node.getBoundingClientRect().width));
 
     return () => resizeObserver.disconnect();
   }, []);
@@ -248,37 +246,49 @@ export default function Home() {
   const virtual = useVirtualizer({
     count: rowCount,
     getScrollElement: () => listParentRef.current,
-    estimateSize: () => 200, // estimated row height including padding/gap
-    overscan: 6,
+    estimateSize: () => 220, // card height incl. gap/padding
+    overscan: 8,
   });
 
   return (
     <SidebarProvider>
-      <div className="flex h-screen w-full">
+      <div className="flex h-screen w-full bg-background">
         <AppSidebar
           vendors={vendorsWithCounts}
           active={vendorFilter}
           onSelect={setVendorFilter}
         />
         <main className="flex flex-1 flex-col overflow-hidden">
-          {/* Search Bar */}
-          <div className="border-b px-6 py-4">
-            <div className="max-w-md">
-              <InputGroup>
-                <InputGroupInput
-                  type="search"
-                  placeholder="Search icons..."
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                />
-                <InputGroupAddon align="inline-end">
-                  <Search />
-                </InputGroupAddon>
-              </InputGroup>
+          <div className="border-b bg-card/40 px-6 py-4 backdrop-blur">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-sm text-muted-foreground">
+                  {loading
+                    ? "Loading icons..."
+                    : `Showing ${icons.length} icons`}
+                </p>
+                {vendorFilter && (
+                  <p className="text-xs text-muted-foreground">
+                    Filtered by {vendorFilter}
+                  </p>
+                )}
+              </div>
+              <div className="w-full max-w-md">
+                <InputGroup>
+                  <InputGroupInput
+                    type="search"
+                    placeholder="Search icons..."
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                  />
+                  <InputGroupAddon align="inline-end">
+                    <Search />
+                  </InputGroupAddon>
+                </InputGroup>
+              </div>
             </div>
           </div>
 
-          {/* Icon Grid */}
           <div className="flex-1 overflow-y-auto p-6" ref={listParentRef}>
             <div
               className="relative w-full"
@@ -289,16 +299,21 @@ export default function Home() {
                 const slice = icons.slice(start, start + Math.max(columns, 1));
                 return (
                   <div
-                    key={row.index}
+                    key={row.key}
                     className="absolute left-0 right-0"
                     style={{ transform: `translateY(${row.start}px)` }}
                   >
-                    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
+                    <div
+                      className="grid gap-4"
+                      style={{
+                        gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
+                      }}
+                    >
                       {slice.map((icon) => (
-                        <div key={icon.download} className="aspect-square">
+                        <div key={icon.download} className="h-full">
                           <Button
                             variant="ghost"
-                            className="group flex h-full w-full flex-col items-center justify-center p-4"
+                            className="group flex h-full w-full flex-col items-center justify-between gap-3 rounded-xl border bg-card/60 p-4 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-md"
                             asChild
                           >
                             <a
@@ -306,7 +321,7 @@ export default function Home() {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <div className="mb-2 flex h-12 w-12 shrink-0 items-center justify-center rounded border bg-muted">
+                              <div className="flex h-14 w-14 items-center justify-center rounded-lg border bg-muted/70">
                                 <Image
                                   src={icon.download}
                                   alt={icon.name}
@@ -315,9 +330,14 @@ export default function Home() {
                                   className="h-8 w-8 object-contain"
                                 />
                               </div>
-                              <span className="text-xs text-muted-foreground group-hover:text-foreground">
-                                {icon.name}
-                              </span>
+                              <div className="flex flex-col items-center gap-1">
+                                <span className="line-clamp-1 text-xs font-medium">
+                                  {icon.name}
+                                </span>
+                                <span className="rounded-full bg-muted px-2 py-0.5 text-[11px] text-muted-foreground group-hover:text-foreground">
+                                  {icon.vendor}
+                                </span>
+                              </div>
                             </a>
                           </Button>
                         </div>
@@ -328,12 +348,12 @@ export default function Home() {
               })}
             </div>
             {icons.length === 0 && !loading && (
-              <div className="mt-4 text-sm text-muted-foreground">
-                No icons found.
+              <div className="mt-6 text-sm text-muted-foreground">
+                No icons found. Try a different search or set.
               </div>
             )}
             {loading && (
-              <div className="mt-4 text-sm text-muted-foreground">
+              <div className="mt-6 text-sm text-muted-foreground">
                 Loading...
               </div>
             )}
