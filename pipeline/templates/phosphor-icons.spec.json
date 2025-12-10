@@ -7,6 +7,10 @@
   "description": "Flexible icon family with 6 weights and comprehensive metadata.",
   "license": "MIT",
   "variants": {
-    "weight": ["bold", "duotone", "fill", "light", "regular", "thin"]
+    "weight": {
+      "title": "Weight",
+      "default": "regular",
+      "enum": ["bold", "duotone", "fill", "light", "regular", "thin"]
+    }
   }
 }

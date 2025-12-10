@@ -7,7 +7,15 @@
   "description": "MIT-licensed SVG icons for UI development from Tailwind Labs.",
   "license": "MIT",
   "variants": {
-    "size": ["16", "20", "24"],
-    "style": ["solid", "outline"]
+    "size": {
+      "title": "Size",
+      "default": "24",
+      "enum": ["16", "20", "24"]
+    },
+    "style": {
+      "title": "Style",
+      "default": "outline",
+      "enum": ["solid", "outline"]
+    }
   }
 }

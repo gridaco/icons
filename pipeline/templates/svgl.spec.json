@@ -7,8 +7,15 @@
   "description": "SVG logo library with structured metadata and API routes.",
   "license": "MIT",
   "variants": {
-    "theme": ["light", "dark"],
-    "kind": ["symbol", "wordmark"]
+    "theme": {
+      "title": "Theme",
+      "default": "light",
+      "enum": ["light", "dark"]
+    },
+    "kind": {
+      "title": "Varia",
+      "default": "symbol",
+      "enum": ["symbol", "wordmark"]
+    }
   }
 }
-
