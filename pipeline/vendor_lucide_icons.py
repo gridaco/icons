@@ -53,8 +53,10 @@ def process(out: Path):
         record = {
             "name": stem,
             "path": str(svg_file.relative_to(base_dir)),
+            "dist_path": str(Path("src") / svg_file.name),
             "svg": svg_meta,
             "meta": icon_meta,
+            "properties": {},
         }
         records.append(record)
 

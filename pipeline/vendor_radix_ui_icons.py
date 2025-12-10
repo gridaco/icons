@@ -52,7 +52,9 @@ def process(out: Path):
             {
                 "name": stem,
                 "path": str(svg_file.relative_to(base_dir)),
+                "dist_path": str(Path("src") / svg_file.name),
                 "svg": svg_meta,
+                "properties": {},
                 "manifest_path": manifest.get("icons", {}).get(":15", {}).get(stem),
             }
         )

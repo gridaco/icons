@@ -120,10 +120,13 @@ def process(out: Path):
             base_name = stem if weight == "regular" else stem.removesuffix(f"-{weight}")
             meta = meta_map.get(base_name, {})
             svg_meta = parse_svg_basic(svg_file)
+            dist_rel = Path("src") / weight / svg_file.name
             records.append(
                 {
                     "name": base_name,
                     "weight": weight,
+                    "dist_path": str(dist_rel),
+                    "properties": {"weight": weight},
                     "path": str(svg_file.relative_to(base_dir)),
                     "svg": svg_meta,
                     "meta": meta,

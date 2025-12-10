@@ -13,8 +13,8 @@ from vendor_svgl import process as process_svgl
 
 
 ROOT = Path(__file__).parent.parent
-CACHE_DIR = ROOT / "pipeline" / ".cache"
 DIST_DIR = ROOT / "dist"
+CACHE_DIR = DIST_DIR / ".cache"
 
 
 @click.group()
@@ -47,17 +47,17 @@ def cache_all(ctx):
     Run all vendor processors.
     """
     click.echo("Running all processors...")
-    ctx.invoke(process_radix)
+    ctx.invoke(process_radix, out=CACHE_DIR / "radix-ui-icons")
     click.echo("-" * 20)
-    ctx.invoke(process_heroicons)
+    ctx.invoke(process_heroicons, out=CACHE_DIR / "heroicons")
     click.echo("-" * 20)
-    ctx.invoke(process_lucide)
+    ctx.invoke(process_lucide, out=CACHE_DIR / "lucide-icons")
     click.echo("-" * 20)
-    ctx.invoke(process_phosphor)
+    ctx.invoke(process_phosphor, out=CACHE_DIR / "phosphor-icons")
     click.echo("-" * 20)
-    ctx.invoke(process_octicons)
+    ctx.invoke(process_octicons, out=CACHE_DIR / "octicons")
     click.echo("-" * 20)
-    ctx.invoke(process_svgl)
+    ctx.invoke(process_svgl, out=CACHE_DIR / "svgl")
     click.echo("All processors finished.")
 
 
@@ -104,6 +104,7 @@ def _ensure_dist_placeholders():
     """
     DIST_DIR.mkdir(parents=True, exist_ok=True)
     (DIST_DIR / ".gitkeep").write_text("")
+    (DIST_DIR / ".gitignore").write_text(".cache/\n")
     templates_dir = ROOT / "pipeline" / "templates"
     readme_template = templates_dir / "README.dist.md"
     if readme_template.exists():
@@ -163,7 +164,6 @@ def dist(ctx):
 
     _ensure_dist_placeholders()
 
-    # Copy metadata
     vendor_meta = {
         "radix-ui-icons": CACHE_DIR / "radix-ui-icons" / "metadata.json",
         "heroicons": CACHE_DIR / "heroicons" / "metadata.json",
@@ -174,11 +174,6 @@ def dist(ctx):
     }
     # Extra data file for svgl
     svgl_data = CACHE_DIR / "svgl" / "data.json"
-
-    for vendor, meta_path in vendor_meta.items():
-        if meta_path.exists():
-            _copy_file(meta_path, DIST_DIR / vendor / "metadata.json")
-
     if svgl_data.exists():
         _copy_file(svgl_data, DIST_DIR / "svgl" / "data.json")
 
@@ -227,6 +222,24 @@ def dist(ctx):
         "svgl": {},
     }
     templates_dir = ROOT / "pipeline" / "templates"
+
+    def _load_meta_map(meta_path: Path) -> dict[str, dict]:
+        if not meta_path.exists():
+            return {}
+        try:
+            data = json.loads(meta_path.read_text())
+        except Exception:
+            return {}
+        by_path: dict[str, dict] = {}
+        if isinstance(data, list):
+            for rec in data:
+                if not isinstance(rec, dict):
+                    continue
+                dist_path = rec.get("dist_path")
+                if dist_path:
+                    by_path[dist_path] = rec.get("properties", {})
+        return by_path
+
     # Attach flat file list (relative paths under dist/<vendor>)
     for vendor, pkg in vendor_packages.items():
         template_path = templates_dir / f"{vendor}.spec.json"
@@ -235,13 +248,23 @@ def dist(ctx):
                 pkg.update(json.loads(template_path.read_text()))
             except Exception:
                 pass
+        by_path = _load_meta_map(vendor_meta.get(vendor, Path("")))
         src_root = DIST_DIR / vendor / "src"
-        files = []
+        file_entries = []
         if src_root.exists():
-            for p in src_root.rglob("*"):
+            for p in sorted(src_root.rglob("*")):
                 if p.is_file():
-                    files.append(str(p.relative_to(DIST_DIR / vendor)))
-        pkg["files"] = sorted(files)
+                    rel_path = str(p.relative_to(DIST_DIR / vendor))
+                    name = p.stem
+                    properties = by_path.get(rel_path, {})
+                    file_entries.append(
+                        {
+                            "name": name,
+                            "file": rel_path,
+                            "properties": properties,
+                        }
+                    )
+        pkg["files"] = file_entries
         out_pkg = DIST_DIR / vendor / "data.json"
         out_pkg.parent.mkdir(parents=True, exist_ok=True)
         out_pkg.write_text(json.dumps(pkg, indent=2))

@@ -77,14 +77,18 @@ def process(out: Path):
         base_name = _base_icon_name(stem)
         size, inset = _extract_size_and_inset(stem)
         svg_meta = parse_svg_basic(svg_file)
+        dist_rel = Path("src") / svg_file.name
+        variables = {"size": size} if size else {}
         records.append(
             {
                 "name": base_name,
                 "file": stem,
+                "dist_path": str(dist_rel),
                 "path": str(svg_file.relative_to(base_dir)),
                 "keywords": keywords_map.get(base_name, []),
                 "size": size,
                 "inset": inset,
+                "properties": variables,
                 "svg": svg_meta,
             }
         )

@@ -61,6 +61,8 @@ def process(out: Path):
                     "name": stem,
                     "size": size,
                     "style": style,
+                    "dist_path": str(svg_file.relative_to(base_dir)),
+                    "properties": {"size": size, "style": style},
                     "path": str(svg_file.relative_to(base_dir)),
                     "svg": svg_meta,
                 }

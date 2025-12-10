@@ -98,12 +98,15 @@ def process(out: Path):
         matched = by_route.get(key)
         svg_meta = parse_svg_basic(svg_file)
         theme, kind = _infer_theme_kind(svg_file.stem)
+        dist_rel = Path("src") / svg_file.name
         records.append(
             {
                 "file": svg_file.name,
                 "path": str(svg_file.relative_to(base_dir)),
+                "dist_path": str(dist_rel),
                 "theme": theme,
                 "kind": kind,
+                "properties": {"theme": theme, "kind": kind},
                 "svg": svg_meta,
                 "meta": matched,
             }
