@@ -10,3 +10,6 @@
 [submodule "vendor/heroicons"]
 	path = vendor/heroicons
 	url = https://github.com/tailwindlabs/heroicons
+[submodule "vendor/octicons"]
+	path = vendor/octicons
+	url = https://github.com/primer/octicons

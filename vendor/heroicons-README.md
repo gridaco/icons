@@ -61,6 +61,7 @@ Heroicons is a set of beautiful hand-crafted SVG icons designed by the makers of
 ```
 
 **Characteristics:**
+
 - Uses `stroke` instead of `fill`
 - `fill="none"` to allow stroke rendering
 - `stroke-width="1.5"` for consistent line weight
@@ -76,6 +77,7 @@ Heroicons is a set of beautiful hand-crafted SVG icons designed by the makers of
 ```
 
 **Characteristics:**
+
 - Uses `fill` instead of `stroke`
 - `fill="none"` on root SVG element
 - Individual paths use `fill="#0F172A"` (can be overridden with `fill="currentColor"`)
@@ -180,13 +182,19 @@ Icons are designed to be styled using CSS:
 
 ```html
 <!-- Outline icon with Tailwind classes -->
-<svg class="size-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-  <path stroke-linecap="round" stroke-linejoin="round" d="..."/>
+<svg
+  class="size-6 text-gray-500"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  stroke-width="1.5"
+>
+  <path stroke-linecap="round" stroke-linejoin="round" d="..." />
 </svg>
 
 <!-- Solid icon with Tailwind classes -->
 <svg class="size-6 text-blue-500" fill="none" viewBox="0 0 24 24">
-  <path fill="currentColor" d="..."/>
+  <path fill="currentColor" d="..." />
 </svg>
 ```
 
@@ -215,4 +223,3 @@ Icons are designed to be styled using CSS:
 - [Heroicons Website](https://heroicons.com)
 - [Heroicons React Package](https://www.npmjs.com/package/@heroicons/react)
 - [Heroicons Vue Package](https://www.npmjs.com/package/@heroicons/vue)
-
