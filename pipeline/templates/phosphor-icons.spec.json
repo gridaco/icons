@@ -5,6 +5,9 @@
   "url": "https://phosphoricons.com",
   "repository": "https://github.com/phosphor-icons/core",
   "description": "Flexible icon family with 6 weights and comprehensive metadata.",
-  "license": "MIT"
+  "license": "MIT",
+  "variants": {
+    "weight": ["bold", "duotone", "fill", "light", "regular", "thin"]
+  }
 }
 

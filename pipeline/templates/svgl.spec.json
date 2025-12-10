@@ -5,6 +5,10 @@
   "url": "https://svgl.app",
   "repository": "https://github.com/pheralb/svgl",
   "description": "SVG logo library with structured metadata and API routes.",
-  "license": "MIT"
+  "license": "MIT",
+  "variants": {
+    "theme": ["light", "dark"],
+    "kind": ["symbol", "wordmark"]
+  }
 }
 

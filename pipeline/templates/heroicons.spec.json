@@ -5,5 +5,9 @@
   "url": "https://heroicons.com",
   "repository": "https://github.com/tailwindlabs/heroicons",
   "description": "MIT-licensed SVG icons for UI development from Tailwind Labs.",
-  "license": "MIT"
+  "license": "MIT",
+  "variants": {
+    "size": ["16", "20", "24"],
+    "style": ["solid", "outline"]
+  }
 }

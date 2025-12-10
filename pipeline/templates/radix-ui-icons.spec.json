@@ -5,6 +5,6 @@
   "url": "https://www.radix-ui.com/icons",
   "repository": "https://github.com/radix-ui/icons",
   "description": "A crisp set of 15x15 UI icons by WorkOS.",
-  "license": "MIT"
+  "license": "MIT",
+  "variants": {}
 }
-

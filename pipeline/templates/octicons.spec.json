@@ -5,6 +5,8 @@
   "url": "https://primer.style/octicons/",
   "repository": "https://github.com/primer/octicons",
   "description": "GitHub’s official icon set for actions, states, and UI concepts.",
-  "license": "MIT"
+  "license": "MIT",
+  "variants": {
+    "size": ["12", "16", "24", "32", "48", "96"]
+  }
 }
-
