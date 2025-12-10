@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prebuild": "rm -rf public/dist && cp -R ../dist public/dist"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
