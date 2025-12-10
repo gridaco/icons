@@ -37,21 +37,24 @@ def process(out: Path):
     Process Octicons and emit vendor-native metadata.
     """
     click.echo("Processing Octicons...")
-    
+
     base_dir = Path(__file__).parent.parent / "vendor" / "octicons"
     target_dir = base_dir / "icons"
-    
+
     if not target_dir.exists():
-        click.echo(f"PANIC: Required directory {target_dir} does not exist. Vendor structure may have changed.", err=True)
+        click.echo(
+            f"PANIC: Required directory {target_dir} does not exist. Vendor structure may have changed.",
+            err=True,
+        )
         sys.exit(1)
 
     out.mkdir(parents=True, exist_ok=True)
 
     keywords_map = _load_keywords(base_dir)
     svg_files = list(target_dir.glob("*.svg"))
-    
+
     click.echo(f"Found {len(svg_files)} SVG files in {target_dir}")
-    
+
     records = []
     for svg_file in svg_files:
         stem = svg_file.stem
@@ -70,4 +73,3 @@ def process(out: Path):
     out_file = out / "metadata.json"
     out_file.write_text(json.dumps(records, indent=2))
     click.echo(f"Wrote {len(records)} records to {out_file}")
-

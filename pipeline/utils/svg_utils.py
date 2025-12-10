@@ -52,4 +52,3 @@ def parse_svg_basic(path: Path) -> Dict[str, Any]:
         return result
 
     return result
-

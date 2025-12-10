@@ -33,7 +33,11 @@ def _parse_icons_ts(ts_path: Path) -> Dict[str, Dict]:
         tags_match = re.search(r"tags:\s*\[([^\]]*)\]", block, re.DOTALL)
         if tags_match:
             tags_raw = tags_match.group(1)
-            tags = [t.strip().strip('"') for t in tags_raw.split(",") if t.strip().strip('"')]
+            tags = [
+                t.strip().strip('"')
+                for t in tags_raw.split(",")
+                if t.strip().strip('"')
+            ]
             record["tags"] = tags
         # categories
         cat_match = re.search(r"categories:\s*\[([^\]]*)\]", block, re.DOTALL)
@@ -77,34 +81,40 @@ def process(out: Path):
     Process Phosphor Icons and emit vendor-native metadata.
     """
     click.echo("Processing Phosphor Icons...")
-    
+
     base_dir = Path(__file__).parent.parent / "vendor" / "phosphor-icons"
     assets_dir = base_dir / "assets"
     icons_ts = base_dir / "src" / "icons.ts"
-    
+
     if not assets_dir.exists():
-        click.echo(f"PANIC: Required directory {assets_dir} does not exist. Vendor structure may have changed.", err=True)
+        click.echo(
+            f"PANIC: Required directory {assets_dir} does not exist. Vendor structure may have changed.",
+            err=True,
+        )
         sys.exit(1)
-    
+
     out.mkdir(parents=True, exist_ok=True)
-    
+
     meta_map = _parse_icons_ts(icons_ts)
     weights = ["bold", "duotone", "fill", "light", "regular", "thin"]
-    
+
     total_found = 0
     records: List[Dict] = []
-    
+
     for weight in weights:
         target_dir = assets_dir / weight
         if not target_dir.exists():
-            click.echo(f"PANIC: Required directory {target_dir} does not exist. Vendor structure may have changed.", err=True)
+            click.echo(
+                f"PANIC: Required directory {target_dir} does not exist. Vendor structure may have changed.",
+                err=True,
+            )
             sys.exit(1)
-            
+
         svg_files = list(target_dir.glob("*.svg"))
         count = len(svg_files)
         total_found += count
         click.echo(f"Found {count} SVG files in {target_dir}")
-        
+
         for svg_file in svg_files:
             stem = svg_file.stem  # includes weight suffix for non-regular
             base_name = stem if weight == "regular" else stem.removesuffix(f"-{weight}")
@@ -119,9 +129,8 @@ def process(out: Path):
                     "meta": meta,
                 }
             )
-    
+
     out_file = out / "metadata.json"
     out_file.write_text(json.dumps(records, indent=2))
     click.echo(f"Total Phosphor Icons found: {total_found}")
     click.echo(f"Wrote {len(records)} records to {out_file}")
-
