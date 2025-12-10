@@ -1,0 +1,3 @@
+[submodule "vendor/svgl"]
+	path = vendor/svgl
+	url = https://github.com/pheralb/svgl
