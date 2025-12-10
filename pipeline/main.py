@@ -73,11 +73,21 @@ def cache_clean():
         click.echo("Cache directory not found; nothing to clean.")
 
 
-def _copy_tree(src: Path, dst: Path):
+def _copy_svgs(src: Path, dst: Path):
+    """
+    Copy only .svg files from src to dst, preserving directory structure.
+    """
     if dst.exists():
         shutil.rmtree(dst)
-    if src.exists():
-        shutil.copytree(src, dst)
+    if not src.exists():
+        return
+    dst.mkdir(parents=True, exist_ok=True)
+    for path in src.rglob("*"):
+        if path.is_file() and path.suffix.lower() == ".svg":
+            rel = path.relative_to(src)
+            target = dst / rel
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(path, target)
 
 
 def _copy_file(src: Path, dst: Path):
@@ -187,27 +197,27 @@ def dist(ctx):
 
     # Copy SVG assets per vendor
     # Unified layout: assets under dist/<vendor>/src/
-    _copy_tree(
+    _copy_svgs(
         ROOT / "vendor" / "radix-ui-icons" / "packages" / "radix-icons" / "icons",
         DIST_DIR / "radix-ui-icons" / "src",
     )
-    _copy_tree(
+    _copy_svgs(
         ROOT / "vendor" / "heroicons" / "src",
         DIST_DIR / "heroicons" / "src",
     )
-    _copy_tree(
+    _copy_svgs(
         ROOT / "vendor" / "lucide-icons" / "icons",
         DIST_DIR / "lucide-icons" / "src",
     )
-    _copy_tree(
+    _copy_svgs(
         ROOT / "vendor" / "phosphor-icons" / "assets",
         DIST_DIR / "phosphor-icons" / "src",
     )
-    _copy_tree(
+    _copy_svgs(
         ROOT / "vendor" / "octicons" / "icons",
         DIST_DIR / "octicons" / "src",
     )
-    _copy_tree(
+    _copy_svgs(
         ROOT / "vendor" / "svgl" / "static" / "library",
         DIST_DIR / "svgl" / "src",
     )
