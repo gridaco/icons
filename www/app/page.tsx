@@ -45,6 +45,14 @@ type VendorItem = {
   name?: string;
   version?: string;
   count?: number;
+  variants?: Record<
+    string,
+    {
+      title?: string;
+      default?: string;
+      enum?: string[];
+    }
+  >;
 };
 
 function AppSidebar({
@@ -155,6 +163,9 @@ export default function Home() {
     undefined
   );
   const [loading, setLoading] = useState(false);
+  const [variantFilters, setVariantFilters] = useState<
+    Record<string, string | undefined>
+  >({});
   const listParentRef = useRef<HTMLDivElement | null>(null);
   const [columns, setColumns] = useState(2);
 
@@ -183,6 +194,9 @@ export default function Home() {
         const params = new URLSearchParams();
         if (search.trim()) params.set("q", search.trim());
         if (vendorFilter) params.set("vendor", vendorFilter);
+        Object.entries(variantFilters).forEach(([key, value]) => {
+          if (value) params.set(`variant:${key}`, value);
+        });
         const res = await fetch(`/api?${params.toString()}`, {
           signal: controller.signal,
         });
@@ -198,7 +212,21 @@ export default function Home() {
     };
     load();
     return () => controller.abort();
-  }, [search, vendorFilter]);
+  }, [search, vendorFilter, variantFilters]);
+
+  // Reset variant filters when the vendor changes, preferring vendor defaults
+  useEffect(() => {
+    const vendor = vendors.find((v) => v.id === vendorFilter);
+    if (!vendor?.variants) {
+      setVariantFilters({});
+      return;
+    }
+    const defaults: Record<string, string | undefined> = {};
+    for (const [key, spec] of Object.entries(vendor.variants)) {
+      defaults[key] = spec.default;
+    }
+    setVariantFilters(defaults);
+  }, [vendorFilter, vendors]);
 
   const vendorsWithCounts = useMemo(
     () =>
@@ -208,6 +236,11 @@ export default function Home() {
         count: v.count ?? 0,
       })),
     [vendors]
+  );
+
+  const activeVendor = useMemo(
+    () => vendors.find((v) => v.id === vendorFilter),
+    [vendors, vendorFilter]
   );
 
   // Keep a simple breakpoint-based column count to align with the grid classes
@@ -284,6 +317,58 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {activeVendor?.variants &&
+            Object.keys(activeVendor.variants).length > 0 && (
+              <div className="border-b bg-card/30 px-6 py-3">
+                <div className="flex flex-wrap gap-4">
+                  {Object.entries(activeVendor.variants).map(([key, spec]) => (
+                    <div key={key} className="flex flex-col gap-2">
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs font-semibold text-muted-foreground">
+                          {spec.title ?? key}
+                        </span>
+                        <div className="flex items-center gap-1">
+                          <Button
+                            size="sm"
+                            variant={
+                              !variantFilters[key] ? "secondary" : "ghost"
+                            }
+                            onClick={() =>
+                              setVariantFilters((prev) => ({
+                                ...prev,
+                                [key]: undefined,
+                              }))
+                            }
+                          >
+                            All
+                          </Button>
+                          {(spec.enum ?? []).map((option) => (
+                            <Button
+                              key={option}
+                              size="sm"
+                              variant={
+                                variantFilters[key] === option
+                                  ? "secondary"
+                                  : "ghost"
+                              }
+                              onClick={() =>
+                                setVariantFilters((prev) => ({
+                                  ...prev,
+                                  [key]: option,
+                                }))
+                              }
+                            >
+                              {option}
+                            </Button>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
           <div className="flex-1 overflow-y-auto p-6" ref={listParentRef}>
             <div

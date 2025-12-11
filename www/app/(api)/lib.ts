@@ -88,7 +88,7 @@ export function filterItems(
     download: string;
     properties: Record<string, unknown>;
   }>,
-  opts: { vendor?: string; q?: string }
+  opts: { vendor?: string; q?: string; variants?: Record<string, string> }
 ) {
   const qLower = opts.q?.trim().toLowerCase() ?? "";
   let filtered = items;
@@ -97,6 +97,17 @@ export function filterItems(
   }
   if (qLower) {
     filtered = filtered.filter((i) => i.name.toLowerCase().includes(qLower));
+  }
+  const variantEntries = Object.entries(opts.variants ?? {}).filter(([, v]) =>
+    Boolean(v)
+  );
+  if (variantEntries.length) {
+    filtered = filtered.filter((i) =>
+      variantEntries.every(([key, value]) => {
+        const propValue = i.properties?.[key];
+        return propValue !== undefined && String(propValue) === String(value);
+      })
+    );
   }
   return filtered;
 }

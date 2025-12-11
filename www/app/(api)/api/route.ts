@@ -7,9 +7,15 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const vendor = searchParams.get("vendor") || undefined;
   const q = searchParams.get("q") ?? searchParams.get("name") ?? undefined;
+  const variants: Record<string, string> = {};
+  searchParams.forEach((value, key) => {
+    if (key.startsWith("variant:") && value) {
+      variants[key.replace("variant:", "")] = value;
+    }
+  });
 
   const { items, total } = await buildAllItems();
-  const filtered = filterItems(items, { vendor, q });
+  const filtered = filterItems(items, { vendor, q, variants });
 
   return NextResponse.json(
     {
