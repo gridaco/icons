@@ -1,6 +1,9 @@
 {
   "name": "Primer Octicons",
   "vendor": "octicons",
+  "categories": [
+    "grida://library/categories/icons-ui"
+  ],
   "version": "19.21.1",
   "url": "https://primer.style/octicons/",
   "repository": "https://github.com/primer/octicons",

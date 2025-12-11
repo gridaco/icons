@@ -1,6 +1,9 @@
 {
   "name": "SVGL",
   "vendor": "svgl",
+  "categories": [
+    "grida://library/categories/logos"
+  ],
   "version": "5.0.0",
   "url": "https://svgl.app",
   "repository": "https://github.com/pheralb/svgl",

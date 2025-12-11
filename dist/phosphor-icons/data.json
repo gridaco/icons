@@ -1,6 +1,9 @@
 {
   "name": "Phosphor Icons",
   "vendor": "phosphor-icons",
+  "categories": [
+    "grida://library/categories/icons-ui"
+  ],
   "version": "2.1.1",
   "url": "https://phosphoricons.com",
   "repository": "https://github.com/phosphor-icons/core",

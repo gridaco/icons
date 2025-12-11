@@ -1,6 +1,7 @@
 {
   "name": "Heroicons",
   "vendor": "heroicons",
+  "categories": ["grida://library/categories/icons-ui"],
   "version": "2.2.0",
   "url": "https://heroicons.com",
   "repository": "https://github.com/tailwindlabs/heroicons",

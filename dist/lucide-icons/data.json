@@ -1,6 +1,9 @@
 {
   "name": "Lucide Icons",
   "vendor": "lucide-icons",
+  "categories": [
+    "grida://library/categories/icons-ui"
+  ],
   "version": "0.0.0",
   "url": "https://lucide.dev",
   "repository": "https://github.com/lucide-icons/lucide",

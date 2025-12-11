@@ -1,6 +1,9 @@
 {
   "name": "Radix UI Icons",
   "vendor": "radix-ui-icons",
+  "categories": [
+    "grida://library/categories/icons-ui"
+  ],
   "version": "1.3.2",
   "url": "https://www.radix-ui.com/icons",
   "repository": "https://github.com/radix-ui/icons",
