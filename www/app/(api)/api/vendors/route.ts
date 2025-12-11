@@ -8,9 +8,10 @@ export async function GET() {
   const items = vendors.map(({ id, data }) => {
     // Exclude files to keep payload small
     const { files, ...rest } = data;
-    void files;
+    const count = files?.length ?? 0;
     return {
       id,
+      count,
       ...rest,
     };
   });

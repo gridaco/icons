@@ -44,6 +44,7 @@ type VendorItem = {
   id: string;
   name?: string;
   version?: string;
+  count?: number;
 };
 
 function AppSidebar({
@@ -70,6 +71,14 @@ function AppSidebar({
           <SidebarGroupLabel>Icon Sets</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton
+                  isActive={!active}
+                  onClick={() => onSelect?.(undefined)}
+                >
+                  <span>All</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
               {vendors.map((set) => (
                 <SidebarMenuItem key={set.id}>
                   <SidebarMenuButton
@@ -83,14 +92,6 @@ function AppSidebar({
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
-              <SidebarMenuItem>
-                <SidebarMenuButton
-                  isActive={!active}
-                  onClick={() => onSelect?.(undefined)}
-                >
-                  <span>All</span>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
@@ -199,20 +200,15 @@ export default function Home() {
     return () => controller.abort();
   }, [search, vendorFilter]);
 
-  const vendorsWithCounts = useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const icon of icons) {
-      counts[icon.vendor] = (counts[icon.vendor] ?? 0) + 1;
-    }
-    const mergedIds = new Set<string>([
-      ...Object.keys(counts),
-      ...vendors.map((v) => v.id),
-    ]);
-    return Array.from(mergedIds).map((id) => {
-      const meta = vendors.find((v) => v.id === id);
-      return { id, name: meta?.name, count: counts[id] ?? 0 };
-    });
-  }, [icons, vendors]);
+  const vendorsWithCounts = useMemo(
+    () =>
+      vendors.map((v) => ({
+        id: v.id,
+        name: v.name,
+        count: v.count ?? 0,
+      })),
+    [vendors]
+  );
 
   // Keep a simple breakpoint-based column count to align with the grid classes
   useEffect(() => {
