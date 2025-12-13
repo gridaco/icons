@@ -1,23 +1,21 @@
 import { NextResponse } from "next/server";
-import { buildAllItems, filterItems } from "../lib";
+import {
+  ApiItemsResponse,
+  buildAllItems,
+  CACHE_HEADERS,
+  filterItems,
+  parseItemsQuery,
+} from "../lib";
 
 export const revalidate = 3600;
 
 export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const vendor = searchParams.get("vendor") || undefined;
-  const q = searchParams.get("q") ?? searchParams.get("name") ?? undefined;
-  const variants: Record<string, string> = {};
-  searchParams.forEach((value, key) => {
-    if (key.startsWith("variant:") && value) {
-      variants[key.replace("variant:", "")] = value;
-    }
-  });
+  const { vendor, q, variants } = parseItemsQuery(request);
 
   const { items, total } = await buildAllItems();
   const filtered = filterItems(items, { vendor, q, variants });
 
-  return NextResponse.json(
+  return NextResponse.json<ApiItemsResponse>(
     {
       total,
       count: filtered.length,
@@ -25,8 +23,7 @@ export async function GET(request: Request) {
     },
     {
       headers: {
-        "cache-control":
-          "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+        ...CACHE_HEADERS,
       },
     }
   );

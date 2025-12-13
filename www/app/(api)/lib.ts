@@ -14,6 +14,65 @@ export type VendorData = {
   files?: FileEntry[];
 };
 
+export type ApiItem = {
+  vendor: string;
+  version?: string;
+  name: string;
+  download: string;
+  properties: Record<string, unknown>;
+};
+
+export type ApiItemsResponse = {
+  total: number;
+  count: number;
+  items: ApiItem[];
+};
+
+export type ApiErrorResponse = {
+  error: string;
+};
+
+export type ApiVendorSummary = {
+  id: string;
+  count: number;
+  vendor?: string;
+  name?: string;
+  version?: string;
+};
+
+export type ApiVendorsResponse = {
+  total: number;
+  items: ApiVendorSummary[];
+};
+
+export type ItemsQuery = {
+  vendor?: string;
+  q?: string;
+  variants: Record<string, string>;
+};
+
+export const CACHE_CONTROL_HEADER_VALUE =
+  "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400";
+
+export const CACHE_HEADERS = {
+  "cache-control": CACHE_CONTROL_HEADER_VALUE,
+} as const;
+
+export function parseItemsQuery(request: Request): ItemsQuery {
+  const { searchParams } = new URL(request.url);
+  const vendor = searchParams.get("vendor") || undefined;
+  const q = searchParams.get("q") ?? searchParams.get("name") ?? undefined;
+
+  const variants: Record<string, string> = {};
+  searchParams.forEach((value, key) => {
+    if (key.startsWith("variant:") && value) {
+      variants[key.slice("variant:".length)] = value;
+    }
+  });
+
+  return { vendor, q, variants };
+}
+
 const HOST =
   process.env.NODE_ENV === "production"
     ? "https://icons.grida.co"
@@ -81,13 +140,7 @@ export async function buildSvglItems() {
 }
 
 export function filterItems(
-  items: Array<{
-    vendor: string;
-    version?: string;
-    name: string;
-    download: string;
-    properties: Record<string, unknown>;
-  }>,
+  items: ApiItem[],
   opts: { vendor?: string; q?: string; variants?: Record<string, string> }
 ) {
   const qLower = opts.q?.trim().toLowerCase() ?? "";

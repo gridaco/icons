@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { loadAllVendors } from "../../lib";
+import { ApiVendorsResponse, CACHE_HEADERS, loadAllVendors } from "../../lib";
 
 export const revalidate = 3600;
 
@@ -16,15 +16,14 @@ export async function GET() {
     };
   });
 
-  return NextResponse.json(
+  return NextResponse.json<ApiVendorsResponse>(
     {
       total: items.length,
       items,
     },
     {
       headers: {
-        "cache-control":
-          "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+        ...CACHE_HEADERS,
       },
     }
   );
