@@ -50,6 +50,60 @@ def _infer_theme_kind(stem: str) -> tuple[str | None, str]:
     return theme, kind
 
 
+def _build_asset_maps(
+    data_records: list,
+) -> tuple[dict[str, dict], dict[str, dict[str, str]]]:
+    """
+    Build lookup maps from parsed svgs.ts records.
+
+    Source of truth:
+    - theme comes from the JSON key (route.light/route.dark, wordmark.light/wordmark.dark)
+    - kind comes from whether the asset is referenced by route (symbol) or wordmark (wordmark)
+    """
+
+    def _norm_asset_path(v: object) -> str | None:
+        if not isinstance(v, str):
+            return None
+        s = v.strip()
+        if not s:
+            return None
+        return s.lstrip("/")
+
+    record_by_asset_path: dict[str, dict] = {}
+    properties_by_asset_path: dict[str, dict[str, str]] = {}
+
+    def _register(asset_path: str | None, rec: dict, theme: str, kind: str):
+        if not asset_path:
+            return
+        # keep first record/properties if duplicates exist
+        record_by_asset_path.setdefault(asset_path, rec)
+        properties_by_asset_path.setdefault(asset_path, {"theme": theme, "kind": kind})
+
+    for rec in data_records:
+        if not isinstance(rec, dict):
+            continue
+
+        route_val = rec.get("route")
+        if isinstance(route_val, str):
+            _register(_norm_asset_path(route_val), rec, theme="light", kind="symbol")
+        elif isinstance(route_val, dict):
+            for k, v in route_val.items():
+                theme = str(k) if str(k) in ("light", "dark") else "light"
+                _register(_norm_asset_path(v), rec, theme=theme, kind="symbol")
+
+        wordmark_val = rec.get("wordmark")
+        if isinstance(wordmark_val, str):
+            _register(
+                _norm_asset_path(wordmark_val), rec, theme="light", kind="wordmark"
+            )
+        elif isinstance(wordmark_val, dict):
+            for k, v in wordmark_val.items():
+                theme = str(k) if str(k) in ("light", "dark") else "light"
+                _register(_norm_asset_path(v), rec, theme=theme, kind="wordmark")
+
+    return record_by_asset_path, properties_by_asset_path
+
+
 @click.command()
 @click.option(
     "--out",
@@ -77,15 +131,7 @@ def process(out: Path):
     out.mkdir(parents=True, exist_ok=True)
 
     data_records = _parse_svgs_ts(data_ts)
-    # map by route strings (strip leading slash)
-    by_route = {}
-    for rec in data_records:
-        route_val = rec.get("route")
-        if isinstance(route_val, str):
-            by_route[route_val.lstrip("/")] = rec
-        elif isinstance(route_val, dict):
-            for v in route_val.values():
-                by_route[str(v).lstrip("/")] = rec
+    record_by_asset_path, properties_by_asset_path = _build_asset_maps(data_records)
 
     svg_files = list(target_dir.glob("*.svg"))
 
@@ -93,11 +139,17 @@ def process(out: Path):
 
     records = []
     for svg_file in svg_files:
-        rel = svg_file.relative_to(target_dir)
-        key = str(rel)
-        matched = by_route.get(key)
+        # svgs.ts uses "/library/<file>.svg" while files live at "static/library/<file>.svg"
+        asset_key = f"library/{svg_file.name}"
+        matched = record_by_asset_path.get(asset_key)
         svg_meta = parse_svg_basic(svg_file)
-        theme, kind = _infer_theme_kind(svg_file.stem)
+        props = properties_by_asset_path.get(asset_key)
+        if not props:
+            theme, kind = _infer_theme_kind(svg_file.stem)
+            props = {"theme": theme, "kind": kind}
+        else:
+            theme = props.get("theme", "light")
+            kind = props.get("kind", "symbol")
         dist_rel = Path("src") / svg_file.name
         records.append(
             {
@@ -106,7 +158,7 @@ def process(out: Path):
                 "dist_path": str(dist_rel),
                 "theme": theme,
                 "kind": kind,
-                "properties": {"theme": theme, "kind": kind},
+                "properties": props,
                 "svg": svg_meta,
                 "meta": matched,
             }

@@ -182,10 +182,6 @@ def dist(ctx):
         "octicons": CACHE_DIR / "octicons" / "metadata.json",
         "svgl": CACHE_DIR / "svgl" / "metadata.json",
     }
-    # Extra data file for svgl
-    svgl_data = CACHE_DIR / "svgl" / "data.json"
-    if svgl_data.exists():
-        _copy_file(svgl_data, DIST_DIR / "svgl" / "data.json")
 
     # Copy licenses
     _copy_license(ROOT / "vendor" / "radix-ui-icons", DIST_DIR / "radix-ui-icons")

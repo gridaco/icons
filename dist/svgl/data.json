@@ -241,7 +241,7 @@
       "file": "src/aliexpress-logo.svg",
       "properties": {
         "theme": "light",
-        "kind": "symbol"
+        "kind": "wordmark"
       }
     },
     {
@@ -288,7 +288,7 @@
       "name": "ant-design-dark-theme",
       "file": "src/ant-design-dark-theme.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -312,7 +312,7 @@
       "name": "anthropic_white",
       "file": "src/anthropic_white.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -320,7 +320,7 @@
       "name": "anthropic_white_wordmark",
       "file": "src/anthropic_white_wordmark.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "wordmark"
       }
     },
@@ -2496,7 +2496,7 @@
       "name": "heroui_light",
       "file": "src/heroui_light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -2728,7 +2728,7 @@
       "name": "intello-dark",
       "file": "src/intello-dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -2736,7 +2736,7 @@
       "name": "intello-light",
       "file": "src/intello-light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -2744,7 +2744,7 @@
       "name": "intello_wordmark_dark",
       "file": "src/intello_wordmark_dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "wordmark"
       }
     },
@@ -2752,7 +2752,7 @@
       "name": "intello_wordmark_light",
       "file": "src/intello_wordmark_light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "wordmark"
       }
     },
@@ -3896,7 +3896,7 @@
       "name": "nextjs_icon_dark",
       "file": "src/nextjs_icon_dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -3905,7 +3905,7 @@
       "file": "src/nextjs_logo_dark.svg",
       "properties": {
         "theme": "dark",
-        "kind": "symbol"
+        "kind": "wordmark"
       }
     },
     {
@@ -3913,7 +3913,7 @@
       "file": "src/nextjs_logo_light.svg",
       "properties": {
         "theme": "light",
-        "kind": "symbol"
+        "kind": "wordmark"
       }
     },
     {
@@ -4025,7 +4025,7 @@
       "file": "src/nuxt-content-wordmark-dark.svg",
       "properties": {
         "theme": "dark",
-        "kind": "wordmark"
+        "kind": "symbol"
       }
     },
     {
@@ -4033,7 +4033,7 @@
       "file": "src/nuxt-content-wordmark-light.svg",
       "properties": {
         "theme": "light",
-        "kind": "wordmark"
+        "kind": "symbol"
       }
     },
     {
@@ -4041,7 +4041,7 @@
       "file": "src/nuxt-studio-wordmark-dark.svg",
       "properties": {
         "theme": "dark",
-        "kind": "wordmark"
+        "kind": "symbol"
       }
     },
     {
@@ -4049,7 +4049,7 @@
       "file": "src/nuxt-studio-wordmark-light.svg",
       "properties": {
         "theme": "light",
-        "kind": "wordmark"
+        "kind": "symbol"
       }
     },
     {
@@ -4057,7 +4057,7 @@
       "file": "src/nuxt-ui-wordmark-dark.svg",
       "properties": {
         "theme": "dark",
-        "kind": "wordmark"
+        "kind": "symbol"
       }
     },
     {
@@ -4065,7 +4065,7 @@
       "file": "src/nuxt-ui-wordmark-light.svg",
       "properties": {
         "theme": "light",
-        "kind": "wordmark"
+        "kind": "symbol"
       }
     },
     {
@@ -5136,7 +5136,7 @@
       "name": "refine_dark",
       "file": "src/refine_dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -5144,7 +5144,7 @@
       "name": "refine_light",
       "file": "src/refine_light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -5152,7 +5152,7 @@
       "name": "reflex-dark",
       "file": "src/reflex-dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -5160,7 +5160,7 @@
       "name": "reflex-light",
       "file": "src/reflex-light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -5304,7 +5304,7 @@
       "name": "resend-icon-white",
       "file": "src/resend-icon-white.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -5320,7 +5320,7 @@
       "name": "resend-wordmark-white",
       "file": "src/resend-wordmark-white.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "wordmark"
       }
     },
@@ -5336,7 +5336,7 @@
       "name": "roblox",
       "file": "src/roblox.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -5560,7 +5560,7 @@
       "name": "sketch",
       "file": "src/sketch.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -5664,7 +5664,7 @@
       "name": "soldera-icon",
       "file": "src/soldera-icon.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -6040,7 +6040,7 @@
       "name": "t3-dark",
       "file": "src/t3-dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -6048,7 +6048,7 @@
       "name": "t3-light",
       "file": "src/t3-light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -6872,7 +6872,7 @@
       "name": "volta-dark",
       "file": "src/volta-dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -6880,7 +6880,7 @@
       "name": "volta-light",
       "file": "src/volta-light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -6928,7 +6928,7 @@
       "name": "wakatime-dark",
       "file": "src/wakatime-dark.svg",
       "properties": {
-        "theme": "dark",
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -6936,7 +6936,7 @@
       "name": "wakatime-light",
       "file": "src/wakatime-light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -7040,7 +7040,7 @@
       "name": "whop-light",
       "file": "src/whop-light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -7112,7 +7112,7 @@
       "name": "workos-light",
       "file": "src/workos-light.svg",
       "properties": {
-        "theme": "light",
+        "theme": "dark",
         "kind": "symbol"
       }
     },
