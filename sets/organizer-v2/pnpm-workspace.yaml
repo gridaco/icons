@@ -1,1 +1,4 @@
-# Standalone pnpm project (stops pnpm workspace search at this dir).
+# Single-package workspace so this stays a standalone pnpm root (stops the
+# upward workspace search). `packages` keeps it valid for pnpm 9 as well.
+packages:
+  - "."
