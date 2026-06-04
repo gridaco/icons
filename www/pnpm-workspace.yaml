@@ -1,0 +1,8 @@
+# Single-package workspace: makes this a standalone pnpm root (stops the
+# upward workspace search) and is valid for pnpm 9 (Vercel), which requires a
+# `packages` field. `allowBuilds` is honored by pnpm 11 and ignored by pnpm 9
+# (which has no build-script gating, so sharp's prebuilt binary is used).
+packages:
+  - "."
+allowBuilds:
+  sharp: true

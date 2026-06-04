@@ -74,9 +74,7 @@ export function parseItemsQuery(request: Request): ItemsQuery {
 }
 
 const HOST =
-  process.env.NODE_ENV === "production"
-    ? "https://icons.grida.co"
-    : "http://localhost:3001";
+  process.env.NODE_ENV === "production" ? "https://icons.grida.co" : "http://localhost:3001";
 const BASE = `${HOST}/dist`;
 const DIST_ROOT = path.resolve(process.cwd(), "public", "dist");
 
@@ -93,9 +91,7 @@ function buildDownloadUrl(vendorId: string, file: string): string {
   return `${BASE}/${vendorId}/${file}`;
 }
 
-export async function loadAllVendors(): Promise<
-  Array<{ id: string; data: VendorData }>
-> {
+export async function loadAllVendors(): Promise<Array<{ id: string; data: VendorData }>> {
   const entries = await fs.readdir(DIST_ROOT, { withFileTypes: true });
   const vendors: Array<{ id: string; data: VendorData }> = [];
   for (const ent of entries) {
@@ -118,15 +114,13 @@ export async function buildAllItems() {
       name: f.name,
       download: buildDownloadUrl(id, f.file),
       properties: f.properties ?? {},
-    }))
+    })),
   );
   return { items, total: items.length };
 }
 
 export async function buildSvglItems() {
-  const data = await readJson<VendorData>(
-    path.join(DIST_ROOT, "svgl", "data.json")
-  );
+  const data = await readJson<VendorData>(path.join(DIST_ROOT, "svgl", "data.json"));
   if (!data) return { items: [], total: 0, missing: true };
   const items =
     data.files?.map((f) => ({
@@ -141,7 +135,7 @@ export async function buildSvglItems() {
 
 export function filterItems(
   items: ApiItem[],
-  opts: { vendor?: string; q?: string; variants?: Record<string, string> }
+  opts: { vendor?: string; q?: string; variants?: Record<string, string> },
 ) {
   const qLower = opts.q?.trim().toLowerCase() ?? "";
   let filtered = items;
@@ -151,15 +145,13 @@ export function filterItems(
   if (qLower) {
     filtered = filtered.filter((i) => i.name.toLowerCase().includes(qLower));
   }
-  const variantEntries = Object.entries(opts.variants ?? {}).filter(([, v]) =>
-    Boolean(v)
-  );
+  const variantEntries = Object.entries(opts.variants ?? {}).filter(([, v]) => Boolean(v));
   if (variantEntries.length) {
     filtered = filtered.filter((i) =>
       variantEntries.every(([key, value]) => {
         const propValue = i.properties?.[key];
         return propValue !== undefined && String(propValue) === String(value);
-      })
+      }),
     );
   }
   return filtered;

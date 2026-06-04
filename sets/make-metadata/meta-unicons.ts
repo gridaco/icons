@@ -1,4 +1,4 @@
-import type { IconMeta, IConStyleVariant } from "./types";
+import type { IconMeta } from "./types";
 
 const uri = (name: string) => "https://icons.reflect-ui.com/unicons/" + name;
 

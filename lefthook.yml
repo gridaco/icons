@@ -1,0 +1,39 @@
+# Git hooks for this repo, managed by lefthook.
+# Installed automatically by `pnpm install` (root "prepare" runs `lefthook install`);
+# to wire hooks manually run: pnpm exec lefthook install
+#
+# pre-commit formats staged files with oxfmt (re-staging the result) and then
+# lints them with oxlint. Both tools also read .oxfmtrc.json / .oxlintrc.json,
+# so the `exclude` lists below just keep generated/vendored data out of the hook.
+
+pre-commit:
+  # Jobs run sequentially in array order: format first, then lint the result.
+  jobs:
+    - name: oxfmt
+      glob: "*.{js,jsx,ts,tsx,mjs,cjs,mts,cts,json,jsonc,css,scss,md,mdx,html,yaml,yml}"
+      exclude:
+        - "dist/**"
+        - "vendor/**"
+        - "pipeline/**"
+        - "sets/dist/**"
+        - "sets/raw/**"
+        - "sets/metadata/**"
+        - "sets/organizer/**"
+        - "**/public/**"
+        - "**/.next/**"
+      run: node_modules/.bin/oxfmt --no-error-on-unmatched-pattern {staged_files}
+      stage_fixed: true
+
+    - name: oxlint
+      glob: "*.{js,jsx,ts,tsx,mjs,cjs,mts,cts}"
+      exclude:
+        - "dist/**"
+        - "vendor/**"
+        - "pipeline/**"
+        - "sets/dist/**"
+        - "sets/raw/**"
+        - "sets/metadata/**"
+        - "sets/organizer/**"
+        - "**/public/**"
+        - "**/.next/**"
+      run: node_modules/.bin/oxlint {staged_files}

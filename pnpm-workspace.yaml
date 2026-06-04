@@ -1,0 +1,7 @@
+# Single-package workspace so this stays a standalone pnpm root.
+# `packages` is required by pnpm 9; `allowBuilds` is honored by pnpm 11 and
+# ignored by older pnpm (which doesn't gate build scripts).
+packages:
+  - "."
+allowBuilds:
+  lefthook: true

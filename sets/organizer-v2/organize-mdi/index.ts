@@ -79,24 +79,17 @@ Object.keys(icons).map((key) => {
     // limit to 24
     24,
     // biggest size as defualt
-    Math.max(...(Array.from(icon.sizes) as number[]))
+    Math.max(...(Array.from(icon.sizes) as number[])),
   );
   const { name, variants, category } = icon;
 
   for (const variant of Array.from(variants) as string[]) {
     // src file
-    const srcfile = path.join(
-      SRCDIR,
-      category,
-      name,
-      variant,
-      `${defaultsize}px.svg`
-    );
+    const srcfile = path.join(SRCDIR, category, name, variant, `${defaultsize}px.svg`);
 
     // target file
     const vname = VARIANT_NAME_MAP[variant];
-    const targetfilename =
-      vname === "filled" ? `${name}.svg` : `${name}_${vname}.svg`;
+    const targetfilename = vname === "filled" ? `${name}.svg` : `${name}_${vname}.svg`;
     const targetfile = path.join(TARGET_DIR, targetfilename);
 
     // copy

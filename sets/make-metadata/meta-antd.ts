@@ -9,7 +9,7 @@ const variants_legacy_back_map = {
 export default function maplegacyjson(obj: object) {
   const result = {};
   Object.values(obj).forEach((i) => {
-    const { default_size, variant, family } = i;
+    const { variant, family } = i;
 
     if (result[family]) {
       result[family].variants.push(variant);

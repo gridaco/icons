@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [
+    "dist/**",
+    "vendor/**",
+    "pipeline/**",
+    "sets/dist/**",
+    "sets/raw/**",
+    "sets/metadata/**",
+    "sets/organizer/**",
+    "**/public/**",
+    "**/.next/**",
+    "**/node_modules/**"
+  ]
+}
