@@ -291,10 +291,78 @@ def clean():
     click.echo("Dist directory reset with placeholders (.gitkeep, README.md).")
 
 
+# Vendors that must be present in a healthy dist build.
+DIST_VENDORS = [
+    "radix-ui-icons",
+    "heroicons",
+    "lucide-icons",
+    "phosphor-icons",
+    "octicons",
+    "svgl",
+]
+
+
+@click.command(name="validate")
+def validate():
+    """
+    Sanity-check the built dist/ before publishing.
+
+    For each vendor asserts that data.json exists and parses, that it lists at
+    least one file, and that the number of file entries matches the number of
+    .svg assets actually copied into dist/<vendor>/src. A zero count or a
+    mismatch usually means an upstream submodule restructured its folders and a
+    hard-coded source path in the `dist` builder now points at nothing — the
+    failure mode that would otherwise ship an empty vendor silently.
+    """
+    errors: list[str] = []
+    click.echo(f"{'vendor':<18}{'entries':>9}{'svgs':>8}  status")
+    for vendor in DIST_VENDORS:
+        vdir = DIST_DIR / vendor
+        data_path = vdir / "data.json"
+        if not data_path.exists():
+            errors.append(f"{vendor}: data.json missing")
+            click.echo(f"{vendor:<18}{'MISSING':>9}")
+            continue
+        try:
+            data = json.loads(data_path.read_text())
+        except Exception as e:
+            errors.append(f"{vendor}: data.json invalid JSON ({e})")
+            click.echo(f"{vendor:<18}{'BADJSON':>9}")
+            continue
+
+        files = data.get("files") or []
+        n_entries = len(files)
+        src_dir = vdir / "src"
+        n_svgs = (
+            sum(1 for p in src_dir.rglob("*.svg") if p.is_file())
+            if src_dir.exists()
+            else 0
+        )
+
+        status = "ok"
+        if n_entries == 0:
+            errors.append(f"{vendor}: 0 entries (upstream path drift?)")
+            status = "EMPTY"
+        elif n_entries != n_svgs:
+            errors.append(
+                f"{vendor}: data.json entries ({n_entries}) != src svgs ({n_svgs})"
+            )
+            status = "MISMATCH"
+        click.echo(f"{vendor:<18}{n_entries:>9}{n_svgs:>8}  {status}")
+
+    if errors:
+        click.echo("\nVALIDATION FAILED:")
+        for e in errors:
+            click.echo(f"  - {e}")
+        raise SystemExit(1)
+    click.echo("\nAll vendors valid.")
+
+
 # Expose only cache and dist at the root
 cli.add_command(cache, name="cache")
 cli.add_command(dist, name="dist")
 cli.add_command(clean, name="clean")
+cli.add_command(validate, name="validate")
 
 
 if __name__ == "__main__":

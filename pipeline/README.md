@@ -28,6 +28,17 @@ Run from `pipeline/` (or prefix with `uv run pipeline/main.py ...` from repo roo
 
 Each command writes metadata to `.cache/<vendor>/metadata.json` by default. Use `--out <dir>` on individual vendor commands to override.
 
+### Build + validate
+
+- `uv run main.py dist` — clean, re-cache all vendors, and build the published `dist/` (SVGs + per-vendor `data.json` + merged `LICENSE`).
+- `uv run main.py validate` — sanity-check a built `dist/`: every vendor's `data.json` must parse, list >0 files, and have an entry count matching the `.svg` files in `dist/<vendor>/src`. Exits non-zero on failure. This is the gate that catches an upstream submodule moving its folders out from under a hard-coded source path in `dist` (which would otherwise ship an empty vendor silently).
+
+## Auto-update
+
+[`.github/workflows/update-icons.yml`](../.github/workflows/update-icons.yml) runs weekly (and on demand via *workflow_dispatch*): it bumps every `vendor/*` submodule to latest upstream, runs `dist`, runs `validate` plus a regression gate (fails if any vendor's count drops >25%), and opens a PR (`bot/icons-update`). The data change always lands via that PR. No secrets are needed.
+
+> The `version` field in each `data.json` comes from `templates/<vendor>.spec.json` and is **not** auto-derived from the submodule — bump it by hand when an upstream cuts a release worth labelling.
+
 ## Outputs (per vendor)
 
 - All commands write to `.cache/<vendor>/metadata.json` by default (override with `--out <dir>` on the specific vendor command).
