@@ -382,6 +382,13 @@
       }
     },
     {
+      "name": "book-locked-16",
+      "file": "src/book-locked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "bookmark-16",
       "file": "src/bookmark-16.svg",
       "properties": {
@@ -974,6 +981,13 @@
       "file": "src/comment-discussion-24.svg",
       "properties": {
         "size": "24"
+      }
+    },
+    {
+      "name": "comment-locked-16",
+      "file": "src/comment-locked-16.svg",
+      "properties": {
+        "size": "16"
       }
     },
     {
@@ -1922,6 +1936,20 @@
       }
     },
     {
+      "name": "flag-16",
+      "file": "src/flag-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "flag-24",
+      "file": "src/flag-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "flame-16",
       "file": "src/flame-16.svg",
       "properties": {
@@ -2157,6 +2185,13 @@
       "file": "src/git-pull-request-draft-24.svg",
       "properties": {
         "size": "24"
+      }
+    },
+    {
+      "name": "git-pull-request-locked-16",
+      "file": "src/git-pull-request-locked-16.svg",
+      "properties": {
+        "size": "16"
       }
     },
     {
@@ -2496,6 +2531,13 @@
       }
     },
     {
+      "name": "issue-locked-16",
+      "file": "src/issue-locked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "issue-opened-16",
       "file": "src/issue-opened-16.svg",
       "properties": {
@@ -2729,6 +2771,20 @@
     {
       "name": "lock-24",
       "file": "src/lock-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "lockup-github-16",
+      "file": "src/lockup-github-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "lockup-github-24",
+      "file": "src/lockup-github-24.svg",
       "properties": {
         "size": "24"
       }
@@ -3665,6 +3721,20 @@
       }
     },
     {
+      "name": "repo-forked-locked-16",
+      "file": "src/repo-forked-locked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "repo-forked-locked-24",
+      "file": "src/repo-forked-locked-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "repo-locked-16",
       "file": "src/repo-locked-16.svg",
       "properties": {
@@ -3788,6 +3858,13 @@
       "file": "src/ruby-24.svg",
       "properties": {
         "size": "24"
+      }
+    },
+    {
+      "name": "sandbox-16",
+      "file": "src/sandbox-16.svg",
+      "properties": {
+        "size": "16"
       }
     },
     {
@@ -4348,6 +4425,20 @@
       "file": "src/stack-24.svg",
       "properties": {
         "size": "24"
+      }
+    },
+    {
+      "name": "stack-check-16",
+      "file": "src/stack-check-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "stack-remove-16",
+      "file": "src/stack-remove-16.svg",
+      "properties": {
+        "size": "16"
       }
     },
     {
@@ -4918,17 +5009,10 @@
       }
     },
     {
-      "name": "vscode-32",
-      "file": "src/vscode-32.svg",
+      "name": "vscode-24",
+      "file": "src/vscode-24.svg",
       "properties": {
-        "size": "32"
-      }
-    },
-    {
-      "name": "vscode-48",
-      "file": "src/vscode-48.svg",
-      "properties": {
-        "size": "48"
+        "size": "24"
       }
     },
     {
