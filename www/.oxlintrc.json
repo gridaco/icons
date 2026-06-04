@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "import", "react", "jsx-a11y", "nextjs"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "jsx-a11y/click-events-have-key-events": "warn",
+    "jsx-a11y/no-noninteractive-element-interactions": "warn",
+    "jsx-a11y/prefer-tag-over-role": "warn"
+  },
+  "ignorePatterns": [
+    "**/node_modules/**",
+    ".next/**",
+    "out/**",
+    "build/**",
+    "public/**",
+    "next-env.d.ts"
+  ],
+  "env": {
+    "builtin": true
+  }
+}
