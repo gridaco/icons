@@ -77,6 +77,46 @@
       }
     },
     {
+      "name": "abacatepay-wordmark",
+      "file": "src/abacatepay-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "abacatepay",
+      "file": "src/abacatepay.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "acrobat-reader",
+      "file": "src/acrobat-reader.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "acrobat-scan",
+      "file": "src/acrobat-scan.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "adobe-sign",
+      "file": "src/adobe-sign.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "adobe-xd",
       "file": "src/adobe-xd.svg",
       "properties": {
@@ -87,6 +127,14 @@
     {
       "name": "adobe",
       "file": "src/adobe.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "aero",
+      "file": "src/aero.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -111,22 +159,6 @@
     {
       "name": "affinity_publisher",
       "file": "src/affinity_publisher.svg",
-      "properties": {
-        "theme": "light",
-        "kind": "symbol"
-      }
-    },
-    {
-      "name": "afordin-dark",
-      "file": "src/afordin-dark.svg",
-      "properties": {
-        "theme": "dark",
-        "kind": "symbol"
-      }
-    },
-    {
-      "name": "afordin-light",
-      "file": "src/afordin-light.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -183,6 +215,14 @@
     {
       "name": "ahrefs",
       "file": "src/ahrefs.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "ai_appicon_64_grayscale",
+      "file": "src/ai_appicon_64_grayscale.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -322,6 +362,22 @@
       "properties": {
         "theme": "dark",
         "kind": "wordmark"
+      }
+    },
+    {
+      "name": "antigravity-wordmark",
+      "file": "src/antigravity-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "antigravity",
+      "file": "src/antigravity.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
       }
     },
     {
@@ -549,6 +605,14 @@
       }
     },
     {
+      "name": "audition",
+      "file": "src/audition.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "auth0",
       "file": "src/auth0.svg",
       "properties": {
@@ -685,6 +749,14 @@
       }
     },
     {
+      "name": "behance",
+      "file": "src/behance.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "bento",
       "file": "src/bento.svg",
       "properties": {
@@ -757,6 +829,22 @@
       }
     },
     {
+      "name": "bklit-dark",
+      "file": "src/bklit-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "bklit-light",
+      "file": "src/bklit-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "blender",
       "file": "src/blender.svg",
       "properties": {
@@ -823,6 +911,14 @@
     {
       "name": "brave",
       "file": "src/brave.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "bridge",
+      "file": "src/bridge.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -925,6 +1021,30 @@
       }
     },
     {
+      "name": "captivate-prime",
+      "file": "src/captivate-prime.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "captivate",
+      "file": "src/captivate.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "capture",
+      "file": "src/capture.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "carrd",
       "file": "src/carrd.svg",
       "properties": {
@@ -933,8 +1053,48 @@
       }
     },
     {
+      "name": "cerebras-dark",
+      "file": "src/cerebras-dark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "cerebras-wordmark-dark",
+      "file": "src/cerebras-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "cerebras-wordmark",
+      "file": "src/cerebras-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "cerebras",
+      "file": "src/cerebras.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "chakra-ui",
       "file": "src/chakra-ui.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "character-animator",
+      "file": "src/character-animator.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -1037,6 +1197,30 @@
       }
     },
     {
+      "name": "clickup-wordmark-dark",
+      "file": "src/clickup-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "clickup-wordmark",
+      "file": "src/clickup-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "clickup",
+      "file": "src/clickup.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "cloudflare-workers",
       "file": "src/cloudflare-workers.svg",
       "properties": {
@@ -1074,6 +1258,38 @@
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "codex_dark",
+      "file": "src/codex_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "codex_light",
+      "file": "src/codex_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "codex_wordmark_dark",
+      "file": "src/codex_wordmark_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "codex_wordmark_light",
+      "file": "src/codex_wordmark_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {
@@ -1127,6 +1343,62 @@
     {
       "name": "coinbase",
       "file": "src/coinbase.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "coldfusion-builder",
+      "file": "src/coldfusion-builder.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "coldfusion",
+      "file": "src/coldfusion.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "conductor-wordmark_dark",
+      "file": "src/conductor-wordmark_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "conductor-wordmark_light",
+      "file": "src/conductor-wordmark_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "conductor_dark",
+      "file": "src/conductor_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "conductor_light",
+      "file": "src/conductor_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "connect",
+      "file": "src/connect.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -1397,6 +1669,14 @@
       }
     },
     {
+      "name": "digital-editions",
+      "file": "src/digital-editions.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "digitalocean",
       "file": "src/digitalocean.svg",
       "properties": {
@@ -1577,6 +1857,22 @@
       "file": "src/dotnet.svg",
       "properties": {
         "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "dracula-dark",
+      "file": "src/dracula-dark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "dracula",
+      "file": "src/dracula.svg",
+      "properties": {
+        "theme": "dark",
         "kind": "symbol"
       }
     },
@@ -1789,6 +2085,22 @@
       }
     },
     {
+      "name": "epicgames-icon-dark",
+      "file": "src/epicgames-icon-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "epicgames-icon-light",
+      "file": "src/epicgames-icon-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "esbuild",
       "file": "src/esbuild.svg",
       "properties": {
@@ -1839,6 +2151,14 @@
     {
       "name": "exome",
       "file": "src/exome.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "experience-platform",
+      "file": "src/experience-platform.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -1917,6 +2237,14 @@
       }
     },
     {
+      "name": "fill-and-sign",
+      "file": "src/fill-and-sign.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "firebase-studio",
       "file": "src/firebase-studio.svg",
       "properties": {
@@ -1935,6 +2263,38 @@
     {
       "name": "firebase",
       "file": "src/firebase.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "firecrawl-dark-wordmark",
+      "file": "src/firecrawl-dark-wordmark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "firecrawl-dark",
+      "file": "src/firecrawl-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "firecrawl-wordmark",
+      "file": "src/firecrawl-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "firecrawl",
+      "file": "src/firecrawl.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -2013,16 +2373,32 @@
       }
     },
     {
-      "name": "formance-logo-dark",
-      "file": "src/formance-logo-dark.svg",
+      "name": "fontfolio",
+      "file": "src/fontfolio.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "fonts",
+      "file": "src/fonts.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "formance-dark",
+      "file": "src/formance-dark.svg",
       "properties": {
         "theme": "dark",
         "kind": "symbol"
       }
     },
     {
-      "name": "formance-logo-light",
-      "file": "src/formance-logo-light.svg",
+      "name": "formance-light",
+      "file": "src/formance-light.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -2053,6 +2429,22 @@
       }
     },
     {
+      "name": "framemaker-server",
+      "file": "src/framemaker-server.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "framemaker",
+      "file": "src/framemaker.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "framer",
       "file": "src/framer.svg",
       "properties": {
@@ -2065,6 +2457,14 @@
       "file": "src/framer_dark.svg",
       "properties": {
         "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "fresco",
+      "file": "src/fresco.svg",
+      "properties": {
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -2205,6 +2605,38 @@
       }
     },
     {
+      "name": "glide_dark",
+      "file": "src/glide_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "glide_dark_wordmark",
+      "file": "src/glide_dark_wordmark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "glide_light",
+      "file": "src/glide_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "glide_light_wordmark",
+      "file": "src/glide_light_wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "gmail",
       "file": "src/gmail.svg",
       "properties": {
@@ -2237,6 +2669,38 @@
       }
     },
     {
+      "name": "goil-dark",
+      "file": "src/goil-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "goil-wordmark-dark",
+      "file": "src/goil-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "goil-wordmark",
+      "file": "src/goil-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "goil",
+      "file": "src/goil.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "golang",
       "file": "src/golang.svg",
       "properties": {
@@ -2249,6 +2713,30 @@
       "file": "src/golang_dark.svg",
       "properties": {
         "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "google-analytics",
+      "file": "src/google-analytics.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "google-calendar",
+      "file": "src/google-calendar.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "google-chat",
+      "file": "src/google-chat.svg",
+      "properties": {
+        "theme": "light",
         "kind": "symbol"
       }
     },
@@ -2277,8 +2765,32 @@
       }
     },
     {
+      "name": "google-meet",
+      "file": "src/google-meet.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "google-palm",
       "file": "src/google-palm.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "google-sheets",
+      "file": "src/google-sheets.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "google-slides",
+      "file": "src/google-slides.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -2346,6 +2858,38 @@
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "granola-dark",
+      "file": "src/granola-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "granola-light",
+      "file": "src/granola-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "granola-wordmark-dark",
+      "file": "src/granola-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "granola-wordmark-light",
+      "file": "src/granola-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {
@@ -2557,8 +3101,32 @@
       }
     },
     {
+      "name": "hotmart-wordmark",
+      "file": "src/hotmart-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "hotmart",
+      "file": "src/hotmart.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "html5",
       "file": "src/html5.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "http-dynamic-streaming",
+      "file": "src/http-dynamic-streaming.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -2615,6 +3183,22 @@
     {
       "name": "illustrator",
       "file": "src/illustrator.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "incopy",
+      "file": "src/incopy.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "indesign-server",
+      "file": "src/indesign-server.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -2754,6 +3338,62 @@
       "properties": {
         "theme": "dark",
         "kind": "wordmark"
+      }
+    },
+    {
+      "name": "interfere_black",
+      "file": "src/interfere_black.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "interfere_white",
+      "file": "src/interfere_white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "interfere_wordmark_black",
+      "file": "src/interfere_wordmark_black.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "interfere_wordmark_white",
+      "file": "src/interfere_wordmark_white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "intlayer-dark",
+      "file": "src/intlayer-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "intlayer-light",
+      "file": "src/intlayer-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "ivy-framework",
+      "file": "src/ivy-framework.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
       }
     },
     {
@@ -2981,6 +3621,30 @@
       }
     },
     {
+      "name": "langchain-logo",
+      "file": "src/langchain-logo.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "langchain-wordmark-dark",
+      "file": "src/langchain-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "langchain-wordmark-light",
+      "file": "src/langchain-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "laravel",
       "file": "src/laravel.svg",
       "properties": {
@@ -3037,8 +3701,24 @@
       }
     },
     {
+      "name": "leedlime",
+      "file": "src/leedlime.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "lemonsqueezy",
       "file": "src/lemonsqueezy.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "lightroom-classic",
+      "file": "src/lightroom-classic.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -3205,6 +3885,38 @@
       }
     },
     {
+      "name": "manus-dark",
+      "file": "src/manus-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "manus-wordmark-dark",
+      "file": "src/manus-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "manus-wordmark",
+      "file": "src/manus-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "manus",
+      "file": "src/manus.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "manzdev",
       "file": "src/manzdev.svg",
       "properties": {
@@ -3295,6 +4007,22 @@
     {
       "name": "mattermost-light",
       "file": "src/mattermost-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "media-encoder",
+      "file": "src/media-encoder.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "media-server",
+      "file": "src/media-server.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -3461,6 +4189,14 @@
       }
     },
     {
+      "name": "microsoft-office",
+      "file": "src/microsoft-office.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "microsoft-onedrive",
       "file": "src/microsoft-onedrive.svg",
       "properties": {
@@ -3535,6 +4271,22 @@
     {
       "name": "midday",
       "file": "src/midday.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "midjourney-dark",
+      "file": "src/midjourney-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "midjourney",
+      "file": "src/midjourney.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -3842,6 +4594,54 @@
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "nano-white",
+      "file": "src/nano-white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "nano-wordmark-white",
+      "file": "src/nano-wordmark-white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "nano-wordmark",
+      "file": "src/nano-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "nano",
+      "file": "src/nano.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "neon-wordmark-dark",
+      "file": "src/neon-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "neon-wordmark-light",
+      "file": "src/neon-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {
@@ -4237,6 +5037,46 @@
       }
     },
     {
+      "name": "openclaw",
+      "file": "src/openclaw.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "opencode-dark",
+      "file": "src/opencode-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "opencode-wordmark-dark",
+      "file": "src/opencode-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "opencode-wordmark",
+      "file": "src/opencode-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "opencode",
+      "file": "src/opencode.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "openhunts",
       "file": "src/openhunts.svg",
       "properties": {
@@ -4282,6 +5122,30 @@
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "orshot",
+      "file": "src/orshot.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "orshot_wordmark_dark",
+      "file": "src/orshot_wordmark_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "orshot_wordmark_light",
+      "file": "src/orshot_wordmark_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {
@@ -4469,6 +5333,38 @@
       }
     },
     {
+      "name": "photopea",
+      "file": "src/photopea.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "photoshop-camera",
+      "file": "src/photoshop-camera.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "photoshop-elements",
+      "file": "src/photoshop-elements.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "photoshop-express",
+      "file": "src/photoshop-express.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "photoshop",
       "file": "src/photoshop.svg",
       "properties": {
@@ -4653,6 +5549,14 @@
       }
     },
     {
+      "name": "portfolio",
+      "file": "src/portfolio.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "postcss",
       "file": "src/postcss.svg",
       "properties": {
@@ -4773,8 +5677,32 @@
       }
     },
     {
+      "name": "premiere-elements",
+      "file": "src/premiere-elements.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "premiere-rush",
+      "file": "src/premiere-rush.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "premiere",
       "file": "src/premiere.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "presenter-video-express",
+      "file": "src/presenter-video-express.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -4831,6 +5759,46 @@
     {
       "name": "producthunt",
       "file": "src/producthunt.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "protonmail-wordmark",
+      "file": "src/protonmail-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "protonmail",
+      "file": "src/protonmail.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "protonvpn-wordmark",
+      "file": "src/protonvpn-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "protonvpn",
+      "file": "src/protonvpn.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "ps_appicon_64_grayscale",
+      "file": "src/ps_appicon_64_grayscale.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -5101,6 +6069,14 @@
       }
     },
     {
+      "name": "reader_appicon_64_grayscale",
+      "file": "src/reader_appicon_64_grayscale.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "reddit",
       "file": "src/reddit.svg",
       "properties": {
@@ -5237,6 +6213,38 @@
       }
     },
     {
+      "name": "render_black",
+      "file": "src/render_black.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "render_white",
+      "file": "src/render_white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "render_wordmark_black",
+      "file": "src/render_wordmark_black.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "render_wordmark_white",
+      "file": "src/render_wordmark_white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "replicate-wordmark_dark",
       "file": "src/replicate-wordmark_dark.svg",
       "properties": {
@@ -5349,6 +6357,22 @@
       }
     },
     {
+      "name": "robohelp-server",
+      "file": "src/robohelp-server.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "robohelp",
+      "file": "src/robohelp.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "rolldown",
       "file": "src/rolldown.svg",
       "properties": {
@@ -5391,6 +6415,14 @@
     {
       "name": "rubymine",
       "file": "src/rubymine.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "runframe",
+      "file": "src/runframe.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -5765,6 +6797,14 @@
       }
     },
     {
+      "name": "spring-wordmark",
+      "file": "src/spring-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "spring",
       "file": "src/spring.svg",
       "properties": {
@@ -5861,6 +6901,14 @@
       }
     },
     {
+      "name": "stock",
+      "file": "src/stock.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "storyblok",
       "file": "src/storyblok.svg",
       "properties": {
@@ -5893,6 +6941,14 @@
       }
     },
     {
+      "name": "stripe_wordmark",
+      "file": "src/stripe_wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "styledcomponents",
       "file": "src/styledcomponents.svg",
       "properties": {
@@ -5903,6 +6959,38 @@
     {
       "name": "sublimetext",
       "file": "src/sublimetext.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "substance-3d-designer",
+      "file": "src/substance-3d-designer.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "substance-3d-painter",
+      "file": "src/substance-3d-painter.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "substance-3d-sampler",
+      "file": "src/substance-3d-sampler.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "substance-3d-stager",
+      "file": "src/substance-3d-stager.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -6101,8 +7189,48 @@
       }
     },
     {
+      "name": "technical-communication-suite",
+      "file": "src/technical-communication-suite.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "telegram",
       "file": "src/telegram.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "tembo-dark",
+      "file": "src/tembo-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "tembo-wordmark-dark",
+      "file": "src/tembo-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "tembo-wordmark",
+      "file": "src/tembo-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "tembo",
+      "file": "src/tembo.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -6346,6 +7474,30 @@
       "properties": {
         "theme": "light",
         "kind": "wordmark"
+      }
+    },
+    {
+      "name": "trello-wordmark-dark",
+      "file": "src/trello-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "trello-wordmark",
+      "file": "src/trello-wordmark.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "trello",
+      "file": "src/trello.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
       }
     },
     {
@@ -6821,8 +7973,8 @@
       }
     },
     {
-      "name": "vitejs",
-      "file": "src/vitejs.svg",
+      "name": "vite",
+      "file": "src/vite.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -6853,6 +8005,38 @@
       }
     },
     {
+      "name": "vlt-dark",
+      "file": "src/vlt-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "vlt-light",
+      "file": "src/vlt-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "vlt-wordmark-dark",
+      "file": "src/vlt-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "vlt-wordmark-light",
+      "file": "src/vlt-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "voicemod_dark",
       "file": "src/voicemod_dark.svg",
       "properties": {
@@ -6863,6 +8047,14 @@
     {
       "name": "voicemod_light",
       "file": "src/voicemod_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "voidzero",
+      "file": "src/voidzero.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
@@ -7157,6 +8349,30 @@
       }
     },
     {
+      "name": "xata",
+      "file": "src/xata.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "xata_wordmark_black",
+      "file": "src/xata_wordmark_black.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "xata_wordmark_white",
+      "file": "src/xata_wordmark_white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "xbox",
       "file": "src/xbox.svg",
       "properties": {
@@ -7250,6 +8466,14 @@
       "properties": {
         "theme": "light",
         "kind": "wordmark"
+      }
+    },
+    {
+      "name": "zaia-endless",
+      "file": "src/zaia-endless.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
       }
     },
     {

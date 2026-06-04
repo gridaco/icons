@@ -497,6 +497,11 @@
       "properties": {}
     },
     {
+      "name": "astroid",
+      "file": "src/astroid.svg",
+      "properties": {}
+    },
+    {
       "name": "at-sign",
       "file": "src/at-sign.svg",
       "properties": {}
@@ -637,6 +642,11 @@
       "properties": {}
     },
     {
+      "name": "balloon",
+      "file": "src/balloon.svg",
+      "properties": {}
+    },
+    {
       "name": "ban",
       "file": "src/ban.svg",
       "properties": {}
@@ -757,6 +767,11 @@
       "properties": {}
     },
     {
+      "name": "beef-off",
+      "file": "src/beef-off.svg",
+      "properties": {}
+    },
+    {
       "name": "beef",
       "file": "src/beef.svg",
       "properties": {}
@@ -769,6 +784,11 @@
     {
       "name": "beer",
       "file": "src/beer.svg",
+      "properties": {}
+    },
+    {
+      "name": "bell-check",
+      "file": "src/bell-check.svg",
       "properties": {}
     },
     {
@@ -869,6 +889,11 @@
     {
       "name": "blend",
       "file": "src/blend.svg",
+      "properties": {}
+    },
+    {
+      "name": "blender",
+      "file": "src/blender.svg",
       "properties": {}
     },
     {
@@ -1062,6 +1087,11 @@
       "properties": {}
     },
     {
+      "name": "bookmark-off",
+      "file": "src/bookmark-off.svg",
+      "properties": {}
+    },
+    {
       "name": "bookmark-plus",
       "file": "src/bookmark-plus.svg",
       "properties": {}
@@ -1179,6 +1209,11 @@
     {
       "name": "bring-to-front",
       "file": "src/bring-to-front.svg",
+      "properties": {}
+    },
+    {
+      "name": "broccoli",
+      "file": "src/broccoli.svg",
       "properties": {}
     },
     {
@@ -1392,6 +1427,11 @@
       "properties": {}
     },
     {
+      "name": "cannabis-off",
+      "file": "src/cannabis-off.svg",
+      "properties": {}
+    },
+    {
       "name": "cannabis",
       "file": "src/cannabis.svg",
       "properties": {}
@@ -1469,6 +1509,11 @@
     {
       "name": "cat",
       "file": "src/cat.svg",
+      "properties": {}
+    },
+    {
+      "name": "cctv-off",
+      "file": "src/cctv-off.svg",
       "properties": {}
     },
     {
@@ -1722,11 +1767,6 @@
       "properties": {}
     },
     {
-      "name": "chromium",
-      "file": "src/chromium.svg",
-      "properties": {}
-    },
-    {
       "name": "church",
       "file": "src/church.svg",
       "properties": {}
@@ -1894,6 +1934,11 @@
     {
       "name": "circle-percent",
       "file": "src/circle-percent.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-pile",
+      "file": "src/circle-pile.svg",
       "properties": {}
     },
     {
@@ -2147,6 +2192,11 @@
       "properties": {}
     },
     {
+      "name": "cloud-backup",
+      "file": "src/cloud-backup.svg",
+      "properties": {}
+    },
+    {
       "name": "cloud-check",
       "file": "src/cloud-check.svg",
       "properties": {}
@@ -2222,6 +2272,11 @@
       "properties": {}
     },
     {
+      "name": "cloud-sync",
+      "file": "src/cloud-sync.svg",
+      "properties": {}
+    },
+    {
       "name": "cloud-upload",
       "file": "src/cloud-upload.svg",
       "properties": {}
@@ -2254,16 +2309,6 @@
     {
       "name": "code",
       "file": "src/code.svg",
-      "properties": {}
-    },
-    {
-      "name": "codepen",
-      "file": "src/codepen.svg",
-      "properties": {}
-    },
-    {
-      "name": "codesandbox",
-      "file": "src/codesandbox.svg",
       "properties": {}
     },
     {
@@ -2522,6 +2567,11 @@
       "properties": {}
     },
     {
+      "name": "database-search",
+      "file": "src/database-search.svg",
+      "properties": {}
+    },
+    {
       "name": "database-zap",
       "file": "src/database-zap.svg",
       "properties": {}
@@ -2707,11 +2757,6 @@
       "properties": {}
     },
     {
-      "name": "dribbble",
-      "file": "src/dribbble.svg",
-      "properties": {}
-    },
-    {
       "name": "drill",
       "file": "src/drill.svg",
       "properties": {}
@@ -2792,6 +2837,11 @@
       "properties": {}
     },
     {
+      "name": "ellipse",
+      "file": "src/ellipse.svg",
+      "properties": {}
+    },
+    {
       "name": "ellipsis-vertical",
       "file": "src/ellipsis-vertical.svg",
       "properties": {}
@@ -2862,11 +2912,6 @@
       "properties": {}
     },
     {
-      "name": "facebook",
-      "file": "src/facebook.svg",
-      "properties": {}
-    },
-    {
       "name": "factory",
       "file": "src/factory.svg",
       "properties": {}
@@ -2894,11 +2939,6 @@
     {
       "name": "ferris-wheel",
       "file": "src/ferris-wheel.svg",
-      "properties": {}
-    },
-    {
-      "name": "figma",
-      "file": "src/figma.svg",
       "properties": {}
     },
     {
@@ -3212,6 +3252,16 @@
       "properties": {}
     },
     {
+      "name": "fishing-hook",
+      "file": "src/fishing-hook.svg",
+      "properties": {}
+    },
+    {
+      "name": "fishing-rod",
+      "file": "src/fishing-rod.svg",
+      "properties": {}
+    },
+    {
       "name": "flag-off",
       "file": "src/flag-off.svg",
       "properties": {}
@@ -3272,18 +3322,8 @@
       "properties": {}
     },
     {
-      "name": "flip-horizontal",
-      "file": "src/flip-horizontal.svg",
-      "properties": {}
-    },
-    {
       "name": "flip-vertical-2",
       "file": "src/flip-vertical-2.svg",
-      "properties": {}
-    },
-    {
-      "name": "flip-vertical",
-      "file": "src/flip-vertical.svg",
       "properties": {}
     },
     {
@@ -3314,6 +3354,11 @@
     {
       "name": "folder-archive",
       "file": "src/folder-archive.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-bookmark",
+      "file": "src/folder-bookmark.svg",
       "properties": {}
     },
     {
@@ -3492,11 +3537,6 @@
       "properties": {}
     },
     {
-      "name": "framer",
-      "file": "src/framer.svg",
-      "properties": {}
-    },
-    {
       "name": "frown",
       "file": "src/frown.svg",
       "properties": {}
@@ -3642,6 +3682,11 @@
       "properties": {}
     },
     {
+      "name": "git-merge-conflict",
+      "file": "src/git-merge-conflict.svg",
+      "properties": {}
+    },
+    {
       "name": "git-merge",
       "file": "src/git-merge.svg",
       "properties": {}
@@ -3677,16 +3722,6 @@
       "properties": {}
     },
     {
-      "name": "github",
-      "file": "src/github.svg",
-      "properties": {}
-    },
-    {
-      "name": "gitlab",
-      "file": "src/gitlab.svg",
-      "properties": {}
-    },
-    {
       "name": "glass-water",
       "file": "src/glass-water.svg",
       "properties": {}
@@ -3697,8 +3732,23 @@
       "properties": {}
     },
     {
+      "name": "globe-check",
+      "file": "src/globe-check.svg",
+      "properties": {}
+    },
+    {
       "name": "globe-lock",
       "file": "src/globe-lock.svg",
+      "properties": {}
+    },
+    {
+      "name": "globe-off",
+      "file": "src/globe-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "globe-x",
+      "file": "src/globe-x.svg",
       "properties": {}
     },
     {
@@ -3882,6 +3932,11 @@
       "properties": {}
     },
     {
+      "name": "hd",
+      "file": "src/hd.svg",
+      "properties": {}
+    },
+    {
       "name": "hdmi-port",
       "file": "src/hdmi-port.svg",
       "properties": {}
@@ -3964,6 +4019,11 @@
     {
       "name": "heart-pulse",
       "file": "src/heart-pulse.svg",
+      "properties": {}
+    },
+    {
+      "name": "heart-x",
+      "file": "src/heart-x.svg",
       "properties": {}
     },
     {
@@ -4142,11 +4202,6 @@
       "properties": {}
     },
     {
-      "name": "instagram",
-      "file": "src/instagram.svg",
-      "properties": {}
-    },
-    {
       "name": "italic",
       "file": "src/italic.svg",
       "properties": {}
@@ -4292,6 +4347,16 @@
       "properties": {}
     },
     {
+      "name": "layers-minus",
+      "file": "src/layers-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "layers-plus",
+      "file": "src/layers-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "layers",
       "file": "src/layers.svg",
       "properties": {}
@@ -4342,6 +4407,16 @@
       "properties": {}
     },
     {
+      "name": "lens-concave",
+      "file": "src/lens-concave.svg",
+      "properties": {}
+    },
+    {
+      "name": "lens-convex",
+      "file": "src/lens-convex.svg",
+      "properties": {}
+    },
+    {
       "name": "library-big",
       "file": "src/library-big.svg",
       "properties": {}
@@ -4372,8 +4447,18 @@
       "properties": {}
     },
     {
+      "name": "line-dot-right-horizontal",
+      "file": "src/line-dot-right-horizontal.svg",
+      "properties": {}
+    },
+    {
       "name": "line-squiggle",
       "file": "src/line-squiggle.svg",
+      "properties": {}
+    },
+    {
+      "name": "line-style",
+      "file": "src/line-style.svg",
       "properties": {}
     },
     {
@@ -4389,11 +4474,6 @@
     {
       "name": "link",
       "file": "src/link.svg",
-      "properties": {}
-    },
-    {
-      "name": "linkedin",
-      "file": "src/linkedin.svg",
       "properties": {}
     },
     {
@@ -4687,6 +4767,11 @@
       "properties": {}
     },
     {
+      "name": "map-pin-search",
+      "file": "src/map-pin-search.svg",
+      "properties": {}
+    },
+    {
       "name": "map-pin-x-inside",
       "file": "src/map-pin-x-inside.svg",
       "properties": {}
@@ -4777,6 +4862,11 @@
       "properties": {}
     },
     {
+      "name": "message-circle-check",
+      "file": "src/message-circle-check.svg",
+      "properties": {}
+    },
+    {
       "name": "message-circle-code",
       "file": "src/message-circle-code.svg",
       "properties": {}
@@ -4829,6 +4919,11 @@
     {
       "name": "message-circle",
       "file": "src/message-circle.svg",
+      "properties": {}
+    },
+    {
+      "name": "message-square-check",
+      "file": "src/message-square-check.svg",
       "properties": {}
     },
     {
@@ -4917,6 +5012,11 @@
       "properties": {}
     },
     {
+      "name": "metronome",
+      "file": "src/metronome.svg",
+      "properties": {}
+    },
+    {
       "name": "mic-off",
       "file": "src/mic-off.svg",
       "properties": {}
@@ -4974,6 +5074,16 @@
     {
       "name": "minus",
       "file": "src/minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "mirror-rectangular",
+      "file": "src/mirror-rectangular.svg",
+      "properties": {}
+    },
+    {
+      "name": "mirror-round",
+      "file": "src/mirror-round.svg",
       "properties": {}
     },
     {
@@ -5072,6 +5182,11 @@
       "properties": {}
     },
     {
+      "name": "mouse-left",
+      "file": "src/mouse-left.svg",
+      "properties": {}
+    },
+    {
       "name": "mouse-off",
       "file": "src/mouse-off.svg",
       "properties": {}
@@ -5099,6 +5214,11 @@
     {
       "name": "mouse-pointer",
       "file": "src/mouse-pointer.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouse-right",
+      "file": "src/mouse-right.svg",
       "properties": {}
     },
     {
@@ -5502,6 +5622,11 @@
       "properties": {}
     },
     {
+      "name": "parasol",
+      "file": "src/parasol.svg",
+      "properties": {}
+    },
+    {
       "name": "parentheses",
       "file": "src/parentheses.svg",
       "properties": {}
@@ -5717,6 +5842,11 @@
       "properties": {}
     },
     {
+      "name": "play-off",
+      "file": "src/play-off.svg",
+      "properties": {}
+    },
+    {
       "name": "play",
       "file": "src/play.svg",
       "properties": {}
@@ -5744,11 +5874,6 @@
     {
       "name": "pocket-knife",
       "file": "src/pocket-knife.svg",
-      "properties": {}
-    },
-    {
-      "name": "pocket",
-      "file": "src/pocket.svg",
       "properties": {}
     },
     {
@@ -5799,6 +5924,11 @@
     {
       "name": "printer-check",
       "file": "src/printer-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "printer-x",
+      "file": "src/printer-x.svg",
       "properties": {}
     },
     {
@@ -5857,6 +5987,11 @@
       "properties": {}
     },
     {
+      "name": "radio-off",
+      "file": "src/radio-off.svg",
+      "properties": {}
+    },
+    {
       "name": "radio-receiver",
       "file": "src/radio-receiver.svg",
       "properties": {}
@@ -5874,11 +6009,6 @@
     {
       "name": "radius",
       "file": "src/radius.svg",
-      "properties": {}
-    },
-    {
-      "name": "rail-symbol",
-      "file": "src/rail-symbol.svg",
       "properties": {}
     },
     {
@@ -6037,6 +6167,11 @@
       "properties": {}
     },
     {
+      "name": "repeat-off",
+      "file": "src/repeat-off.svg",
+      "properties": {}
+    },
+    {
       "name": "repeat",
       "file": "src/repeat.svg",
       "properties": {}
@@ -6069,6 +6204,11 @@
     {
       "name": "ribbon",
       "file": "src/ribbon.svg",
+      "properties": {}
+    },
+    {
+      "name": "road",
+      "file": "src/road.svg",
       "properties": {}
     },
     {
@@ -6317,6 +6457,11 @@
       "properties": {}
     },
     {
+      "name": "search-alert",
+      "file": "src/search-alert.svg",
+      "properties": {}
+    },
+    {
       "name": "search-check",
       "file": "src/search-check.svg",
       "properties": {}
@@ -6427,6 +6572,11 @@
       "properties": {}
     },
     {
+      "name": "shelving-unit",
+      "file": "src/shelving-unit.svg",
+      "properties": {}
+    },
+    {
       "name": "shield-alert",
       "file": "src/shield-alert.svg",
       "properties": {}
@@ -6439,6 +6589,16 @@
     {
       "name": "shield-check",
       "file": "src/shield-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-cog-corner",
+      "file": "src/shield-cog-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-cog",
+      "file": "src/shield-cog.svg",
       "properties": {}
     },
     {
@@ -6617,11 +6777,6 @@
       "properties": {}
     },
     {
-      "name": "slack",
-      "file": "src/slack.svg",
-      "properties": {}
-    },
-    {
       "name": "slash",
       "file": "src/slash.svg",
       "properties": {}
@@ -6757,6 +6912,11 @@
       "properties": {}
     },
     {
+      "name": "sport-shoe",
+      "file": "src/sport-shoe.svg",
+      "properties": {}
+    },
+    {
       "name": "spotlight",
       "file": "src/spotlight.svg",
       "properties": {}
@@ -6817,6 +6977,16 @@
       "properties": {}
     },
     {
+      "name": "square-arrow-right-enter",
+      "file": "src/square-arrow-right-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-right-exit",
+      "file": "src/square-arrow-right-exit.svg",
+      "properties": {}
+    },
+    {
       "name": "square-arrow-right",
       "file": "src/square-arrow-right.svg",
       "properties": {}
@@ -6844,6 +7014,16 @@
     {
       "name": "square-bottom-dashed-scissors",
       "file": "src/square-bottom-dashed-scissors.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-centerline-dashed-horizontal",
+      "file": "src/square-centerline-dashed-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-centerline-dashed-vertical",
+      "file": "src/square-centerline-dashed-vertical.svg",
       "properties": {}
     },
     {
@@ -6904,6 +7084,11 @@
     {
       "name": "square-dashed-mouse-pointer",
       "file": "src/square-dashed-mouse-pointer.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-text",
+      "file": "src/square-dashed-text.svg",
       "properties": {}
     },
     {
@@ -7172,8 +7357,43 @@
       "properties": {}
     },
     {
+      "name": "sticky-note-check",
+      "file": "src/sticky-note-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "sticky-note-minus",
+      "file": "src/sticky-note-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "sticky-note-off",
+      "file": "src/sticky-note-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "sticky-note-plus",
+      "file": "src/sticky-note-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "sticky-note-x",
+      "file": "src/sticky-note-x.svg",
+      "properties": {}
+    },
+    {
       "name": "sticky-note",
       "file": "src/sticky-note.svg",
+      "properties": {}
+    },
+    {
+      "name": "sticky-notes",
+      "file": "src/sticky-notes.svg",
+      "properties": {}
+    },
+    {
+      "name": "stone",
+      "file": "src/stone.svg",
       "properties": {}
     },
     {
@@ -7452,11 +7672,6 @@
       "properties": {}
     },
     {
-      "name": "text-select",
-      "file": "src/text-select.svg",
-      "properties": {}
-    },
-    {
       "name": "text-wrap",
       "file": "src/text-wrap.svg",
       "properties": {}
@@ -7537,6 +7752,11 @@
       "properties": {}
     },
     {
+      "name": "timeline",
+      "file": "src/timeline.svg",
+      "properties": {}
+    },
+    {
       "name": "timer-off",
       "file": "src/timer-off.svg",
       "properties": {}
@@ -7572,6 +7792,11 @@
       "properties": {}
     },
     {
+      "name": "toolbox",
+      "file": "src/toolbox.svg",
+      "properties": {}
+    },
+    {
       "name": "tornado",
       "file": "src/tornado.svg",
       "properties": {}
@@ -7589,6 +7814,11 @@
     {
       "name": "touchpad",
       "file": "src/touchpad.svg",
+      "properties": {}
+    },
+    {
+      "name": "towel-rack",
+      "file": "src/towel-rack.svg",
       "properties": {}
     },
     {
@@ -7664,11 +7894,6 @@
     {
       "name": "trees",
       "file": "src/trees.svg",
-      "properties": {}
-    },
-    {
-      "name": "trello",
-      "file": "src/trello.svg",
       "properties": {}
     },
     {
@@ -7749,16 +7974,6 @@
     {
       "name": "tv",
       "file": "src/tv.svg",
-      "properties": {}
-    },
-    {
-      "name": "twitch",
-      "file": "src/twitch.svg",
-      "properties": {}
-    },
-    {
-      "name": "twitter",
-      "file": "src/twitter.svg",
       "properties": {}
     },
     {
@@ -7857,6 +8072,11 @@
       "properties": {}
     },
     {
+      "name": "user-key",
+      "file": "src/user-key.svg",
+      "properties": {}
+    },
+    {
       "name": "user-lock",
       "file": "src/user-lock.svg",
       "properties": {}
@@ -7884,6 +8104,11 @@
     {
       "name": "user-round-cog",
       "file": "src/user-round-cog.svg",
+      "properties": {}
+    },
+    {
+      "name": "user-round-key",
+      "file": "src/user-round-key.svg",
       "properties": {}
     },
     {
@@ -8127,13 +8352,18 @@
       "properties": {}
     },
     {
+      "name": "waves-horizontal",
+      "file": "src/waves-horizontal.svg",
+      "properties": {}
+    },
+    {
       "name": "waves-ladder",
       "file": "src/waves-ladder.svg",
       "properties": {}
     },
     {
-      "name": "waves",
-      "file": "src/waves.svg",
+      "name": "waves-vertical",
+      "file": "src/waves-vertical.svg",
       "properties": {}
     },
     {
@@ -8257,13 +8487,13 @@
       "properties": {}
     },
     {
-      "name": "x",
-      "file": "src/x.svg",
+      "name": "x-line-top",
+      "file": "src/x-line-top.svg",
       "properties": {}
     },
     {
-      "name": "youtube",
-      "file": "src/youtube.svg",
+      "name": "x",
+      "file": "src/x.svg",
       "properties": {}
     },
     {
@@ -8274,6 +8504,71 @@
     {
       "name": "zap",
       "file": "src/zap.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-aquarius",
+      "file": "src/zodiac-aquarius.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-aries",
+      "file": "src/zodiac-aries.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-cancer",
+      "file": "src/zodiac-cancer.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-capricorn",
+      "file": "src/zodiac-capricorn.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-gemini",
+      "file": "src/zodiac-gemini.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-leo",
+      "file": "src/zodiac-leo.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-libra",
+      "file": "src/zodiac-libra.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-ophiuchus",
+      "file": "src/zodiac-ophiuchus.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-pisces",
+      "file": "src/zodiac-pisces.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-sagittarius",
+      "file": "src/zodiac-sagittarius.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-scorpio",
+      "file": "src/zodiac-scorpio.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-taurus",
+      "file": "src/zodiac-taurus.svg",
+      "properties": {}
+    },
+    {
+      "name": "zodiac-virgo",
+      "file": "src/zodiac-virgo.svg",
       "properties": {}
     },
     {
