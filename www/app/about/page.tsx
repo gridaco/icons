@@ -15,11 +15,7 @@ import {
   SidebarMenuItem,
   SidebarProvider,
 } from "@/components/ui/sidebar";
-import {
-  InputGroup,
-  InputGroupAddon,
-  InputGroupInput,
-} from "@/components/ui/input-group";
+import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
 import { Search } from "lucide-react";
 
 // Icon sets data - this will be replaced with actual data later
@@ -51,9 +47,7 @@ function AppSidebar() {
                   <SidebarMenuButton asChild>
                     <Link href="/">
                       <span>{set.name}</span>
-                      <span className="ml-auto text-xs text-muted-foreground">
-                        {set.count}
-                      </span>
+                      <span className="ml-auto text-xs text-muted-foreground">{set.count}</span>
                     </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
@@ -115,10 +109,7 @@ export default function AboutPage() {
           <div className="border-b px-6 py-4">
             <div className="max-w-md">
               <InputGroup>
-                <InputGroupInput
-                  type="search"
-                  placeholder="Search icons..."
-                />
+                <InputGroupInput type="search" placeholder="Search icons..." />
                 <InputGroupAddon align="inline-end">
                   <Search />
                 </InputGroupAddon>
@@ -130,12 +121,13 @@ export default function AboutPage() {
           <div className="flex-1 overflow-y-auto p-6">
             <div className="mx-auto max-w-3xl">
               <h1 className="mb-6 text-3xl font-bold">About Grida Icons</h1>
-              
+
               <div className="space-y-6">
                 <section>
                   <h2 className="mb-3 text-xl font-semibold">Overview</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    <strong>Grida Icons</strong> is a comprehensive icon library with rich metadata for easy search, preview, and import. Built for developers and AI agents.
+                    <strong>Grida Icons</strong> is a comprehensive icon library with rich metadata
+                    for easy search, preview, and import. Built for developers and AI agents.
                   </p>
                 </section>
 
@@ -145,19 +137,24 @@ export default function AboutPage() {
                     <div>
                       <h3 className="mb-2 font-medium">🎯 Rich Metadata</h3>
                       <p className="text-muted-foreground text-sm leading-relaxed">
-                        Every icon comes with comprehensive metadata including keywords for better searchability, visual descriptions of icon appearance and meaning, and categorization for easy browsing.
+                        Every icon comes with comprehensive metadata including keywords for better
+                        searchability, visual descriptions of icon appearance and meaning, and
+                        categorization for easy browsing.
                       </p>
                     </div>
                     <div>
                       <h3 className="mb-2 font-medium">🔍 Enhanced Search & Discovery</h3>
                       <p className="text-muted-foreground text-sm leading-relaxed">
-                        Powerful search capabilities powered by metadata, visual preview of icons, and easy import and integration.
+                        Powerful search capabilities powered by metadata, visual preview of icons,
+                        and easy import and integration.
                       </p>
                     </div>
                     <div>
                       <h3 className="mb-2 font-medium">🤖 AI Agent Library</h3>
                       <p className="text-muted-foreground text-sm leading-relaxed">
-                        Designed with AI agents in mind, Grida Icons provides structured metadata that AI systems can understand, semantic descriptions for intelligent icon selection, and machine-readable formats for automated workflows.
+                        Designed with AI agents in mind, Grida Icons provides structured metadata
+                        that AI systems can understand, semantic descriptions for intelligent icon
+                        selection, and machine-readable formats for automated workflows.
                       </p>
                     </div>
                   </div>
@@ -169,22 +166,33 @@ export default function AboutPage() {
                     Grida Icons combines:
                   </p>
                   <ul className="text-muted-foreground ml-6 list-disc space-y-2 text-sm">
-                    <li><strong>Grida-made icons</strong> - Original icon designs created by Grida</li>
-                    <li><strong>Popular icon sets</strong> - Mirrored and enhanced versions of famous icon libraries including Material Icons, Lucide (Feather), Radix UI, and more</li>
+                    <li>
+                      <strong>Grida-made icons</strong> - Original icon designs created by Grida
+                    </li>
+                    <li>
+                      <strong>Popular icon sets</strong> - Mirrored and enhanced versions of famous
+                      icon libraries including Material Icons, Lucide (Feather), Radix UI, and more
+                    </li>
                   </ul>
                 </section>
 
                 <section>
                   <h2 className="mb-3 text-xl font-semibold">Purpose</h2>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Grida Icons serves as both a <strong>developer tool</strong> and an <strong>AI agent library</strong>, making it easier than ever to search and discover the perfect icon, preview icons before importing, import icons into your projects, and enable AI systems to intelligently select and use icons based on context.
+                    Grida Icons serves as both a <strong>developer tool</strong> and an{" "}
+                    <strong>AI agent library</strong>, making it easier than ever to search and
+                    discover the perfect icon, preview icons before importing, import icons into
+                    your projects, and enable AI systems to intelligently select and use icons based
+                    on context.
                   </p>
                 </section>
 
                 <section>
                   <h2 className="mb-3 text-xl font-semibold">Contributing</h2>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    We welcome contributions! Whether you're adding new icons, improving metadata, or enhancing search capabilities, your help makes Grida Icons better for everyone.
+                    We welcome contributions! Whether you're adding new icons, improving metadata,
+                    or enhancing search capabilities, your help makes Grida Icons better for
+                    everyone.
                   </p>
                 </section>
               </div>
@@ -195,4 +203,3 @@ export default function AboutPage() {
     </SidebarProvider>
   );
 }
-

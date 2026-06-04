@@ -19,7 +19,7 @@ export async function GET(request: Request) {
       {
         error: "SVGL data not found. Ensure public/dist/svgl/data.json exists.",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 
@@ -34,6 +34,6 @@ export async function GET(request: Request) {
       headers: {
         ...CACHE_HEADERS,
       },
-    }
+    },
   );
 }

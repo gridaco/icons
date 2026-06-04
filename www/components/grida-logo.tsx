@@ -1,7 +1,4 @@
-export const GridaLogo = ({
-  className,
-  ...props
-}: React.ComponentProps<"svg">) => {
+export const GridaLogo = ({ className, ...props }: React.ComponentProps<"svg">) => {
   return (
     <svg
       width="24"

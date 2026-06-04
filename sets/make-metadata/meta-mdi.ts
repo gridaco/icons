@@ -13,19 +13,13 @@ interface GoogleFontsIconMeta {
 
 const uri = (name: string) => "https://icons.reflect-ui.com/material/" + name;
 
-const default_mdi_variants = [
-  "solid",
-  "outlined",
-  "twotone",
-  "sharp",
-  "round",
-] as const;
+const default_mdi_variants = ["solid", "outlined", "twotone", "sharp", "round"] as const;
 
 export default function map(meta: Array<GoogleFontsIconMeta>) {
   return meta.map((i) => {
     // remove each item from unsoported_families from default_mdi_variants
     const variants: IConStyleVariant[] = default_mdi_variants.filter(
-      (v) => !i.unsupported_families.includes(v)
+      (v) => !i.unsupported_families.includes(v),
     );
 
     return <IconMeta>{

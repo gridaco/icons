@@ -19,11 +19,7 @@ import {
   SidebarProvider,
 } from "@/components/ui/sidebar";
 import { Button } from "@/components/ui/button";
-import {
-  InputGroup,
-  InputGroupAddon,
-  InputGroupInput,
-} from "@/components/ui/input-group";
+import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
 type IconItem = {
@@ -80,10 +76,7 @@ function AppSidebar({
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
-                <SidebarMenuButton
-                  isActive={!active}
-                  onClick={() => onSelect?.(undefined)}
-                >
+                <SidebarMenuButton isActive={!active} onClick={() => onSelect?.(undefined)}>
                   <span>All</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
@@ -94,9 +87,7 @@ function AppSidebar({
                     onClick={() => onSelect?.(set.id)}
                   >
                     <span>{set.name ?? set.id}</span>
-                    <span className="ml-auto text-xs text-muted-foreground">
-                      {set.count}
-                    </span>
+                    <span className="ml-auto text-xs text-muted-foreground">{set.count}</span>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
@@ -109,22 +100,14 @@ function AppSidebar({
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <a
-                    href="https://fonts.grida.co"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://fonts.grida.co" target="_blank" rel="noopener noreferrer">
                     <span>Fonts</span>
                   </a>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <a
-                    href="https://grida.co/library"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://grida.co/library" target="_blank" rel="noopener noreferrer">
                     <span>Photos</span>
                   </a>
                 </SidebarMenuButton>
@@ -159,13 +142,9 @@ export default function Home() {
   const [icons, setIcons] = useState<IconItem[]>([]);
   const [vendors, setVendors] = useState<VendorItem[]>([]);
   const [search, setSearch] = useState("");
-  const [vendorFilter, setVendorFilter] = useState<string | undefined>(
-    undefined
-  );
+  const [vendorFilter, setVendorFilter] = useState<string | undefined>(undefined);
   const [loading, setLoading] = useState(false);
-  const [variantFilters, setVariantFilters] = useState<
-    Record<string, string | undefined>
-  >({});
+  const [variantFilters, setVariantFilters] = useState<Record<string, string | undefined>>({});
   const listParentRef = useRef<HTMLDivElement | null>(null);
   const [columns, setColumns] = useState(2);
 
@@ -235,12 +214,12 @@ export default function Home() {
         name: v.name,
         count: v.count ?? 0,
       })),
-    [vendors]
+    [vendors],
   );
 
   const activeVendor = useMemo(
     () => vendors.find((v) => v.id === vendorFilter),
-    [vendors, vendorFilter]
+    [vendors, vendorFilter],
   );
 
   // Keep a simple breakpoint-based column count to align with the grid classes
@@ -282,24 +261,16 @@ export default function Home() {
   return (
     <SidebarProvider>
       <div className="flex h-screen w-full bg-background">
-        <AppSidebar
-          vendors={vendorsWithCounts}
-          active={vendorFilter}
-          onSelect={setVendorFilter}
-        />
+        <AppSidebar vendors={vendorsWithCounts} active={vendorFilter} onSelect={setVendorFilter} />
         <main className="flex flex-1 flex-col overflow-hidden">
           <div className="border-b bg-card/40 px-6 py-4 backdrop-blur">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <p className="text-sm text-muted-foreground">
-                  {loading
-                    ? "Loading icons..."
-                    : `Showing ${icons.length} icons`}
+                  {loading ? "Loading icons..." : `Showing ${icons.length} icons`}
                 </p>
                 {vendorFilter && (
-                  <p className="text-xs text-muted-foreground">
-                    Filtered by {vendorFilter}
-                  </p>
+                  <p className="text-xs text-muted-foreground">Filtered by {vendorFilter}</p>
                 )}
               </div>
               <div className="w-full max-w-md">
@@ -318,63 +289,53 @@ export default function Home() {
             </div>
           </div>
 
-          {activeVendor?.variants &&
-            Object.keys(activeVendor.variants).length > 0 && (
-              <div className="border-b bg-card/30 px-6 py-3">
-                <div className="flex flex-wrap gap-4">
-                  {Object.entries(activeVendor.variants).map(([key, spec]) => (
-                    <div key={key} className="flex flex-col gap-2">
-                      <div className="flex items-center gap-2">
-                        <span className="text-xs font-semibold text-muted-foreground">
-                          {spec.title ?? key}
-                        </span>
-                        <div className="flex items-center gap-1">
+          {activeVendor?.variants && Object.keys(activeVendor.variants).length > 0 && (
+            <div className="border-b bg-card/30 px-6 py-3">
+              <div className="flex flex-wrap gap-4">
+                {Object.entries(activeVendor.variants).map(([key, spec]) => (
+                  <div key={key} className="flex flex-col gap-2">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-semibold text-muted-foreground">
+                        {spec.title ?? key}
+                      </span>
+                      <div className="flex items-center gap-1">
+                        <Button
+                          size="sm"
+                          variant={!variantFilters[key] ? "secondary" : "ghost"}
+                          onClick={() =>
+                            setVariantFilters((prev) => ({
+                              ...prev,
+                              [key]: undefined,
+                            }))
+                          }
+                        >
+                          All
+                        </Button>
+                        {(spec.enum ?? []).map((option) => (
                           <Button
+                            key={option}
                             size="sm"
-                            variant={
-                              !variantFilters[key] ? "secondary" : "ghost"
-                            }
+                            variant={variantFilters[key] === option ? "secondary" : "ghost"}
                             onClick={() =>
                               setVariantFilters((prev) => ({
                                 ...prev,
-                                [key]: undefined,
+                                [key]: option,
                               }))
                             }
                           >
-                            All
+                            {option}
                           </Button>
-                          {(spec.enum ?? []).map((option) => (
-                            <Button
-                              key={option}
-                              size="sm"
-                              variant={
-                                variantFilters[key] === option
-                                  ? "secondary"
-                                  : "ghost"
-                              }
-                              onClick={() =>
-                                setVariantFilters((prev) => ({
-                                  ...prev,
-                                  [key]: option,
-                                }))
-                              }
-                            >
-                              {option}
-                            </Button>
-                          ))}
-                        </div>
+                        ))}
                       </div>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
-            )}
+            </div>
+          )}
 
           <div className="flex-1 overflow-y-auto p-6" ref={listParentRef}>
-            <div
-              className="relative w-full"
-              style={{ height: virtual.getTotalSize() }}
-            >
+            <div className="relative w-full" style={{ height: virtual.getTotalSize() }}>
               {virtual.getVirtualItems().map((row) => {
                 const start = row.index * Math.max(columns, 1);
                 const slice = icons.slice(start, start + Math.max(columns, 1));
@@ -397,11 +358,7 @@ export default function Home() {
                             className="group flex h-full w-full flex-col items-center justify-between gap-3 rounded-xl border bg-card/60 p-4 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-md"
                             asChild
                           >
-                            <a
-                              href={icon.download}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
+                            <a href={icon.download} target="_blank" rel="noopener noreferrer">
                               <div className="flex h-14 w-14 items-center justify-center rounded-lg border bg-muted/70">
                                 <Image
                                   src={icon.download}
@@ -433,11 +390,7 @@ export default function Home() {
                 No icons found. Try a different search or set.
               </div>
             )}
-            {loading && (
-              <div className="mt-6 text-sm text-muted-foreground">
-                Loading...
-              </div>
-            )}
+            {loading && <div className="mt-6 text-sm text-muted-foreground">Loading...</div>}
           </div>
         </main>
       </div>

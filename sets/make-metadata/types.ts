@@ -1,10 +1,4 @@
-export type IConStyleVariant =
-  | "solid"
-  | "outlined"
-  | "thin"
-  | "twotone"
-  | "sharp"
-  | "round";
+export type IConStyleVariant = "solid" | "outlined" | "thin" | "twotone" | "sharp" | "round";
 
 export interface IconMeta {
   uri: string;
