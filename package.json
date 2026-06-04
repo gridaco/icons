@@ -1,0 +1,18 @@
+{
+  "name": "grida-icons",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Repo-root toolchain: formatting (oxfmt), linting (oxlint), and git hooks (lefthook).",
+  "scripts": {
+    "fmt": "oxfmt .",
+    "fmt:check": "oxfmt --check .",
+    "lint": "oxlint",
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "lefthook": "^2.1.9",
+    "oxfmt": "^0.53.0",
+    "oxlint": "^1.68.0"
+  },
+  "packageManager": "pnpm@11.5.1"
+}

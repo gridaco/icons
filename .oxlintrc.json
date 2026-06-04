@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc"],
+  "categories": {
+    "correctness": "error"
+  },
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "dist/**",
+    "vendor/**",
+    "pipeline/**",
+    "sets/dist/**",
+    "sets/raw/**",
+    "sets/metadata/**",
+    "sets/organizer/**",
+    "**/public/**",
+    "**/.next/**"
+  ],
+  "rules": {},
+  "env": {
+    "builtin": true
+  }
+}
