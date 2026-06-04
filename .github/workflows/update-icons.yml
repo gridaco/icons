@@ -1,0 +1,149 @@
+name: Update icons data
+
+# Bumps every vendor submodule to its latest upstream commit, rebuilds dist/
+# with the pipeline, sanity-checks the result, and opens a PR. The actual data
+# change always lands via that PR so a human eyeballs the diff before
+# icons.grida.co serves it. No secrets are required — every source is a git
+# submodule.
+
+on:
+  schedule:
+    # Mondays 06:00 UTC.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: icons-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    # Don't run on forks — they can't open PRs against this repo and would just
+    # spam failures.
+    if: github.repository == 'gridaco/icons'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 1
+
+      - name: Bump vendor submodules to latest upstream
+        run: |
+          git submodule update --remote
+          echo "## Submodule pointers" >> "$GITHUB_STEP_SUMMARY"
+          git submodule status >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Record pre-build vendor counts
+        # Snapshot the committed data.json counts so the regression gate below
+        # can tell a real upstream removal from a pipeline that silently broke.
+        run: |
+          for v in radix-ui-icons heroicons lucide-icons phosphor-icons octicons svgl; do
+            f="dist/$v/data.json"
+            n=$(python3 -c "import json,sys;print(len(json.load(open('$f')).get('files',[])))" 2>/dev/null || echo 0)
+            echo "$v $n"
+          done > /tmp/icons_counts_before.txt
+          cat /tmp/icons_counts_before.txt
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Rebuild dist
+        working-directory: pipeline
+        run: uv run main.py dist
+
+      - name: Validate dist (intrinsic)
+        working-directory: pipeline
+        run: uv run main.py validate
+
+      - name: Regression gate (no vendor may crater)
+        # validate already fails on an empty/mismatched vendor; this additionally
+        # catches a *partial* drop (e.g. one of phosphor's weight folders moving
+        # upstream) that wouldn't zero a vendor but is still almost certainly a bug.
+        run: |
+          fail=0
+          while read -r v before; do
+            f="dist/$v/data.json"
+            after=$(python3 -c "import json;print(len(json.load(open('$f')).get('files',[])))")
+            echo "$v: $before -> $after"
+            if [ "$before" -gt 0 ] && [ "$after" -lt $((before * 3 / 4)) ]; then
+              echo "::error::$v dropped from $before to $after (>25%) — likely upstream path drift, not a real removal"
+              fail=1
+            fi
+          done < /tmp/icons_counts_before.txt
+          exit $fail
+
+      - name: Summarize changes
+        id: summary
+        run: |
+          {
+            echo "summary<<EOF"
+            echo "### Vendor counts (before -> after)"
+            while read -r v before; do
+              after=$(python3 -c "import json;print(len(json.load(open('dist/$v/data.json')).get('files',[])))")
+              echo "- $v: $before -> $after"
+            done < /tmp/icons_counts_before.txt
+            echo ""
+            echo "### dist diff"
+            git add -A dist >/dev/null 2>&1 || true
+            git diff --cached --stat dist | tail -1
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          git reset -q dist || true
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore(data): refresh icons data"
+          branch: bot/icons-update
+          delete-branch: true
+          title: "chore(data): refresh icons data"
+          body: |
+            Automated refresh: vendor submodules bumped to latest upstream and
+            `dist/` rebuilt via `pipeline` (`uv run main.py dist`), validated with
+            `uv run main.py validate`.
+
+            Note: each vendor's `version` field in `data.json` is template-pinned
+            (see `pipeline/templates/*.spec.json`) and is **not** auto-derived from
+            the submodule — bump it by hand when an upstream cuts a release worth
+            labelling.
+
+            ${{ steps.summary.outputs.summary }}
+          labels: |
+            bot:icons-refresh
+
+      - name: Open or update failure issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "[bot] icons refresh failing";
+            const label = "bot:icons-refresh";
+            const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = `Run [${context.runId}](${runUrl}) failed on \`${context.sha.slice(0,7)}\`.\n\nMost likely a vendor submodule restructured its folders and a hard-coded source path in \`pipeline/main.py\` (the \`dist\` builder) now points at nothing — check the **Validate dist** / **Regression gate** step output.`;
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: "open", labels: label, per_page: 5,
+            });
+            const existing = issues.find(i => i.title === title);
+
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: [label],
+              });
+            }
