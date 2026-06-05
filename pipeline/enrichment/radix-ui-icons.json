@@ -1,0 +1,71 @@
+{
+  "accessibility": {
+    "description": "Stylized human figure inside an enclosing circle representing universal access or accessibility features.",
+    "tags": [
+      "accessibility",
+      "access",
+      "inclusive",
+      "user",
+      "support"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "activity-log": {
+    "description": "A list of three stacked dots representing a history log or activity feed.",
+    "tags": [
+      "history",
+      "log",
+      "activity",
+      "records",
+      "timeline"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "align-baseline": {
+    "description": "Horizontal bars representing options for aligning text or elements to a baseline.",
+    "tags": [
+      "alignment",
+      "baseline",
+      "text",
+      "typography",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "align-bottom": {
+    "description": "A set of parallel horizontal lines representing options for element alignment or layout positioning.",
+    "tags": [
+      "alignment",
+      "layout",
+      "positioning",
+      "grid"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "align-center-horizontally": {
+    "description": "Three parallel horizontal bars representing options for centering text or content layout.",
+    "tags": [
+      "align",
+      "center",
+      "format",
+      "text",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  }
+}

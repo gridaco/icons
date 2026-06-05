@@ -1,0 +1,103 @@
+{
+  "a-arrow-down": {
+    "description": "Downward pointing arrow symbolizing direction or action.",
+    "tags": [
+      "letter",
+      "font size",
+      "text",
+      "formatting",
+      "smaller",
+      "design"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "a-arrow-up": {
+    "description": "Upward arrow indicating increased size, importance, or font formatting.",
+    "tags": [
+      "letter",
+      "font size",
+      "text",
+      "formatting",
+      "larger",
+      "bigger",
+      "design"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "a-large-small": {
+    "description": "Two vertical parallel lines flanked by an up and down arrow indicating font size scaling.",
+    "tags": [
+      "letter",
+      "font size",
+      "text",
+      "formatting",
+      "design"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "accessibility": {
+    "description": "Stylized human figure seated in a wheelchair representing disability or accessibility.",
+    "tags": [
+      "disability",
+      "disabled",
+      "dda",
+      "wheelchair",
+      "accessibility",
+      "medical"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "activity": {
+    "description": "A pulsating line contained within a circular boundary representing heart rate, vital signs, or physical activity.",
+    "tags": [
+      "pulse",
+      "action",
+      "motion",
+      "movement",
+      "exercise",
+      "fitness",
+      "healthcare",
+      "heart rate monitor",
+      "vital signs",
+      "vitals",
+      "emergency room",
+      "er",
+      "intensive care",
+      "hospital",
+      "defibrillator",
+      "earthquake",
+      "siesmic",
+      "magnitude",
+      "richter scale",
+      "aftershock",
+      "tremor",
+      "shockwave",
+      "audio",
+      "waveform",
+      "synthesizer",
+      "synthesiser",
+      "music",
+      "medical",
+      "account",
+      "social",
+      "science",
+      "multimedia"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  }
+}

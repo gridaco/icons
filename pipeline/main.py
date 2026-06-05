@@ -11,10 +11,14 @@ from vendor_phosphor_icons import process as process_phosphor
 from vendor_octicons import process as process_octicons
 from vendor_svgl import process as process_svgl
 
+import enrich as enrich_mod
+import llm
+
 
 ROOT = Path(__file__).parent.parent
 DIST_DIR = ROOT / "dist"
 CACHE_DIR = DIST_DIR / ".cache"
+ENRICH_DIR = ROOT / "pipeline" / "enrichment"
 
 
 @click.group()
@@ -230,6 +234,7 @@ def dist(ctx):
     templates_dir = ROOT / "pipeline" / "templates"
 
     def _load_meta_map(meta_path: Path) -> dict[str, dict]:
+        """Map dist-relative path -> {properties, name} from a vendor cache."""
         if not meta_path.exists():
             return {}
         try:
@@ -243,8 +248,20 @@ def dist(ctx):
                     continue
                 dist_path = rec.get("dist_path")
                 if dist_path:
-                    by_path[dist_path] = rec.get("properties", {})
+                    by_path[dist_path] = {
+                        "properties": rec.get("properties", {}),
+                        "name": rec.get("name"),
+                    }
         return by_path
+
+    def _load_enrichment(vendor: str) -> dict[str, dict]:
+        path = ENRICH_DIR / f"{vendor}.json"
+        if not path.exists():
+            return {}
+        try:
+            return json.loads(path.read_text())
+        except Exception:
+            return {}
 
     # Attach flat file list (relative paths under dist/<vendor>)
     for vendor, pkg in vendor_packages.items():
@@ -255,25 +272,39 @@ def dist(ctx):
             except Exception:
                 pass
         by_path = _load_meta_map(vendor_meta.get(vendor, Path("")))
+        enrichment = _load_enrichment(vendor)
         src_root = DIST_DIR / vendor / "src"
         file_entries = []
+        n_enriched = 0
         if src_root.exists():
             for p in sorted(src_root.rglob("*")):
                 if p.is_file():
                     rel_path = str(p.relative_to(DIST_DIR / vendor))
-                    name = p.stem
-                    properties = by_path.get(rel_path, {})
-                    file_entries.append(
-                        {
-                            "name": name,
-                            "file": rel_path,
-                            "properties": properties,
-                        }
-                    )
+                    meta = by_path.get(rel_path, {})
+                    # logical name drives enrichment lookup; file stem is the
+                    # per-variant name shown in the entry.
+                    logical = meta.get("name") or p.stem
+                    entry = {
+                        "name": p.stem,
+                        "file": rel_path,
+                        "properties": meta.get("properties", {}),
+                    }
+                    record = enrichment.get(logical)
+                    if record:
+                        if record.get("description"):
+                            entry["description"] = record["description"]
+                        if record.get("tags"):
+                            entry["tags"] = record["tags"]
+                        n_enriched += 1
+                    file_entries.append(entry)
         pkg["files"] = file_entries
         out_pkg = DIST_DIR / vendor / "data.json"
         out_pkg.parent.mkdir(parents=True, exist_ok=True)
         out_pkg.write_text(json.dumps(pkg, indent=2))
+        if enrichment:
+            click.echo(
+                f"  {vendor}: enriched {n_enriched}/{len(file_entries)} file entries"
+            )
 
     # Merge licenses into dist/LICENSE
     _write_merged_license()
@@ -358,11 +389,175 @@ def validate():
     click.echo("\nAll vendors valid.")
 
 
+@click.group()
+def enrich():
+    """
+    Per-icon text metadata (description + tags) via local LLM vision.
+
+    Writes committed records to pipeline/enrichment/<vendor>.json keyed by
+    logical icon name. Resumable: re-running skips already-enriched icons.
+    """
+    pass
+
+
+_MODEL_OPT = click.option(
+    "--model", default=llm.DEFAULT_MODEL, show_default=True, help="ollama vision model."
+)
+_FORCE_OPT = click.option(
+    "--force", is_flag=True, help="Re-render and re-generate even if cached/existing."
+)
+_LIMIT_OPT = click.option("--limit", type=int, default=None, help="Cap icons processed.")
+_ONLY_MISSING_OPT = click.option(
+    "--only-missing/--all",
+    default=True,
+    show_default=True,
+    help="Skip icons already in the enrichment file (default) or redo all.",
+)
+_PNG_SIZE_OPT = click.option(
+    "--png-size", type=int, default=384, show_default=True, help="Render size (px)."
+)
+
+
+def _enrich_one(vendor, model, only_missing, force, limit, png_size):
+    records = enrich_mod.enrich_vendor(
+        vendor,
+        model=model,
+        only_missing=only_missing,
+        force=force,
+        limit=limit,
+        png_size=png_size,
+    )
+    enriched, unique, _ = enrich_mod.coverage(vendor)
+    click.echo(f"{vendor}: {enriched}/{unique} enriched ({len(records)} records).")
+
+
+@enrich.command(name="vendor")
+@click.argument("vendor", type=click.Choice(enrich_mod.VENDORS))
+@_MODEL_OPT
+@_FORCE_OPT
+@_LIMIT_OPT
+@_ONLY_MISSING_OPT
+@_PNG_SIZE_OPT
+def enrich_vendor_cmd(vendor, model, force, limit, only_missing, png_size):
+    """Enrich a single VENDOR."""
+    _enrich_one(vendor, model, only_missing, force, limit, png_size)
+
+
+@enrich.command(name="all")
+@_MODEL_OPT
+@_FORCE_OPT
+@_LIMIT_OPT
+@_ONLY_MISSING_OPT
+@_PNG_SIZE_OPT
+def enrich_all_cmd(model, force, limit, only_missing, png_size):
+    """Enrich all in-scope vendors (excludes svgl)."""
+    for vendor in enrich_mod.VENDORS:
+        click.echo("-" * 20)
+        _enrich_one(vendor, model, only_missing, force, limit, png_size)
+
+
+@enrich.command(name="render")
+@click.argument("vendor", type=click.Choice(enrich_mod.VENDORS))
+@_FORCE_OPT
+@_LIMIT_OPT
+@_PNG_SIZE_OPT
+def enrich_render_cmd(vendor, force, limit, png_size):
+    """Render (only) a VENDOR's representative PNGs into the cache."""
+    icons = enrich_mod.load_logical_icons(vendor)
+    if limit is not None:
+        icons = icons[:limit]
+    from render import render_for
+
+    with click.progressbar(icons, label=f"render {vendor}", show_pos=True) as bar:
+        for ic in bar:
+            try:
+                render_for(vendor, ic.name, ic.svg_path, size=png_size, force=force)
+            except Exception as e:
+                click.echo(f"\n  SKIP {vendor}/{ic.name}: {e}", err=True)
+
+
+# Register the in-scope vendors as direct subcommands too: `enrich radix-ui-icons`
+for _v in enrich_mod.VENDORS:
+    def _make(vendor):
+        @_MODEL_OPT
+        @_FORCE_OPT
+        @_LIMIT_OPT
+        @_ONLY_MISSING_OPT
+        @_PNG_SIZE_OPT
+        def _cmd(model, force, limit, only_missing, png_size):
+            _enrich_one(vendor, model, only_missing, force, limit, png_size)
+
+        _cmd.__doc__ = f"Enrich {vendor}."
+        return _cmd
+
+    enrich.command(name=_v)(_make(_v))
+
+
+@click.command(name="enrich-validate")
+def enrich_validate():
+    """
+    Validate enrichment records against the contract and report coverage.
+
+    Each record must have a non-empty description (<= bound) and 1-12 lowercase
+    non-empty tags with no stray punctuation. Prints per-vendor coverage
+    (enriched / unique) and lists gaps. Exits non-zero on contract violations.
+    """
+    errors: list[str] = []
+    click.echo(f"{'vendor':<18}{'enriched':>9}{'unique':>8}  status")
+    for vendor in enrich_mod.VENDORS:
+        records = enrich_mod.load_records(vendor)
+        for name, rec in records.items():
+            desc = rec.get("description") or ""
+            tags = rec.get("tags") or []
+            if not desc:
+                errors.append(f"{vendor}/{name}: empty description")
+            elif len(desc) > llm.DESC_MAX:
+                errors.append(f"{vendor}/{name}: description > {llm.DESC_MAX} chars")
+            # LLM-generated tags must meet the strict contract; native vendor
+            # tags are preserved verbatim and only sanity-checked (they can be
+            # numerous and multi-word, e.g. lucide's "heart rate monitor").
+            src = rec.get("tags_source")
+            if not tags:
+                errors.append(f"{vendor}/{name}: no tags")
+            elif src == "llm":
+                if len(tags) > llm.TAGS_MAX:
+                    errors.append(
+                        f"{vendor}/{name}: {len(tags)} llm tags (max {llm.TAGS_MAX})"
+                    )
+                for t in tags:
+                    if not isinstance(t, str) or not t or not llm._TAG_OK.match(t):
+                        errors.append(f"{vendor}/{name}: bad llm tag {t!r}")
+                        break
+            else:  # vendor / preserved
+                for t in tags:
+                    if not isinstance(t, str) or not t.strip():
+                        errors.append(f"{vendor}/{name}: empty vendor tag")
+                        break
+        enriched, unique, missing = enrich_mod.coverage(vendor)
+        status = "ok" if enriched == unique else f"{len(missing)} gaps"
+        click.echo(f"{vendor:<18}{enriched:>9}{unique:>8}  {status}")
+        if missing:
+            preview = ", ".join(missing[:10])
+            more = f" (+{len(missing) - 10} more)" if len(missing) > 10 else ""
+            click.echo(f"  gaps: {preview}{more}")
+
+    if errors:
+        click.echo("\nENRICH VALIDATION FAILED:")
+        for e in errors[:50]:
+            click.echo(f"  - {e}")
+        if len(errors) > 50:
+            click.echo(f"  ... (+{len(errors) - 50} more)")
+        raise SystemExit(1)
+    click.echo("\nAll enrichment records conform to the contract.")
+
+
 # Expose only cache and dist at the root
 cli.add_command(cache, name="cache")
 cli.add_command(dist, name="dist")
 cli.add_command(clean, name="clean")
 cli.add_command(validate, name="validate")
+cli.add_command(enrich, name="enrich")
+cli.add_command(enrich_validate, name="enrich-validate")
 
 
 if __name__ == "__main__":

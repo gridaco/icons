@@ -6,6 +6,8 @@ Vendor-native metadata extraction for icon sets. The pipeline does **not** map t
 
 - Python 3.12+
 - uv (for env + deps)
+- **rsvg-convert** (from librsvg) — required only for `enrich` (SVG→PNG). Install with `brew install librsvg`.
+- **ollama** with a vision model pulled — required only for `enrich`. Default model `gemma4:e4b-mlx`; override with `--model`.
 
 ## Install
 
@@ -32,6 +34,38 @@ Each command writes metadata to `.cache/<vendor>/metadata.json` by default. Use 
 
 - `uv run main.py dist` — clean, re-cache all vendors, and build the published `dist/` (SVGs + per-vendor `data.json` + merged `LICENSE`).
 - `uv run main.py validate` — sanity-check a built `dist/`: every vendor's `data.json` must parse, list >0 files, and have an entry count matching the `.svg` files in `dist/<vendor>/src`. Exits non-zero on failure. This is the gate that catches an upstream submodule moving its folders out from under a hard-coded source path in `dist` (which would otherwise ship an empty vendor silently).
+
+### Enrichment (text metadata for search)
+
+`enrich` adds a uniform text layer — a one-line `description` for every logical icon plus `tags` — used
+for plain text search (and, later, embeddings). Gaps are filled by a local ollama vision model fed the
+icon rendered as a black-on-white PNG; **native vendor tags (lucide/phosphor/octicons) are always
+preserved**, and the LLM only fills missing tags while always writing the description. svgl (logos) is out
+of scope this pass.
+
+Records are committed, durable artifacts under [`enrichment/<vendor>.json`](./enrichment), keyed by logical
+icon name:
+
+```jsonc
+{ "academic-cap": { "description": "...", "tags": ["education", ...],
+                    "tags_source": "llm",       // "vendor" | "llm"
+                    "description_source": "llm", "model": "gemma4:e4b-mlx", "rev": 1 } }
+```
+
+- `uv run main.py enrich <vendor>` — enrich one vendor (e.g. `enrich radix-ui-icons`). Resumable: re-running
+  skips icons already present. Flags: `--model`, `--force`, `--limit N`, `--only-missing/--all`, `--png-size 384`.
+- `uv run main.py enrich all` — all in-scope vendors (excludes svgl).
+- `uv run main.py enrich render <vendor>` — only render the representative PNGs into the cache (`.cache/png/`).
+- `uv run main.py enrich-validate` — assert every record conforms (non-empty description ≤ 160 chars; at least
+  one tag; **LLM-generated** tags ≤ 12 and short/lowercase, while **native vendor** tags are preserved verbatim
+  and only sanity-checked) and print per-vendor coverage (`enriched / unique`) with gaps. Exits non-zero on
+  violations.
+
+`dist` folds enrichment into each `data.json` file entry as **top-level** `description` + `tags` (the
+per-variant `properties` stay variant-only); missing enrichment is simply omitted, never fatal.
+
+Prompt tuning is done with the throwaway harness `experiments/tune.py` (not wired into builds):
+`uv run experiments/tune.py --mode random --count 50` prints a review table for manual inspection.
 
 ## Auto-update
 

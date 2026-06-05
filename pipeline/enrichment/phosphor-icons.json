@@ -1,0 +1,74 @@
+{
+  "acorn": {
+    "description": "Stylized nut or acorn representing food, savings, or natural resources.",
+    "tags": [
+      "new",
+      "savings",
+      "nut",
+      "vegetable",
+      "veggies",
+      "food",
+      "groceries",
+      "market"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "address-book": {
+    "description": "Stack of rectangular cards representing contacts or a directory.",
+    "tags": [
+      "contacts",
+      "directory",
+      "roledex"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "address-book-tabs": {
+    "description": "Stacked business cards representing a contact list or address book.",
+    "tags": [
+      "new",
+      "contacts",
+      "directory",
+      "roledex"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "air-traffic-control": {
+    "description": "Stylized airplane symbol representing air travel or aviation services.",
+    "tags": [
+      "airport",
+      "travel",
+      "transportation",
+      "buildings"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "airplane": {
+    "description": "Stylized profile of a jet aircraft representing air travel or flights.",
+    "tags": [
+      "vehicles",
+      "airports",
+      "flights",
+      "flying",
+      "planes",
+      "transit",
+      "transportation",
+      "traveling"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  }
+}

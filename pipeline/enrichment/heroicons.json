@@ -1,0 +1,73 @@
+{
+  "academic-cap": {
+    "description": "Mortarboard representing graduation or academic achievement.",
+    "tags": [
+      "graduation",
+      "academic",
+      "cap",
+      "education",
+      "school"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "adjustments-horizontal": {
+    "description": "Two opposing horizontal arrows representing the function to resize or adjust dimensions.",
+    "tags": [
+      "adjust",
+      "resize",
+      "scale",
+      "size",
+      "horizontal"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "adjustments-vertical": {
+    "description": "Two vertical opposing arrows indicating options for increasing or decreasing a value.",
+    "tags": [
+      "adjust",
+      "scale",
+      "size",
+      "up",
+      "down",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "archive-box": {
+    "description": "Stylized storage box representing archived files or long-term data retention.",
+    "tags": [
+      "archive",
+      "storage",
+      "file",
+      "box",
+      "records"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "archive-box-arrow-down": {
+    "description": "File container with a downward arrow indicating download or archival storage.",
+    "tags": [
+      "archive",
+      "download",
+      "file",
+      "storage",
+      "box"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  }
+}

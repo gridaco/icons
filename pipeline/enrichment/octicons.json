@@ -1,0 +1,70 @@
+{
+  "accessibility": {
+    "description": "Stylized human figure inside an enclosing circle representing universal access or accessibility features.",
+    "tags": [
+      "accessibility",
+      "access",
+      "inclusive",
+      "user",
+      "support"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "accessibility-inset": {
+    "description": "Abstract human figure contained within a circle representing accessibility or universal design.",
+    "tags": [
+      "accessibility",
+      "access",
+      "user",
+      "inclusion"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "agent": {
+    "description": "Stylized head figure containing internal elements, representing an artificial intelligence agent or assistant.",
+    "tags": [
+      "agents",
+      "ai",
+      "cloud",
+      "cloudecode",
+      "code"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "ai-model": {
+    "description": "Abstract interconnected nodes and lines representing an artificial intelligence model or neural network.",
+    "tags": [
+      "ai",
+      "model",
+      "llm",
+      "models",
+      "copilot"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "alert": {
+    "description": "Triangle containing an exclamation point representing a warning or alert.",
+    "tags": [
+      "warning",
+      "triangle",
+      "exclamation",
+      "point"
+    ],
+    "tags_source": "vendor",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  }
+}
