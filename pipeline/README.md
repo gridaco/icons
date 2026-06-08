@@ -67,6 +67,72 @@ per-variant `properties` stay variant-only); missing enrichment is simply omitte
 Prompt tuning is done with the throwaway harness `experiments/tune.py` (not wired into builds):
 `uv run experiments/tune.py --mode random --count 50` prints a review table for manual inspection.
 
+#### Running the full coverage pass (operational runbook)
+
+> **Status:** the full ~4260-icon pass is **complete** (committed 2026-06): radix-ui-icons 332,
+> heroicons 324, lucide-icons 1714, phosphor-icons 1512, octicons 378. svgl (logos) remains out of
+> scope. Re-run only when vendors add icons or the model/prompt changes — it's resumable, so a re-run
+> just fills new gaps.
+
+**Why this shape.** Enrichment runs against a *local* ollama vision model (no API cost, no rate limit,
+no data leaving the machine) — so duration, not money, is the only budget. At **~40–70s/icon** the full
+pass is **many hours** (in practice it spans days across interruptions); that's expected. The run is
+**resumable** and flushes to `enrichment/<vendor>.json` every 10 icons, so a crash or `Ctrl-C` never
+loses more than a few icons. Native vendor tags are preserved; the LLM only fills the gaps.
+
+**Prerequisites**
+
+1. `brew install librsvg uv` (provides `rsvg-convert` + `uv`; both live in `/opt/homebrew/bin`, which
+   isn't always on a non-login shell's `PATH` — export it for detached/cron runs).
+2. ollama running on `:11434` with the vision model pulled: `ollama pull gemma4:e4b-mlx`.
+   This model **ignores ollama's `format=<schema>` constraint** (ollama/ollama#15260); `llm.py` already
+   handles that by parsing JSON defensively and bumping temperature on retry — no action needed, just
+   don't be surprised by occasional `SKIP` lines in the log.
+3. `cd pipeline && uv sync`.
+
+**Launch (durable, multi-hour).** Run vendor-by-vendor rather than `enrich all` so an interruption in
+one vendor still leaves the others flushed and resumable. `caffeinate` keeps the Mac awake; `nohup`
+detaches it from the terminal; `tee` keeps a timestamped log:
+
+```bash
+cd pipeline
+LOG="enrich-run-$(date +%Y%m%d-%H%M%S).log"
+caffeinate -i nohup bash -c '
+  export PATH="/opt/homebrew/bin:$PATH"
+  for v in radix-ui-icons heroicons lucide-icons phosphor-icons octicons; do
+    uv run main.py enrich "$v" --model gemma4:e4b-mlx --png-size 384
+  done
+' >> "$LOG" 2>&1 &
+echo "logging to pipeline/$LOG"
+```
+
+Add `--force` to any `enrich` call (or set it in the loop) to regenerate from scratch instead of
+filling gaps.
+
+**Monitor (read-only, separate terminal).** Nothing here touches the run:
+
+```bash
+cd pipeline
+# per-vendor coverage so far
+for v in radix-ui-icons heroicons lucide-icons phosphor-icons octicons; do
+  printf "%-16s %s\n" "$v" "$(python3 -c "import json;print(len(json.load(open(f'enrichment/$v.json'))))")"
+done
+ollama ps                                   # model loaded / GPU in use
+tail -f "$(ls -t enrich-run-*.log | head -1)"   # one line per icon, with live ETA
+```
+
+**Finalize.** When all vendors are done, fold the text layer into the published data and gate it:
+
+```bash
+uv run main.py dist            # writes top-level description+tags into dist/*/data.json
+uv run main.py validate        # entry/svg-count gate
+uv run main.py enrich-validate # contract + per-vendor coverage report
+```
+
+Then review and commit deliberately — keep the **pipeline code**, the **`enrichment/*.json`** data, and
+the **`dist/*/data.json`** rebuild as separate commits. The `*.log` files and `.cache/` are gitignored;
+the run is otherwise the only thing that writes `enrichment/*.json`.
+
 ## Auto-update
 
 [`.github/workflows/update-icons.yml`](../.github/workflows/update-icons.yml) runs weekly (and on demand via *workflow_dispatch*): it bumps every `vendor/*` submodule to latest upstream, runs `dist`, runs `validate` plus a regression gate (fails if any vendor's count drops >25%), and opens a PR (`bot/icons-update`). The data change always lands via that PR. No secrets are needed.
