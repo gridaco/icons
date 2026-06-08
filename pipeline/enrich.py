@@ -14,6 +14,7 @@ always supplies the description.
 from __future__ import annotations
 
 import json
+import time
 from pathlib import Path
 from typing import Callable, Iterable
 
@@ -36,6 +37,19 @@ VENDOR_DIR = ROOT / "vendor"
 ENRICH_DIR = PIPELINE_DIR / "enrichment"
 
 REV = 1
+
+
+def _fmt(seconds: float) -> str:
+    """Compact h/m/s for ETA logging."""
+    s = int(max(0, seconds))
+    h, rem = divmod(s, 3600)
+    m, s = divmod(rem, 60)
+    if h:
+        return f"{h}h{m:02d}m"
+    if m:
+        return f"{m}m{s:02d}s"
+    return f"{s}s"
+
 
 # In-scope vendors (svgl logos are intentionally out of scope this pass).
 VENDORS = [
@@ -179,49 +193,67 @@ def enrich_vendor(
         todo = todo[:limit]
 
     flush_every = 10
+    total = len(todo)
     done = 0
-    with click.progressbar(todo, label=f"enrich {vendor}", show_pos=True) as bar:
-        for ic in bar:
-            try:
-                png = render_for(
-                    vendor, ic.name, ic.svg_path, size=png_size, force=force
-                )
-                if on_render:
-                    on_render(str(png))
-                need_tags = not ic.native_tags
-                out = llm.generate(
-                    png,
-                    ic.name,
-                    vendor,
-                    need_tags=need_tags,
-                    model=model,
-                    # Ground the description with native tags when we have them.
-                    hint_tags=ic.native_tags or None,
-                )
-            except (llm.LLMError, Exception) as e:  # keep going, log the gap
-                click.echo(f"\n  SKIP {vendor}/{ic.name}: {e}", err=True)
-                continue
+    skipped = 0
+    already = len(records)
+    t_start = time.monotonic()
+    click.echo(
+        f"[{vendor}] {total} to do "
+        f"({already} already enriched, {len(icons)} unique total)"
+    )
+    for i, ic in enumerate(todo, 1):
+        t0 = time.monotonic()
+        try:
+            png = render_for(vendor, ic.name, ic.svg_path, size=png_size, force=force)
+            if on_render:
+                on_render(str(png))
+            need_tags = not ic.native_tags
+            out = llm.generate(
+                png,
+                ic.name,
+                vendor,
+                need_tags=need_tags,
+                model=model,
+                # Ground the description with native tags when we have them.
+                hint_tags=ic.native_tags or None,
+            )
+        except (llm.LLMError, Exception) as e:  # keep going, log the gap
+            skipped += 1
+            click.echo(f"[{vendor} {i}/{total}] SKIP {ic.name}: {e}", err=True)
+            continue
 
-            if ic.native_tags:
-                tags = ic.native_tags
-                tags_source = "vendor"
-            else:
-                tags = out["tags"]
-                tags_source = "llm"
+        if ic.native_tags:
+            tags = ic.native_tags
+            tags_source = "vendor"
+        else:
+            tags = out["tags"]
+            tags_source = "llm"
 
-            records[ic.name] = {
-                "description": out["description"],
-                "tags": tags,
-                "tags_source": tags_source,
-                "description_source": "llm",
-                "model": model,
-                "rev": REV,
-            }
-            done += 1
-            if done % flush_every == 0:
-                save_records(vendor, records)
+        records[ic.name] = {
+            "description": out["description"],
+            "tags": tags,
+            "tags_source": tags_source,
+            "description_source": "llm",
+            "model": model,
+            "rev": REV,
+        }
+        done += 1
+        dt = time.monotonic() - t0
+        eta = (time.monotonic() - t_start) / done * (total - i)
+        click.echo(
+            f"[{vendor} {i}/{total}] {ic.name} "
+            f"({tags_source}, {dt:.0f}s) eta {_fmt(eta)}"
+        )
+        if done % flush_every == 0:
+            save_records(vendor, records)
+            click.echo(f"  ... flushed {len(records)} -> enrichment/{vendor}.json")
 
     save_records(vendor, records)
+    click.echo(
+        f"[{vendor}] done: {done} new, {skipped} skipped, "
+        f"{len(records)} total in {_fmt(time.monotonic() - t_start)}"
+    )
     return records
 
 
