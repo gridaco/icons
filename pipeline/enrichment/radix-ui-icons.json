@@ -67,5 +67,4545 @@
     "description_source": "llm",
     "model": "gemma4:e4b-mlx",
     "rev": 1
+  },
+  "align-center-vertically": {
+    "description": "Three parallel horizontal lines representing options for vertical element alignment or centering.",
+    "tags": [
+      "align",
+      "vertical",
+      "layout",
+      "spacing",
+      "structure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "align-left": {
+    "description": "Two parallel horizontal bars representing left alignment for text or content.",
+    "tags": [
+      "align",
+      "left",
+      "paragraph",
+      "format",
+      "text"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "align-right": {
+    "description": "Three stacked horizontal bars representing the setting for right text alignment.",
+    "tags": [
+      "align",
+      "text",
+      "format",
+      "layout",
+      "justify"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "align-top": {
+    "description": "Three parallel horizontal bars representing options for aligning elements vertically.",
+    "tags": [
+      "alignment",
+      "layout",
+      "structure",
+      "position"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "all-sides": {
+    "description": "Four directional arrows radiating from a central point representing comprehensive scope or multi-directional movement.",
+    "tags": [
+      "direction",
+      "scope",
+      "all",
+      "move"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "angle": {
+    "description": "Two opposing arrows forming a right-angle corner indicating alignment or geometric positioning.",
+    "tags": [
+      "angle",
+      "corner",
+      "align",
+      "geometry",
+      "bracket"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "archive": {
+    "description": "Stack of documents representing records or archived material.",
+    "tags": [
+      "archive",
+      "file",
+      "document",
+      "storage",
+      "records"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-bottom-left": {
+    "description": "Chevron pointing down and to the left indicating hierarchical movement or navigation direction.",
+    "tags": [
+      "arrow",
+      "chevron",
+      "down",
+      "left",
+      "navigation"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-bottom-right": {
+    "description": "A downward-right pointing chevron indicating movement or directional flow.",
+    "tags": [
+      "arrow",
+      "direction",
+      "chevron",
+      "pointer",
+      "navigation"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-down": {
+    "description": "Downward-pointing arrow representing direction or movement.",
+    "tags": [
+      "arrow",
+      "down",
+      "direction",
+      "drop",
+      "select"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-left": {
+    "description": "A directional arrow pointing left indicating backward movement or navigation.",
+    "tags": [
+      "back",
+      "left",
+      "arrow",
+      "previous",
+      "navigate"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-right": {
+    "description": "Right pointing arrow indicating forward movement or progression.",
+    "tags": [
+      "arrow",
+      "next",
+      "forward",
+      "right",
+      "navigate",
+      "progress"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-top-left": {
+    "description": "A directional arrow pointing toward the upper left corner indicating movement or hierarchy change.",
+    "tags": [
+      "arrow",
+      "back",
+      "up",
+      "navigate",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-top-right": {
+    "description": "Diagonal arrow pointing upper-right representing move or export function.",
+    "tags": [
+      "arrow",
+      "export",
+      "move",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "arrow-up": {
+    "description": "Upward pointing arrow indicating increase, sorting ascending, or uploading data.",
+    "tags": [
+      "up",
+      "arrow",
+      "upload",
+      "increase",
+      "rise",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "aspect-ratio": {
+    "description": "Nested rectangular frames indicating the ability to adjust size or view proportions.",
+    "tags": [
+      "aspect",
+      "ratio",
+      "scale",
+      "frame",
+      "resize",
+      "dimensions"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "avatar": {
+    "description": "Head and shoulders silhouette within a circle representing a user profile or avatar.",
+    "tags": [
+      "user",
+      "profile",
+      "avatar",
+      "account",
+      "identity"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "backpack": {
+    "description": "A stylized bag with shoulder straps representing carrying gear or travel.",
+    "tags": [
+      "bag",
+      "pack",
+      "travel",
+      "gear",
+      "school",
+      "storage"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "badge": {
+    "description": "Shield shape containing a star symbolizing an award or status level.",
+    "tags": [
+      "badge",
+      "award",
+      "achievement",
+      "status",
+      "medal"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "bar-chart": {
+    "description": "Three vertical bars of varying heights representing a bar chart or statistical data.",
+    "tags": [
+      "chart",
+      "data",
+      "analytics",
+      "statistics",
+      "graph",
+      "report"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "bell": {
+    "description": "Stylized bell icon representing notification or alert status.",
+    "tags": [
+      "bell",
+      "notification",
+      "alert",
+      "sound",
+      "alarm"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "blending-mode": {
+    "description": "Two overlapping circles representing the combination or blending of two elements.",
+    "tags": [
+      "blend",
+      "merge",
+      "layers",
+      "combine",
+      "mix"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "bookmark": {
+    "description": "Ribbon banner representing saving or marking content.",
+    "tags": [
+      "save",
+      "bookmark",
+      "favorite",
+      "tag",
+      "ribbon"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "bookmark-filled": {
+    "description": "Ribbon-shaped bookmark symbol with a solid fill indicating that the item has been saved or marked.",
+    "tags": [
+      "bookmark",
+      "save",
+      "favorite",
+      "marker",
+      "read"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-all": {
+    "description": "Square outline representing a complete border, frame, or containment.",
+    "tags": [
+      "border",
+      "frame",
+      "box",
+      "container",
+      "outline",
+      "boundary"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-bottom": {
+    "description": "Horizontal line segment representing a divider or baseline.",
+    "tags": [
+      "line",
+      "divider",
+      "border",
+      "separator",
+      "baseline"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-dashed": {
+    "description": "Dashed rectangular outline representing an editable field or container boundary.",
+    "tags": [
+      "form",
+      "input",
+      "container",
+      "dashed",
+      "placeholder"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-dotted": {
+    "description": "Square frame composed of dotted lines indicating a defined boundary or container.",
+    "tags": [
+      "border",
+      "dotted",
+      "frame",
+      "outline",
+      "box",
+      "container"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-left": {
+    "description": "A vertical line serving as a separator or boundary marker.",
+    "tags": [
+      "line",
+      "border",
+      "divider",
+      "separator",
+      "structure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-none": {
+    "description": "Rectangle representing a form input field without borders.",
+    "tags": [
+      "input",
+      "field",
+      "form",
+      "container",
+      "box"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-right": {
+    "description": "Vertical bar representing a separator or column boundary.",
+    "tags": [
+      "divider",
+      "separator",
+      "border",
+      "column",
+      "align"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-solid": {
+    "description": "A square outline representing a boundary or container.",
+    "tags": [
+      "border",
+      "frame",
+      "box",
+      "container",
+      "outline"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-split": {
+    "description": "Two parallel vertical lines representing a division or split action.",
+    "tags": [
+      "split",
+      "divide",
+      "border",
+      "partition",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-style": {
+    "description": "Square frame representing border styles or design options.",
+    "tags": [
+      "border",
+      "style",
+      "frame",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-top": {
+    "description": "Horizontal line segment representing a separator or boundary.",
+    "tags": [
+      "line",
+      "border",
+      "divider",
+      "separator"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "border-width": {
+    "description": "Square frame containing two parallel lines representing border width or dimension settings.",
+    "tags": [
+      "border",
+      "width",
+      "size",
+      "frame",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "box": {
+    "description": "Cube shape representing a file container or package.",
+    "tags": [
+      "file",
+      "package",
+      "box",
+      "container",
+      "archive"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "box-model": {
+    "description": "Rectangle showing the components and dimensions of a structured container or layout element.",
+    "tags": [
+      "box",
+      "model",
+      "layout",
+      "structure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "button": {
+    "description": "Magnifying glass symbol representing search or zoom functionality.",
+    "tags": [
+      "search",
+      "find",
+      "magnify",
+      "zoom"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "calendar": {
+    "description": "A rectangle with internal lines representing a calendar or scheduling function.",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "planner",
+      "time"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "camera": {
+    "description": "Camera device silhouette showing a lens for taking photos or recording images.",
+    "tags": [
+      "camera",
+      "photo",
+      "capture",
+      "lens",
+      "photography"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "card-stack": {
+    "description": "Stack of layered rectangular cards representing a collection or file archive.",
+    "tags": [
+      "cards",
+      "stack",
+      "files",
+      "collection",
+      "archive"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "card-stack-minus": {
+    "description": "A stack of rectangular cards combined with a minus symbol to indicate quantity reduction or removal.",
+    "tags": [
+      "cards",
+      "stack",
+      "reduce",
+      "inventory",
+      "decrease",
+      "remove"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "card-stack-plus": {
+    "description": "Stacked rectangular cards combined with a plus symbol to signify adding or creating new items.",
+    "tags": [
+      "card",
+      "stack",
+      "add",
+      "collection",
+      "files",
+      "set"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "caret-down": {
+    "description": "Caret pointing down representing a dropdown menu or sorting indicator.",
+    "tags": [
+      "menu",
+      "dropdown",
+      "select",
+      "sort",
+      "down",
+      "caret"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "caret-left": {
+    "description": "Left-pointing caret representing movement backward or previous selection.",
+    "tags": [
+      "back",
+      "previous",
+      "left",
+      "caret"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "caret-right": {
+    "description": "Right-pointing chevron indicating directional movement or progression.",
+    "tags": [
+      "arrow",
+      "right",
+      "caret",
+      "next",
+      "navigation"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "caret-sort": {
+    "description": "Two stacked carets indicating a sorting or ordering function.",
+    "tags": [
+      "sort",
+      "order",
+      "rank",
+      "filter",
+      "hierarchy"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "caret-up": {
+    "description": "Upward-pointing caret indicating ascending order or movement up.",
+    "tags": [
+      "up",
+      "caret",
+      "arrow",
+      "sort",
+      "ascend",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "chat-bubble": {
+    "description": "Speech bubble representing chat or messaging.",
+    "tags": [
+      "chat",
+      "message",
+      "speech",
+      "dialogue",
+      "text"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "check": {
+    "description": "A checkmark symbol indicating confirmation or task completion.",
+    "tags": [
+      "check",
+      "done",
+      "success",
+      "complete",
+      "verified"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "check-circled": {
+    "description": "A checkmark enclosed in a circle indicating successful completion or confirmation.",
+    "tags": [
+      "check",
+      "complete",
+      "success",
+      "done",
+      "verified"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "checkbox": {
+    "description": "A square outline representing a selectable option or task item.",
+    "tags": [
+      "checkbox",
+      "select",
+      "form",
+      "task",
+      "option"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "chevron-down": {
+    "description": "A downward-pointing chevron representing a dropdown menu or navigation selection.",
+    "tags": [
+      "chevron",
+      "down",
+      "menu",
+      "arrow",
+      "select"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "chevron-left": {
+    "description": "Left-pointing chevron used for navigating back or moving to a previous view.",
+    "tags": [
+      "back",
+      "previous",
+      "left",
+      "navigate",
+      "arrow"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "chevron-right": {
+    "description": "A chevron shape pointing right indicating forward movement or navigation.",
+    "tags": [
+      "chevron",
+      "right",
+      "arrow",
+      "next",
+      "forward"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "chevron-up": {
+    "description": "Upward-pointing chevron symbolizing direction or increasing value.",
+    "tags": [
+      "chevron",
+      "up",
+      "arrow",
+      "increase",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "circle": {
+    "description": "A circle crossed by a diagonal line indicating prohibition or unavailability.",
+    "tags": [
+      "prohibited",
+      "disabled",
+      "noentry",
+      "forbidden"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "circle-backslash": {
+    "description": "Backslash symbol enclosed in a circle representing the action to go back or revert.",
+    "tags": [
+      "back",
+      "undo",
+      "revert",
+      "history",
+      "previous"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "clipboard": {
+    "description": "Document secured by a binder clip symbolizing record keeping or task management.",
+    "tags": [
+      "clipboard",
+      "document",
+      "notes",
+      "task",
+      "file",
+      "record"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "clipboard-copy": {
+    "description": "Clipboard icon with a duplicate page sheet indicating copying or duplication.",
+    "tags": [
+      "clipboard",
+      "copy",
+      "duplicate",
+      "document",
+      "file"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "clock": {
+    "description": "A circular clock face displaying time using hands.",
+    "tags": [
+      "time",
+      "clock",
+      "schedule",
+      "watch"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "code": {
+    "description": "Angle brackets representing code or markup language.",
+    "tags": [
+      "code",
+      "programming",
+      "markup",
+      "script",
+      "development"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "codesandbox-logo": {
+    "description": "Stylized angular brackets representing coding or a development environment.",
+    "tags": [
+      "code",
+      "sandbox",
+      "development",
+      "coding",
+      "tech"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "color-wheel": {
+    "description": "Segmented circle representing a color palette or hue spectrum.",
+    "tags": [
+      "color",
+      "palette",
+      "spectrum",
+      "hue",
+      "mixing"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "column-spacing": {
+    "description": "Two parallel vertical bars with a double-headed arrow indicating adjustable column width or spacing.",
+    "tags": [
+      "columns",
+      "layout",
+      "resize",
+      "spacing",
+      "grid"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "columns": {
+    "description": "Vertical bars representing organized data or columns in a structured view.",
+    "tags": [
+      "list",
+      "data",
+      "structure",
+      "table",
+      "organization"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "commit": {
+    "description": "A checkmark signifying completion or successful confirmation.",
+    "tags": [
+      "commit",
+      "save",
+      "done",
+      "confirm",
+      "finished"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "component-1": {
+    "description": "Magnifying glass symbol for searching content.",
+    "tags": [
+      "search",
+      "find",
+      "magnify",
+      "zoom"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "component-2": {
+    "description": "Magnifying glass symbolizing search or discovery function.",
+    "tags": [
+      "search",
+      "find",
+      "magnify",
+      "zoom",
+      "discover"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "component-boolean": {
+    "description": "Square container with a checkmark indicating selection or completion status.",
+    "tags": [
+      "checkbox",
+      "select",
+      "done",
+      "complete",
+      "status"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "component-instance": {
+    "description": "Gear symbol representing settings or configuration options.",
+    "tags": [
+      "settings",
+      "gear",
+      "options",
+      "config"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "component-none": {
+    "description": "Cogwheel symbolizing system settings or application preferences.",
+    "tags": [
+      "gear",
+      "settings",
+      "configuration",
+      "cog"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "component-placeholder": {
+    "description": "A square outline representing a customizable component or placeholder element.",
+    "tags": [
+      "component",
+      "placeholder",
+      "box"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "container": {
+    "description": "A square representing a file or data container.",
+    "tags": [
+      "container",
+      "box",
+      "storage",
+      "file"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "cookie": {
+    "description": "A stylized baked good representing a cookie file or user preferences.",
+    "tags": [
+      "cookie",
+      "data",
+      "preference",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "copy": {
+    "description": "Stacked documents symbolizing the action of copying or duplicating content.",
+    "tags": [
+      "copy",
+      "duplicate",
+      "clone",
+      "file"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "corner-bottom-left": {
+    "description": "A corner symbol indicating the bottom left position or placement.",
+    "tags": [
+      "corner",
+      "position",
+      "anchor",
+      "placement"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "corner-bottom-right": {
+    "description": "Chevron symbol pointing diagonally toward the bottom right corner indicating direction or movement.",
+    "tags": [
+      "corner",
+      "direction",
+      "pointer",
+      "navigation",
+      "bottomright"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "corner-top-left": {
+    "description": "Corner bracket indicating the top left position or origin point.",
+    "tags": [
+      "corner",
+      "top",
+      "left",
+      "position",
+      "origin"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "corner-top-right": {
+    "description": "Diagonal arrow pointing top right indicating movement or alignment.",
+    "tags": [
+      "arrow",
+      "pointer",
+      "diagonal",
+      "move",
+      "align",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "corners": {
+    "description": "Two L-shaped corner brackets defining a section or content boundary.",
+    "tags": [
+      "corner",
+      "bracket",
+      "frame",
+      "structure",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "countdown-timer": {
+    "description": "Circular clock face representing a timed duration or countdown.",
+    "tags": [
+      "timer",
+      "countdown",
+      "clock",
+      "time",
+      "stopwatch"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "counter-clockwise-clock": {
+    "description": "Circular clock dial showing time movement in reverse direction.",
+    "tags": [
+      "clock",
+      "time",
+      "reverse",
+      "history",
+      "undo"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "crop": {
+    "description": "Nested rectangular frames symbolizing the action of selecting or trimming an image area.",
+    "tags": [
+      "crop",
+      "select",
+      "frame",
+      "resize",
+      "boundingbox",
+      "trim"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "cross-1": {
+    "description": "A plus sign representing addition or creation.",
+    "tags": [
+      "add",
+      "new",
+      "plus",
+      "cross",
+      "create"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "cross-2": {
+    "description": "An X symbol representing close or removal.",
+    "tags": [
+      "cross",
+      "x",
+      "close",
+      "remove",
+      "delete"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "cross-circled": {
+    "description": "A cross symbol enclosed within a circular boundary indicating removal or cancellation.",
+    "tags": [
+      "close",
+      "cancel",
+      "error",
+      "remove",
+      "delete"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "crosshair-1": {
+    "description": "Two intersecting lines forming a cross indicating targeting or aiming precision.",
+    "tags": [
+      "crosshair",
+      "target",
+      "aim",
+      "focus",
+      "precision"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "crosshair-2": {
+    "description": "A vertical and horizontal crosshair indicating a precise targeting or focus point.",
+    "tags": [
+      "target",
+      "aim",
+      "crosshair",
+      "focus",
+      "precision",
+      "select"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "crumpled-paper": {
+    "description": "Crumpled piece of paper representing a draft or discarded document.",
+    "tags": [
+      "paper",
+      "draft",
+      "crumple",
+      "waste",
+      "document"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "cube": {
+    "description": "Wireframe cube symbolizing an object or data container.",
+    "tags": [
+      "cube",
+      "box",
+      "file",
+      "data",
+      "storage"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "cursor-arrow": {
+    "description": "Downward-pointing cursor arrow indicating selection or direction.",
+    "tags": [
+      "arrow",
+      "cursor",
+      "pointer",
+      "select",
+      "down"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "cursor-text": {
+    "description": "Vertical rectangular line representing a blinking text input caret or insertion point.",
+    "tags": [
+      "text",
+      "cursor",
+      "caret",
+      "input",
+      "typing"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dash": {
+    "description": "Horizontal line segment used as a separator or dash.",
+    "tags": [
+      "line",
+      "separator",
+      "dash",
+      "divider",
+      "minus"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dashboard": {
+    "description": "Cogwheel icon representing system settings or configuration options.",
+    "tags": [
+      "gear",
+      "settings",
+      "config",
+      "tools",
+      "options"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "database": {
+    "description": "Stacked cylindrical shapes representing a database or data storage.",
+    "tags": [
+      "database",
+      "data",
+      "storage",
+      "server"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "desktop": {
+    "description": "A rectangular display screen representing a desktop computer interface.",
+    "tags": [
+      "desktop",
+      "computer",
+      "monitor",
+      "display",
+      "work"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dimensions": {
+    "description": "Two opposing arrows surrounding a box representing resize or dimension adjustment.",
+    "tags": [
+      "resize",
+      "scale",
+      "dimensions",
+      "size",
+      "aspect"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "disc": {
+    "description": "A circular media disc representing data storage or playback content.",
+    "tags": [
+      "disc",
+      "cd",
+      "media",
+      "storage",
+      "record"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "discord-logo": {
+    "description": "Abstract geometric symbol resembling a stylized gamepad or controller device.",
+    "tags": [
+      "chat",
+      "gaming",
+      "app",
+      "device"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "divider-horizontal": {
+    "description": "Horizontal line representing separation or division between content elements.",
+    "tags": [
+      "divider",
+      "separator",
+      "line",
+      "horizontal",
+      "boundary"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "divider-vertical": {
+    "description": "Vertical line representing division or separation.",
+    "tags": [
+      "divider",
+      "vertical",
+      "line",
+      "separator"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dot": {
+    "description": "A solid filled circle representing selection or completion.",
+    "tags": [
+      "dot",
+      "circle",
+      "select",
+      "status"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dot-filled": {
+    "description": "Three vertically aligned dots representing an overflow or context menu action.",
+    "tags": [
+      "menu",
+      "options",
+      "more",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dots-horizontal": {
+    "description": "Three horizontal dots representing an overflow menu or more options.",
+    "tags": [
+      "ellipsis",
+      "dots",
+      "menu",
+      "options"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dots-vertical": {
+    "description": "Three vertical dots representing an ellipsis or more options.",
+    "tags": [
+      "dots",
+      "ellipsis",
+      "menu",
+      "options",
+      "more"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "double-arrow-down": {
+    "description": "Two downward chevrons representing descending order or filtering options.",
+    "tags": [
+      "down",
+      "arrow",
+      "sort",
+      "filter",
+      "data",
+      "options"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "double-arrow-left": {
+    "description": "Two left-pointing arrows representing backward movement or history navigation.",
+    "tags": [
+      "back",
+      "previous",
+      "history",
+      "arrow",
+      "navigate"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "double-arrow-right": {
+    "description": "Two arrows pointing right indicating sorting or forward movement.",
+    "tags": [
+      "arrow",
+      "double",
+      "sort",
+      "progress",
+      "order",
+      "next"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "double-arrow-up": {
+    "description": "Two vertical arrows pointing up representing an increase in value or sorting direction.",
+    "tags": [
+      "up",
+      "increase",
+      "sort",
+      "arrow"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "download": {
+    "description": "Downward arrow pointing onto a horizontal line representing file download or data transfer.",
+    "tags": [
+      "download",
+      "file",
+      "save",
+      "data",
+      "arrow"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "drag-handle-dots-1": {
+    "description": "Three aligned circles forming an ellipsis representing overflow or additional options.",
+    "tags": [
+      "dots",
+      "ellipsis",
+      "options",
+      "menu",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "drag-handle-dots-2": {
+    "description": "Vertical bar with three aligned circles indicating a draggable control handle for resizing or movement.",
+    "tags": [
+      "drag",
+      "handle",
+      "move",
+      "resize",
+      "grip",
+      "control"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "drag-handle-horizontal": {
+    "description": "Horizontal bar representing a grab point used to move or resize a container element.",
+    "tags": [
+      "handle",
+      "drag",
+      "grip",
+      "resize",
+      "bar"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "drag-handle-vertical": {
+    "description": "Vertical bar with horizontal indicators representing a resize or drag handle.",
+    "tags": [
+      "handle",
+      "drag",
+      "resize",
+      "vertical",
+      "grip",
+      "move"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "drawing-pin": {
+    "description": "Map pin icon representing a specific geographic location or saved point of interest.",
+    "tags": [
+      "pin",
+      "location",
+      "map",
+      "marker",
+      "save",
+      "destination"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "drawing-pin-filled": {
+    "description": "Filled teardrop-shaped location marker indicating a saved point or specific place.",
+    "tags": [
+      "pin",
+      "location",
+      "map",
+      "marker",
+      "save",
+      "point"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "dropdown-menu": {
+    "description": "Downward-pointing chevron indicating a menu or selection options.",
+    "tags": [
+      "menu",
+      "dropdown",
+      "options",
+      "select"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "enter": {
+    "description": "Right-pointing chevron symbolizing progression or entering a new state.",
+    "tags": [
+      "enter",
+      "next",
+      "go",
+      "forward",
+      "arrow",
+      "proceed"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "enter-full-screen": {
+    "description": "Four corner arrows expanding from a square represent maximize or enter full screen mode.",
+    "tags": [
+      "fullscreen",
+      "maximize",
+      "expand",
+      "screen",
+      "window"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "envelope-closed": {
+    "description": "Closed envelope symbol representing correspondence or messaging.",
+    "tags": [
+      "envelope",
+      "mail",
+      "message",
+      "email"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "envelope-open": {
+    "description": "Open envelope symbolizing email or message.",
+    "tags": [
+      "envelope",
+      "mail",
+      "email",
+      "message",
+      "communication"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "eraser": {
+    "description": "A rectangular block representing correction or deletion.",
+    "tags": [
+      "eraser",
+      "delete",
+      "correct",
+      "undo",
+      "remove"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "exclamation-circled": {
+    "description": "Circle containing an exclamation point indicating caution or importance.",
+    "tags": [
+      "warning",
+      "alert",
+      "caution",
+      "exclamation",
+      "notification"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "exclamation-mark": {
+    "description": "Exclamation mark indicating a warning alert or important notice.",
+    "tags": [
+      "warning",
+      "alert",
+      "attention",
+      "danger",
+      "notice"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "exclamation-triangle": {
+    "description": "Triangle containing an exclamation mark representing a warning or alert.",
+    "tags": [
+      "warning",
+      "alert",
+      "caution",
+      "danger",
+      "notification"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "exit": {
+    "description": "Two intersecting lines forming an X representing close or exit functionality.",
+    "tags": [
+      "exit",
+      "close",
+      "cancel",
+      "remove",
+      "dismiss"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "exit-full-screen": {
+    "description": "Intersecting lines form an X representing close or exit.",
+    "tags": [
+      "exit",
+      "close",
+      "fullscreen",
+      "window"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "external-link": {
+    "description": "Two linked ovals next to an arrow pointing out of a box indicating an external link.",
+    "tags": [
+      "link",
+      "external",
+      "web",
+      "navigate",
+      "url"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "eye-closed": {
+    "description": "Stylized closed eyes symbolizing sleep rest or night mode.",
+    "tags": [
+      "sleep",
+      "closed",
+      "eyes",
+      "rest",
+      "night"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "eye-none": {
+    "description": "Eye symbol crossed out by a diagonal line indicating that the viewing function is disabled or hidden.",
+    "tags": [
+      "eye",
+      "vision",
+      "disabled",
+      "hidden",
+      "none",
+      "sight"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "eye-open": {
+    "description": "Open eye symbol representing visibility or viewing status.",
+    "tags": [
+      "eye",
+      "view",
+      "sight",
+      "observe",
+      "look"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "face": {
+    "description": "Silhouette of a head and shoulders representing a user profile or account identity.",
+    "tags": [
+      "user",
+      "profile",
+      "account",
+      "identity",
+      "avatar"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "figma-logo": {
+    "description": "Overlapping geometric shapes representing design and collaboration.",
+    "tags": [
+      "design",
+      "ui",
+      "collaboration",
+      "software"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "file": {
+    "description": "A cogwheel symbolizing settings or configuration options.",
+    "tags": [
+      "settings",
+      "gear",
+      "config",
+      "options"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "file-minus": {
+    "description": "Horizontal dash representing subtraction decrease or removal.",
+    "tags": [
+      "minus",
+      "remove",
+      "decrease",
+      "delete",
+      "subtract"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "file-plus": {
+    "description": "File shape overlaid with a plus sign indicating the action to add a new item.",
+    "tags": [
+      "file",
+      "document",
+      "add",
+      "plus",
+      "new"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "file-text": {
+    "description": "A rectangular piece of paper containing several parallel lines, symbolizing a text document or file.",
+    "tags": [
+      "document",
+      "file",
+      "text",
+      "paper",
+      "content"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "filter": {
+    "description": "Stacked horizontal lines representing filtering or sorting options.",
+    "tags": [
+      "filter",
+      "search",
+      "refine",
+      "settings",
+      "options"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "font-bold": {
+    "description": "A stylized heavy character representing bold text or increased font weight.",
+    "tags": [
+      "bold",
+      "font",
+      "typeface",
+      "weight"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "font-family": {
+    "description": "Lines of differing heights contained within a square representing text formatting and font options.",
+    "tags": [
+      "font",
+      "text",
+      "typography",
+      "style"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "font-italic": {
+    "description": "Slanted letterform indicating italic or oblique text style.",
+    "tags": [
+      "font",
+      "style",
+      "italic",
+      "typography",
+      "slant"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "font-roman": {
+    "description": "Document page with lines indicating text content or typeface settings.",
+    "tags": [
+      "font",
+      "typography",
+      "text",
+      "document"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "font-size": {
+    "description": "Two parallel horizontal lines bracketed by a double-headed vertical arrow representing text size scaling.",
+    "tags": [
+      "font",
+      "size",
+      "text",
+      "scale",
+      "typography",
+      "adjust"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "font-style": {
+    "description": "Stylized capital T representing font or typography settings.",
+    "tags": [
+      "font",
+      "style",
+      "typography",
+      "text"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "frame": {
+    "description": "Square outline containing corner brackets indicating a framing device or boundary.",
+    "tags": [
+      "frame",
+      "border",
+      "container",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "framer-logo": {
+    "description": "Abstract geometric shapes forming a stylized brand mark or corporate identity symbol.",
+    "tags": [
+      "brand",
+      "identity",
+      "abstract"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "gear": {
+    "description": "Cogwheel icon representing settings configuration or system tools.",
+    "tags": [
+      "gear",
+      "settings",
+      "config",
+      "tools"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "github-logo": {
+    "description": "Stylized abstract mascot figure representing software development and code hosting.",
+    "tags": [
+      "github",
+      "dev",
+      "code",
+      "version control",
+      "open source"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "globe": {
+    "description": "Sphere with intersecting meridian and parallel lines representing a global view.",
+    "tags": [
+      "globe",
+      "earth",
+      "world",
+      "network",
+      "internet"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "globe-2": {
+    "description": "Wireframe sphere representing Earth or global reach.",
+    "tags": [
+      "globe",
+      "earth",
+      "world",
+      "global",
+      "internet",
+      "language"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "grid": {
+    "description": "A set of squares arranged in a grid pattern representing layout structure or organization.",
+    "tags": [
+      "grid",
+      "layout",
+      "pattern",
+      "structure",
+      "matrix"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "group": {
+    "description": "Two stylized human figures indicating a group team or user collection.",
+    "tags": [
+      "group",
+      "team",
+      "users",
+      "community",
+      "members"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "half-1": {
+    "description": "Two opposing chevron shapes indicating division or separation.",
+    "tags": [
+      "split",
+      "divide",
+      "separate",
+      "duality",
+      "half"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "half-2": {
+    "description": "Two adjacent curved segments representing partial completion or division.",
+    "tags": [
+      "half",
+      "segment",
+      "progress",
+      "split",
+      "partial"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "hamburger-menu": {
+    "description": "Three stacked parallel horizontal lines representing a main menu or navigation options.",
+    "tags": [
+      "menu",
+      "navigation",
+      "options",
+      "settings",
+      "burger"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "hand": {
+    "description": "Stylized open palm representing giving assistance or donation.",
+    "tags": [
+      "hand",
+      "palm",
+      "give",
+      "donate",
+      "help"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "heading": {
+    "description": "Three stacked horizontal lines representing a document or list structure.",
+    "tags": [
+      "heading",
+      "title",
+      "document",
+      "list",
+      "text"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "heart": {
+    "description": "Stylized heart shape representing love affection or favoriting a content item.",
+    "tags": [
+      "heart",
+      "love",
+      "favorite",
+      "like",
+      "care"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "heart-filled": {
+    "description": "Solid heart shape representing affection or marking an item as a favorite.",
+    "tags": [
+      "heart",
+      "love",
+      "favorite",
+      "like",
+      "passion"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "height": {
+    "description": "Double-headed vertical arrows representing resizing dimensions or sorting height.",
+    "tags": [
+      "size",
+      "scale",
+      "height",
+      "dimension",
+      "up",
+      "down"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "hobby-knife": {
+    "description": "Stylized representation of a utility or hobby knife used for cutting materials.",
+    "tags": [
+      "knife",
+      "tool",
+      "craft",
+      "cutting",
+      "blade"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "home": {
+    "description": "House silhouette representing a home or main landing page.",
+    "tags": [
+      "home",
+      "house",
+      "main",
+      "root",
+      "shelter"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "iconjar-logo": {
+    "description": "Stylized geometric shapes representing brand identity or corporate logo.",
+    "tags": [
+      "brand",
+      "identity",
+      "corporate"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "id-card": {
+    "description": "Rectangular badge symbol representing an identification card or personal credential.",
+    "tags": [
+      "id",
+      "card",
+      "credential",
+      "badge",
+      "profile"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "image": {
+    "description": "Magnifying glass symbolizing the action of searching or finding information.",
+    "tags": [
+      "search",
+      "find",
+      "magnify",
+      "look",
+      "zoom"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "info-circled": {
+    "description": "Lowercase i inside a circle representing information or details.",
+    "tags": [
+      "info",
+      "information",
+      "details",
+      "help"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "input": {
+    "description": "A square container holding a stylized checkmark indicating confirmation or completion.",
+    "tags": [
+      "check",
+      "done",
+      "complete",
+      "confirm",
+      "verified"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "instagram-logo": {
+    "description": "Stylized camera icon within a rounded square representing photography social media or image sharing.",
+    "tags": [
+      "camera",
+      "photo",
+      "social",
+      "app"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "keyboard": {
+    "description": "Rectangular keyboard layout composed of smaller keys representing text input.",
+    "tags": [
+      "keyboard",
+      "input",
+      "typing",
+      "text",
+      "device"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "lap-timer": {
+    "description": "Stopwatch symbol representing time measurement and lap timing.",
+    "tags": [
+      "timer",
+      "stopwatch",
+      "lap",
+      "time",
+      "race",
+      "sport"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "laptop": {
+    "description": "A stylized representation of a closed laptop computer.",
+    "tags": [
+      "laptop",
+      "computer",
+      "device",
+      "tech",
+      "work"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "layers": {
+    "description": "Stacked rectangles representing layers, hierarchy, or organization.",
+    "tags": [
+      "layer",
+      "stack",
+      "structure",
+      "hierarchy",
+      "file"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "layout": {
+    "description": "A square grid representing structure or arrangement.",
+    "tags": [
+      "layout",
+      "grid",
+      "structure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "letter-case-capitalize": {
+    "description": "Lowercase letter followed by an upward arrow indicating text capitalization or case change.",
+    "tags": [
+      "text",
+      "case",
+      "capitalize",
+      "letter"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "letter-case-lowercase": {
+    "description": "Capital and lowercase letters indicating text casing or typography settings.",
+    "tags": [
+      "case",
+      "typography",
+      "text",
+      "font",
+      "style"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "letter-case-toggle": {
+    "description": "Capital letter A and lowercase letter a representing text case toggle.",
+    "tags": [
+      "text",
+      "case",
+      "letters",
+      "typography",
+      "font"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "letter-case-uppercase": {
+    "description": "Square enclosing an uppercase letter signifying text capitalization status.",
+    "tags": [
+      "case",
+      "text",
+      "uppercase",
+      "font",
+      "typography"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "letter-spacing": {
+    "description": "Two lines representing text with an adjustment slider indicating control over character spacing.",
+    "tags": [
+      "typography",
+      "font",
+      "kerning",
+      "spacing",
+      "text"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "lightning-bolt": {
+    "description": "Jagged lightning bolt symbol representing electrical power or sudden energy.",
+    "tags": [
+      "lightning",
+      "bolt",
+      "electricity",
+      "power",
+      "energy",
+      "charge"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "line-height": {
+    "description": "Two parallel horizontal lines representing adjustable vertical spacing or line height.",
+    "tags": [
+      "line",
+      "height",
+      "spacing",
+      "typography",
+      "text",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "link-1": {
+    "description": "Interlocking chain links representing a connection or hyperlink.",
+    "tags": [
+      "link",
+      "chain",
+      "connect",
+      "web"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "link-2": {
+    "description": "Interlocking chain links symbolizing a web link or connection.",
+    "tags": [
+      "link",
+      "chain",
+      "connect",
+      "website"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "link-break-1": {
+    "description": "Two linked elements separated by a gap representing a broken or disconnected link.",
+    "tags": [
+      "link",
+      "break",
+      "chain",
+      "disconnected"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "link-break-2": {
+    "description": "Two linked ovals separated by a gap representing a broken or severed connection.",
+    "tags": [
+      "link",
+      "break",
+      "chain",
+      "disconnect",
+      "failure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "link-none-1": {
+    "description": "Two linked ovals crossed by a diagonal line indicating a broken or non-existent connection.",
+    "tags": [
+      "link",
+      "broken",
+      "none",
+      "disconnect",
+      "chain",
+      "unlink"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "link-none-2": {
+    "description": "Interlocking links crossed by a diagonal line indicating a broken or unavailable connection.",
+    "tags": [
+      "link",
+      "chain",
+      "broken",
+      "disabled",
+      "error"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "linkedin-logo": {
+    "description": "Geometric brand mark representing professional networking and corporate identity.",
+    "tags": [
+      "linkedin",
+      "profile",
+      "career",
+      "network",
+      "business",
+      "identity"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "list-bullet": {
+    "description": "A solid circle representing a list bullet point or item marker.",
+    "tags": [
+      "list",
+      "bullet",
+      "point",
+      "marker"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "lock-closed": {
+    "description": "Closed padlock symbol representing security or locked status.",
+    "tags": [
+      "lock",
+      "security",
+      "private",
+      "protected",
+      "secured"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "lock-open-1": {
+    "description": "A lock mechanism with an open shackle representing security status or accessibility.",
+    "tags": [
+      "lock",
+      "unlock",
+      "security",
+      "access",
+      "privacy"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "lock-open-2": {
+    "description": "Padlock symbol with a lifted shackle representing an unlocked state.",
+    "tags": [
+      "lock",
+      "padlock",
+      "security",
+      "unlocked",
+      "access"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "loop": {
+    "description": "Two curved arrows forming a closed loop representing refresh or repeat action.",
+    "tags": [
+      "loop",
+      "refresh",
+      "repeat",
+      "cycle"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "magic-wand": {
+    "description": "A stylized staff with a pointed tip representing magic or spellcasting.",
+    "tags": [
+      "wand",
+      "magic",
+      "spell",
+      "arcane",
+      "wizard"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "magnifying-glass": {
+    "description": "Magnifying glass icon used to represent the search function.",
+    "tags": [
+      "search",
+      "magnify",
+      "find",
+      "look"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "margin": {
+    "description": "A square containing multiple parallel horizontal lines representing layout margins or spacing.",
+    "tags": [
+      "margin",
+      "layout",
+      "spacing",
+      "border",
+      "structure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "mask-off": {
+    "description": "Face mask icon overlaid with a diagonal slash indicating the removal or deactivation of a disguise.",
+    "tags": [
+      "mask",
+      "face",
+      "unhide",
+      "privacy",
+      "identity",
+      "off"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "mask-on": {
+    "description": "Eye icon overlaid with a geometric shape indicating filtering or data masking.",
+    "tags": [
+      "filter",
+      "mask",
+      "privacy",
+      "visibility",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "minimize": {
+    "description": "Horizontal dash symbolizing the action to minimize or reduce size.",
+    "tags": [
+      "minimize",
+      "reduce",
+      "collapse",
+      "minus",
+      "shrink"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "minus": {
+    "description": "Horizontal line representing subtraction or decrementing value.",
+    "tags": [
+      "minus",
+      "subtract",
+      "remove",
+      "decrease",
+      "decline"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "minus-circled": {
+    "description": "Minus sign contained within a circle signifying subtraction or removal.",
+    "tags": [
+      "minus",
+      "remove",
+      "decrease",
+      "subtract",
+      "cancel"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "mix": {
+    "description": "Two arrows crossing to represent randomization or shuffling content.",
+    "tags": [
+      "mix",
+      "shuffle",
+      "randomize",
+      "dice"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "mixer-horizontal": {
+    "description": "Two horizontal opposing chevrons representing a mix or shuffle function.",
+    "tags": [
+      "mix",
+      "shuffle",
+      "randomize",
+      "stream",
+      "media"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "mixer-vertical": {
+    "description": "Vertical container containing swirling lines representing blending or mixing ingredients.",
+    "tags": [
+      "mixer",
+      "blend",
+      "process",
+      "ingredients",
+      "stir"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "mobile": {
+    "description": "Magnifying glass symbol representing search or finding information.",
+    "tags": [
+      "search",
+      "find",
+      "magnify",
+      "zoom"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "modulz-logo": {
+    "description": "Two interlocking geometric shapes representing modularity or connection.",
+    "tags": [
+      "module",
+      "connect",
+      "structure",
+      "link"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "moon": {
+    "description": "Crescent moon symbol representing a nighttime theme or dark mode setting.",
+    "tags": [
+      "moon",
+      "night",
+      "dark",
+      "crescent",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "move": {
+    "description": "A stylized arrow indicating movement or direction.",
+    "tags": [
+      "move",
+      "direction",
+      "shift",
+      "transfer"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "notion-logo": {
+    "description": "Stylized abstract geometric mark representing a productivity software brand identity.",
+    "tags": [
+      "brand",
+      "app",
+      "identity"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "opacity": {
+    "description": "Two overlapping geometric shapes with a diagonal slash indicating reduced opacity or transparency.",
+    "tags": [
+      "opacity",
+      "transparency",
+      "dim",
+      "visibility",
+      "layer"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "open-in-new-window": {
+    "description": "A square icon containing two opposing arrows representing opening content in a new window or tab.",
+    "tags": [
+      "new",
+      "window",
+      "open",
+      "external",
+      "tab",
+      "browser"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "overline": {
+    "description": "Horizontal bar used as a divider or header element.",
+    "tags": [
+      "line",
+      "bar",
+      "separator",
+      "divider",
+      "structure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "padding": {
+    "description": "Two parallel vertical lines indicating content padding or margin settings.",
+    "tags": [
+      "padding",
+      "spacing",
+      "margin",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "panel-bottom": {
+    "description": "Downward pointing chevron indicating collapse or view details.",
+    "tags": [
+      "down",
+      "arrow",
+      "chevron",
+      "collapse",
+      "panel",
+      "details"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "panel-bottom-minimized": {
+    "description": "Rectangle with a downward arrow indicating minimization or collapse of a window panel.",
+    "tags": [
+      "minimize",
+      "panel",
+      "window",
+      "collapse",
+      "reduce"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "panel-left": {
+    "description": "Three stacked horizontal lines representing a menu or navigation panel.",
+    "tags": [
+      "menu",
+      "navigation",
+      "sidebar",
+      "drawer",
+      "settings"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "panel-left-minimized": {
+    "description": "Rectangle icon with opposing horizontal arrows indicating minimizing or collapsing a panel.",
+    "tags": [
+      "minimize",
+      "panel",
+      "collapse",
+      "sidebar",
+      "resize"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "panel-right": {
+    "description": "Stacked horizontal lines next to a right-pointing arrow representing a menu or panel expansion.",
+    "tags": [
+      "menu",
+      "panel",
+      "navigation",
+      "sidebar",
+      "list",
+      "expand"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "panel-right-minimized": {
+    "description": "Rectangle containing a minus sign indicating the action to minimize or collapse a side panel.",
+    "tags": [
+      "panel",
+      "minimize",
+      "collapse",
+      "sidebar",
+      "window"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "paper-plane": {
+    "description": "Stylized paper airplane symbol representing the action of sending or sharing content.",
+    "tags": [
+      "send",
+      "share",
+      "plane",
+      "message",
+      "launch"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pause": {
+    "description": "Two parallel vertical lines representing temporary suspension or pausing of a process.",
+    "tags": [
+      "pause",
+      "stop",
+      "wait",
+      "hold",
+      "break"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pencil-1": {
+    "description": "Pencil tool symbolizing editing writing or creation.",
+    "tags": [
+      "pencil",
+      "edit",
+      "write"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pencil-2": {
+    "description": "Stylized pencil representing the action of editing or creating content.",
+    "tags": [
+      "edit",
+      "pencil",
+      "write",
+      "modify"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "people": {
+    "description": "Stylized human bust representing a user or profile.",
+    "tags": [
+      "user",
+      "profile",
+      "account",
+      "people"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "person": {
+    "description": "Stylized bust shape representing a user profile or personal account.",
+    "tags": [
+      "person",
+      "user",
+      "profile",
+      "account",
+      "identity"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pie-chart": {
+    "description": "Circle divided into sections representing proportional data or statistics.",
+    "tags": [
+      "chart",
+      "data",
+      "graph",
+      "pie",
+      "statistics",
+      "visualization"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pilcrow": {
+    "description": "Vertical stem with two dots above symbolizing a paragraph or structured text.",
+    "tags": [
+      "paragraph",
+      "text",
+      "document",
+      "writing",
+      "formatting"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pin-bottom": {
+    "description": "Teardrop shape resting on a circular base representing a location pin or map marker.",
+    "tags": [
+      "pin",
+      "location",
+      "map",
+      "marker",
+      "save"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pin-left": {
+    "description": "Location pin icon indicating a saved point or geographical marker.",
+    "tags": [
+      "pin",
+      "location",
+      "map",
+      "marker",
+      "save"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pin-right": {
+    "description": "Location pin icon combined with a horizontal arrow indicating direction or movement.",
+    "tags": [
+      "pin",
+      "location",
+      "map",
+      "save",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "pin-top": {
+    "description": "A stylized pushpin shape representing marking or pinning an item in place.",
+    "tags": [
+      "pin",
+      "marker",
+      "location",
+      "save",
+      "fix"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "play": {
+    "description": "Right-facing triangle symbolizing playback or starting a media action.",
+    "tags": [
+      "play",
+      "start",
+      "forward",
+      "media",
+      "video"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "plus": {
+    "description": "A cross shape indicating addition creation or expansion.",
+    "tags": [
+      "plus",
+      "add",
+      "new",
+      "expand"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "plus-circled": {
+    "description": "A plus sign contained within a circle representing the action to add or create.",
+    "tags": [
+      "add",
+      "new",
+      "plus",
+      "create",
+      "insert"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "question-mark": {
+    "description": "Question mark symbol representing inquiry or help.",
+    "tags": [
+      "question",
+      "help",
+      "query",
+      "info",
+      "support"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "question-mark-circled": {
+    "description": "Question mark contained within an enclosing circle signifying help or inquiry.",
+    "tags": [
+      "question",
+      "help",
+      "support",
+      "info",
+      "query"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "quote": {
+    "description": "Double quotation marks indicating a quote or cited text.",
+    "tags": [
+      "quote",
+      "citation",
+      "text",
+      "speech"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "radiobutton": {
+    "description": "Empty circle representing a selectable option or radio button state.",
+    "tags": [
+      "radio",
+      "select",
+      "option",
+      "choice",
+      "form"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "reader": {
+    "description": "A rectangle with a folded top-right corner symbolizing a document or file for reading.",
+    "tags": [
+      "document",
+      "file",
+      "page",
+      "read",
+      "content",
+      "reader"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "reload": {
+    "description": "Circular arrow composed of two opposing curved arrows indicating a refresh or reload function.",
+    "tags": [
+      "refresh",
+      "reload",
+      "update",
+      "cycle",
+      "sync"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "reset": {
+    "description": "Curved arrows forming a cycle representing a reset or refresh action.",
+    "tags": [
+      "reset",
+      "refresh",
+      "restart",
+      "undo",
+      "loop"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "resume": {
+    "description": "A sheet of paper with horizontal lines representing text, symbolizing a resume or professional document.",
+    "tags": [
+      "resume",
+      "cv",
+      "document",
+      "file",
+      "portfolio"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "rocket": {
+    "description": "Stylized rocket ship representing launch rapid growth or ambition.",
+    "tags": [
+      "rocket",
+      "launch",
+      "speed",
+      "growth",
+      "startup"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "rotate-counter-clockwise": {
+    "description": "Two curved arrows forming a counter-clockwise rotation symbol indicating reverse direction.",
+    "tags": [
+      "rotate",
+      "reverse",
+      "spin",
+      "undo",
+      "turn",
+      "cycle"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "row-spacing": {
+    "description": "Two parallel horizontal lines representing row or line spacing.",
+    "tags": [
+      "spacing",
+      "rows",
+      "layout",
+      "alignment"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "rows": {
+    "description": "Parallel horizontal lines representing a list view or multiple rows of data.",
+    "tags": [
+      "list",
+      "rows",
+      "data",
+      "menu",
+      "grid"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "ruler-horizontal": {
+    "description": "Horizontal measuring instrument representing scale or measurement.",
+    "tags": [
+      "ruler",
+      "measure",
+      "scale",
+      "length",
+      "tool",
+      "dimension"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "ruler-square": {
+    "description": "Ruler symbol indicating measurement, scale, or dimension.",
+    "tags": [
+      "ruler",
+      "measure",
+      "scale",
+      "size",
+      "dimension"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "scissors": {
+    "description": "A pair of open scissors used for cutting or trimming material.",
+    "tags": [
+      "scissors",
+      "cut",
+      "trim",
+      "shear",
+      "craft",
+      "tool"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "section": {
+    "description": "Two parallel lines indicating a section divider or structural separation.",
+    "tags": [
+      "section",
+      "divide",
+      "structure",
+      "boundary"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "server": {
+    "description": "Stylized representation of a data server or hosting infrastructure.",
+    "tags": [
+      "server",
+      "data",
+      "hosting",
+      "network",
+      "storage"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "sewing-pin": {
+    "description": "A stylized pin with a pointed needle body and a rounded head representing a sewing tool.",
+    "tags": [
+      "sewing",
+      "pin",
+      "needle",
+      "fastener",
+      "craft"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "sewing-pin-filled": {
+    "description": "Filled sewing pin symbol representing the action of pinning or marking content.",
+    "tags": [
+      "pin",
+      "sewing",
+      "mark",
+      "bookmark",
+      "tailor"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "shadow": {
+    "description": "Rectangular button casting a subtle drop shadow to indicate elevation or interactivity.",
+    "tags": [
+      "button",
+      "shadow",
+      "elevated",
+      "action"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "shadow-inner": {
+    "description": "Two nested rings representing depth or internal structure.",
+    "tags": [
+      "depth",
+      "layer",
+      "structure",
+      "settings",
+      "focus"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "shadow-none": {
+    "description": "A square with an upward arrow inside signifying upload or file transfer.",
+    "tags": [
+      "upload",
+      "transfer",
+      "file",
+      "data"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "shadow-outer": {
+    "description": "An outline of a rectangle representing a boundary or container.",
+    "tags": [
+      "box",
+      "frame",
+      "border",
+      "container"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "share-1": {
+    "description": "Three interconnected circles representing sharing or distribution.",
+    "tags": [
+      "share",
+      "social",
+      "export",
+      "link",
+      "network"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "share-2": {
+    "description": "Three interconnected circles representing a social network or sharing function.",
+    "tags": [
+      "share",
+      "social",
+      "connect",
+      "network",
+      "link"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "shuffle": {
+    "description": "Lines and arrows indicating a randomized or mixed sequence.",
+    "tags": [
+      "shuffle",
+      "randomize",
+      "mix",
+      "reorder",
+      "dice"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "size": {
+    "description": "Parallel horizontal lines bracketed by opposing vertical arrows representing size adjustment or scaling.",
+    "tags": [
+      "size",
+      "resize",
+      "scale",
+      "dimensions",
+      "adjust"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "sketch-logo": {
+    "description": "A pencil tool symbolizing editing or creation.",
+    "tags": [
+      "pencil",
+      "edit",
+      "sketch"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "slash": {
+    "description": "A diagonal line representing prohibition or cancellation.",
+    "tags": [
+      "slash",
+      "cancel",
+      "prohibited",
+      "negate",
+      "ban"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "slider": {
+    "description": "Horizontal track containing a movable handle representing a range adjustment or input control.",
+    "tags": [
+      "slider",
+      "range",
+      "control",
+      "adjust",
+      "setting"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "space-between-horizontally": {
+    "description": "Two vertical bars representing a separator or space between content items.",
+    "tags": [
+      "separator",
+      "divider",
+      "spacing",
+      "layout",
+      "bar"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "space-between-vertically": {
+    "description": "Two short parallel lines representing a vertical separator or spacing element.",
+    "tags": [
+      "separator",
+      "divider",
+      "vertical",
+      "spacing",
+      "list",
+      "bullet"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "space-evenly-horizontally": {
+    "description": "Elements evenly spaced along a horizontal line.",
+    "tags": [
+      "spacing",
+      "align",
+      "distribute",
+      "layout",
+      "even"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "space-evenly-vertically": {
+    "description": "Three parallel horizontal lines indicating equal distribution or vertical alignment settings.",
+    "tags": [
+      "space",
+      "align",
+      "layout",
+      "distribute",
+      "evenly"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "speaker-loud": {
+    "description": "Speaker megaphone shape emitting radiating sound waves representing volume or audio amplification.",
+    "tags": [
+      "speaker",
+      "sound",
+      "volume",
+      "audio",
+      "megaphone"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "speaker-moderate": {
+    "description": "Speaker symbol indicating moderate volume or sound output level.",
+    "tags": [
+      "speaker",
+      "sound",
+      "volume",
+      "audio",
+      "media"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "speaker-off": {
+    "description": "Loudspeaker symbol crossed by a diagonal slash indicating mute or sound off status.",
+    "tags": [
+      "speaker",
+      "audio",
+      "mute",
+      "sound",
+      "volume"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "speaker-quiet": {
+    "description": "Loudspeaker symbol crossed by a diagonal line indicating muted sound.",
+    "tags": [
+      "sound",
+      "mute",
+      "speaker",
+      "volume",
+      "audio"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "square": {
+    "description": "A square shape representing a file or document.",
+    "tags": [
+      "square",
+      "file",
+      "document",
+      "data"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "stack": {
+    "description": "Three layered rectangular blocks representing a collection or organizational hierarchy.",
+    "tags": [
+      "stack",
+      "layers",
+      "files",
+      "data",
+      "group"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "star": {
+    "description": "Five-pointed star representing a rating or favoritism status.",
+    "tags": [
+      "star",
+      "rating",
+      "favorite",
+      "quality"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "star-filled": {
+    "description": "Five-pointed star symbol representing rating or favoriting.",
+    "tags": [
+      "star",
+      "rating",
+      "favorite",
+      "premium",
+      "quality"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "stitches-logo": {
+    "description": "Two needles passing through fabric with connecting thread representing sewing or mending.",
+    "tags": [
+      "sewing",
+      "stitch",
+      "needle",
+      "textile",
+      "repair"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "stop": {
+    "description": "Circle with a horizontal line indicating prohibition or stopping.",
+    "tags": [
+      "stop",
+      "prohibited",
+      "halt",
+      "no",
+      "ban"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "stopwatch": {
+    "description": "Stopwatch icon representing the function of measuring elapsed time.",
+    "tags": [
+      "timer",
+      "stopwatch",
+      "time",
+      "clock",
+      "measure",
+      "timing"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "stretch-horizontally": {
+    "description": "Two opposing horizontal arrows indicating the function to stretch or resize content across a width.",
+    "tags": [
+      "resize",
+      "stretch",
+      "expand",
+      "horizontal",
+      "scale"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "stretch-vertically": {
+    "description": "Double opposing arrows indicating the function to vertically stretch or resize an element.",
+    "tags": [
+      "resize",
+      "stretch",
+      "vertical",
+      "scale",
+      "dimension"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "strikethrough": {
+    "description": "Horizontal line drawn through an object indicating cancellation or negation.",
+    "tags": [
+      "strikethrough",
+      "cancel",
+      "delete",
+      "remove",
+      "negate"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "sun": {
+    "description": "Sun symbol composed of a central circle and surrounding radiating rays.",
+    "tags": [
+      "sun",
+      "light",
+      "day",
+      "solar",
+      "bright"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "switch": {
+    "description": "Toggle switch control indicating an active or enabled state.",
+    "tags": [
+      "switch",
+      "toggle",
+      "setting",
+      "on",
+      "control"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "symbol": {
+    "description": "Magnifying glass icon representing search or magnification.",
+    "tags": [
+      "search",
+      "find",
+      "magnify",
+      "zoom"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "table": {
+    "description": "Grid of squares representing a structured dataset or a digital spreadsheet.",
+    "tags": [
+      "table",
+      "data",
+      "grid",
+      "spreadsheet",
+      "organize",
+      "list"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "target": {
+    "description": "A bullseye target representing a goal or accuracy.",
+    "tags": [
+      "target",
+      "aim",
+      "goal",
+      "objective",
+      "focus"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text": {
+    "description": "A rectangle containing three parallel lines representing a text document or article.",
+    "tags": [
+      "text",
+      "document",
+      "file",
+      "writing",
+      "page"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-align-bottom": {
+    "description": "Multiple horizontal lines indicating text alignment set to the baseline.",
+    "tags": [
+      "text",
+      "align",
+      "format",
+      "layout",
+      "paragraph"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-align-center": {
+    "description": "Three horizontal lines representing text aligned centrally.",
+    "tags": [
+      "text",
+      "align",
+      "center",
+      "typography"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-align-justify": {
+    "description": "Four parallel horizontal lines indicating justified text alignment.",
+    "tags": [
+      "text",
+      "align",
+      "justify",
+      "paragraph",
+      "format"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-align-left": {
+    "description": "Horizontal lines representing text aligned flush with the left margin.",
+    "tags": [
+      "text",
+      "align",
+      "paragraph",
+      "format"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-align-middle": {
+    "description": "Three parallel horizontal lines indicating text alignment set to center.",
+    "tags": [
+      "text",
+      "align",
+      "center",
+      "typography",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-align-right": {
+    "description": "Three horizontal lines indicating text alignment to the right margin.",
+    "tags": [
+      "text",
+      "align",
+      "right",
+      "format"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-align-top": {
+    "description": "Horizontal lines representing text aligned to the top margin.",
+    "tags": [
+      "text",
+      "align",
+      "paragraph",
+      "document",
+      "layout"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "text-none": {
+    "description": "Document icon crossed by a diagonal slash indicating absence of text or data.",
+    "tags": [
+      "document",
+      "file",
+      "empty",
+      "no",
+      "blank",
+      "textless"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "thick-arrow-down": {
+    "description": "Thick downward-pointing arrow indicating a download or collapse action.",
+    "tags": [
+      "down",
+      "arrow",
+      "download",
+      "file",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "thick-arrow-left": {
+    "description": "Thick arrow pointing left representing previous or back navigation.",
+    "tags": [
+      "arrow",
+      "back",
+      "previous",
+      "left",
+      "navigation"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "thick-arrow-right": {
+    "description": "Thick right-pointing arrow representing forward navigation or advancement.",
+    "tags": [
+      "arrow",
+      "right",
+      "next",
+      "forward",
+      "navigate"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "thick-arrow-up": {
+    "description": "A thick arrow pointing upwards representing an increase or upward movement.",
+    "tags": [
+      "arrow",
+      "up",
+      "rise",
+      "increase",
+      "direction"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "timer": {
+    "description": "Circular clock face with hands representing timekeeping or scheduling.",
+    "tags": [
+      "clock",
+      "time",
+      "timer",
+      "schedule",
+      "watch"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "tokens": {
+    "description": "Magnifying glass symbol representing search or zoom function.",
+    "tags": [
+      "search",
+      "find",
+      "zoom",
+      "magnify"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "track-next": {
+    "description": "Right pointing arrow indicating progression or moving forward to the next step.",
+    "tags": [
+      "next",
+      "forward",
+      "progress",
+      "track",
+      "move"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "track-previous": {
+    "description": "Left pointing chevron enclosed in a circle representing previous history or going back.",
+    "tags": [
+      "back",
+      "previous",
+      "history",
+      "navigation",
+      "arrow"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "transform": {
+    "description": "Two opposing arrows representing a process of transformation or reversal.",
+    "tags": [
+      "transform",
+      "change",
+      "convert",
+      "swap"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "transparency-grid": {
+    "description": "A 2x2 grid of squares representing filtering or layout options.",
+    "tags": [
+      "grid",
+      "filter",
+      "settings",
+      "layout",
+      "structure"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "trash": {
+    "description": "Wastebasket symbol indicating the action of deleting or discarding data.",
+    "tags": [
+      "trash",
+      "delete",
+      "remove",
+      "bin"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "triangle-down": {
+    "description": "Downward pointing triangle used as a dropdown indicator or sorting direction arrow.",
+    "tags": [
+      "down",
+      "arrow",
+      "triangle",
+      "sort",
+      "dropdown"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "triangle-left": {
+    "description": "A triangular shape pointing left representing back or previous navigation.",
+    "tags": [
+      "back",
+      "previous",
+      "left",
+      "navigate",
+      "arrow"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "triangle-right": {
+    "description": "A right-pointing triangle indicating movement, progression, or next step.",
+    "tags": [
+      "next",
+      "forward",
+      "right",
+      "proceed",
+      "arrow"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "triangle-up": {
+    "description": "Upward-pointing triangle indicating ascent or sorting direction.",
+    "tags": [
+      "up",
+      "arrow",
+      "sort",
+      "ascend",
+      "pointer",
+      "increase"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "twitter-logo": {
+    "description": "Stylized bird in flight representing social media or microblogging.",
+    "tags": [
+      "bird",
+      "tweet",
+      "social",
+      "media"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "underline": {
+    "description": "Horizontal line representing an underline or emphasized text.",
+    "tags": [
+      "line",
+      "underline",
+      "text",
+      "emphasis"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "update": {
+    "description": "Two curved arrows forming a continuous loop indicating an update or refresh action.",
+    "tags": [
+      "update",
+      "refresh",
+      "sync",
+      "reload"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "upload": {
+    "description": "Upward arrow emerging from a horizontal line representing file transfer or data upload.",
+    "tags": [
+      "upload",
+      "transfer",
+      "send",
+      "data",
+      "file"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "value": {
+    "description": "Price tag banner indicating a product's monetary value or discount status.",
+    "tags": [
+      "price",
+      "value",
+      "cost",
+      "tag",
+      "discount",
+      "commerce"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "value-none": {
+    "description": "Square container holding an X mark indicating removal or error state.",
+    "tags": [
+      "none",
+      "error",
+      "remove",
+      "cancel",
+      "empty"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "vercel-logo": {
+    "description": "A stylized geometric mark composed of angular planes and interconnected forms representing platform infrastructure or development.",
+    "tags": [
+      "platform",
+      "tech",
+      "deploy",
+      "abstract"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "video": {
+    "description": "Right-pointing triangle inside a circle representing play or start media playback.",
+    "tags": [
+      "play",
+      "video",
+      "media",
+      "movie",
+      "start"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "view-grid": {
+    "description": "Four squares arranged in a grid pattern representing layout view options or structure organization.",
+    "tags": [
+      "grid",
+      "view",
+      "layout",
+      "structure",
+      "organization"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "view-horizontal": {
+    "description": "Two opposing horizontal arrows contained within a square representing different display or view modes.",
+    "tags": [
+      "layout",
+      "view",
+      "display",
+      "grid",
+      "list",
+      "toggle"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "view-none": {
+    "description": "Eye symbol crossed through by a diagonal slash representing that viewing or sight is disabled or unavailable.",
+    "tags": [
+      "view",
+      "hidden",
+      "no",
+      "restricted",
+      "sight"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "view-vertical": {
+    "description": "Two opposing arrows representing vertical scrolling or viewing options.",
+    "tags": [
+      "view",
+      "vertical",
+      "scroll",
+      "direction",
+      "navigation"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "width": {
+    "description": "Double horizontal arrows representing range or size adjustment.",
+    "tags": [
+      "resize",
+      "scale",
+      "width",
+      "range",
+      "adjust"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "zoom-in": {
+    "description": "Magnifying glass containing a plus sign indicating zoom in or magnification increase.",
+    "tags": [
+      "zoom",
+      "magnify",
+      "search",
+      "lens",
+      "plus"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
+  },
+  "zoom-out": {
+    "description": "Two opposing arrows pointing outwards representing zoom out or scaling down.",
+    "tags": [
+      "zoom",
+      "out",
+      "scale",
+      "reduce",
+      "magnify"
+    ],
+    "tags_source": "llm",
+    "description_source": "llm",
+    "model": "gemma4:e4b-mlx",
+    "rev": 1
   }
 }

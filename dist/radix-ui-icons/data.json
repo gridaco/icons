@@ -14,1662 +14,4279 @@
     {
       "name": "accessibility",
       "file": "src/accessibility.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized human figure inside an enclosing circle representing universal access or accessibility features.",
+      "tags": [
+        "accessibility",
+        "access",
+        "inclusive",
+        "user",
+        "support"
+      ]
     },
     {
       "name": "activity-log",
       "file": "src/activity-log.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A list of three stacked dots representing a history log or activity feed.",
+      "tags": [
+        "history",
+        "log",
+        "activity",
+        "records",
+        "timeline"
+      ]
     },
     {
       "name": "align-baseline",
       "file": "src/align-baseline.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal bars representing options for aligning text or elements to a baseline.",
+      "tags": [
+        "alignment",
+        "baseline",
+        "text",
+        "typography",
+        "layout"
+      ]
     },
     {
       "name": "align-bottom",
       "file": "src/align-bottom.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A set of parallel horizontal lines representing options for element alignment or layout positioning.",
+      "tags": [
+        "alignment",
+        "layout",
+        "positioning",
+        "grid"
+      ]
     },
     {
       "name": "align-center-horizontally",
       "file": "src/align-center-horizontally.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three parallel horizontal bars representing options for centering text or content layout.",
+      "tags": [
+        "align",
+        "center",
+        "format",
+        "text",
+        "layout"
+      ]
     },
     {
       "name": "align-center-vertically",
       "file": "src/align-center-vertically.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three parallel horizontal lines representing options for vertical element alignment or centering.",
+      "tags": [
+        "align",
+        "vertical",
+        "layout",
+        "spacing",
+        "structure"
+      ]
     },
     {
       "name": "align-left",
       "file": "src/align-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel horizontal bars representing left alignment for text or content.",
+      "tags": [
+        "align",
+        "left",
+        "paragraph",
+        "format",
+        "text"
+      ]
     },
     {
       "name": "align-right",
       "file": "src/align-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three stacked horizontal bars representing the setting for right text alignment.",
+      "tags": [
+        "align",
+        "text",
+        "format",
+        "layout",
+        "justify"
+      ]
     },
     {
       "name": "align-top",
       "file": "src/align-top.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three parallel horizontal bars representing options for aligning elements vertically.",
+      "tags": [
+        "alignment",
+        "layout",
+        "structure",
+        "position"
+      ]
     },
     {
       "name": "all-sides",
       "file": "src/all-sides.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Four directional arrows radiating from a central point representing comprehensive scope or multi-directional movement.",
+      "tags": [
+        "direction",
+        "scope",
+        "all",
+        "move"
+      ]
     },
     {
       "name": "angle",
       "file": "src/angle.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing arrows forming a right-angle corner indicating alignment or geometric positioning.",
+      "tags": [
+        "angle",
+        "corner",
+        "align",
+        "geometry",
+        "bracket"
+      ]
     },
     {
       "name": "archive",
       "file": "src/archive.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stack of documents representing records or archived material.",
+      "tags": [
+        "archive",
+        "file",
+        "document",
+        "storage",
+        "records"
+      ]
     },
     {
       "name": "arrow-bottom-left",
       "file": "src/arrow-bottom-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Chevron pointing down and to the left indicating hierarchical movement or navigation direction.",
+      "tags": [
+        "arrow",
+        "chevron",
+        "down",
+        "left",
+        "navigation"
+      ]
     },
     {
       "name": "arrow-bottom-right",
       "file": "src/arrow-bottom-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A downward-right pointing chevron indicating movement or directional flow.",
+      "tags": [
+        "arrow",
+        "direction",
+        "chevron",
+        "pointer",
+        "navigation"
+      ]
     },
     {
       "name": "arrow-down",
       "file": "src/arrow-down.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Downward-pointing arrow representing direction or movement.",
+      "tags": [
+        "arrow",
+        "down",
+        "direction",
+        "drop",
+        "select"
+      ]
     },
     {
       "name": "arrow-left",
       "file": "src/arrow-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A directional arrow pointing left indicating backward movement or navigation.",
+      "tags": [
+        "back",
+        "left",
+        "arrow",
+        "previous",
+        "navigate"
+      ]
     },
     {
       "name": "arrow-right",
       "file": "src/arrow-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Right pointing arrow indicating forward movement or progression.",
+      "tags": [
+        "arrow",
+        "next",
+        "forward",
+        "right",
+        "navigate",
+        "progress"
+      ]
     },
     {
       "name": "arrow-top-left",
       "file": "src/arrow-top-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A directional arrow pointing toward the upper left corner indicating movement or hierarchy change.",
+      "tags": [
+        "arrow",
+        "back",
+        "up",
+        "navigate",
+        "direction"
+      ]
     },
     {
       "name": "arrow-top-right",
       "file": "src/arrow-top-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Diagonal arrow pointing upper-right representing move or export function.",
+      "tags": [
+        "arrow",
+        "export",
+        "move",
+        "direction"
+      ]
     },
     {
       "name": "arrow-up",
       "file": "src/arrow-up.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Upward pointing arrow indicating increase, sorting ascending, or uploading data.",
+      "tags": [
+        "up",
+        "arrow",
+        "upload",
+        "increase",
+        "rise",
+        "direction"
+      ]
     },
     {
       "name": "aspect-ratio",
       "file": "src/aspect-ratio.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Nested rectangular frames indicating the ability to adjust size or view proportions.",
+      "tags": [
+        "aspect",
+        "ratio",
+        "scale",
+        "frame",
+        "resize",
+        "dimensions"
+      ]
     },
     {
       "name": "avatar",
       "file": "src/avatar.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Head and shoulders silhouette within a circle representing a user profile or avatar.",
+      "tags": [
+        "user",
+        "profile",
+        "avatar",
+        "account",
+        "identity"
+      ]
     },
     {
       "name": "backpack",
       "file": "src/backpack.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized bag with shoulder straps representing carrying gear or travel.",
+      "tags": [
+        "bag",
+        "pack",
+        "travel",
+        "gear",
+        "school",
+        "storage"
+      ]
     },
     {
       "name": "badge",
       "file": "src/badge.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Shield shape containing a star symbolizing an award or status level.",
+      "tags": [
+        "badge",
+        "award",
+        "achievement",
+        "status",
+        "medal"
+      ]
     },
     {
       "name": "bar-chart",
       "file": "src/bar-chart.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three vertical bars of varying heights representing a bar chart or statistical data.",
+      "tags": [
+        "chart",
+        "data",
+        "analytics",
+        "statistics",
+        "graph",
+        "report"
+      ]
     },
     {
       "name": "bell",
       "file": "src/bell.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized bell icon representing notification or alert status.",
+      "tags": [
+        "bell",
+        "notification",
+        "alert",
+        "sound",
+        "alarm"
+      ]
     },
     {
       "name": "blending-mode",
       "file": "src/blending-mode.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two overlapping circles representing the combination or blending of two elements.",
+      "tags": [
+        "blend",
+        "merge",
+        "layers",
+        "combine",
+        "mix"
+      ]
     },
     {
       "name": "bookmark-filled",
       "file": "src/bookmark-filled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Ribbon-shaped bookmark symbol with a solid fill indicating that the item has been saved or marked.",
+      "tags": [
+        "bookmark",
+        "save",
+        "favorite",
+        "marker",
+        "read"
+      ]
     },
     {
       "name": "bookmark",
       "file": "src/bookmark.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Ribbon banner representing saving or marking content.",
+      "tags": [
+        "save",
+        "bookmark",
+        "favorite",
+        "tag",
+        "ribbon"
+      ]
     },
     {
       "name": "border-all",
       "file": "src/border-all.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square outline representing a complete border, frame, or containment.",
+      "tags": [
+        "border",
+        "frame",
+        "box",
+        "container",
+        "outline",
+        "boundary"
+      ]
     },
     {
       "name": "border-bottom",
       "file": "src/border-bottom.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal line segment representing a divider or baseline.",
+      "tags": [
+        "line",
+        "divider",
+        "border",
+        "separator",
+        "baseline"
+      ]
     },
     {
       "name": "border-dashed",
       "file": "src/border-dashed.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Dashed rectangular outline representing an editable field or container boundary.",
+      "tags": [
+        "form",
+        "input",
+        "container",
+        "dashed",
+        "placeholder"
+      ]
     },
     {
       "name": "border-dotted",
       "file": "src/border-dotted.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square frame composed of dotted lines indicating a defined boundary or container.",
+      "tags": [
+        "border",
+        "dotted",
+        "frame",
+        "outline",
+        "box",
+        "container"
+      ]
     },
     {
       "name": "border-left",
       "file": "src/border-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A vertical line serving as a separator or boundary marker.",
+      "tags": [
+        "line",
+        "border",
+        "divider",
+        "separator",
+        "structure"
+      ]
     },
     {
       "name": "border-none",
       "file": "src/border-none.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangle representing a form input field without borders.",
+      "tags": [
+        "input",
+        "field",
+        "form",
+        "container",
+        "box"
+      ]
     },
     {
       "name": "border-right",
       "file": "src/border-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical bar representing a separator or column boundary.",
+      "tags": [
+        "divider",
+        "separator",
+        "border",
+        "column",
+        "align"
+      ]
     },
     {
       "name": "border-solid",
       "file": "src/border-solid.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square outline representing a boundary or container.",
+      "tags": [
+        "border",
+        "frame",
+        "box",
+        "container",
+        "outline"
+      ]
     },
     {
       "name": "border-split",
       "file": "src/border-split.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel vertical lines representing a division or split action.",
+      "tags": [
+        "split",
+        "divide",
+        "border",
+        "partition",
+        "layout"
+      ]
     },
     {
       "name": "border-style",
       "file": "src/border-style.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square frame representing border styles or design options.",
+      "tags": [
+        "border",
+        "style",
+        "frame",
+        "settings"
+      ]
     },
     {
       "name": "border-top",
       "file": "src/border-top.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal line segment representing a separator or boundary.",
+      "tags": [
+        "line",
+        "border",
+        "divider",
+        "separator"
+      ]
     },
     {
       "name": "border-width",
       "file": "src/border-width.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square frame containing two parallel lines representing border width or dimension settings.",
+      "tags": [
+        "border",
+        "width",
+        "size",
+        "frame",
+        "settings"
+      ]
     },
     {
       "name": "box-model",
       "file": "src/box-model.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangle showing the components and dimensions of a structured container or layout element.",
+      "tags": [
+        "box",
+        "model",
+        "layout",
+        "structure"
+      ]
     },
     {
       "name": "box",
       "file": "src/box.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Cube shape representing a file container or package.",
+      "tags": [
+        "file",
+        "package",
+        "box",
+        "container",
+        "archive"
+      ]
     },
     {
       "name": "button",
       "file": "src/button.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass symbol representing search or zoom functionality.",
+      "tags": [
+        "search",
+        "find",
+        "magnify",
+        "zoom"
+      ]
     },
     {
       "name": "calendar",
       "file": "src/calendar.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A rectangle with internal lines representing a calendar or scheduling function.",
+      "tags": [
+        "calendar",
+        "date",
+        "schedule",
+        "planner",
+        "time"
+      ]
     },
     {
       "name": "camera",
       "file": "src/camera.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Camera device silhouette showing a lens for taking photos or recording images.",
+      "tags": [
+        "camera",
+        "photo",
+        "capture",
+        "lens",
+        "photography"
+      ]
     },
     {
       "name": "card-stack-minus",
       "file": "src/card-stack-minus.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stack of rectangular cards combined with a minus symbol to indicate quantity reduction or removal.",
+      "tags": [
+        "cards",
+        "stack",
+        "reduce",
+        "inventory",
+        "decrease",
+        "remove"
+      ]
     },
     {
       "name": "card-stack-plus",
       "file": "src/card-stack-plus.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stacked rectangular cards combined with a plus symbol to signify adding or creating new items.",
+      "tags": [
+        "card",
+        "stack",
+        "add",
+        "collection",
+        "files",
+        "set"
+      ]
     },
     {
       "name": "card-stack",
       "file": "src/card-stack.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stack of layered rectangular cards representing a collection or file archive.",
+      "tags": [
+        "cards",
+        "stack",
+        "files",
+        "collection",
+        "archive"
+      ]
     },
     {
       "name": "caret-down",
       "file": "src/caret-down.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Caret pointing down representing a dropdown menu or sorting indicator.",
+      "tags": [
+        "menu",
+        "dropdown",
+        "select",
+        "sort",
+        "down",
+        "caret"
+      ]
     },
     {
       "name": "caret-left",
       "file": "src/caret-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Left-pointing caret representing movement backward or previous selection.",
+      "tags": [
+        "back",
+        "previous",
+        "left",
+        "caret"
+      ]
     },
     {
       "name": "caret-right",
       "file": "src/caret-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Right-pointing chevron indicating directional movement or progression.",
+      "tags": [
+        "arrow",
+        "right",
+        "caret",
+        "next",
+        "navigation"
+      ]
     },
     {
       "name": "caret-sort",
       "file": "src/caret-sort.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two stacked carets indicating a sorting or ordering function.",
+      "tags": [
+        "sort",
+        "order",
+        "rank",
+        "filter",
+        "hierarchy"
+      ]
     },
     {
       "name": "caret-up",
       "file": "src/caret-up.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Upward-pointing caret indicating ascending order or movement up.",
+      "tags": [
+        "up",
+        "caret",
+        "arrow",
+        "sort",
+        "ascend",
+        "direction"
+      ]
     },
     {
       "name": "chat-bubble",
       "file": "src/chat-bubble.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Speech bubble representing chat or messaging.",
+      "tags": [
+        "chat",
+        "message",
+        "speech",
+        "dialogue",
+        "text"
+      ]
     },
     {
       "name": "check-circled",
       "file": "src/check-circled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A checkmark enclosed in a circle indicating successful completion or confirmation.",
+      "tags": [
+        "check",
+        "complete",
+        "success",
+        "done",
+        "verified"
+      ]
     },
     {
       "name": "check",
       "file": "src/check.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A checkmark symbol indicating confirmation or task completion.",
+      "tags": [
+        "check",
+        "done",
+        "success",
+        "complete",
+        "verified"
+      ]
     },
     {
       "name": "checkbox",
       "file": "src/checkbox.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square outline representing a selectable option or task item.",
+      "tags": [
+        "checkbox",
+        "select",
+        "form",
+        "task",
+        "option"
+      ]
     },
     {
       "name": "chevron-down",
       "file": "src/chevron-down.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A downward-pointing chevron representing a dropdown menu or navigation selection.",
+      "tags": [
+        "chevron",
+        "down",
+        "menu",
+        "arrow",
+        "select"
+      ]
     },
     {
       "name": "chevron-left",
       "file": "src/chevron-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Left-pointing chevron used for navigating back or moving to a previous view.",
+      "tags": [
+        "back",
+        "previous",
+        "left",
+        "navigate",
+        "arrow"
+      ]
     },
     {
       "name": "chevron-right",
       "file": "src/chevron-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A chevron shape pointing right indicating forward movement or navigation.",
+      "tags": [
+        "chevron",
+        "right",
+        "arrow",
+        "next",
+        "forward"
+      ]
     },
     {
       "name": "chevron-up",
       "file": "src/chevron-up.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Upward-pointing chevron symbolizing direction or increasing value.",
+      "tags": [
+        "chevron",
+        "up",
+        "arrow",
+        "increase",
+        "direction"
+      ]
     },
     {
       "name": "circle-backslash",
       "file": "src/circle-backslash.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Backslash symbol enclosed in a circle representing the action to go back or revert.",
+      "tags": [
+        "back",
+        "undo",
+        "revert",
+        "history",
+        "previous"
+      ]
     },
     {
       "name": "circle",
       "file": "src/circle.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A circle crossed by a diagonal line indicating prohibition or unavailability.",
+      "tags": [
+        "prohibited",
+        "disabled",
+        "noentry",
+        "forbidden"
+      ]
     },
     {
       "name": "clipboard-copy",
       "file": "src/clipboard-copy.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Clipboard icon with a duplicate page sheet indicating copying or duplication.",
+      "tags": [
+        "clipboard",
+        "copy",
+        "duplicate",
+        "document",
+        "file"
+      ]
     },
     {
       "name": "clipboard",
       "file": "src/clipboard.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Document secured by a binder clip symbolizing record keeping or task management.",
+      "tags": [
+        "clipboard",
+        "document",
+        "notes",
+        "task",
+        "file",
+        "record"
+      ]
     },
     {
       "name": "clock",
       "file": "src/clock.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A circular clock face displaying time using hands.",
+      "tags": [
+        "time",
+        "clock",
+        "schedule",
+        "watch"
+      ]
     },
     {
       "name": "code",
       "file": "src/code.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Angle brackets representing code or markup language.",
+      "tags": [
+        "code",
+        "programming",
+        "markup",
+        "script",
+        "development"
+      ]
     },
     {
       "name": "codesandbox-logo",
       "file": "src/codesandbox-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized angular brackets representing coding or a development environment.",
+      "tags": [
+        "code",
+        "sandbox",
+        "development",
+        "coding",
+        "tech"
+      ]
     },
     {
       "name": "color-wheel",
       "file": "src/color-wheel.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Segmented circle representing a color palette or hue spectrum.",
+      "tags": [
+        "color",
+        "palette",
+        "spectrum",
+        "hue",
+        "mixing"
+      ]
     },
     {
       "name": "column-spacing",
       "file": "src/column-spacing.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel vertical bars with a double-headed arrow indicating adjustable column width or spacing.",
+      "tags": [
+        "columns",
+        "layout",
+        "resize",
+        "spacing",
+        "grid"
+      ]
     },
     {
       "name": "columns",
       "file": "src/columns.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical bars representing organized data or columns in a structured view.",
+      "tags": [
+        "list",
+        "data",
+        "structure",
+        "table",
+        "organization"
+      ]
     },
     {
       "name": "commit",
       "file": "src/commit.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A checkmark signifying completion or successful confirmation.",
+      "tags": [
+        "commit",
+        "save",
+        "done",
+        "confirm",
+        "finished"
+      ]
     },
     {
       "name": "component-1",
       "file": "src/component-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass symbol for searching content.",
+      "tags": [
+        "search",
+        "find",
+        "magnify",
+        "zoom"
+      ]
     },
     {
       "name": "component-2",
       "file": "src/component-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass symbolizing search or discovery function.",
+      "tags": [
+        "search",
+        "find",
+        "magnify",
+        "zoom",
+        "discover"
+      ]
     },
     {
       "name": "component-boolean",
       "file": "src/component-boolean.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square container with a checkmark indicating selection or completion status.",
+      "tags": [
+        "checkbox",
+        "select",
+        "done",
+        "complete",
+        "status"
+      ]
     },
     {
       "name": "component-instance",
       "file": "src/component-instance.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Gear symbol representing settings or configuration options.",
+      "tags": [
+        "settings",
+        "gear",
+        "options",
+        "config"
+      ]
     },
     {
       "name": "component-none",
       "file": "src/component-none.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Cogwheel symbolizing system settings or application preferences.",
+      "tags": [
+        "gear",
+        "settings",
+        "configuration",
+        "cog"
+      ]
     },
     {
       "name": "component-placeholder",
       "file": "src/component-placeholder.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square outline representing a customizable component or placeholder element.",
+      "tags": [
+        "component",
+        "placeholder",
+        "box"
+      ]
     },
     {
       "name": "container",
       "file": "src/container.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square representing a file or data container.",
+      "tags": [
+        "container",
+        "box",
+        "storage",
+        "file"
+      ]
     },
     {
       "name": "cookie",
       "file": "src/cookie.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized baked good representing a cookie file or user preferences.",
+      "tags": [
+        "cookie",
+        "data",
+        "preference",
+        "settings"
+      ]
     },
     {
       "name": "copy",
       "file": "src/copy.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stacked documents symbolizing the action of copying or duplicating content.",
+      "tags": [
+        "copy",
+        "duplicate",
+        "clone",
+        "file"
+      ]
     },
     {
       "name": "corner-bottom-left",
       "file": "src/corner-bottom-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A corner symbol indicating the bottom left position or placement.",
+      "tags": [
+        "corner",
+        "position",
+        "anchor",
+        "placement"
+      ]
     },
     {
       "name": "corner-bottom-right",
       "file": "src/corner-bottom-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Chevron symbol pointing diagonally toward the bottom right corner indicating direction or movement.",
+      "tags": [
+        "corner",
+        "direction",
+        "pointer",
+        "navigation",
+        "bottomright"
+      ]
     },
     {
       "name": "corner-top-left",
       "file": "src/corner-top-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Corner bracket indicating the top left position or origin point.",
+      "tags": [
+        "corner",
+        "top",
+        "left",
+        "position",
+        "origin"
+      ]
     },
     {
       "name": "corner-top-right",
       "file": "src/corner-top-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Diagonal arrow pointing top right indicating movement or alignment.",
+      "tags": [
+        "arrow",
+        "pointer",
+        "diagonal",
+        "move",
+        "align",
+        "direction"
+      ]
     },
     {
       "name": "corners",
       "file": "src/corners.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two L-shaped corner brackets defining a section or content boundary.",
+      "tags": [
+        "corner",
+        "bracket",
+        "frame",
+        "structure",
+        "layout"
+      ]
     },
     {
       "name": "countdown-timer",
       "file": "src/countdown-timer.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Circular clock face representing a timed duration or countdown.",
+      "tags": [
+        "timer",
+        "countdown",
+        "clock",
+        "time",
+        "stopwatch"
+      ]
     },
     {
       "name": "counter-clockwise-clock",
       "file": "src/counter-clockwise-clock.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Circular clock dial showing time movement in reverse direction.",
+      "tags": [
+        "clock",
+        "time",
+        "reverse",
+        "history",
+        "undo"
+      ]
     },
     {
       "name": "crop",
       "file": "src/crop.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Nested rectangular frames symbolizing the action of selecting or trimming an image area.",
+      "tags": [
+        "crop",
+        "select",
+        "frame",
+        "resize",
+        "boundingbox",
+        "trim"
+      ]
     },
     {
       "name": "cross-1",
       "file": "src/cross-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A plus sign representing addition or creation.",
+      "tags": [
+        "add",
+        "new",
+        "plus",
+        "cross",
+        "create"
+      ]
     },
     {
       "name": "cross-2",
       "file": "src/cross-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "An X symbol representing close or removal.",
+      "tags": [
+        "cross",
+        "x",
+        "close",
+        "remove",
+        "delete"
+      ]
     },
     {
       "name": "cross-circled",
       "file": "src/cross-circled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A cross symbol enclosed within a circular boundary indicating removal or cancellation.",
+      "tags": [
+        "close",
+        "cancel",
+        "error",
+        "remove",
+        "delete"
+      ]
     },
     {
       "name": "crosshair-1",
       "file": "src/crosshair-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two intersecting lines forming a cross indicating targeting or aiming precision.",
+      "tags": [
+        "crosshair",
+        "target",
+        "aim",
+        "focus",
+        "precision"
+      ]
     },
     {
       "name": "crosshair-2",
       "file": "src/crosshair-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A vertical and horizontal crosshair indicating a precise targeting or focus point.",
+      "tags": [
+        "target",
+        "aim",
+        "crosshair",
+        "focus",
+        "precision",
+        "select"
+      ]
     },
     {
       "name": "crumpled-paper",
       "file": "src/crumpled-paper.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Crumpled piece of paper representing a draft or discarded document.",
+      "tags": [
+        "paper",
+        "draft",
+        "crumple",
+        "waste",
+        "document"
+      ]
     },
     {
       "name": "cube",
       "file": "src/cube.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Wireframe cube symbolizing an object or data container.",
+      "tags": [
+        "cube",
+        "box",
+        "file",
+        "data",
+        "storage"
+      ]
     },
     {
       "name": "cursor-arrow",
       "file": "src/cursor-arrow.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Downward-pointing cursor arrow indicating selection or direction.",
+      "tags": [
+        "arrow",
+        "cursor",
+        "pointer",
+        "select",
+        "down"
+      ]
     },
     {
       "name": "cursor-text",
       "file": "src/cursor-text.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical rectangular line representing a blinking text input caret or insertion point.",
+      "tags": [
+        "text",
+        "cursor",
+        "caret",
+        "input",
+        "typing"
+      ]
     },
     {
       "name": "dash",
       "file": "src/dash.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal line segment used as a separator or dash.",
+      "tags": [
+        "line",
+        "separator",
+        "dash",
+        "divider",
+        "minus"
+      ]
     },
     {
       "name": "dashboard",
       "file": "src/dashboard.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Cogwheel icon representing system settings or configuration options.",
+      "tags": [
+        "gear",
+        "settings",
+        "config",
+        "tools",
+        "options"
+      ]
     },
     {
       "name": "database",
       "file": "src/database.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stacked cylindrical shapes representing a database or data storage.",
+      "tags": [
+        "database",
+        "data",
+        "storage",
+        "server"
+      ]
     },
     {
       "name": "desktop",
       "file": "src/desktop.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A rectangular display screen representing a desktop computer interface.",
+      "tags": [
+        "desktop",
+        "computer",
+        "monitor",
+        "display",
+        "work"
+      ]
     },
     {
       "name": "dimensions",
       "file": "src/dimensions.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing arrows surrounding a box representing resize or dimension adjustment.",
+      "tags": [
+        "resize",
+        "scale",
+        "dimensions",
+        "size",
+        "aspect"
+      ]
     },
     {
       "name": "disc",
       "file": "src/disc.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A circular media disc representing data storage or playback content.",
+      "tags": [
+        "disc",
+        "cd",
+        "media",
+        "storage",
+        "record"
+      ]
     },
     {
       "name": "discord-logo",
       "file": "src/discord-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Abstract geometric symbol resembling a stylized gamepad or controller device.",
+      "tags": [
+        "chat",
+        "gaming",
+        "app",
+        "device"
+      ]
     },
     {
       "name": "divider-horizontal",
       "file": "src/divider-horizontal.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal line representing separation or division between content elements.",
+      "tags": [
+        "divider",
+        "separator",
+        "line",
+        "horizontal",
+        "boundary"
+      ]
     },
     {
       "name": "divider-vertical",
       "file": "src/divider-vertical.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical line representing division or separation.",
+      "tags": [
+        "divider",
+        "vertical",
+        "line",
+        "separator"
+      ]
     },
     {
       "name": "dot-filled",
       "file": "src/dot-filled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three vertically aligned dots representing an overflow or context menu action.",
+      "tags": [
+        "menu",
+        "options",
+        "more",
+        "settings"
+      ]
     },
     {
       "name": "dot",
       "file": "src/dot.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A solid filled circle representing selection or completion.",
+      "tags": [
+        "dot",
+        "circle",
+        "select",
+        "status"
+      ]
     },
     {
       "name": "dots-horizontal",
       "file": "src/dots-horizontal.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three horizontal dots representing an overflow menu or more options.",
+      "tags": [
+        "ellipsis",
+        "dots",
+        "menu",
+        "options"
+      ]
     },
     {
       "name": "dots-vertical",
       "file": "src/dots-vertical.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three vertical dots representing an ellipsis or more options.",
+      "tags": [
+        "dots",
+        "ellipsis",
+        "menu",
+        "options",
+        "more"
+      ]
     },
     {
       "name": "double-arrow-down",
       "file": "src/double-arrow-down.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two downward chevrons representing descending order or filtering options.",
+      "tags": [
+        "down",
+        "arrow",
+        "sort",
+        "filter",
+        "data",
+        "options"
+      ]
     },
     {
       "name": "double-arrow-left",
       "file": "src/double-arrow-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two left-pointing arrows representing backward movement or history navigation.",
+      "tags": [
+        "back",
+        "previous",
+        "history",
+        "arrow",
+        "navigate"
+      ]
     },
     {
       "name": "double-arrow-right",
       "file": "src/double-arrow-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two arrows pointing right indicating sorting or forward movement.",
+      "tags": [
+        "arrow",
+        "double",
+        "sort",
+        "progress",
+        "order",
+        "next"
+      ]
     },
     {
       "name": "double-arrow-up",
       "file": "src/double-arrow-up.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two vertical arrows pointing up representing an increase in value or sorting direction.",
+      "tags": [
+        "up",
+        "increase",
+        "sort",
+        "arrow"
+      ]
     },
     {
       "name": "download",
       "file": "src/download.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Downward arrow pointing onto a horizontal line representing file download or data transfer.",
+      "tags": [
+        "download",
+        "file",
+        "save",
+        "data",
+        "arrow"
+      ]
     },
     {
       "name": "drag-handle-dots-1",
       "file": "src/drag-handle-dots-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three aligned circles forming an ellipsis representing overflow or additional options.",
+      "tags": [
+        "dots",
+        "ellipsis",
+        "options",
+        "menu",
+        "settings"
+      ]
     },
     {
       "name": "drag-handle-dots-2",
       "file": "src/drag-handle-dots-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical bar with three aligned circles indicating a draggable control handle for resizing or movement.",
+      "tags": [
+        "drag",
+        "handle",
+        "move",
+        "resize",
+        "grip",
+        "control"
+      ]
     },
     {
       "name": "drag-handle-horizontal",
       "file": "src/drag-handle-horizontal.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal bar representing a grab point used to move or resize a container element.",
+      "tags": [
+        "handle",
+        "drag",
+        "grip",
+        "resize",
+        "bar"
+      ]
     },
     {
       "name": "drag-handle-vertical",
       "file": "src/drag-handle-vertical.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical bar with horizontal indicators representing a resize or drag handle.",
+      "tags": [
+        "handle",
+        "drag",
+        "resize",
+        "vertical",
+        "grip",
+        "move"
+      ]
     },
     {
       "name": "drawing-pin-filled",
       "file": "src/drawing-pin-filled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Filled teardrop-shaped location marker indicating a saved point or specific place.",
+      "tags": [
+        "pin",
+        "location",
+        "map",
+        "marker",
+        "save",
+        "point"
+      ]
     },
     {
       "name": "drawing-pin",
       "file": "src/drawing-pin.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Map pin icon representing a specific geographic location or saved point of interest.",
+      "tags": [
+        "pin",
+        "location",
+        "map",
+        "marker",
+        "save",
+        "destination"
+      ]
     },
     {
       "name": "dropdown-menu",
       "file": "src/dropdown-menu.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Downward-pointing chevron indicating a menu or selection options.",
+      "tags": [
+        "menu",
+        "dropdown",
+        "options",
+        "select"
+      ]
     },
     {
       "name": "enter-full-screen",
       "file": "src/enter-full-screen.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Four corner arrows expanding from a square represent maximize or enter full screen mode.",
+      "tags": [
+        "fullscreen",
+        "maximize",
+        "expand",
+        "screen",
+        "window"
+      ]
     },
     {
       "name": "enter",
       "file": "src/enter.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Right-pointing chevron symbolizing progression or entering a new state.",
+      "tags": [
+        "enter",
+        "next",
+        "go",
+        "forward",
+        "arrow",
+        "proceed"
+      ]
     },
     {
       "name": "envelope-closed",
       "file": "src/envelope-closed.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Closed envelope symbol representing correspondence or messaging.",
+      "tags": [
+        "envelope",
+        "mail",
+        "message",
+        "email"
+      ]
     },
     {
       "name": "envelope-open",
       "file": "src/envelope-open.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Open envelope symbolizing email or message.",
+      "tags": [
+        "envelope",
+        "mail",
+        "email",
+        "message",
+        "communication"
+      ]
     },
     {
       "name": "eraser",
       "file": "src/eraser.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A rectangular block representing correction or deletion.",
+      "tags": [
+        "eraser",
+        "delete",
+        "correct",
+        "undo",
+        "remove"
+      ]
     },
     {
       "name": "exclamation-circled",
       "file": "src/exclamation-circled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Circle containing an exclamation point indicating caution or importance.",
+      "tags": [
+        "warning",
+        "alert",
+        "caution",
+        "exclamation",
+        "notification"
+      ]
     },
     {
       "name": "exclamation-mark",
       "file": "src/exclamation-mark.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Exclamation mark indicating a warning alert or important notice.",
+      "tags": [
+        "warning",
+        "alert",
+        "attention",
+        "danger",
+        "notice"
+      ]
     },
     {
       "name": "exclamation-triangle",
       "file": "src/exclamation-triangle.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Triangle containing an exclamation mark representing a warning or alert.",
+      "tags": [
+        "warning",
+        "alert",
+        "caution",
+        "danger",
+        "notification"
+      ]
     },
     {
       "name": "exit-full-screen",
       "file": "src/exit-full-screen.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Intersecting lines form an X representing close or exit.",
+      "tags": [
+        "exit",
+        "close",
+        "fullscreen",
+        "window"
+      ]
     },
     {
       "name": "exit",
       "file": "src/exit.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two intersecting lines forming an X representing close or exit functionality.",
+      "tags": [
+        "exit",
+        "close",
+        "cancel",
+        "remove",
+        "dismiss"
+      ]
     },
     {
       "name": "external-link",
       "file": "src/external-link.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two linked ovals next to an arrow pointing out of a box indicating an external link.",
+      "tags": [
+        "link",
+        "external",
+        "web",
+        "navigate",
+        "url"
+      ]
     },
     {
       "name": "eye-closed",
       "file": "src/eye-closed.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized closed eyes symbolizing sleep rest or night mode.",
+      "tags": [
+        "sleep",
+        "closed",
+        "eyes",
+        "rest",
+        "night"
+      ]
     },
     {
       "name": "eye-none",
       "file": "src/eye-none.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Eye symbol crossed out by a diagonal line indicating that the viewing function is disabled or hidden.",
+      "tags": [
+        "eye",
+        "vision",
+        "disabled",
+        "hidden",
+        "none",
+        "sight"
+      ]
     },
     {
       "name": "eye-open",
       "file": "src/eye-open.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Open eye symbol representing visibility or viewing status.",
+      "tags": [
+        "eye",
+        "view",
+        "sight",
+        "observe",
+        "look"
+      ]
     },
     {
       "name": "face",
       "file": "src/face.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Silhouette of a head and shoulders representing a user profile or account identity.",
+      "tags": [
+        "user",
+        "profile",
+        "account",
+        "identity",
+        "avatar"
+      ]
     },
     {
       "name": "figma-logo",
       "file": "src/figma-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Overlapping geometric shapes representing design and collaboration.",
+      "tags": [
+        "design",
+        "ui",
+        "collaboration",
+        "software"
+      ]
     },
     {
       "name": "file-minus",
       "file": "src/file-minus.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal dash representing subtraction decrease or removal.",
+      "tags": [
+        "minus",
+        "remove",
+        "decrease",
+        "delete",
+        "subtract"
+      ]
     },
     {
       "name": "file-plus",
       "file": "src/file-plus.svg",
-      "properties": {}
+      "properties": {},
+      "description": "File shape overlaid with a plus sign indicating the action to add a new item.",
+      "tags": [
+        "file",
+        "document",
+        "add",
+        "plus",
+        "new"
+      ]
     },
     {
       "name": "file-text",
       "file": "src/file-text.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A rectangular piece of paper containing several parallel lines, symbolizing a text document or file.",
+      "tags": [
+        "document",
+        "file",
+        "text",
+        "paper",
+        "content"
+      ]
     },
     {
       "name": "file",
       "file": "src/file.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A cogwheel symbolizing settings or configuration options.",
+      "tags": [
+        "settings",
+        "gear",
+        "config",
+        "options"
+      ]
     },
     {
       "name": "filter",
       "file": "src/filter.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stacked horizontal lines representing filtering or sorting options.",
+      "tags": [
+        "filter",
+        "search",
+        "refine",
+        "settings",
+        "options"
+      ]
     },
     {
       "name": "font-bold",
       "file": "src/font-bold.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized heavy character representing bold text or increased font weight.",
+      "tags": [
+        "bold",
+        "font",
+        "typeface",
+        "weight"
+      ]
     },
     {
       "name": "font-family",
       "file": "src/font-family.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Lines of differing heights contained within a square representing text formatting and font options.",
+      "tags": [
+        "font",
+        "text",
+        "typography",
+        "style"
+      ]
     },
     {
       "name": "font-italic",
       "file": "src/font-italic.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Slanted letterform indicating italic or oblique text style.",
+      "tags": [
+        "font",
+        "style",
+        "italic",
+        "typography",
+        "slant"
+      ]
     },
     {
       "name": "font-roman",
       "file": "src/font-roman.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Document page with lines indicating text content or typeface settings.",
+      "tags": [
+        "font",
+        "typography",
+        "text",
+        "document"
+      ]
     },
     {
       "name": "font-size",
       "file": "src/font-size.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel horizontal lines bracketed by a double-headed vertical arrow representing text size scaling.",
+      "tags": [
+        "font",
+        "size",
+        "text",
+        "scale",
+        "typography",
+        "adjust"
+      ]
     },
     {
       "name": "font-style",
       "file": "src/font-style.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized capital T representing font or typography settings.",
+      "tags": [
+        "font",
+        "style",
+        "typography",
+        "text"
+      ]
     },
     {
       "name": "frame",
       "file": "src/frame.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square outline containing corner brackets indicating a framing device or boundary.",
+      "tags": [
+        "frame",
+        "border",
+        "container",
+        "layout"
+      ]
     },
     {
       "name": "framer-logo",
       "file": "src/framer-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Abstract geometric shapes forming a stylized brand mark or corporate identity symbol.",
+      "tags": [
+        "brand",
+        "identity",
+        "abstract"
+      ]
     },
     {
       "name": "gear",
       "file": "src/gear.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Cogwheel icon representing settings configuration or system tools.",
+      "tags": [
+        "gear",
+        "settings",
+        "config",
+        "tools"
+      ]
     },
     {
       "name": "github-logo",
       "file": "src/github-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized abstract mascot figure representing software development and code hosting.",
+      "tags": [
+        "github",
+        "dev",
+        "code",
+        "version control",
+        "open source"
+      ]
     },
     {
       "name": "globe-2",
       "file": "src/globe-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Wireframe sphere representing Earth or global reach.",
+      "tags": [
+        "globe",
+        "earth",
+        "world",
+        "global",
+        "internet",
+        "language"
+      ]
     },
     {
       "name": "globe",
       "file": "src/globe.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Sphere with intersecting meridian and parallel lines representing a global view.",
+      "tags": [
+        "globe",
+        "earth",
+        "world",
+        "network",
+        "internet"
+      ]
     },
     {
       "name": "grid",
       "file": "src/grid.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A set of squares arranged in a grid pattern representing layout structure or organization.",
+      "tags": [
+        "grid",
+        "layout",
+        "pattern",
+        "structure",
+        "matrix"
+      ]
     },
     {
       "name": "group",
       "file": "src/group.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two stylized human figures indicating a group team or user collection.",
+      "tags": [
+        "group",
+        "team",
+        "users",
+        "community",
+        "members"
+      ]
     },
     {
       "name": "half-1",
       "file": "src/half-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing chevron shapes indicating division or separation.",
+      "tags": [
+        "split",
+        "divide",
+        "separate",
+        "duality",
+        "half"
+      ]
     },
     {
       "name": "half-2",
       "file": "src/half-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two adjacent curved segments representing partial completion or division.",
+      "tags": [
+        "half",
+        "segment",
+        "progress",
+        "split",
+        "partial"
+      ]
     },
     {
       "name": "hamburger-menu",
       "file": "src/hamburger-menu.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three stacked parallel horizontal lines representing a main menu or navigation options.",
+      "tags": [
+        "menu",
+        "navigation",
+        "options",
+        "settings",
+        "burger"
+      ]
     },
     {
       "name": "hand",
       "file": "src/hand.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized open palm representing giving assistance or donation.",
+      "tags": [
+        "hand",
+        "palm",
+        "give",
+        "donate",
+        "help"
+      ]
     },
     {
       "name": "heading",
       "file": "src/heading.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three stacked horizontal lines representing a document or list structure.",
+      "tags": [
+        "heading",
+        "title",
+        "document",
+        "list",
+        "text"
+      ]
     },
     {
       "name": "heart-filled",
       "file": "src/heart-filled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Solid heart shape representing affection or marking an item as a favorite.",
+      "tags": [
+        "heart",
+        "love",
+        "favorite",
+        "like",
+        "passion"
+      ]
     },
     {
       "name": "heart",
       "file": "src/heart.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized heart shape representing love affection or favoriting a content item.",
+      "tags": [
+        "heart",
+        "love",
+        "favorite",
+        "like",
+        "care"
+      ]
     },
     {
       "name": "height",
       "file": "src/height.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Double-headed vertical arrows representing resizing dimensions or sorting height.",
+      "tags": [
+        "size",
+        "scale",
+        "height",
+        "dimension",
+        "up",
+        "down"
+      ]
     },
     {
       "name": "hobby-knife",
       "file": "src/hobby-knife.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized representation of a utility or hobby knife used for cutting materials.",
+      "tags": [
+        "knife",
+        "tool",
+        "craft",
+        "cutting",
+        "blade"
+      ]
     },
     {
       "name": "home",
       "file": "src/home.svg",
-      "properties": {}
+      "properties": {},
+      "description": "House silhouette representing a home or main landing page.",
+      "tags": [
+        "home",
+        "house",
+        "main",
+        "root",
+        "shelter"
+      ]
     },
     {
       "name": "iconjar-logo",
       "file": "src/iconjar-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized geometric shapes representing brand identity or corporate logo.",
+      "tags": [
+        "brand",
+        "identity",
+        "corporate"
+      ]
     },
     {
       "name": "id-card",
       "file": "src/id-card.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangular badge symbol representing an identification card or personal credential.",
+      "tags": [
+        "id",
+        "card",
+        "credential",
+        "badge",
+        "profile"
+      ]
     },
     {
       "name": "image",
       "file": "src/image.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass symbolizing the action of searching or finding information.",
+      "tags": [
+        "search",
+        "find",
+        "magnify",
+        "look",
+        "zoom"
+      ]
     },
     {
       "name": "info-circled",
       "file": "src/info-circled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Lowercase i inside a circle representing information or details.",
+      "tags": [
+        "info",
+        "information",
+        "details",
+        "help"
+      ]
     },
     {
       "name": "input",
       "file": "src/input.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square container holding a stylized checkmark indicating confirmation or completion.",
+      "tags": [
+        "check",
+        "done",
+        "complete",
+        "confirm",
+        "verified"
+      ]
     },
     {
       "name": "instagram-logo",
       "file": "src/instagram-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized camera icon within a rounded square representing photography social media or image sharing.",
+      "tags": [
+        "camera",
+        "photo",
+        "social",
+        "app"
+      ]
     },
     {
       "name": "keyboard",
       "file": "src/keyboard.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangular keyboard layout composed of smaller keys representing text input.",
+      "tags": [
+        "keyboard",
+        "input",
+        "typing",
+        "text",
+        "device"
+      ]
     },
     {
       "name": "lap-timer",
       "file": "src/lap-timer.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stopwatch symbol representing time measurement and lap timing.",
+      "tags": [
+        "timer",
+        "stopwatch",
+        "lap",
+        "time",
+        "race",
+        "sport"
+      ]
     },
     {
       "name": "laptop",
       "file": "src/laptop.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized representation of a closed laptop computer.",
+      "tags": [
+        "laptop",
+        "computer",
+        "device",
+        "tech",
+        "work"
+      ]
     },
     {
       "name": "layers",
       "file": "src/layers.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stacked rectangles representing layers, hierarchy, or organization.",
+      "tags": [
+        "layer",
+        "stack",
+        "structure",
+        "hierarchy",
+        "file"
+      ]
     },
     {
       "name": "layout",
       "file": "src/layout.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square grid representing structure or arrangement.",
+      "tags": [
+        "layout",
+        "grid",
+        "structure"
+      ]
     },
     {
       "name": "letter-case-capitalize",
       "file": "src/letter-case-capitalize.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Lowercase letter followed by an upward arrow indicating text capitalization or case change.",
+      "tags": [
+        "text",
+        "case",
+        "capitalize",
+        "letter"
+      ]
     },
     {
       "name": "letter-case-lowercase",
       "file": "src/letter-case-lowercase.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Capital and lowercase letters indicating text casing or typography settings.",
+      "tags": [
+        "case",
+        "typography",
+        "text",
+        "font",
+        "style"
+      ]
     },
     {
       "name": "letter-case-toggle",
       "file": "src/letter-case-toggle.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Capital letter A and lowercase letter a representing text case toggle.",
+      "tags": [
+        "text",
+        "case",
+        "letters",
+        "typography",
+        "font"
+      ]
     },
     {
       "name": "letter-case-uppercase",
       "file": "src/letter-case-uppercase.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square enclosing an uppercase letter signifying text capitalization status.",
+      "tags": [
+        "case",
+        "text",
+        "uppercase",
+        "font",
+        "typography"
+      ]
     },
     {
       "name": "letter-spacing",
       "file": "src/letter-spacing.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two lines representing text with an adjustment slider indicating control over character spacing.",
+      "tags": [
+        "typography",
+        "font",
+        "kerning",
+        "spacing",
+        "text"
+      ]
     },
     {
       "name": "lightning-bolt",
       "file": "src/lightning-bolt.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Jagged lightning bolt symbol representing electrical power or sudden energy.",
+      "tags": [
+        "lightning",
+        "bolt",
+        "electricity",
+        "power",
+        "energy",
+        "charge"
+      ]
     },
     {
       "name": "line-height",
       "file": "src/line-height.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel horizontal lines representing adjustable vertical spacing or line height.",
+      "tags": [
+        "line",
+        "height",
+        "spacing",
+        "typography",
+        "text",
+        "layout"
+      ]
     },
     {
       "name": "link-1",
       "file": "src/link-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Interlocking chain links representing a connection or hyperlink.",
+      "tags": [
+        "link",
+        "chain",
+        "connect",
+        "web"
+      ]
     },
     {
       "name": "link-2",
       "file": "src/link-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Interlocking chain links symbolizing a web link or connection.",
+      "tags": [
+        "link",
+        "chain",
+        "connect",
+        "website"
+      ]
     },
     {
       "name": "link-break-1",
       "file": "src/link-break-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two linked elements separated by a gap representing a broken or disconnected link.",
+      "tags": [
+        "link",
+        "break",
+        "chain",
+        "disconnected"
+      ]
     },
     {
       "name": "link-break-2",
       "file": "src/link-break-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two linked ovals separated by a gap representing a broken or severed connection.",
+      "tags": [
+        "link",
+        "break",
+        "chain",
+        "disconnect",
+        "failure"
+      ]
     },
     {
       "name": "link-none-1",
       "file": "src/link-none-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two linked ovals crossed by a diagonal line indicating a broken or non-existent connection.",
+      "tags": [
+        "link",
+        "broken",
+        "none",
+        "disconnect",
+        "chain",
+        "unlink"
+      ]
     },
     {
       "name": "link-none-2",
       "file": "src/link-none-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Interlocking links crossed by a diagonal line indicating a broken or unavailable connection.",
+      "tags": [
+        "link",
+        "chain",
+        "broken",
+        "disabled",
+        "error"
+      ]
     },
     {
       "name": "linkedin-logo",
       "file": "src/linkedin-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Geometric brand mark representing professional networking and corporate identity.",
+      "tags": [
+        "linkedin",
+        "profile",
+        "career",
+        "network",
+        "business",
+        "identity"
+      ]
     },
     {
       "name": "list-bullet",
       "file": "src/list-bullet.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A solid circle representing a list bullet point or item marker.",
+      "tags": [
+        "list",
+        "bullet",
+        "point",
+        "marker"
+      ]
     },
     {
       "name": "lock-closed",
       "file": "src/lock-closed.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Closed padlock symbol representing security or locked status.",
+      "tags": [
+        "lock",
+        "security",
+        "private",
+        "protected",
+        "secured"
+      ]
     },
     {
       "name": "lock-open-1",
       "file": "src/lock-open-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A lock mechanism with an open shackle representing security status or accessibility.",
+      "tags": [
+        "lock",
+        "unlock",
+        "security",
+        "access",
+        "privacy"
+      ]
     },
     {
       "name": "lock-open-2",
       "file": "src/lock-open-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Padlock symbol with a lifted shackle representing an unlocked state.",
+      "tags": [
+        "lock",
+        "padlock",
+        "security",
+        "unlocked",
+        "access"
+      ]
     },
     {
       "name": "loop",
       "file": "src/loop.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two curved arrows forming a closed loop representing refresh or repeat action.",
+      "tags": [
+        "loop",
+        "refresh",
+        "repeat",
+        "cycle"
+      ]
     },
     {
       "name": "magic-wand",
       "file": "src/magic-wand.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized staff with a pointed tip representing magic or spellcasting.",
+      "tags": [
+        "wand",
+        "magic",
+        "spell",
+        "arcane",
+        "wizard"
+      ]
     },
     {
       "name": "magnifying-glass",
       "file": "src/magnifying-glass.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass icon used to represent the search function.",
+      "tags": [
+        "search",
+        "magnify",
+        "find",
+        "look"
+      ]
     },
     {
       "name": "margin",
       "file": "src/margin.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square containing multiple parallel horizontal lines representing layout margins or spacing.",
+      "tags": [
+        "margin",
+        "layout",
+        "spacing",
+        "border",
+        "structure"
+      ]
     },
     {
       "name": "mask-off",
       "file": "src/mask-off.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Face mask icon overlaid with a diagonal slash indicating the removal or deactivation of a disguise.",
+      "tags": [
+        "mask",
+        "face",
+        "unhide",
+        "privacy",
+        "identity",
+        "off"
+      ]
     },
     {
       "name": "mask-on",
       "file": "src/mask-on.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Eye icon overlaid with a geometric shape indicating filtering or data masking.",
+      "tags": [
+        "filter",
+        "mask",
+        "privacy",
+        "visibility",
+        "settings"
+      ]
     },
     {
       "name": "minimize",
       "file": "src/minimize.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal dash symbolizing the action to minimize or reduce size.",
+      "tags": [
+        "minimize",
+        "reduce",
+        "collapse",
+        "minus",
+        "shrink"
+      ]
     },
     {
       "name": "minus-circled",
       "file": "src/minus-circled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Minus sign contained within a circle signifying subtraction or removal.",
+      "tags": [
+        "minus",
+        "remove",
+        "decrease",
+        "subtract",
+        "cancel"
+      ]
     },
     {
       "name": "minus",
       "file": "src/minus.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal line representing subtraction or decrementing value.",
+      "tags": [
+        "minus",
+        "subtract",
+        "remove",
+        "decrease",
+        "decline"
+      ]
     },
     {
       "name": "mix",
       "file": "src/mix.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two arrows crossing to represent randomization or shuffling content.",
+      "tags": [
+        "mix",
+        "shuffle",
+        "randomize",
+        "dice"
+      ]
     },
     {
       "name": "mixer-horizontal",
       "file": "src/mixer-horizontal.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two horizontal opposing chevrons representing a mix or shuffle function.",
+      "tags": [
+        "mix",
+        "shuffle",
+        "randomize",
+        "stream",
+        "media"
+      ]
     },
     {
       "name": "mixer-vertical",
       "file": "src/mixer-vertical.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical container containing swirling lines representing blending or mixing ingredients.",
+      "tags": [
+        "mixer",
+        "blend",
+        "process",
+        "ingredients",
+        "stir"
+      ]
     },
     {
       "name": "mobile",
       "file": "src/mobile.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass symbol representing search or finding information.",
+      "tags": [
+        "search",
+        "find",
+        "magnify",
+        "zoom"
+      ]
     },
     {
       "name": "modulz-logo",
       "file": "src/modulz-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two interlocking geometric shapes representing modularity or connection.",
+      "tags": [
+        "module",
+        "connect",
+        "structure",
+        "link"
+      ]
     },
     {
       "name": "moon",
       "file": "src/moon.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Crescent moon symbol representing a nighttime theme or dark mode setting.",
+      "tags": [
+        "moon",
+        "night",
+        "dark",
+        "crescent",
+        "settings"
+      ]
     },
     {
       "name": "move",
       "file": "src/move.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized arrow indicating movement or direction.",
+      "tags": [
+        "move",
+        "direction",
+        "shift",
+        "transfer"
+      ]
     },
     {
       "name": "notion-logo",
       "file": "src/notion-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized abstract geometric mark representing a productivity software brand identity.",
+      "tags": [
+        "brand",
+        "app",
+        "identity"
+      ]
     },
     {
       "name": "opacity",
       "file": "src/opacity.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two overlapping geometric shapes with a diagonal slash indicating reduced opacity or transparency.",
+      "tags": [
+        "opacity",
+        "transparency",
+        "dim",
+        "visibility",
+        "layer"
+      ]
     },
     {
       "name": "open-in-new-window",
       "file": "src/open-in-new-window.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square icon containing two opposing arrows representing opening content in a new window or tab.",
+      "tags": [
+        "new",
+        "window",
+        "open",
+        "external",
+        "tab",
+        "browser"
+      ]
     },
     {
       "name": "overline",
       "file": "src/overline.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal bar used as a divider or header element.",
+      "tags": [
+        "line",
+        "bar",
+        "separator",
+        "divider",
+        "structure"
+      ]
     },
     {
       "name": "padding",
       "file": "src/padding.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel vertical lines indicating content padding or margin settings.",
+      "tags": [
+        "padding",
+        "spacing",
+        "margin",
+        "layout"
+      ]
     },
     {
       "name": "panel-bottom-minimized",
       "file": "src/panel-bottom-minimized.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangle with a downward arrow indicating minimization or collapse of a window panel.",
+      "tags": [
+        "minimize",
+        "panel",
+        "window",
+        "collapse",
+        "reduce"
+      ]
     },
     {
       "name": "panel-bottom",
       "file": "src/panel-bottom.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Downward pointing chevron indicating collapse or view details.",
+      "tags": [
+        "down",
+        "arrow",
+        "chevron",
+        "collapse",
+        "panel",
+        "details"
+      ]
     },
     {
       "name": "panel-left-minimized",
       "file": "src/panel-left-minimized.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangle icon with opposing horizontal arrows indicating minimizing or collapsing a panel.",
+      "tags": [
+        "minimize",
+        "panel",
+        "collapse",
+        "sidebar",
+        "resize"
+      ]
     },
     {
       "name": "panel-left",
       "file": "src/panel-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three stacked horizontal lines representing a menu or navigation panel.",
+      "tags": [
+        "menu",
+        "navigation",
+        "sidebar",
+        "drawer",
+        "settings"
+      ]
     },
     {
       "name": "panel-right-minimized",
       "file": "src/panel-right-minimized.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangle containing a minus sign indicating the action to minimize or collapse a side panel.",
+      "tags": [
+        "panel",
+        "minimize",
+        "collapse",
+        "sidebar",
+        "window"
+      ]
     },
     {
       "name": "panel-right",
       "file": "src/panel-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stacked horizontal lines next to a right-pointing arrow representing a menu or panel expansion.",
+      "tags": [
+        "menu",
+        "panel",
+        "navigation",
+        "sidebar",
+        "list",
+        "expand"
+      ]
     },
     {
       "name": "paper-plane",
       "file": "src/paper-plane.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized paper airplane symbol representing the action of sending or sharing content.",
+      "tags": [
+        "send",
+        "share",
+        "plane",
+        "message",
+        "launch"
+      ]
     },
     {
       "name": "pause",
       "file": "src/pause.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel vertical lines representing temporary suspension or pausing of a process.",
+      "tags": [
+        "pause",
+        "stop",
+        "wait",
+        "hold",
+        "break"
+      ]
     },
     {
       "name": "pencil-1",
       "file": "src/pencil-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Pencil tool symbolizing editing writing or creation.",
+      "tags": [
+        "pencil",
+        "edit",
+        "write"
+      ]
     },
     {
       "name": "pencil-2",
       "file": "src/pencil-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized pencil representing the action of editing or creating content.",
+      "tags": [
+        "edit",
+        "pencil",
+        "write",
+        "modify"
+      ]
     },
     {
       "name": "people",
       "file": "src/people.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized human bust representing a user or profile.",
+      "tags": [
+        "user",
+        "profile",
+        "account",
+        "people"
+      ]
     },
     {
       "name": "person",
       "file": "src/person.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized bust shape representing a user profile or personal account.",
+      "tags": [
+        "person",
+        "user",
+        "profile",
+        "account",
+        "identity"
+      ]
     },
     {
       "name": "pie-chart",
       "file": "src/pie-chart.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Circle divided into sections representing proportional data or statistics.",
+      "tags": [
+        "chart",
+        "data",
+        "graph",
+        "pie",
+        "statistics",
+        "visualization"
+      ]
     },
     {
       "name": "pilcrow",
       "file": "src/pilcrow.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Vertical stem with two dots above symbolizing a paragraph or structured text.",
+      "tags": [
+        "paragraph",
+        "text",
+        "document",
+        "writing",
+        "formatting"
+      ]
     },
     {
       "name": "pin-bottom",
       "file": "src/pin-bottom.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Teardrop shape resting on a circular base representing a location pin or map marker.",
+      "tags": [
+        "pin",
+        "location",
+        "map",
+        "marker",
+        "save"
+      ]
     },
     {
       "name": "pin-left",
       "file": "src/pin-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Location pin icon indicating a saved point or geographical marker.",
+      "tags": [
+        "pin",
+        "location",
+        "map",
+        "marker",
+        "save"
+      ]
     },
     {
       "name": "pin-right",
       "file": "src/pin-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Location pin icon combined with a horizontal arrow indicating direction or movement.",
+      "tags": [
+        "pin",
+        "location",
+        "map",
+        "save",
+        "direction"
+      ]
     },
     {
       "name": "pin-top",
       "file": "src/pin-top.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized pushpin shape representing marking or pinning an item in place.",
+      "tags": [
+        "pin",
+        "marker",
+        "location",
+        "save",
+        "fix"
+      ]
     },
     {
       "name": "play",
       "file": "src/play.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Right-facing triangle symbolizing playback or starting a media action.",
+      "tags": [
+        "play",
+        "start",
+        "forward",
+        "media",
+        "video"
+      ]
     },
     {
       "name": "plus-circled",
       "file": "src/plus-circled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A plus sign contained within a circle representing the action to add or create.",
+      "tags": [
+        "add",
+        "new",
+        "plus",
+        "create",
+        "insert"
+      ]
     },
     {
       "name": "plus",
       "file": "src/plus.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A cross shape indicating addition creation or expansion.",
+      "tags": [
+        "plus",
+        "add",
+        "new",
+        "expand"
+      ]
     },
     {
       "name": "question-mark-circled",
       "file": "src/question-mark-circled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Question mark contained within an enclosing circle signifying help or inquiry.",
+      "tags": [
+        "question",
+        "help",
+        "support",
+        "info",
+        "query"
+      ]
     },
     {
       "name": "question-mark",
       "file": "src/question-mark.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Question mark symbol representing inquiry or help.",
+      "tags": [
+        "question",
+        "help",
+        "query",
+        "info",
+        "support"
+      ]
     },
     {
       "name": "quote",
       "file": "src/quote.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Double quotation marks indicating a quote or cited text.",
+      "tags": [
+        "quote",
+        "citation",
+        "text",
+        "speech"
+      ]
     },
     {
       "name": "radiobutton",
       "file": "src/radiobutton.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Empty circle representing a selectable option or radio button state.",
+      "tags": [
+        "radio",
+        "select",
+        "option",
+        "choice",
+        "form"
+      ]
     },
     {
       "name": "reader",
       "file": "src/reader.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A rectangle with a folded top-right corner symbolizing a document or file for reading.",
+      "tags": [
+        "document",
+        "file",
+        "page",
+        "read",
+        "content",
+        "reader"
+      ]
     },
     {
       "name": "reload",
       "file": "src/reload.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Circular arrow composed of two opposing curved arrows indicating a refresh or reload function.",
+      "tags": [
+        "refresh",
+        "reload",
+        "update",
+        "cycle",
+        "sync"
+      ]
     },
     {
       "name": "reset",
       "file": "src/reset.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Curved arrows forming a cycle representing a reset or refresh action.",
+      "tags": [
+        "reset",
+        "refresh",
+        "restart",
+        "undo",
+        "loop"
+      ]
     },
     {
       "name": "resume",
       "file": "src/resume.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A sheet of paper with horizontal lines representing text, symbolizing a resume or professional document.",
+      "tags": [
+        "resume",
+        "cv",
+        "document",
+        "file",
+        "portfolio"
+      ]
     },
     {
       "name": "rocket",
       "file": "src/rocket.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized rocket ship representing launch rapid growth or ambition.",
+      "tags": [
+        "rocket",
+        "launch",
+        "speed",
+        "growth",
+        "startup"
+      ]
     },
     {
       "name": "rotate-counter-clockwise",
       "file": "src/rotate-counter-clockwise.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two curved arrows forming a counter-clockwise rotation symbol indicating reverse direction.",
+      "tags": [
+        "rotate",
+        "reverse",
+        "spin",
+        "undo",
+        "turn",
+        "cycle"
+      ]
     },
     {
       "name": "row-spacing",
       "file": "src/row-spacing.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel horizontal lines representing row or line spacing.",
+      "tags": [
+        "spacing",
+        "rows",
+        "layout",
+        "alignment"
+      ]
     },
     {
       "name": "rows",
       "file": "src/rows.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Parallel horizontal lines representing a list view or multiple rows of data.",
+      "tags": [
+        "list",
+        "rows",
+        "data",
+        "menu",
+        "grid"
+      ]
     },
     {
       "name": "ruler-horizontal",
       "file": "src/ruler-horizontal.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal measuring instrument representing scale or measurement.",
+      "tags": [
+        "ruler",
+        "measure",
+        "scale",
+        "length",
+        "tool",
+        "dimension"
+      ]
     },
     {
       "name": "ruler-square",
       "file": "src/ruler-square.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Ruler symbol indicating measurement, scale, or dimension.",
+      "tags": [
+        "ruler",
+        "measure",
+        "scale",
+        "size",
+        "dimension"
+      ]
     },
     {
       "name": "scissors",
       "file": "src/scissors.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A pair of open scissors used for cutting or trimming material.",
+      "tags": [
+        "scissors",
+        "cut",
+        "trim",
+        "shear",
+        "craft",
+        "tool"
+      ]
     },
     {
       "name": "section",
       "file": "src/section.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two parallel lines indicating a section divider or structural separation.",
+      "tags": [
+        "section",
+        "divide",
+        "structure",
+        "boundary"
+      ]
     },
     {
       "name": "server",
       "file": "src/server.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized representation of a data server or hosting infrastructure.",
+      "tags": [
+        "server",
+        "data",
+        "hosting",
+        "network",
+        "storage"
+      ]
     },
     {
       "name": "sewing-pin-filled",
       "file": "src/sewing-pin-filled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Filled sewing pin symbol representing the action of pinning or marking content.",
+      "tags": [
+        "pin",
+        "sewing",
+        "mark",
+        "bookmark",
+        "tailor"
+      ]
     },
     {
       "name": "sewing-pin",
       "file": "src/sewing-pin.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized pin with a pointed needle body and a rounded head representing a sewing tool.",
+      "tags": [
+        "sewing",
+        "pin",
+        "needle",
+        "fastener",
+        "craft"
+      ]
     },
     {
       "name": "shadow-inner",
       "file": "src/shadow-inner.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two nested rings representing depth or internal structure.",
+      "tags": [
+        "depth",
+        "layer",
+        "structure",
+        "settings",
+        "focus"
+      ]
     },
     {
       "name": "shadow-none",
       "file": "src/shadow-none.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square with an upward arrow inside signifying upload or file transfer.",
+      "tags": [
+        "upload",
+        "transfer",
+        "file",
+        "data"
+      ]
     },
     {
       "name": "shadow-outer",
       "file": "src/shadow-outer.svg",
-      "properties": {}
+      "properties": {},
+      "description": "An outline of a rectangle representing a boundary or container.",
+      "tags": [
+        "box",
+        "frame",
+        "border",
+        "container"
+      ]
     },
     {
       "name": "shadow",
       "file": "src/shadow.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Rectangular button casting a subtle drop shadow to indicate elevation or interactivity.",
+      "tags": [
+        "button",
+        "shadow",
+        "elevated",
+        "action"
+      ]
     },
     {
       "name": "share-1",
       "file": "src/share-1.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three interconnected circles representing sharing or distribution.",
+      "tags": [
+        "share",
+        "social",
+        "export",
+        "link",
+        "network"
+      ]
     },
     {
       "name": "share-2",
       "file": "src/share-2.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three interconnected circles representing a social network or sharing function.",
+      "tags": [
+        "share",
+        "social",
+        "connect",
+        "network",
+        "link"
+      ]
     },
     {
       "name": "shuffle",
       "file": "src/shuffle.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Lines and arrows indicating a randomized or mixed sequence.",
+      "tags": [
+        "shuffle",
+        "randomize",
+        "mix",
+        "reorder",
+        "dice"
+      ]
     },
     {
       "name": "size",
       "file": "src/size.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Parallel horizontal lines bracketed by opposing vertical arrows representing size adjustment or scaling.",
+      "tags": [
+        "size",
+        "resize",
+        "scale",
+        "dimensions",
+        "adjust"
+      ]
     },
     {
       "name": "sketch-logo",
       "file": "src/sketch-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A pencil tool symbolizing editing or creation.",
+      "tags": [
+        "pencil",
+        "edit",
+        "sketch"
+      ]
     },
     {
       "name": "slash",
       "file": "src/slash.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A diagonal line representing prohibition or cancellation.",
+      "tags": [
+        "slash",
+        "cancel",
+        "prohibited",
+        "negate",
+        "ban"
+      ]
     },
     {
       "name": "slider",
       "file": "src/slider.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal track containing a movable handle representing a range adjustment or input control.",
+      "tags": [
+        "slider",
+        "range",
+        "control",
+        "adjust",
+        "setting"
+      ]
     },
     {
       "name": "space-between-horizontally",
       "file": "src/space-between-horizontally.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two vertical bars representing a separator or space between content items.",
+      "tags": [
+        "separator",
+        "divider",
+        "spacing",
+        "layout",
+        "bar"
+      ]
     },
     {
       "name": "space-between-vertically",
       "file": "src/space-between-vertically.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two short parallel lines representing a vertical separator or spacing element.",
+      "tags": [
+        "separator",
+        "divider",
+        "vertical",
+        "spacing",
+        "list",
+        "bullet"
+      ]
     },
     {
       "name": "space-evenly-horizontally",
       "file": "src/space-evenly-horizontally.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Elements evenly spaced along a horizontal line.",
+      "tags": [
+        "spacing",
+        "align",
+        "distribute",
+        "layout",
+        "even"
+      ]
     },
     {
       "name": "space-evenly-vertically",
       "file": "src/space-evenly-vertically.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three parallel horizontal lines indicating equal distribution or vertical alignment settings.",
+      "tags": [
+        "space",
+        "align",
+        "layout",
+        "distribute",
+        "evenly"
+      ]
     },
     {
       "name": "speaker-loud",
       "file": "src/speaker-loud.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Speaker megaphone shape emitting radiating sound waves representing volume or audio amplification.",
+      "tags": [
+        "speaker",
+        "sound",
+        "volume",
+        "audio",
+        "megaphone"
+      ]
     },
     {
       "name": "speaker-moderate",
       "file": "src/speaker-moderate.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Speaker symbol indicating moderate volume or sound output level.",
+      "tags": [
+        "speaker",
+        "sound",
+        "volume",
+        "audio",
+        "media"
+      ]
     },
     {
       "name": "speaker-off",
       "file": "src/speaker-off.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Loudspeaker symbol crossed by a diagonal slash indicating mute or sound off status.",
+      "tags": [
+        "speaker",
+        "audio",
+        "mute",
+        "sound",
+        "volume"
+      ]
     },
     {
       "name": "speaker-quiet",
       "file": "src/speaker-quiet.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Loudspeaker symbol crossed by a diagonal line indicating muted sound.",
+      "tags": [
+        "sound",
+        "mute",
+        "speaker",
+        "volume",
+        "audio"
+      ]
     },
     {
       "name": "square",
       "file": "src/square.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A square shape representing a file or document.",
+      "tags": [
+        "square",
+        "file",
+        "document",
+        "data"
+      ]
     },
     {
       "name": "stack",
       "file": "src/stack.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three layered rectangular blocks representing a collection or organizational hierarchy.",
+      "tags": [
+        "stack",
+        "layers",
+        "files",
+        "data",
+        "group"
+      ]
     },
     {
       "name": "star-filled",
       "file": "src/star-filled.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Five-pointed star symbol representing rating or favoriting.",
+      "tags": [
+        "star",
+        "rating",
+        "favorite",
+        "premium",
+        "quality"
+      ]
     },
     {
       "name": "star",
       "file": "src/star.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Five-pointed star representing a rating or favoritism status.",
+      "tags": [
+        "star",
+        "rating",
+        "favorite",
+        "quality"
+      ]
     },
     {
       "name": "stitches-logo",
       "file": "src/stitches-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two needles passing through fabric with connecting thread representing sewing or mending.",
+      "tags": [
+        "sewing",
+        "stitch",
+        "needle",
+        "textile",
+        "repair"
+      ]
     },
     {
       "name": "stop",
       "file": "src/stop.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Circle with a horizontal line indicating prohibition or stopping.",
+      "tags": [
+        "stop",
+        "prohibited",
+        "halt",
+        "no",
+        "ban"
+      ]
     },
     {
       "name": "stopwatch",
       "file": "src/stopwatch.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stopwatch icon representing the function of measuring elapsed time.",
+      "tags": [
+        "timer",
+        "stopwatch",
+        "time",
+        "clock",
+        "measure",
+        "timing"
+      ]
     },
     {
       "name": "stretch-horizontally",
       "file": "src/stretch-horizontally.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing horizontal arrows indicating the function to stretch or resize content across a width.",
+      "tags": [
+        "resize",
+        "stretch",
+        "expand",
+        "horizontal",
+        "scale"
+      ]
     },
     {
       "name": "stretch-vertically",
       "file": "src/stretch-vertically.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Double opposing arrows indicating the function to vertically stretch or resize an element.",
+      "tags": [
+        "resize",
+        "stretch",
+        "vertical",
+        "scale",
+        "dimension"
+      ]
     },
     {
       "name": "strikethrough",
       "file": "src/strikethrough.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal line drawn through an object indicating cancellation or negation.",
+      "tags": [
+        "strikethrough",
+        "cancel",
+        "delete",
+        "remove",
+        "negate"
+      ]
     },
     {
       "name": "sun",
       "file": "src/sun.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Sun symbol composed of a central circle and surrounding radiating rays.",
+      "tags": [
+        "sun",
+        "light",
+        "day",
+        "solar",
+        "bright"
+      ]
     },
     {
       "name": "switch",
       "file": "src/switch.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Toggle switch control indicating an active or enabled state.",
+      "tags": [
+        "switch",
+        "toggle",
+        "setting",
+        "on",
+        "control"
+      ]
     },
     {
       "name": "symbol",
       "file": "src/symbol.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass icon representing search or magnification.",
+      "tags": [
+        "search",
+        "find",
+        "magnify",
+        "zoom"
+      ]
     },
     {
       "name": "table",
       "file": "src/table.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Grid of squares representing a structured dataset or a digital spreadsheet.",
+      "tags": [
+        "table",
+        "data",
+        "grid",
+        "spreadsheet",
+        "organize",
+        "list"
+      ]
     },
     {
       "name": "target",
       "file": "src/target.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A bullseye target representing a goal or accuracy.",
+      "tags": [
+        "target",
+        "aim",
+        "goal",
+        "objective",
+        "focus"
+      ]
     },
     {
       "name": "text-align-bottom",
       "file": "src/text-align-bottom.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Multiple horizontal lines indicating text alignment set to the baseline.",
+      "tags": [
+        "text",
+        "align",
+        "format",
+        "layout",
+        "paragraph"
+      ]
     },
     {
       "name": "text-align-center",
       "file": "src/text-align-center.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three horizontal lines representing text aligned centrally.",
+      "tags": [
+        "text",
+        "align",
+        "center",
+        "typography"
+      ]
     },
     {
       "name": "text-align-justify",
       "file": "src/text-align-justify.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Four parallel horizontal lines indicating justified text alignment.",
+      "tags": [
+        "text",
+        "align",
+        "justify",
+        "paragraph",
+        "format"
+      ]
     },
     {
       "name": "text-align-left",
       "file": "src/text-align-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal lines representing text aligned flush with the left margin.",
+      "tags": [
+        "text",
+        "align",
+        "paragraph",
+        "format"
+      ]
     },
     {
       "name": "text-align-middle",
       "file": "src/text-align-middle.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three parallel horizontal lines indicating text alignment set to center.",
+      "tags": [
+        "text",
+        "align",
+        "center",
+        "typography",
+        "layout"
+      ]
     },
     {
       "name": "text-align-right",
       "file": "src/text-align-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Three horizontal lines indicating text alignment to the right margin.",
+      "tags": [
+        "text",
+        "align",
+        "right",
+        "format"
+      ]
     },
     {
       "name": "text-align-top",
       "file": "src/text-align-top.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal lines representing text aligned to the top margin.",
+      "tags": [
+        "text",
+        "align",
+        "paragraph",
+        "document",
+        "layout"
+      ]
     },
     {
       "name": "text-none",
       "file": "src/text-none.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Document icon crossed by a diagonal slash indicating absence of text or data.",
+      "tags": [
+        "document",
+        "file",
+        "empty",
+        "no",
+        "blank",
+        "textless"
+      ]
     },
     {
       "name": "text",
       "file": "src/text.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A rectangle containing three parallel lines representing a text document or article.",
+      "tags": [
+        "text",
+        "document",
+        "file",
+        "writing",
+        "page"
+      ]
     },
     {
       "name": "thick-arrow-down",
       "file": "src/thick-arrow-down.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Thick downward-pointing arrow indicating a download or collapse action.",
+      "tags": [
+        "down",
+        "arrow",
+        "download",
+        "file",
+        "direction"
+      ]
     },
     {
       "name": "thick-arrow-left",
       "file": "src/thick-arrow-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Thick arrow pointing left representing previous or back navigation.",
+      "tags": [
+        "arrow",
+        "back",
+        "previous",
+        "left",
+        "navigation"
+      ]
     },
     {
       "name": "thick-arrow-right",
       "file": "src/thick-arrow-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Thick right-pointing arrow representing forward navigation or advancement.",
+      "tags": [
+        "arrow",
+        "right",
+        "next",
+        "forward",
+        "navigate"
+      ]
     },
     {
       "name": "thick-arrow-up",
       "file": "src/thick-arrow-up.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A thick arrow pointing upwards representing an increase or upward movement.",
+      "tags": [
+        "arrow",
+        "up",
+        "rise",
+        "increase",
+        "direction"
+      ]
     },
     {
       "name": "timer",
       "file": "src/timer.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Circular clock face with hands representing timekeeping or scheduling.",
+      "tags": [
+        "clock",
+        "time",
+        "timer",
+        "schedule",
+        "watch"
+      ]
     },
     {
       "name": "tokens",
       "file": "src/tokens.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass symbol representing search or zoom function.",
+      "tags": [
+        "search",
+        "find",
+        "zoom",
+        "magnify"
+      ]
     },
     {
       "name": "track-next",
       "file": "src/track-next.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Right pointing arrow indicating progression or moving forward to the next step.",
+      "tags": [
+        "next",
+        "forward",
+        "progress",
+        "track",
+        "move"
+      ]
     },
     {
       "name": "track-previous",
       "file": "src/track-previous.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Left pointing chevron enclosed in a circle representing previous history or going back.",
+      "tags": [
+        "back",
+        "previous",
+        "history",
+        "navigation",
+        "arrow"
+      ]
     },
     {
       "name": "transform",
       "file": "src/transform.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing arrows representing a process of transformation or reversal.",
+      "tags": [
+        "transform",
+        "change",
+        "convert",
+        "swap"
+      ]
     },
     {
       "name": "transparency-grid",
       "file": "src/transparency-grid.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A 2x2 grid of squares representing filtering or layout options.",
+      "tags": [
+        "grid",
+        "filter",
+        "settings",
+        "layout",
+        "structure"
+      ]
     },
     {
       "name": "trash",
       "file": "src/trash.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Wastebasket symbol indicating the action of deleting or discarding data.",
+      "tags": [
+        "trash",
+        "delete",
+        "remove",
+        "bin"
+      ]
     },
     {
       "name": "triangle-down",
       "file": "src/triangle-down.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Downward pointing triangle used as a dropdown indicator or sorting direction arrow.",
+      "tags": [
+        "down",
+        "arrow",
+        "triangle",
+        "sort",
+        "dropdown"
+      ]
     },
     {
       "name": "triangle-left",
       "file": "src/triangle-left.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A triangular shape pointing left representing back or previous navigation.",
+      "tags": [
+        "back",
+        "previous",
+        "left",
+        "navigate",
+        "arrow"
+      ]
     },
     {
       "name": "triangle-right",
       "file": "src/triangle-right.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A right-pointing triangle indicating movement, progression, or next step.",
+      "tags": [
+        "next",
+        "forward",
+        "right",
+        "proceed",
+        "arrow"
+      ]
     },
     {
       "name": "triangle-up",
       "file": "src/triangle-up.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Upward-pointing triangle indicating ascent or sorting direction.",
+      "tags": [
+        "up",
+        "arrow",
+        "sort",
+        "ascend",
+        "pointer",
+        "increase"
+      ]
     },
     {
       "name": "twitter-logo",
       "file": "src/twitter-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Stylized bird in flight representing social media or microblogging.",
+      "tags": [
+        "bird",
+        "tweet",
+        "social",
+        "media"
+      ]
     },
     {
       "name": "underline",
       "file": "src/underline.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Horizontal line representing an underline or emphasized text.",
+      "tags": [
+        "line",
+        "underline",
+        "text",
+        "emphasis"
+      ]
     },
     {
       "name": "update",
       "file": "src/update.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two curved arrows forming a continuous loop indicating an update or refresh action.",
+      "tags": [
+        "update",
+        "refresh",
+        "sync",
+        "reload"
+      ]
     },
     {
       "name": "upload",
       "file": "src/upload.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Upward arrow emerging from a horizontal line representing file transfer or data upload.",
+      "tags": [
+        "upload",
+        "transfer",
+        "send",
+        "data",
+        "file"
+      ]
     },
     {
       "name": "value-none",
       "file": "src/value-none.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Square container holding an X mark indicating removal or error state.",
+      "tags": [
+        "none",
+        "error",
+        "remove",
+        "cancel",
+        "empty"
+      ]
     },
     {
       "name": "value",
       "file": "src/value.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Price tag banner indicating a product's monetary value or discount status.",
+      "tags": [
+        "price",
+        "value",
+        "cost",
+        "tag",
+        "discount",
+        "commerce"
+      ]
     },
     {
       "name": "vercel-logo",
       "file": "src/vercel-logo.svg",
-      "properties": {}
+      "properties": {},
+      "description": "A stylized geometric mark composed of angular planes and interconnected forms representing platform infrastructure or development.",
+      "tags": [
+        "platform",
+        "tech",
+        "deploy",
+        "abstract"
+      ]
     },
     {
       "name": "video",
       "file": "src/video.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Right-pointing triangle inside a circle representing play or start media playback.",
+      "tags": [
+        "play",
+        "video",
+        "media",
+        "movie",
+        "start"
+      ]
     },
     {
       "name": "view-grid",
       "file": "src/view-grid.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Four squares arranged in a grid pattern representing layout view options or structure organization.",
+      "tags": [
+        "grid",
+        "view",
+        "layout",
+        "structure",
+        "organization"
+      ]
     },
     {
       "name": "view-horizontal",
       "file": "src/view-horizontal.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing horizontal arrows contained within a square representing different display or view modes.",
+      "tags": [
+        "layout",
+        "view",
+        "display",
+        "grid",
+        "list",
+        "toggle"
+      ]
     },
     {
       "name": "view-none",
       "file": "src/view-none.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Eye symbol crossed through by a diagonal slash representing that viewing or sight is disabled or unavailable.",
+      "tags": [
+        "view",
+        "hidden",
+        "no",
+        "restricted",
+        "sight"
+      ]
     },
     {
       "name": "view-vertical",
       "file": "src/view-vertical.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing arrows representing vertical scrolling or viewing options.",
+      "tags": [
+        "view",
+        "vertical",
+        "scroll",
+        "direction",
+        "navigation"
+      ]
     },
     {
       "name": "width",
       "file": "src/width.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Double horizontal arrows representing range or size adjustment.",
+      "tags": [
+        "resize",
+        "scale",
+        "width",
+        "range",
+        "adjust"
+      ]
     },
     {
       "name": "zoom-in",
       "file": "src/zoom-in.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Magnifying glass containing a plus sign indicating zoom in or magnification increase.",
+      "tags": [
+        "zoom",
+        "magnify",
+        "search",
+        "lens",
+        "plus"
+      ]
     },
     {
       "name": "zoom-out",
       "file": "src/zoom-out.svg",
-      "properties": {}
+      "properties": {},
+      "description": "Two opposing arrows pointing outwards representing zoom out or scaling down.",
+      "tags": [
+        "zoom",
+        "out",
+        "scale",
+        "reduce",
+        "magnify"
+      ]
     }
   ]
 }
