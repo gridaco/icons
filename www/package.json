@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "oxlint",
     "copy-dist": "rm -rf public/dist && cp -R ../dist public/dist",
-    "prebuild": "pnpm run copy-dist"
+    "build-search-index": "node scripts/build-search-index.mjs",
+    "predev": "pnpm run build-search-index",
+    "prebuild": "pnpm run copy-dist && pnpm run build-search-index"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
@@ -20,7 +22,9 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.553.0",
+    "minisearch": "^7.2.0",
     "next": "16.2.7",
+    "nuqs": "^2.8.9",
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "tailwind-merge": "^3.6.0"

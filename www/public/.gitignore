@@ -1,1 +1,3 @@
 dist
+# Generated at build time by scripts/build-search-index.mjs (prebuild step).
+search-index.json
