@@ -1,6 +1,9 @@
+import path from "node:path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Pin the workspace root so Turbopack doesn't warn about multiple lockfiles.
+  turbopack: { root: path.join(__dirname) },
   async headers() {
     return [
       // default: all files get CORS

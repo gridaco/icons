@@ -5,6 +5,8 @@ export type FileEntry = {
   name: string;
   file: string;
   properties?: Record<string, unknown>;
+  description?: string;
+  tags?: string[];
 };
 
 export type VendorData = {
@@ -20,6 +22,8 @@ export type ApiItem = {
   name: string;
   download: string;
   properties: Record<string, unknown>;
+  description?: string;
+  tags?: string[];
 };
 
 export type ApiItemsResponse = {
@@ -76,6 +80,13 @@ export function parseItemsQuery(request: Request): ItemsQuery {
 const HOST =
   process.env.NODE_ENV === "production" ? "https://icons.grida.co" : "http://localhost:3001";
 const BASE = `${HOST}/dist`;
+
+/**
+ * Public origin of the site, used for canonical URLs, sitemap, and OpenGraph.
+ * Prefer an explicit env override so preview/staging deploys don't emit
+ * production canonicals; fall back to the asset host.
+ */
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || HOST;
 const DIST_ROOT = path.resolve(process.cwd(), "public", "dist");
 
 async function readJson<T>(filePath: string): Promise<T | null> {
@@ -87,7 +98,7 @@ async function readJson<T>(filePath: string): Promise<T | null> {
   }
 }
 
-function buildDownloadUrl(vendorId: string, file: string): string {
+export function buildDownloadUrl(vendorId: string, file: string): string {
   return `${BASE}/${vendorId}/${file}`;
 }
 
@@ -114,6 +125,8 @@ export async function buildAllItems() {
       name: f.name,
       download: buildDownloadUrl(id, f.file),
       properties: f.properties ?? {},
+      description: f.description,
+      tags: f.tags,
     })),
   );
   return { items, total: items.length };
@@ -129,6 +142,8 @@ export async function buildSvglItems() {
       name: f.name,
       download: buildDownloadUrl("svgl", f.file),
       properties: f.properties ?? {},
+      description: f.description,
+      tags: f.tags,
     })) ?? [];
   return { items, total: items.length, missing: false };
 }

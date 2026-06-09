@@ -1,0 +1,44 @@
+# Grida Icons
+
+> Free, public, zero-auth REST API for searching 5,000+ open-source icons across
+> Heroicons, Lucide, Phosphor, Octicons, Radix UI, and SVGL — enriched with
+> keywords and descriptions, with directly downloadable SVGs. No API key. CORS is
+> open to all origins and responses are cached at the edge.
+
+Base URL: https://icons.grida.co
+
+## Search API (recommended)
+
+`GET /api/search?q={query}&vendor={set}&limit={n}&offset={n}`
+
+- `q` — keyword query; ranked match over icon name + tags (prefix + fuzzy). Alias: `name`.
+- `vendor` — optional set id: `heroicons`, `lucide-icons`, `phosphor-icons`, `octicons`, `radix-ui-icons`, `svgl`.
+- `limit` — page size, default 100, max 500.
+- `offset` — pagination offset, default 0.
+
+Returns one result per logical icon (variants grouped). Each item:
+`{ id, vendor, name, description, tags[], download (raw SVG url), url (icon page), variants: [{ name, properties, download }] }`
+
+Example:
+
+```
+curl "https://icons.grida.co/api/search?q=trash&limit=2"
+```
+
+## Other endpoints
+
+- `GET /api` — list every icon file (each variant is a separate item). Filter with `vendor`, `q` (substring on name), and `variant:<key>=<value>` (e.g. `variant:style=solid`, `variant:weight=bold`).
+- `GET /api/logos` — brand logos (SVGL); same response shape as `/api`. Variants: `theme` (light/dark), `kind` (symbol/wordmark).
+- `GET /api/vendors` — metadata for every icon set: id, name, version, count, and variant axes.
+- `GET /dist/{vendor}/{file}` — the raw SVG. Served with `Access-Control-Allow-Origin: *` and an immutable 1-year cache; safe to hotlink or embed directly.
+
+## Integration notes
+
+- No authentication. All endpoints accept `GET` and return JSON.
+- Responses set `Cache-Control: s-maxage=3600, stale-while-revalidate=86400`.
+- The `download` field is an absolute, ready-to-embed SVG URL.
+- Each icon set keeps its upstream license — review the source project before redistribution.
+
+## Docs
+
+- [API Reference](https://icons.grida.co/docs): full human-readable documentation with parameter tables and example responses.

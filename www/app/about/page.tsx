@@ -81,7 +81,7 @@ function AppSidebar() {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
-              <Link href="/api">
+              <Link href="/docs">
                 <span>API</span>
               </Link>
             </SidebarMenuButton>
