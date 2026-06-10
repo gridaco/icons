@@ -1,0 +1,52 @@
+{
+  "totals": {
+    "files": 14216,
+    "unique": 4916,
+    "icons": {
+      "files": 13138,
+      "unique": 4260
+    },
+    "logos": {
+      "files": 1078,
+      "unique": 656
+    }
+  },
+  "vendors": {
+    "radix-ui-icons": {
+      "name": "Radix UI Icons",
+      "kind": "icons",
+      "files": 332,
+      "unique": 332
+    },
+    "heroicons": {
+      "name": "Heroicons",
+      "kind": "icons",
+      "files": 1288,
+      "unique": 324
+    },
+    "lucide-icons": {
+      "name": "Lucide Icons",
+      "kind": "icons",
+      "files": 1714,
+      "unique": 1714
+    },
+    "phosphor-icons": {
+      "name": "Phosphor Icons",
+      "kind": "icons",
+      "files": 9072,
+      "unique": 1512
+    },
+    "octicons": {
+      "name": "Primer Octicons",
+      "kind": "icons",
+      "files": 732,
+      "unique": 378
+    },
+    "svgl": {
+      "name": "SVGL",
+      "kind": "logos",
+      "files": 1078,
+      "unique": 656
+    }
+  }
+}

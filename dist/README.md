@@ -2,6 +2,13 @@
 
 This directory contains prebuilt icon assets and metadata for each vendor.
 
+At the root:
+
+- `stats.json` — build-generated counts: per-vendor and aggregate `files`
+  (one per variant SVG) and `unique` (logical icons / brands), grouped into
+  `icons` vs `logos`.
+- `LICENSE` — all vendor licenses, aggregated.
+
 Per vendor:
 
 - `data.json` — package-level metadata.

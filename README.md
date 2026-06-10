@@ -5,6 +5,10 @@
 
 **Live:** [icons.grida.co](https://icons.grida.co) · **API:** [`/llms.txt`](https://icons.grida.co/llms.txt) · [API reference](https://icons.grida.co/docs)
 
+[![icons](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgridaco%2Ficons%2Fmain%2Fdist%2Fstats.json&query=%24.totals.icons.unique&label=icons&color=blue)](./dist/stats.json)
+[![logos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgridaco%2Ficons%2Fmain%2Fdist%2Fstats.json&query=%24.totals.logos.unique&label=logos&color=blue)](./dist/stats.json)
+[![svg files](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgridaco%2Ficons%2Fmain%2Fdist%2Fstats.json&query=%24.totals.files&label=svg%20files&color=informational)](./dist/stats.json)
+
 Grida Icons mirrors several popular open-source icon sets as git submodules,
 runs them through a Python pipeline that normalizes the SVGs and attaches a
 uniform text layer (a one-line `description` + searchable `tags` for every
@@ -12,7 +16,7 @@ icon), and serves the result through a Next.js web app and a zero-auth REST API.
 
 ## Icon sets
 
-Six upstream sets, ~5,000+ logical icons (many more when you count per-style/weight variants). Sources are tracked as submodules under [`vendor/`](./vendor); the published catalog lives in [`dist/`](./dist).
+Six upstream sets, ~5,000 logical icons and logos (many more when you count per-style/weight variants). Exact, build-generated counts live in [`dist/stats.json`](./dist/stats.json) — the badges above read from it, and every `dist` rebuild (including the weekly refresh PR) regenerates it. Sources are tracked as submodules under [`vendor/`](./vendor); the published catalog lives in [`dist/`](./dist).
 
 | Set                | id               | Source                                                              |
 | ------------------ | ---------------- | ------------------------------------------------------------------- |
