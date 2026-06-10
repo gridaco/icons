@@ -2901,6 +2901,38 @@
       }
     },
     {
+      "name": "grida-dark",
+      "file": "src/grida-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "grida-light",
+      "file": "src/grida-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "grida-wordmark-dark",
+      "file": "src/grida-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "grida-wordmark-light",
+      "file": "src/grida-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "grok-dark",
       "file": "src/grok-dark.svg",
       "properties": {
@@ -5623,6 +5655,22 @@
     {
       "name": "postman",
       "file": "src/postman.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "postqued-dark",
+      "file": "src/postqued-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "postqued-light",
+      "file": "src/postqued-light.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
