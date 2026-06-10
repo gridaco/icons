@@ -34,6 +34,7 @@ Each command writes metadata to `.cache/<vendor>/metadata.json` by default. Use 
 
 - `uv run main.py dist` — clean, re-cache all vendors, and build the published `dist/` (SVGs + per-vendor `data.json` + merged `LICENSE`).
 - `uv run main.py validate` — sanity-check a built `dist/`: every vendor's `data.json` must parse, list >0 files, and have an entry count matching the `.svg` files in `dist/<vendor>/src`. Exits non-zero on failure. This is the gate that catches an upstream submodule moving its folders out from under a hard-coded source path in `dist` (which would otherwise ship an empty vendor silently).
+- `uv run main.py stats` — regenerate `dist/stats.json`: per-vendor and aggregate counts (`files` = one per variant SVG, `unique` = logical icons / brands), grouped into `icons` vs `logos` by the spec template's category. `dist` already writes it as part of the build; the standalone command exists to refresh it without a full rebuild. The file intentionally carries no timestamp so it only diffs when counts change. The root README's badges read from it.
 
 ### Enrichment (text metadata for search)
 

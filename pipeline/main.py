@@ -309,6 +309,9 @@ def dist(ctx):
     # Merge licenses into dist/LICENSE
     _write_merged_license()
 
+    # Build-time count snapshot (dist/stats.json) — consumed by README badges.
+    _write_stats()
+
     click.echo(f"Dist build complete at {DIST_DIR}")
 
 
@@ -331,6 +334,107 @@ DIST_VENDORS = [
     "octicons",
     "svgl",
 ]
+
+_CACHE_COMMANDS = {
+    "radix-ui-icons": process_radix,
+    "heroicons": process_heroicons,
+    "lucide-icons": process_lucide,
+    "phosphor-icons": process_phosphor,
+    "octicons": process_octicons,
+    "svgl": process_svgl,
+}
+
+
+def _logical_name(rec: dict) -> str | None:
+    """
+    Grouping key for variant records in a vendor cache: icon vendors key
+    variants by `name`; svgl groups a brand's symbol/wordmark/theme files
+    under the vendor-native `meta.title`.
+    """
+    name = rec.get("name") or (rec.get("meta") or {}).get("title")
+    if name:
+        return str(name)
+    path = rec.get("dist_path") or rec.get("file")
+    return Path(path).stem if path else None
+
+
+def _compute_stats() -> dict:
+    """
+    Per-vendor and aggregate counts: `files` is one per variant SVG (matches
+    data.json entries), `unique` is logical icons (brands for svgl). Vendor
+    kind comes from the spec template's category URI (icons-ui vs logos).
+    """
+    vendors: dict[str, dict] = {}
+    totals = {"files": 0, "unique": 0}
+    by_kind: dict[str, dict[str, int]] = {}
+    for vendor in DIST_VENDORS:
+        data_path = DIST_DIR / vendor / "data.json"
+        if not data_path.exists():
+            raise SystemExit(f"stats: {data_path} missing — run `dist` first")
+        data = json.loads(data_path.read_text())
+        records = json.loads((CACHE_DIR / vendor / "metadata.json").read_text())
+        unique = {n for n in (_logical_name(r) for r in records) if n}
+        kind = (
+            "logos"
+            if any(str(c).endswith("/logos") for c in data.get("categories") or [])
+            else "icons"
+        )
+        n_files = len(data.get("files") or [])
+        vendors[vendor] = {
+            "name": data.get("name") or vendor,
+            "kind": kind,
+            "files": n_files,
+            "unique": len(unique),
+        }
+        totals["files"] += n_files
+        totals["unique"] += len(unique)
+        agg = by_kind.setdefault(kind, {"files": 0, "unique": 0})
+        agg["files"] += n_files
+        agg["unique"] += len(unique)
+    return {"totals": {**totals, **by_kind}, "vendors": vendors}
+
+
+def _write_stats() -> dict:
+    """
+    Write dist/stats.json. Deliberately carries no timestamp so the file only
+    diffs when counts actually change (keeps the weekly refresh PR clean).
+    """
+    stats = _compute_stats()
+    (DIST_DIR / "stats.json").write_text(json.dumps(stats, indent=2) + "\n")
+    return stats
+
+
+def _echo_stats(stats: dict) -> None:
+    click.echo(f"{'vendor':<18}{'kind':>6}{'files':>8}{'unique':>8}")
+    for vendor, s in stats["vendors"].items():
+        click.echo(f"{vendor:<18}{s['kind']:>6}{s['files']:>8}{s['unique']:>8}")
+    t = stats["totals"]
+    icons = t.get("icons", {"files": 0, "unique": 0})
+    logos = t.get("logos", {"files": 0, "unique": 0})
+    click.echo(
+        f"totals: {t['unique']} unique / {t['files']} files "
+        f"(icons {icons['unique']}/{icons['files']}, logos {logos['unique']}/{logos['files']})"
+    )
+
+
+@click.command(name="stats")
+@click.pass_context
+def stats_cmd(ctx):
+    """
+    Regenerate dist/stats.json from the built dist/ and vendor cache.
+
+    Counts per vendor: `files` (one entry per variant SVG, same as data.json)
+    and `unique` (logical icons; brands for svgl). Needs dist/<vendor>/data.json
+    (run `dist` first); missing cache metadata is rebuilt per vendor, which
+    requires the vendor submodules to be checked out.
+    """
+    for vendor in DIST_VENDORS:
+        if not (CACHE_DIR / vendor / "metadata.json").exists():
+            click.echo(f"  cache miss for {vendor}; building metadata...")
+            ctx.invoke(_CACHE_COMMANDS[vendor], out=CACHE_DIR / vendor)
+    stats = _write_stats()
+    _echo_stats(stats)
+    click.echo(f"Wrote {DIST_DIR / 'stats.json'}")
 
 
 @click.command(name="validate")
@@ -556,6 +660,7 @@ cli.add_command(cache, name="cache")
 cli.add_command(dist, name="dist")
 cli.add_command(clean, name="clean")
 cli.add_command(validate, name="validate")
+cli.add_command(stats_cmd, name="stats")
 cli.add_command(enrich, name="enrich")
 cli.add_command(enrich_validate, name="enrich-validate")
 
