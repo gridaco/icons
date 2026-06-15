@@ -1,0 +1,55 @@
+{
+  "id": "koh-young",
+  "identity": {
+    "name_ko": "고영테크놀러지",
+    "name_en": "Koh Young Technology",
+    "legal_name_ko": "주식회사 고영테크놀러지",
+    "legal_name_en": "Koh Young Technology Inc.",
+    "aliases": ["고영", "고영테크놀러지", "Koh Young", "KohYoung"],
+    "group_ko": null, "group_en": null,
+    "stock_code": "098460", "dart_corp_code": null,
+    "homepage": "https://www.kohyoung.com",
+    "industry": "3D 검사·측정 장비 (SPI/AOI)",
+    "affiliate_note": "독립 강소기업(코스닥 098460). 2002 설립. 3D 납도포검사(SPI) 세계 1위. 대표 고광일·이정원."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "legal-name-match"],
+    "note": "공식 도메인 kohyoung.com이 로고 서빙 + 코스닥 098460 = (주)고영테크놀러지. 종목코드+도메인 일치로 신원 확정.",
+    "sources": ["https://www.kohyoung.com/kr/", "https://ko.wikipedia.org/wiki/고영테크놀러지"]
+  },
+  "history": {
+    "founded": "2002-04-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://ko.wikipedia.org/wiki/고영테크놀러지", "https://www.kohyoung.com/kr/"]
+  },
+  "related_sources": ["https://www.kohyoung.com/kr/", "https://ko.wikipedia.org/wiki/고영테크놀러지"],
+  "notes": "검증 프레임워크 적용(무명). ★카테고리: 벡터 미가용 — 공식 사이트가 로고를 PNG로만 서빙(CloudFront WP: ky_ci PNG 컬러 + ky_ci_white PNG). SVG 미발견. 신원 확실(종목코드 098460)하나 T0/T1 벡터 부재로 needs-review. 로고는 'KOH YOUNG' 워드마크형.",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "고영테크놀러지 공식 로고 — 라스터 전용(PNG)",
+        "source_url": "https://d19m5rauv1cd5h.cloudfront.net/wp-content/uploads/2022/09/05160857/ky_ci-e1652896426666.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "webfetch:discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.kohyoung.com/kr/", "note": "[B] 공식 도메인이 ky_ci PNG(컬러) + ky_ci_white PNG(흰색) 2종을 로고로 서빙. SVG 없음" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "raster-only-confirmed"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "공식이 벡터(SVG) 미제공 — PNG(CloudFront)만 확인",
+          "벡터 확보 경로: 공식 브랜드 자산/IR 요청(T0), 또는 T4 재구성. 현 PNG는 식별·참조용",
+          "정확한 워드마크 글자형/색상은 고해상 PNG로 재구성 시 검증 필요"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "주식회사 고영테크놀러지",
+      "notes": "벡터 미가용. 컬러/화이트 PNG 2종 확인."
+    }
+  ]
+}

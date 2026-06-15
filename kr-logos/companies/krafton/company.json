@@ -1,0 +1,76 @@
+{
+  "id": "krafton",
+  "identity": {
+    "name_ko": "크래프톤",
+    "name_en": "KRAFTON",
+    "legal_name_ko": "주식회사 크래프톤",
+    "legal_name_en": "KRAFTON, Inc.",
+    "aliases": ["크래프톤", "KRAFTON", "Krafton", "블루홀", "Bluehole"],
+    "group_ko": "크래프톤", "group_en": "KRAFTON",
+    "stock_code": "259960", "dart_corp_code": null,
+    "homepage": "https://www.krafton.com",
+    "industry": "게임 (개발/퍼블리싱)",
+    "affiliate_note": "독립 게임사(KOSPI 259960). 2007 블루홀 → 2018 크래프톤 사명 → 2021 상장. 배틀그라운드(PUBG)·다크앤다커 등. 대표 김창한. 로고는 각진 크레인(종이학)형 'K' 심볼 + 'KRAFTON' 워드마크(검정). ★구 '블루홀(Bluehole)' 로고는 배제(2018+ 리브랜드)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 krafton.com(=KOSPI 259960 (주)크래프톤). ★자산: 공식 WordPress 사이트 정적 로고 dir 미적중 → 위키미디어 공용 'KRAFTON Logo New.svg'(T3, 1 path, raster 0) 사용. 렌더로 크레인 'K' 심볼 + 'KRAFTON' 현행 로고 확인. ★namesake/currency: 'Bluehole Logo.svg'(구 사명)는 배제, 'New'(현행) 채택.",
+    "sources": ["https://www.krafton.com/", "https://ko.wikipedia.org/wiki/크래프톤", "https://commons.wikimedia.org/wiki/File:KRAFTON_Logo_New.svg"]
+  },
+  "history": {
+    "founded": "2007-03-26", "last_rebrand": "2018-11-30", "is_original": false, "basis": "rebrand-date",
+    "note": "2007 블루홀 설립 → 2018 '크래프톤' 사명변경. 크레인 'K' 심볼 + 'KRAFTON'이 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/크래프톤"]
+  },
+  "related_sources": ["https://www.krafton.com/", "https://ko.wikipedia.org/wiki/크래프톤", "https://commons.wikimedia.org/wiki/File:KRAFTON_Logo_New.svg"],
+  "notes": "★/loop 순차 수집 32번(서브에이전트 랭킹 #1). CI-우선: ②공식 WP 사이트 정적 로고 dir 미적중 → ⑤위키미디어 공용 'KRAFTON Logo New.svg'. ★currency: 구 Bluehole 로고 배제. 단일 path(심볼+워드마크), implicit-black → 명시 fill #000, dark는 #fff 파생. T3 confidence medium.",
+  "assets": [
+    {
+      "file": "krafton-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — KRAFTON Logo New.svg (implicit-black 명시화)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/KRAFTON_Logo_New.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KRAFTON_Logo_New.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+explicit-fill", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.krafton.com/", "note": "[B 보강] 공식 도메인이 크래프톤 사이트. 동일 크레인 K 심볼+KRAFTON 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:KRAFTON_Logo_New.svg", "note": "[검증] qlmanage 렌더 → 각진 크레인 'K' 심볼 + 'KRAFTON' 현행 로고와 일치. viewBox 450×399, 1 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(위키미디어) — 공식 직접 교차확인 미완(브랜드 시각 일치는 확인)"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 크래프톤",
+      "notes": "크레인 'K' 심볼 + 'KRAFTON' 워드마크. 단일 path #000000. viewBox 450×399. light-bg용."
+    },
+    {
+      "file": "krafton-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "KRAFTON 로고 — 다크용(#000→#fff 단색 반전)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/KRAFTON_Logo_New.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KRAFTON_Logo_New.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:KRAFTON_Logo_New.svg", "note": "동일 단일 path, #000→#FFFFFF (단색 로고 표준 반전)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 크래프톤",
+      "notes": "단일 path #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

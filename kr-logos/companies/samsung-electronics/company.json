@@ -1,0 +1,105 @@
+{
+  "id": "samsung-electronics",
+  "identity": {
+    "name_ko": "삼성전자",
+    "name_en": "Samsung Electronics",
+    "legal_name_ko": "삼성전자 주식회사",
+    "legal_name_en": "Samsung Electronics Co., Ltd.",
+    "aliases": ["삼성", "Samsung", "SEC"],
+    "group_ko": "삼성그룹",
+    "group_en": "Samsung Group",
+    "stock_code": "005930",
+    "dart_corp_code": "00126380",
+    "homepage": "https://www.samsung.com",
+    "industry": "전자/반도체",
+    "affiliate_note": "삼성그룹 계열 — 종목코드 005930(삼성전자) 한정. 삼성SDS·삼성물산·삼성바이오로직스 등 계열사 로고와 구분. 현 워드마크는 그룹 공통 CI."
+  },
+  "history": {
+    "founded": "1969-01-13",
+    "last_rebrand": "2015",
+    "is_original": false,
+    "basis": "rebrand-news",
+    "sources": [
+      "https://www.hankyung.com/article/2015090970641",
+      "https://namu.wiki/w/삼성전자"
+    ]
+  },
+  "related_sources": [
+    "https://www.samsung.com/sec/",
+    "https://namu.wiki/w/삼성전자",
+    "https://ko.wikipedia.org/wiki/삼성전자",
+    "https://www.hankyung.com/article/2015090970641"
+  ],
+  "notes": "2015년 타원(oval) 엠블럼을 떼고 'SAMSUNG' 워드마크 단독으로 변경(그룹 공통). 그룹 모태 삼성상회는 1938-03-22, 삼성전자 법인 설립은 1969.",
+  "assets": [
+    {
+      "file": "samsung-electronics-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "삼성전자 공식 웹사이트(samsung.com) 헤더 인라인 SVG 워드마크",
+        "source_url": "https://www.samsung.com/sec/",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:inline-svg-extract",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.samsung.com/sec/",
+          "note": "공식 사이트 헤더가 viewBox 0 0 120 19 인라인 SVG 워드마크(fill:currentColor)를 현재 사용 — DOM 확인 2026-06-14"
+        },
+        {
+          "type": "news-article",
+          "url": "https://www.hankyung.com/article/2015090970641",
+          "note": "2015 타원 제거 워드마크 변경 보도 — 현 로고가 현행임을 뒷받침"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-official-header", "vector-integrity-check", "rebrand-timeline-check"],
+        "confidence": "high",
+        "open_questions": []
+      },
+      "status": "verified",
+      "trademark_owner": "삼성전자 주식회사",
+      "notes": "원본 fill=currentColor → 밝은 배경용으로 #000000 적용. viewBox 0 0 120 19, single path."
+    },
+    {
+      "file": "samsung-electronics-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "삼성전자 공식 웹사이트(samsung.com) 헤더 인라인 SVG 워드마크 (다크 배경용)",
+        "source_url": "https://www.samsung.com/sec/",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "derived-from-light",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.samsung.com/sec/",
+          "note": "동일 워드마크. 공식이 currentColor로 흑/백을 모두 렌더 → 다크 배경용은 #ffffff 적용(동일 path)"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "high",
+        "open_questions": []
+      },
+      "status": "verified",
+      "trademark_owner": "삼성전자 주식회사",
+      "notes": "light와 동일 path, fill만 #ffffff. 공식 currentColor 렌더와 동일."
+    }
+  ]
+}

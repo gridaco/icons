@@ -1,0 +1,79 @@
+{
+  "id": "lg-chem",
+  "identity": {
+    "name_ko": "LG화학",
+    "name_en": "LG Chem",
+    "legal_name_ko": "주식회사 엘지화학",
+    "legal_name_en": "LG Chem, Ltd.",
+    "aliases": ["LG화학", "엘지화학", "LG Chem"],
+    "group_ko": "LG그룹", "group_en": "LG Group",
+    "stock_code": "051910", "dart_corp_code": null,
+    "homepage": "https://www.lgchem.com",
+    "industry": "기초 화학 (석유화학/첨단소재/생명과학)",
+    "affiliate_note": "LG그룹 화학 핵심사(KOSPI 051910). 1947 락희화학 → LG화학. 석유화학·첨단소재·생명과학(자회사 LG에너지솔루션 분할). 대표 신학철. 로고는 LG '얼굴' 빨강 원 심볼(#A50034 + 흰 페이스) + 'LG화학' 회색 워드마크(#6B6B6B)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 lgchem.com(=KOSPI 051910 (주)엘지화학) + LG그룹. ★자산: 공식 헤더는 logo_en_white.png(래스터) → 위키미디어 공용 'LG Chem logo (korean).svg'(T3, 5 path, raster 0) 사용. 렌더로 LG 얼굴 심볼 + 'LG화학' 현행 로고 확인.",
+    "sources": ["https://www.lgchem.com/", "https://ko.wikipedia.org/wiki/LG화학", "https://commons.wikimedia.org/wiki/File:LG_Chem_logo_(korean).svg"]
+  },
+  "history": {
+    "founded": "1947-01-05", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1947 락희화학공업사 → 1995 LG화학. LG 얼굴 심볼 + 'LG화학' 회색 워드마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/LG화학"]
+  },
+  "related_sources": ["https://www.lgchem.com/", "https://ko.wikipedia.org/wiki/LG화학", "https://commons.wikimedia.org/wiki/File:LG_Chem_logo_(korean).svg"],
+  "notes": "★/loop 순차 수집 15번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식 헤더=PNG → ⑤위키미디어 공용. LG 계열 표준 락업(빨강 얼굴 원 + 회색 사명). 색 #A50034(LG red)/#6B6B6B(회색)/#FFFFFF(얼굴) 실측. Commons에 KOR/ENG/CHN 변형 — 한국 로고집이라 KOR 'LG화학' 채택(ENG 미수집). light 원본 + dark는 회색 워드마크 #6B6B6B→#fff(빨강 얼굴 심볼 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "lg-chem-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — LG Chem logo (korean).svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/LG_Chem_logo_%28korean%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:LG_Chem_logo_(korean).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.lgchem.com/", "note": "[B 보강] 공식 도메인이 LG화학 사이트(헤더 PNG). 동일 LG 얼굴+LG화학 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:LG_Chem_logo_(korean).svg", "note": "[검증] qlmanage 렌더 → LG 빨강 얼굴 원(#A50034+흰 페이스) + 'LG화학'(#6B6B6B) 현행 로고와 일치. viewBox 290.8×77.2, 5 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 헤더가 PNG라 SVG 직접 교차확인 미완(render-verify로 일치 확인)",
+          "ENG 'LG Chem' 락업 미수집(Commons 존재)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 엘지화학",
+      "notes": "LG 빨강 얼굴 원(#A50034) + 'LG화학'(#6B6B6B). viewBox 290.8×77.2, 5 path. light-bg용."
+    },
+    {
+      "file": "lg-chem-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "LG화학 로고 — 다크용(회색 워드마크 #6B6B6B→#fff 파생, 빨강 얼굴 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/LG_Chem_logo_%28korean%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:LG_Chem_logo_(korean).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:LG_Chem_logo_(korean).svg", "note": "동일 path, 'LG화학' 회색 #6B6B6B→#FFFFFF. LG 빨강 얼굴(#A50034)+흰 페이스 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 엘지화학",
+      "notes": "'LG화학' #FFFFFF + LG 빨강 얼굴 원. 다크 배경용 파생."
+    }
+  ]
+}

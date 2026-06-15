@@ -1,0 +1,66 @@
+{
+  "id": "hyosung-tnc",
+  "identity": {
+    "name_ko": "효성티앤씨",
+    "name_en": "Hyosung TNC",
+    "legal_name_ko": "효성티앤씨 주식회사",
+    "legal_name_en": "Hyosung TNC Co., Ltd.",
+    "aliases": ["효성티앤씨", "효성TNC", "Hyosung TNC", "효성"],
+    "group_ko": "효성그룹", "group_en": "Hyosung Group",
+    "stock_code": "298020", "dart_corp_code": null,
+    "homepage": "https://www.hyosungtnc.com",
+    "industry": "섬유/무역 (스판덱스)",
+    "affiliate_note": "효성그룹 계열(KOSPI 298020). 2018 (주)효성 인적분할로 설립된 4개 사업회사 중 섬유·무역 부문. 스판덱스(creora) 세계 1위. 대표 이창황·유영환."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "legal-name-match", "group-affiliation"],
+    "note": "공식 도메인 hyosungtnc.com이 로고 SVG를 서빙 + KOSPI 298020 = 효성티앤씨(주). 효성그룹 계열. 로고는 그룹 공유 'HYOSUNG' 워드마크 + 'TNC' 서브.",
+    "sources": ["https://www.hyosungtnc.com/", "https://ko.wikipedia.org/wiki/효성티앤씨"]
+  },
+  "history": {
+    "founded": "2018-06-01", "last_rebrand": "2018-06-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/효성티앤씨", "https://www.hyosungtnc.com/"]
+  },
+  "related_sources": ["https://www.hyosungtnc.com/", "https://ko.wikipedia.org/wiki/효성티앤씨"],
+  "notes": "★랜덤 수집 테스트(5개 중, 개선 체크리스트 적용). 로고는 CSS background SVG(logo-hyosung-tnc-eng-blue.svg) — 헤더 인라인 아님(헤더만 봤으면 놓칠 뻔). viewBox 141×16.2, 11 path 'HYOSUNG TNC'. 브랜드색 #14008C(효성 블루). 공식 white 변형 별도 존재(eng-white). ★계열사 주의: 'HYOSUNG' 마크는 효성그룹 공유 — 'TNC' 서브로 효성티앤씨 식별(효성중공업·효성첨단소재 등과 구분).",
+  "assets": [
+    {
+      "file": "hyosung-tnc-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "효성티앤씨 공식 사이트 로고 SVG(블루, 원본)",
+        "source_url": "https://www.hyosungtnc.com/assets/images/common/logo/logo-hyosung-tnc-eng-blue.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist(css-bg)→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hyosungtnc.com/", "note": "[B] 공식 도메인이 CSS background로 logo-hyosung-tnc-eng-blue.svg(viewBox 141×16.2, #14008C)를 헤더 로고로 사용" },
+        { "type": "screenshot", "url": "https://www.hyosungtnc.com/", "note": "[검증] 렌더 → 'HYOSUNG TNC' 워드마크(효성 블루) 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high", "open_questions": ["'HYOSUNG' 마크는 그룹 공유 — 계열사 구분은 'TNC' 표기로"]
+      },
+      "status": "verified", "trademark_owner": "효성티앤씨 주식회사",
+      "notes": "브랜드색 #14008C(효성 블루). 11 paths."
+    },
+    {
+      "file": "hyosung-tnc-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "효성티앤씨 공식 로고 — 흰색 변형(공식 자산)",
+        "source_url": "https://www.hyosungtnc.com/assets/images/common/logo/logo-hyosung-tnc-eng-white.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://www.hyosungtnc.com/", "note": "[B] 공식이 제공하는 흰색 변형(eng-white) — 파생 아닌 공식 자산" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "효성티앤씨 주식회사", "notes": "공식 흰색(#FFFFFF) 변형."
+    }
+  ]
+}

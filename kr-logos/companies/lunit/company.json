@@ -1,0 +1,67 @@
+{
+  "id": "lunit",
+  "identity": {
+    "name_ko": "루닛",
+    "name_en": "Lunit",
+    "legal_name_ko": "주식회사 루닛",
+    "legal_name_en": "Lunit Inc.",
+    "aliases": ["루닛", "Lunit"],
+    "group_ko": null, "group_en": null,
+    "stock_code": "328130", "dart_corp_code": null,
+    "homepage": "https://www.lunit.io",
+    "industry": "의료 AI (영상 진단)",
+    "affiliate_note": "독립 의료AI 기업(코스닥 328130). 2013 설립, KAIST 출신 창업 1세대 AI 벤처."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "legal-name-match", "official-domain"],
+    "note": "Lunit Inc. = 코스닥 328130. 공식 도메인 lunit.io 푸터에 'Lunit Inc.' + 강남 본사 주소. 로고 자산도 lunit.io 호스팅.",
+    "sources": ["https://www.lunit.io/", "https://ko.wikipedia.org/wiki/루닛"]
+  },
+  "history": {
+    "founded": "2013-08-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://ko.wikipedia.org/wiki/루닛", "https://www.lunit.io/"]
+  },
+  "related_sources": ["https://www.lunit.io/", "https://ko.wikipedia.org/wiki/루닛"],
+  "notes": "검증 프레임워크 적용(무명). 로고 자산 파일명 'Lunit_Logo.svg'(2025/08 업로드). kind(lockup vs wordmark)는 배치 렌더로 확정 예정.",
+  "assets": [
+    {
+      "file": "lunit-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "루닛 공식 사이트(lunit.io) 로고 자산",
+        "source_url": "https://lunit.io/en/wp-content/uploads/2025/08/Lunit_Logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "browser:asset-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.lunit.io/", "note": "[B] 공식 도메인이 'Lunit_Logo.svg'(viewBox 166×45, 7 path)를 로고로 서빙" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["kind(lockup/wordmark) 배치 렌더로 확정 필요", "단일 출처(C 교차확인 1개) — medium에 가까움"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 루닛",
+      "notes": "원본 검정. viewBox 0 0 166 45, 7 paths."
+    },
+    {
+      "file": "lunit-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "루닛 공식 로고 — 다크용(검정→화이트 파생)",
+        "source_url": "https://lunit.io/en/wp-content/uploads/2025/08/Lunit_Logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://www.lunit.io/", "note": "동일 path, 검정→화이트" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "주식회사 루닛", "notes": "fill #fff."
+    }
+  ]
+}

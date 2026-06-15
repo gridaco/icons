@@ -1,0 +1,67 @@
+{
+  "id": "solus-advanced-materials",
+  "identity": {
+    "name_ko": "솔루스첨단소재",
+    "name_en": "Solus Advanced Materials",
+    "legal_name_ko": "솔루스첨단소재 주식회사",
+    "legal_name_en": "Solus Advanced Materials Co., Ltd.",
+    "aliases": ["솔루스첨단소재", "Solus Advanced Materials", "두산솔루스", "Doosan Solus"],
+    "group_ko": "스카이레이크(사모펀드) 계열", "group_en": "Skylake Equity Partners",
+    "stock_code": "336370", "dart_corp_code": null,
+    "homepage": "https://www.solusadvancedmaterials.com",
+    "industry": "전지박/동박·전자소재·바이오",
+    "affiliate_note": "KOSPI 336370. 구 두산솔루스 — 2020 두산이 스카이레이크에 매각, 2021 '솔루스첨단소재'로 사명변경. 전기차 전지박(엘레foil)·OLED 소재."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-brand-kit", "legal-name-match"],
+    "note": "공식 도메인 solusadvancedmaterials.com + KOSPI 336370 = 솔루스첨단소재(주). 공식 CI 페이지(/kr/intro/ci/)가 브랜드킷(SolusLogo_ai.zip, 16개 AI 변형)을 직접 배포 → T0 귀속.",
+    "sources": ["https://www.solusadvancedmaterials.com/kr/intro/ci/", "https://ko.wikipedia.org/wiki/솔루스첨단소재"]
+  },
+  "history": {
+    "founded": "2014-10-01", "last_rebrand": "2021-08-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/솔루스첨단소재", "https://www.solusadvancedmaterials.com/kr/intro/ci/"]
+  },
+  "related_sources": ["https://www.solusadvancedmaterials.com/kr/intro/ci/", "https://ko.wikipedia.org/wiki/솔루스첨단소재"],
+  "notes": "★랜덤 수집 테스트(5개 중, 개선 체크리스트 적용 — CI 페이지에서 T0 확보). CI 페이지의 SolusLogo_ai.zip(16변형: 단색/컬러 × 상하/좌우 × 영문/한글/한영/중문). ★컬러본(좌우-영문)은 그라데이션이 raster 임베드(2 image)라 부적합 → 단색본(Logo_단색_좌우-영문.ai)을 pdftocairo로 변환(24 path, raster 0) 후 bbox 크롭. 렌더로 '인터로킹 심볼 + Solus Advanced Materials' 락업 확인. light=#23201F, dark=#fff.",
+  "assets": [
+    {
+      "file": "solus-advanced-materials-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T0",
+        "source_name": "솔루스첨단소재 공식 CI 브랜드킷 단색 락업(AI)",
+        "source_url": "https://www.solusadvancedmaterials.com/download/intro/ci/SolusLogo_ai.zip",
+        "archive_url": null, "original_format": "ai(pdf1.6)",
+        "captured_at": "2026-06-15", "capture_method": "ci-page:brandkit→pdftocairo(ai→svg)→bbox-crop", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "brand-guideline", "url": "https://www.solusadvancedmaterials.com/kr/intro/ci/", "note": "[A/B] 공식 CI 페이지가 SolusLogo_ai.zip 브랜드킷 배포 → T0" },
+        { "type": "screenshot", "url": "https://www.solusadvancedmaterials.com/kr/intro/ci/", "note": "[검증] AI→SVG 변환·크롭 후 렌더 → 인터로킹 심볼 + 'Solus Advanced Materials' 락업 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-brand-kit", "ai-vector-conversion", "render-check", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["공식 컬러본은 그라데이션이 raster 임베드 → 색상 정확 벡터는 단색본 사용. 그라데이션 컬러 벡터가 필요하면 브랜드팀/재구성 필요"]
+      },
+      "status": "verified", "trademark_owner": "솔루스첨단소재 주식회사",
+      "notes": "단색 #23201F(밝은 배경용). 24 paths. 좌우-영문 변형."
+    },
+    {
+      "file": "solus-advanced-materials-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T0", "source_name": "솔루스첨단소재 단색 락업 — 다크용(#23201F→#fff 파생)",
+        "source_url": "https://www.solusadvancedmaterials.com/download/intro/ci/SolusLogo_ai.zip",
+        "archive_url": null, "original_format": "ai(pdf1.6)",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "brand-guideline", "url": "https://www.solusadvancedmaterials.com/kr/intro/ci/", "note": "동일 path, 단색 #fff" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "솔루스첨단소재 주식회사", "notes": "fill #fff."
+    }
+  ]
+}

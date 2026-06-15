@@ -1,0 +1,77 @@
+{
+  "id": "hyundai-autoever",
+  "identity": {
+    "name_ko": "현대오토에버",
+    "name_en": "Hyundai AutoEver",
+    "legal_name_ko": "현대오토에버 주식회사",
+    "legal_name_en": "Hyundai AutoEver Corp.",
+    "aliases": ["현대오토에버", "Hyundai AutoEver", "오토에버"],
+    "group_ko": "현대자동차그룹", "group_en": "Hyundai Motor Group",
+    "stock_code": "307950", "dart_corp_code": null,
+    "homepage": "https://www.hyundai-autoever.com",
+    "industry": "IT 서비스 (SI/내비게이션/소프트웨어)",
+    "affiliate_note": "현대자동차그룹 IT서비스 계열(KOSPI 307950). 2000 설립, 2019 현대엠엔소프트·현대오트론 합병. 차량SW·내비·SI. 대표 김윤구. 로고는 'HYUNDAI AutoEver' 워드마크(navy #004181, AutoEver 이탤릭 볼드 + 스워시)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 hyundai-autoever.com(=KOSPI 307950 현대오토에버(주)) + 현대차그룹. ★자산: 공식 사이트 정적 로고 미노출(자산 dir 404) → en.wikipedia 인포박스 SVG(T3) 사용. ★currency: en.wiki 현대오토에버 인포박스가 'Hyundai_AutoEver_logo.svg'(en.wiki 로컬 업로드)를 현행으로 사용. 렌더로 'HYUNDAI AutoEver' navy 워드마크 확인.",
+    "sources": ["https://www.hyundai-autoever.com/", "https://en.wikipedia.org/wiki/Hyundai_AutoEver", "https://en.wikipedia.org/wiki/File:Hyundai_AutoEver_logo.svg"]
+  },
+  "history": {
+    "founded": "2000-04-21", "last_rebrand": "2019-04-01", "is_original": false, "basis": "rebrand-date",
+    "note": "2000 오토에버닷컴 → 현대오토에버. 2019 합병. 'HYUNDAI AutoEver' navy 워드마크가 현행 CI(render-verified, en.wiki currency).",
+    "sources": ["https://ko.wikipedia.org/wiki/현대오토에버"]
+  },
+  "related_sources": ["https://www.hyundai-autoever.com/", "https://en.wikipedia.org/wiki/Hyundai_AutoEver", "https://ko.wikipedia.org/wiki/현대오토에버"],
+  "notes": "★/loop 순차 수집 38번(잔여 strict-high 2개 중 서브에이전트 랭킹 #1 — 이로써 고려아연만 남음). CI-우선: ②공식 정적 로고 미노출 → en.wikipedia 로컬 업로드 SVG(Commons 아님, en.wiki fair-use 로고 파일). ★currency: en.wiki 인포박스 동일 파일. 단색 navy #004181 → light(#004181)+dark(#fff). ★출처 주의: Commons 'Hyundai AutoEver logo.svg' API는 imageinfo 없음(파일이 en.wiki에만 존재) → upload.wikimedia.org/wikipedia/en/ 경로 직격. T3 confidence medium.",
+  "assets": [
+    {
+      "file": "hyundai-autoever-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "en.wikipedia 로컬 업로드 — Hyundai AutoEver logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/en/4/43/Hyundai_AutoEver_logo.svg",
+        "archive_url": "https://en.wikipedia.org/wiki/File:Hyundai_AutoEver_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "enwiki-upload-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hyundai-autoever.com/", "note": "[B 보강] 공식 도메인이 현대오토에버 사이트. 동일 'HYUNDAI AutoEver' navy 워드마크 사용" },
+        { "type": "screenshot", "url": "https://en.wikipedia.org/wiki/File:Hyundai_AutoEver_logo.svg", "note": "[검증] qlmanage 렌더 → 'HYUNDAI AutoEver'(navy #004181, AutoEver 이탤릭+스워시) 현행 로고와 일치. viewBox 15.89×4.76(wh 577×173), 16 path, raster 0" },
+        { "type": "third-party-reference", "url": "https://en.wikipedia.org/wiki/Hyundai_AutoEver", "note": "[C/D] en.wiki 인포박스가 동일 파일 사용 → currency 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "wikipedia-currency-cross-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(en.wiki) — 공식 사이트 직접 교차확인 미완(en.wiki 인포박스로 currency 보강)"]
+      },
+      "status": "verified", "trademark_owner": "현대오토에버 주식회사",
+      "notes": "'HYUNDAI AutoEver' 워드마크 navy #004181. viewBox 15.89×4.76, 16 path. light-bg용."
+    },
+    {
+      "file": "hyundai-autoever-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "Hyundai AutoEver 로고 — 다크용(#004181→#fff 단색 반전)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/en/4/43/Hyundai_AutoEver_logo.svg",
+        "archive_url": "https://en.wikipedia.org/wiki/File:Hyundai_AutoEver_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://en.wikipedia.org/wiki/File:Hyundai_AutoEver_logo.svg", "note": "동일 path, #004181→#FFFFFF (단색 로고 표준 반전)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "현대오토에버 주식회사",
+      "notes": "단색 #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

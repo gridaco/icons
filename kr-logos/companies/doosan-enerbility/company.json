@@ -1,0 +1,55 @@
+{
+  "id": "doosan-enerbility",
+  "identity": {
+    "name_ko": "두산에너빌리티",
+    "name_en": "Doosan Enerbility",
+    "legal_name_ko": "두산에너빌리티 주식회사",
+    "legal_name_en": "Doosan Enerbility Co., Ltd.",
+    "aliases": ["두산에너빌리티", "Doosan Enerbility", "두산중공업", "Doosan Heavy Industries"],
+    "group_ko": "두산그룹", "group_en": "Doosan Group",
+    "stock_code": "034020", "dart_corp_code": null,
+    "homepage": "https://www.doosanenerbility.com",
+    "industry": "발전설비·플랜트 (원전/가스터빈/풍력)",
+    "affiliate_note": "두산그룹 발전·플랜트 핵심사(KOSPI 034020). 두산중공업 → 2022-03-08 '두산에너빌리티' 사명변경. 원전·가스터빈·해상풍력·SMR. 대표 정연인·박상현. 브랜드는 두산 마스터 'DOOSAN' 블루 워드마크(#005eb8) 사용 + 'Enerbility' 명칭(전용 락업 벡터 미가용)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-asset-png"],
+    "note": "공식 도메인 doosanenerbility.com(=KOSPI 034020 두산에너빌리티(주))이 헤더 로고로 /images/common/logo-blue.png(블루 'DOOSAN' 워드마크) 서빙. 신원 확실. ★단 엔티티 전용 'DOOSAN Enerbility' 락업 벡터 부재: 공식은 PNG(바 DOOSAN), logo.svg는 에러페이지(catch-all), Commons에 두산에너빌리티 SVG 없음, en.wiki 인포박스도 바 'Doosan_logo_(en).png' 사용. 구 '두산중공업/Doosan Heavy' 로고는 배제(2022 리브랜드)."
+  },
+  "history": {
+    "founded": "1962-09-20", "last_rebrand": "2022-03-08", "is_original": false, "basis": "rebrand-date",
+    "note": "한국중공업 → 두산중공업 → 2022-03-08 '두산에너빌리티'. 두산 마스터 'DOOSAN' 블루 워드마크 + Enerbility 명칭이 현행. 전용 락업 벡터는 미확보.",
+    "sources": ["https://ko.wikipedia.org/wiki/두산에너빌리티"]
+  },
+  "related_sources": ["https://www.doosanenerbility.com/", "https://ko.wikipedia.org/wiki/두산에너빌리티", "https://en.wikipedia.org/wiki/Doosan_Enerbility"],
+  "notes": "★/loop 순차 수집 27번(인지도 high, 서브에이전트 랭킹 #1). ★카테고리: 신원 확실·전용 벡터 부재 → needs-review. CI-우선 전체 적용: ②공식 헤더=logo-blue.png(래스터 211×30, 바 'DOOSAN'), /images/common/logo.svg=에러페이지(catch-all 200 text/html), 'enerbility' 파일명 프로빙 전부 catch-all / ⑤Commons에 두산에너빌리티 SVG 없음 / en.wiki도 바 DOOSAN PNG. ★마스터 'DOOSAN' 워드마크 벡터는 [[doosan]] 엔트리에 보유(공유 마크) — 중복 배치 대신 전용 'DOOSAN Enerbility' 락업 확보를 remediation으로 남김. 구 두산중공업 로고 배제(2022 리브랜드).",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "두산에너빌리티 공식 헤더 로고 — 라스터(PNG, 바 DOOSAN 마스터 마크)",
+        "source_url": "https://www.doosanenerbility.com/images/common/logo-blue.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "browser:header-discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.doosanenerbility.com/", "note": "[A+B] 공식 도메인이 logo-blue.png(블루 'DOOSAN' 워드마크)를 헤더 로고로 서빙. 렌더 확인" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "vector-only-master-mark-no-entity-lockup"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "전용 'DOOSAN Enerbility' 락업 벡터 부재: 공식 PNG(바 DOOSAN) / logo.svg=에러 / Commons 없음 / en.wiki도 바 DOOSAN PNG",
+          "벡터 확보 경로: 두산에너빌리티 IR/홍보 브랜드킷(T0, 'DOOSAN Enerbility' 락업), 브라우저 추출, 또는 마스터 [[doosan]] DOOSAN 워드마크 + 공식 'Enerbility' 자획 결합(공식 출처 필요)",
+          "★참고: 마스터 'DOOSAN' 워드마크 벡터는 doosan 엔트리에 검증본 보유(중복 회피)"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "두산에너빌리티 주식회사",
+      "notes": "전용 락업 벡터 미가용(철저 확인). 신원 완료(034020). 공식은 마스터 DOOSAN 워드마크(공유)만 벡터 가용, Enerbility 전용 락업은 부재."
+    }
+  ]
+}

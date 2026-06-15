@@ -1,0 +1,76 @@
+{
+  "id": "amorepacific",
+  "identity": {
+    "name_ko": "아모레퍼시픽",
+    "name_en": "Amorepacific",
+    "legal_name_ko": "아모레퍼시픽 주식회사",
+    "legal_name_en": "Amorepacific Corporation",
+    "aliases": ["아모레퍼시픽", "Amorepacific", "AMOREPACIFIC", "태평양"],
+    "group_ko": "아모레퍼시픽그룹", "group_en": "Amorepacific Group",
+    "stock_code": "090430", "dart_corp_code": null,
+    "homepage": "https://www.amorepacific.com",
+    "industry": "화장품 제조",
+    "affiliate_note": "아모레퍼시픽그룹 화장품 핵심사(KOSPI 090430). 1945 태평양화학 연원. 설화수·라네즈·이니스프리 등. 대표 김승환. 로고는 'AMOREPACIFIC' 워드마크(navy #0e1a44, AMORE 볼드 + PACIFIC 라이트). ★별개 엔티티: 지주 아모레퍼시픽그룹(002790)과 구분."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 amorepacific.com(=KOSPI 090430 아모레퍼시픽(주)). ★자산: 공식 헤더 logo_b.png(PNG) → 위키미디어 공용 'AMOREPACIFIC logo.svg'(T3, 11 path, raster 0) 사용. 렌더로 'AMOREPACIFIC' navy 워드마크 현행 로고 확인. ★namesake: 지주 아모레퍼시픽그룹(002790)과 구분.",
+    "sources": ["https://www.amorepacific.com/", "https://ko.wikipedia.org/wiki/아모레퍼시픽", "https://commons.wikimedia.org/wiki/File:AMOREPACIFIC_logo.svg"]
+  },
+  "history": {
+    "founded": "1945-09-05", "last_rebrand": "2016-01-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1945 태평양화학 → 2006 아모레퍼시픽. 2016 HQ 이전과 함께 'AMOREPACIFIC' 워드마크 정비. render-verified.",
+    "sources": ["https://ko.wikipedia.org/wiki/아모레퍼시픽"]
+  },
+  "related_sources": ["https://www.amorepacific.com/", "https://ko.wikipedia.org/wiki/아모레퍼시픽", "https://commons.wikimedia.org/wiki/File:AMOREPACIFIC_logo.svg"],
+  "notes": "★/loop 순차 수집 34번(서브에이전트 랭킹 #1). CI-우선: ②공식 헤더=PNG → ⑤위키미디어 공용. ★인코딩 함정: Commons 'AMOREPACIFIC logo.svg'가 UTF-16(BOM 0xff 0xfe) → utf-16로 읽어 utf-8 재기록(안 그러면 텍스트툴이 binary로 보고 편집 무효). viewBox 없음 → '0 0 300 30' 추가. 단색 #0e1a44 → light(#0e1a44)+dark(#fff). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "amorepacific-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — AMOREPACIFIC logo.svg (UTF-16→UTF-8, viewBox 추가)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/AMOREPACIFIC_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:AMOREPACIFIC_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+utf16-fix+viewbox", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.amorepacific.com/", "note": "[B 보강] 공식 도메인이 아모레퍼시픽 사이트. 동일 'AMOREPACIFIC' navy 워드마크 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:AMOREPACIFIC_logo.svg", "note": "[검증] qlmanage 렌더 → 'AMOREPACIFIC'(navy #0e1a44, AMORE 볼드 + PACIFIC 라이트) 현행 로고와 일치. viewBox 300×30(추가), 11 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(위키미디어) — 공식 직접 교차확인 미완(브랜드 시각 일치는 확인)"]
+      },
+      "status": "verified", "trademark_owner": "아모레퍼시픽 주식회사",
+      "notes": "'AMOREPACIFIC' 워드마크 navy #0e1a44. viewBox 300×30, 11 path. light-bg용."
+    },
+    {
+      "file": "amorepacific-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "AMOREPACIFIC 로고 — 다크용(#0e1a44→#fff 단색 반전)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/AMOREPACIFIC_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:AMOREPACIFIC_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:AMOREPACIFIC_logo.svg", "note": "동일 path, #0e1a44→#FFFFFF (단색 로고 표준 반전)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "아모레퍼시픽 주식회사",
+      "notes": "단색 #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

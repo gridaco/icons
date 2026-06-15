@@ -1,0 +1,73 @@
+{
+  "id": "hyundai-rotem",
+  "identity": {
+    "name_ko": "현대로템",
+    "name_en": "Hyundai Rotem",
+    "legal_name_ko": "현대로템 주식회사",
+    "legal_name_en": "Hyundai Rotem Company",
+    "aliases": ["현대로템", "Hyundai Rotem", "한국철도차량", "로템"],
+    "group_ko": "현대자동차그룹", "group_en": "Hyundai Motor Group",
+    "stock_code": "064350", "dart_corp_code": null,
+    "homepage": "https://www.hyundai-rotem.co.kr",
+    "industry": "철도차량·방산·플랜트",
+    "affiliate_note": "현대자동차그룹 계열(KOSPI 064350). 1999 철도차량 통합법인 → 2007 현대로템. KTX·전동차·K2 흑표 전차·수소플랜트. 대표 이용배. 로고는 'HYUNDAI'(navy #0A2369) + 'Rotem'(navy) + 'o' 위 빨강 액센트(#FF0000)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-asset-path", "group-affiliation"],
+    "note": "공식 도메인 hyundai-rotem.co.kr(=KOSPI 064350 현대로템(주)) + 현대차그룹. ★T1 직격: 공식 사이트가 /common_ko/images/logo-ci-original.svg(navy/red) + logo-ci-white.svg(white/red)를 직접 서빙. 렌더로 'HYUNDAI Rotem' + 빨강 액센트 현행 로고 확인.",
+    "sources": ["https://www.hyundai-rotem.co.kr/ko/company/ci/content.do", "https://ko.wikipedia.org/wiki/현대로템"]
+  },
+  "history": {
+    "founded": "1999-07-01", "last_rebrand": "2007-12-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1999 한국철도차량(현대정공+대우중공업+한진중공업 철도부문 통합) → 2007 현대로템. 'HYUNDAI Rotem' navy + 빨강 액센트가 현행 CI(T1 라이브 자산).",
+    "sources": ["https://ko.wikipedia.org/wiki/현대로템"]
+  },
+  "related_sources": ["https://www.hyundai-rotem.co.kr/ko/company/ci/content.do", "https://ko.wikipedia.org/wiki/현대로템"],
+  "notes": "★/loop 순차 수집 37번(잔여 strict-high 3개 중 서브에이전트 랭킹 #1; 고려아연·현대오토에버는 대기). ★T1 직격 — 공식 사이트가 logo-ci-original.svg(navy #0A2369 + red #FF0000) + logo-ci-white.svg(white + red) 두 공식 변형을 직접 서빙(파생 아님). 서브에이전트가 CI 페이지에서 정확한 자산 경로 발굴. light/dark 모두 공식. confidence high.",
+  "assets": [
+    {
+      "file": "hyundai-rotem-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "현대로템 공식 CI — logo-ci-original.svg (navy/red)",
+        "source_url": "https://www.hyundai-rotem.co.kr/common_ko/images/logo-ci-original.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:official-ci-asset→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hyundai-rotem.co.kr/ko/company/ci/content.do", "note": "[A+B] 공식 도메인(KOSPI 064350)이 /common_ko/images/logo-ci-original.svg를 CI 자산으로 서빙. viewBox 461×156, 13 path, raster 0" },
+        { "type": "screenshot", "url": "https://www.hyundai-rotem.co.kr/", "note": "[검증] qlmanage 렌더 → 'HYUNDAI'(navy #0A2369) + 'Rotem'(navy) + 빨강 액센트(#FF0000) 현행 로고와 일치" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "현대로템 주식회사",
+      "notes": "'HYUNDAI Rotem'(navy #0A2369) + 빨강 액센트(#FF0000). viewBox 461×156, 13 path. light-bg용."
+    },
+    {
+      "file": "hyundai-rotem-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "현대로템 공식 CI — logo-ci-white.svg (white/red, 다크용)",
+        "source_url": "https://www.hyundai-rotem.co.kr/common_ko/images/logo-ci-white.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:official-ci-asset→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hyundai-rotem.co.kr/ko/company/ci/content.do", "note": "[A+B] 공식이 logo-ci-white.svg(white 워드마크 + 빨강 액센트)를 다크용 변형으로 직접 서빙 — 파생 아님" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "현대로템 주식회사",
+      "notes": "white 'HYUNDAI Rotem' + 빨강 액센트(#FF0000). viewBox 461×156, 13 path. 공식 다크용."
+    }
+  ]
+}

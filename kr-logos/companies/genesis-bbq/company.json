@@ -1,0 +1,80 @@
+{
+  "id": "genesis-bbq",
+  "identity": {
+    "name_ko": "제너시스BBQ",
+    "name_en": "Genesis BBQ",
+    "legal_name_ko": "주식회사 제너시스비비큐",
+    "legal_name_en": "Genesis BBQ Co., Ltd.",
+    "aliases": ["제너시스BBQ", "BBQ", "비비큐", "bb.q", "BBQ치킨", "bb.q chicken"],
+    "group_ko": "제너시스그룹", "group_en": "Genesis Group",
+    "stock_code": null, "dart_corp_code": null,
+    "homepage": "https://www.bbq.co.kr",
+    "industry": "프랜차이즈 외식 (치킨)",
+    "affiliate_note": "비상장(제너시스그룹). 1995 설립, 창업주 윤홍근 회장. 브랜드 'bb.q'(BBQ치킨/bb.q chicken). 사이트 푸터 대표자 박지만."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["business-registration-number", "legal-name-match", "official-domain"],
+    "note": "공식 도메인 bbq.co.kr 푸터: (주)제너시스비비큐 + 사업자등록번호 207-81-43555 + 대표자 박지만. 사업자번호=신원앵커(A). 비상장이라 종목코드 없음.",
+    "sources": ["https://www.bbq.co.kr/", "https://ko.wikipedia.org/wiki/제너시스BBQ"]
+  },
+  "history": {
+    "founded": "1995-09-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://ko.wikipedia.org/wiki/제너시스BBQ", "https://www.bbq.co.kr/"]
+  },
+  "related_sources": ["https://www.bbq.co.kr/", "https://ko.wikipedia.org/wiki/제너시스BBQ"],
+  "notes": "★랜덤 수집 테스트(3차 배치, 5개 중). 공식 로고 SVG(/images/symbols/logo-red.svg, logo-blue.svg) 직격(301 리다이렉트→ -L). 렌더로 'bb.q' 워드마크 확인. 공식 red(#b92c35)+blue(#324266) 2색 제공 — red 기본(light), white 파생(dark), blue 공식변형 보존.",
+  "assets": [
+    {
+      "file": "genesis-bbq-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "BBQ 공식 사이트 로고 SVG (red)",
+        "source_url": "https://www.bbq.co.kr/images/symbols/logo-red.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist→curl(-L)", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.bbq.co.kr/", "note": "[B] 공식 도메인이 logo-red.svg(viewBox 75×33, 단일 path #b92c35 'bb.q')를 로고로 서빙" },
+        { "type": "screenshot", "url": "https://www.bbq.co.kr/", "note": "[검증] 렌더 → 'bb.q' 워드마크 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "주식회사 제너시스비비큐",
+      "notes": "'bb.q' 워드마크, red #b92c35. 1 path."
+    },
+    {
+      "file": "genesis-bbq-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "BBQ 로고 — 다크용(red→white 파생)",
+        "source_url": "https://www.bbq.co.kr/images/symbols/logo-red.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://www.bbq.co.kr/", "note": "동일 path, #b92c35→#ffffff" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "주식회사 제너시스비비큐", "notes": "fill #ffffff."
+    },
+    {
+      "file": "genesis-bbq-wordmark-blue.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "BBQ 공식 사이트 로고 SVG (blue 변형)",
+        "source_url": "https://www.bbq.co.kr/images/symbols/logo-blue.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist→curl(-L)", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://www.bbq.co.kr/", "note": "[B] 공식이 제공하는 blue 변형 (#324266)" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"], "confidence": "high", "open_questions": ["공식 색상 변형(blue) — light/dark 외 별도 컬러축"] },
+      "status": "verified", "trademark_owner": "주식회사 제너시스비비큐", "notes": "공식 blue 변형 #324266. 1 path."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "yanolja",
+  "identity": {
+    "name_ko": "야놀자",
+    "name_en": "Yanolja",
+    "legal_name_ko": "주식회사 야놀자",
+    "legal_name_en": "Yanolja Co., Ltd.",
+    "aliases": ["야놀자", "Yanolja", "NOL", "놀유니버스"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": null,
+    "dart_corp_code": null,
+    "homepage": "https://www.yanoljagroup.com",
+    "industry": "여행/숙박 플랫폼 (비상장)",
+    "affiliate_note": "★현행성 확인: 'NOL'은 소비자 슈퍼앱 브랜드이고, 그룹/법인(야놀자)의 현행 CI는 오렌지 'yanolja' 로고 — 공식 그룹 사이트(yanoljagroup.com) 헤더가 이를 현재 사용. 본 엔트리는 야놀자 코퍼레이트 마크."
+  },
+  "history": {
+    "founded": "2005-03-01",
+    "last_rebrand": "2017",
+    "is_original": false,
+    "basis": "rebrand-news",
+    "sources": [
+      "https://namu.wiki/w/야놀자",
+      "https://www.yanoljagroup.com/ko"
+    ]
+  },
+  "related_sources": [
+    "https://www.yanoljagroup.com/ko",
+    "https://www.yanoljagroup.com/brand_center",
+    "https://namu.wiki/w/야놀자"
+  ],
+  "notes": "2005-03 창립. 오렌지 CI(#F54B1E, 2017) 도입. 자산 id 'Yanolja_Logo_RGB_Orange'. NOL은 별도 소비자 브랜드 — 코퍼레이트 로고는 야놀자 오렌지.",
+  "assets": [
+    {
+      "file": "yanolja-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "야놀자 그룹 공식 사이트(yanoljagroup.com) 헤더 로고 자산",
+        "source_url": "https://www.yanoljagroup.com/common/ko/images/yanolja-logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.yanoljagroup.com/ko",
+          "note": "공식 그룹 사이트 헤더가 background-image로 yanolja-logo.svg(오렌지 심볼+워드마크)를 현재 사용 — DOM+스크린샷 확인 2026-06-14. asset id 'Yanolja_Logo_RGB_Orange'."
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-official-header", "vector-integrity-check", "brand-hex-check"],
+        "confidence": "high",
+        "open_questions": ["오렌지 CI 도입 정확 연도(2017 추정) 확정 필요"]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 야놀자",
+      "notes": "Yanolja Orange #F54B1E 심볼+워드마크 lockup (심볼 내부 화이트 컷). viewBox 0 0 140 32, 9 paths."
+    },
+    {
+      "file": "yanolja-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "야놀자 공식 로고 — 다크 배경용 화이트 녹아웃(파생)",
+        "source_url": "https://www.yanoljagroup.com/common/ko/images/yanolja-logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "derived-from-light",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.yanoljagroup.com/ko",
+          "note": "동일 path. 다크 배경용으로 오렌지 #F54B1E→화이트 → 전체 화이트 녹아웃(표준 처리 가정)"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "medium",
+        "open_questions": ["공식 화이트/모노 변형 미확인 — 녹아웃은 합리적 가정"]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 야놀자",
+      "notes": "파생: #F54B1E→#FFFFFF (전체 화이트 녹아웃)."
+    }
+  ]
+}

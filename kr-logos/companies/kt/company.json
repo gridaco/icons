@@ -1,0 +1,79 @@
+{
+  "id": "kt",
+  "identity": {
+    "name_ko": "KT",
+    "name_en": "KT",
+    "legal_name_ko": "주식회사 케이티",
+    "legal_name_en": "KT Corporation",
+    "aliases": ["KT", "케이티", "KT Corporation", "한국통신", "Korea Telecom", "olleh"],
+    "group_ko": "KT그룹", "group_en": "KT Group",
+    "stock_code": "030200", "dart_corp_code": null,
+    "homepage": "https://www.kt.com",
+    "industry": "전기 통신업 (유무선 통신)",
+    "affiliate_note": "KT그룹 지주격 본사(KOSPI 030200). 1981 한국전기통신공사 설립 → 2002 민영화 → (주)케이티. 국내 1위 유선/2위 무선 통신. 대표 김영섭. 로고는 'kt' 워드마크(dark #231f20) + 빨강 리본(#ed1c24)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 kt.com(=KOSPI 030200 (주)케이티). ★자산: 공식 사이트가 JS SPA라 정적 로고 미노출(헤더 경로 0) → 위키미디어 공용 SVG(T3) 사용. 'KT Corp 2D logo.svg'(2 path, raster 0)를 렌더 → 현행 'kt+빨강리본' 로고와 일치 확인. (746KB 'KT Logo.svg'는 <image> 4개 embedded raster라 배제.)",
+    "sources": ["https://www.kt.com/", "https://ko.wikipedia.org/wiki/KT_(기업)", "https://commons.wikimedia.org/wiki/File:KT_Corp_2D_logo.svg"]
+  },
+  "history": {
+    "founded": "1981-12-10", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1981 한국전기통신공사. 2002 민영화·(주)KT. 2009–2015 'olleh' 브랜드기 → 이후 현재의 'kt' 빨강리본 CI. 현행 브랜드와 일치(render-verified). 정확한 리브랜드 연도 미확정(open).",
+    "sources": ["https://ko.wikipedia.org/wiki/KT_(기업)"]
+  },
+  "related_sources": ["https://www.kt.com/", "https://ko.wikipedia.org/wiki/KT_(기업)", "https://commons.wikimedia.org/wiki/File:KT_Corp_2D_logo.svg"],
+  "notes": "★/loop 순차 수집 4번(인지도 high, 서브에이전트 랭킹 #1). CI-우선 체크리스트: ②홈페이지=JS SPA(정적 로고 0) → ⑤위키미디어 공용. ★Commons 변형 선택 주의: 'KT Logo.svg'(746KB)는 embedded raster(<image>×4) → 배제, 'KT Corp 2D logo.svg'(2 path, 1KB, clean)를 채택. 렌더로 'kt'(dark) + 빨강 리본 현행 로고 확인. dark 글자라 light-bg 전용 → dark 변형은 글자만 #fff로 파생(빨강 리본 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "kt-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — KT Corp 2D logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/KT_Corp_2D_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KT_Corp_2D_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.kt.com/", "note": "[B 보강] 공식 도메인이 KT 사이트(JS SPA·정적 로고 미노출). 동일 'kt'+빨강리본 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:KT_Corp_2D_logo.svg", "note": "[검증] qlmanage 렌더 → 'kt'(dark #231f20) + 빨강 리본(#ed1c24) 현행 로고와 일치. viewBox 69.73×56.89, 2 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS SPA라 동일 파일 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "현행 'kt' 리본 CI의 정확한 도입 연도 미확정"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 케이티",
+      "notes": "'kt' 워드마크(dark #231f20) + 빨강 리본(#ed1c24). viewBox 69.73×56.89, 2 path. light-bg용."
+    },
+    {
+      "file": "kt-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "KT 로고 — 다크용(글자 #231f20→#fff 파생, 빨강 리본 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/KT_Corp_2D_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KT_Corp_2D_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:KT_Corp_2D_logo.svg", "note": "동일 path, 중성 글자색만 #231f20→#ffffff. 브랜드 빨강(#ed1c24) 리본 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생 — 공식 다크 자산 미확인"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 케이티",
+      "notes": "글자 #ffffff + 빨강 리본 #ed1c24. 다크 배경용 파생."
+    }
+  ]
+}

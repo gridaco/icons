@@ -1,0 +1,54 @@
+{
+  "id": "kiwoom-securities",
+  "identity": {
+    "name_ko": "키움증권",
+    "name_en": "Kiwoom Securities",
+    "legal_name_ko": "키움증권 주식회사",
+    "legal_name_en": "Kiwoom Securities Co., Ltd.",
+    "aliases": ["키움증권", "키움", "Kiwoom", "Kiwoom Securities"],
+    "group_ko": "다우키움그룹", "group_en": "Daou Kiwoom Group",
+    "stock_code": "039490", "dart_corp_code": null,
+    "homepage": "https://www.kiwoom.com",
+    "industry": "증권/금융투자",
+    "affiliate_note": "다우키움그룹 계열(KOSPI 039490). 2000 키움닷컴증권 설립 → 2007 키움증권. 국내 주식 위탁매매 점유율 1위. 대표 엄주성. (프로야구 '키움 히어로즈' 메인스폰서)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "representative-match", "group-affiliation"],
+    "note": "공식 도메인 kiwoom.com + KOSPI 039490 = 키움증권(주), 대표 엄주성(KIND 일치). 다우키움그룹 계열. 신원은 확실하나 공식 벡터 자산 부재.",
+    "sources": ["https://www.kiwoom.com/", "https://ko.wikipedia.org/wiki/키움증권"]
+  },
+  "history": {
+    "founded": "2000-01-01", "last_rebrand": "2007-09-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/키움증권", "https://www.kiwoom.com/"]
+  },
+  "related_sources": ["https://www.kiwoom.com/", "https://ko.wikipedia.org/wiki/키움증권"],
+  "notes": "★랜덤 수집 테스트(5개 중). ★카테고리: 벡터 미가용 — 개선 체크리스트를 끝까지 적용했으나 벡터 부재 확인: ①헤더 로고가 PNG(header-logo-fontNN.png, 페이지 SVG 0개) ②자산 디렉터리에 logo.svg 등 없음(probe 전부 비200) ③CI 다운로드 페이지 없음(웹검색 무소득, '회사소개'는 JS링크) ④위키미디어 커먼즈에 키움증권 기업 로고 SVG 없음(히어로즈 야구단 이미지만). 신원 확실(종목코드 039490)하나 T0/T1/T3 벡터 모두 부재 → needs-review.",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "키움증권 공식 사이트 헤더 로고 — 라스터 전용(PNG)",
+        "source_url": "https://www1.kiwoom.com/h/kws/assets/images/common/header-logo-font01.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "browser:css-bg-discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.kiwoom.com/", "note": "[B] 공식 도메인이 header-logo-font01~04.png를 헤더 로고로 서빙. 페이지 SVG 0개" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "raster-only-confirmed-thorough"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "전체 체크리스트 적용 후에도 벡터 부재: 홈페이지 PNG / 자산디렉터리 SVG 없음 / CI 다운로드 없음 / 커먼즈 SVG 없음",
+          "벡터 확보 경로: 키움 홍보·IR팀 브랜드킷 요청(T0), 또는 T4 재구성. 현 PNG는 식별·참조용"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "키움증권 주식회사",
+      "notes": "벡터 미가용(철저 확인). 식별 완료, 벡터 자산만 부재."
+    }
+  ]
+}

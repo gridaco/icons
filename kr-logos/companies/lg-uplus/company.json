@@ -1,0 +1,77 @@
+{
+  "id": "lg-uplus",
+  "identity": {
+    "name_ko": "LG유플러스",
+    "name_en": "LG Uplus",
+    "legal_name_ko": "주식회사 엘지유플러스",
+    "legal_name_en": "LG Uplus Corp.",
+    "aliases": ["LG유플러스", "엘지유플러스", "LG Uplus", "LG U+", "U+", "LG텔레콤", "LG파워콤"],
+    "group_ko": "LG그룹", "group_en": "LG Group",
+    "stock_code": "032640", "dart_corp_code": null,
+    "homepage": "https://www.lguplus.com",
+    "industry": "전기 통신업 (이동통신 3위)",
+    "affiliate_note": "LG그룹 통신사(KOSPI 032640). 2010 LG텔레콤·데이콤·파워콤 합병. 이동통신 3위. 대표 홍범식. 로고는 LG '얼굴' 빨강 원 심볼(#C00C3F + 흰 페이스) + 'LG U+' 워드마크(회색 #6D6E71, '+'는 빨강) — LG 계열 표준 락업."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 lguplus.com(=KOSPI 032640 (주)엘지유플러스) + LG그룹. ★자산: 위키미디어 공용 'LG U+ CI.svg'(T3, 5 path, raster 0) 사용. ★currency 확인: ko.wiki LG유플러스 인포박스가 'LG U+ CI.svg'를 현행으로 사용. ★서브에이전트 'magenta heart' 주장 오류 → 실제 LG 빨강 얼굴(#C00C3F) + 회색 'LG U+'(#6D6E71).",
+    "sources": ["https://www.lguplus.com/", "https://ko.wikipedia.org/wiki/LG유플러스", "https://commons.wikimedia.org/wiki/File:LG_U%2B_CI.svg"]
+  },
+  "history": {
+    "founded": "1996-07-11", "last_rebrand": "2010-07-01", "is_original": false, "basis": "rebrand-date",
+    "note": "2010 LG텔레콤+데이콤+파워콤 합병 'LG U+'. LG 얼굴 심볼 + 'LG U+' 회색 워드마크가 현행 CI(ko.wiki 인포박스로 currency 확인).",
+    "sources": ["https://ko.wikipedia.org/wiki/LG유플러스"]
+  },
+  "related_sources": ["https://www.lguplus.com/", "https://ko.wikipedia.org/wiki/LG유플러스", "https://commons.wikimedia.org/wiki/File:LG_U%2B_CI.svg"],
+  "notes": "★/loop 순차 수집 35번(서브에이전트 랭킹 #1). CI-우선: ②공식 정적 로고 미노출 → ⑤위키미디어 공용 'LG U+ CI.svg'. ★서브에이전트 색상 오정보 교정: 'magenta #E6007E heart' 주장 → 실제 LG 계열 표준(빨강 얼굴 #C00C3F + 회색 'LG U+' #6D6E71, '+'만 빨강). ko.wiki 인포박스로 currency 확인. viewBox 없음 → '0 0 139.866 38.548' 추가. light 원본 + dark는 회색 'LG U' #6D6E71→#fff(빨강 얼굴/+ 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "lg-uplus-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — LG U+ CI.svg (viewBox 추가)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LG_U%2B_CI.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:LG_U%2B_CI.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+viewbox", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.lguplus.com/", "note": "[B 보강] 공식 도메인이 LG유플러스 사이트. 동일 LG 얼굴+LG U+ 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:LG_U%2B_CI.svg", "note": "[검증] qlmanage 렌더 → LG 빨강 얼굴 원(#C00C3F+흰 페이스) + 'LG U+'(회색 #6D6E71, + 빨강) 현행 로고와 일치. 5 path, raster 0" },
+        { "type": "third-party-reference", "url": "https://ko.wikipedia.org/wiki/LG유플러스", "note": "[C/D] ko.wiki 인포박스가 동일 파일 사용 → currency 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "wikipedia-currency-cross-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(위키미디어) — 공식 직접 교차확인 미완(ko.wiki 인포박스로 currency 보강)"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 엘지유플러스",
+      "notes": "LG 빨강 얼굴 원(#C00C3F) + 'LG U+'(회색 #6D6E71, + 빨강). viewBox 139.87×38.55, 5 path. light-bg용."
+    },
+    {
+      "file": "lg-uplus-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "LG U+ 로고 — 다크용('LG U' 회색 #6D6E71→#fff 파생, 빨강 얼굴/+ 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LG_U%2B_CI.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:LG_U%2B_CI.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:LG_U%2B_CI.svg", "note": "동일 path, 'LG U' 회색 #6D6E71→#FFFFFF. LG 빨강 얼굴(#C00C3F)+'+'·흰 페이스 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 엘지유플러스",
+      "notes": "'LG U' #FFFFFF + LG 빨강 얼굴/+ . 다크 배경용 파생."
+    }
+  ]
+}

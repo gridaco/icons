@@ -1,0 +1,78 @@
+{
+  "id": "hmm",
+  "identity": {
+    "name_ko": "HMM",
+    "name_en": "HMM",
+    "legal_name_ko": "에이치엠엠 주식회사",
+    "legal_name_en": "HMM Co., Ltd.",
+    "aliases": ["HMM", "에이치엠엠", "현대상선", "Hyundai Merchant Marine"],
+    "group_ko": null, "group_en": null,
+    "stock_code": "011200", "dart_corp_code": null,
+    "homepage": "https://www.hmm21.com",
+    "industry": "해상 운송 (컨테이너 선사)",
+    "affiliate_note": "국내 1위 컨테이너 선사(KOSPI 011200). 1976 아세아상선 → 현대상선 → 2020-04 'HMM' 사명·CI 변경. 산업은행 등 채권단 관리(現 하림그룹 인수 진행). 대표 김경배. 로고는 navy 'HMM' 워드마크(#202857) + 빨강 액센트 라인/노치(#ee242d)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 hmm21.com(=KOSPI 011200 에이치엠엠(주)). ★자산: 공식 사이트 JS 셸(1KB) → 위키미디어 공용 'HMM Logo Basic Form.svg'(T3, 4 path, raster 0) 사용. 렌더로 navy 'HMM' + 빨강 액센트 현행 로고 확인(2020 리브랜드, 구 '현대상선'/H-globe 아님).",
+    "sources": ["https://www.hmm21.com/", "https://ko.wikipedia.org/wiki/HMM", "https://commons.wikimedia.org/wiki/File:HMM_Logo_Basic_Form.svg"]
+  },
+  "history": {
+    "founded": "1976-03-25", "last_rebrand": "2020-04-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1976 아세아상선 → 현대상선 → 2020-04 'HMM'. navy 'HMM' + 빨강 액센트가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/HMM"]
+  },
+  "related_sources": ["https://www.hmm21.com/", "https://ko.wikipedia.org/wiki/HMM", "https://commons.wikimedia.org/wiki/File:HMM_Logo_Basic_Form.svg"],
+  "notes": "★/loop 순차 수집 23번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식=JS 셸 → ⑤위키미디어 공용 'HMM Logo Basic Form.svg'. ★currency 확인: 2020 리브랜드 후 navy 'HMM'(구 현대상선/H-globe 배제). ★색상 교정: 서브에이전트 'HMM Blue #003B7E' → 실제 navy #202857 + 빨강 #ee242d 액센트. light 원본 + dark는 'HMM' #202857→#fff(빨강 액센트 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "hmm-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — HMM Logo Basic Form.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/HMM_Logo_Basic_Form.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:HMM_Logo_Basic_Form.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hmm21.com/", "note": "[B 보강] 공식 도메인이 HMM 사이트(JS 셸). 동일 navy HMM+빨강 액센트 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:HMM_Logo_Basic_Form.svg", "note": "[검증] qlmanage 렌더 → navy 'HMM'(#202857) + 빨강 액센트 라인(#ee242d) 현행 로고와 일치. viewBox 156×67, 4 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS 셸이라 직접 교차확인 미완(브랜드 시각 일치는 확인)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "에이치엠엠 주식회사",
+      "notes": "navy 'HMM'(#202857) + 빨강 액센트(#ee242d). viewBox 156×67, 4 path. light-bg용."
+    },
+    {
+      "file": "hmm-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "HMM 로고 — 다크용('HMM' #202857→#fff 파생, 빨강 액센트 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/HMM_Logo_Basic_Form.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:HMM_Logo_Basic_Form.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:HMM_Logo_Basic_Form.svg", "note": "동일 path, 'HMM' navy #202857→#FFFFFF. 빨강 액센트(#ee242d) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "에이치엠엠 주식회사",
+      "notes": "'HMM' #FFFFFF + 빨강 액센트. 다크 배경용 파생."
+    }
+  ]
+}

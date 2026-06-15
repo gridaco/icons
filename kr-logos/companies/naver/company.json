@@ -1,0 +1,106 @@
+{
+  "id": "naver",
+  "identity": {
+    "name_ko": "네이버",
+    "name_en": "NAVER",
+    "legal_name_ko": "네이버 주식회사",
+    "legal_name_en": "NAVER Corporation",
+    "aliases": ["네이버", "NAVER", "naver"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": "035420",
+    "dart_corp_code": null,
+    "homepage": "https://www.navercorp.com",
+    "industry": "인터넷 플랫폼",
+    "affiliate_note": "NAVER 본체(종목코드 035420) 한정. 자회사 스노우·네이버웹툰·네이버클라우드 등과 구분. 그린 'NAVER' 워드마크는 본 브랜드 마크."
+  },
+  "history": {
+    "founded": "1999-06-02",
+    "last_rebrand": null,
+    "is_original": null,
+    "basis": "founding-date",
+    "sources": [
+      "https://www.navercorp.com/company/brandGuide",
+      "https://ko.wikipedia.org/wiki/네이버_(기업)"
+    ]
+  },
+  "related_sources": [
+    "https://www.navercorp.com/company/brandGuide",
+    "https://namu.wiki/w/네이버",
+    "https://ko.wikipedia.org/wiki/네이버_(기업)"
+  ],
+  "notes": "1999년 네이버컴으로 출발. 공식 브랜드 리소스(브랜드 가이드)가 그린 'NAVER' 워드마크를 Primary Logo로, 그린/화이트/블랙 3색 처리를 규정. 로고 도입/리뉴얼 정확 연도는 미확인.",
+  "assets": [
+    {
+      "file": "naver-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "NAVER 공식 사이트(navercorp.com) 헤더 워드마크 벡터 + 공식 브랜드 가이드 색상 규정",
+        "source_url": "https://www.navercorp.com/img/common/logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download + brand-guide-recolor",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "brand-guideline",
+          "url": "https://www.navercorp.com/company/brandGuide",
+          "note": "공식 브랜드 리소스 페이지가 그린(#03C75A) 'NAVER' 워드마크를 Primary Logo로 명시 — 형태·색 일치"
+        },
+        {
+          "type": "official-current-context",
+          "url": "https://www.navercorp.com/",
+          "note": "navercorp 헤더가 동일 5-path 워드마크 벡터(logo.svg)를 현재 사용 (DOM 확인 2026-06-14)"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-brand-guide", "vector-integrity-check", "brand-hex-check"],
+        "confidence": "high",
+        "open_questions": [
+          "현 워드마크 도입/리뉴얼 정확 연도 미확인 (브랜드 가이드에 일자 명시 없음)"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "네이버 주식회사",
+      "notes": "기하: 공식 헤더 벡터(5 path = N·A·V·E·R, 단색). 색: 브랜드 가이드 Primary 그린 #03C75A 적용. viewBox 0 0 104 20."
+    },
+    {
+      "file": "naver-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "NAVER 공식 헤더 워드마크 벡터 — 화이트(다크 배경용)",
+        "source_url": "https://www.navercorp.com/img/common/logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download + brand-guide-recolor",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "brand-guideline",
+          "url": "https://www.navercorp.com/company/brandGuide",
+          "note": "브랜드 가이드가 화이트 처리(logo-type-white)를 공식 규정 → 동일 path 화이트 적용"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "high",
+        "open_questions": []
+      },
+      "status": "verified",
+      "trademark_owner": "네이버 주식회사",
+      "notes": "light와 동일 path, fill #FFFFFF. 브랜드 가이드 화이트 처리에 부합."
+    }
+  ]
+}

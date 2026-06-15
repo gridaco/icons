@@ -1,0 +1,79 @@
+{
+  "id": "doosan",
+  "identity": {
+    "name_ko": "두산",
+    "name_en": "Doosan",
+    "legal_name_ko": "주식회사 두산",
+    "legal_name_en": "Doosan Corporation",
+    "aliases": ["두산", "Doosan", "두산그룹", "Doosan Corporation"],
+    "group_ko": "두산그룹", "group_en": "Doosan Group",
+    "stock_code": "000150", "dart_corp_code": null,
+    "homepage": "https://www.doosan.com",
+    "industry": "지주회사 (전자/연료전지/디지털 + 그룹 지주)",
+    "affiliate_note": "두산그룹 지주사 정점((주)두산, KOSPI 000150). 1896 박승직상점 연원, 국내 최고(最古) 기업. 두산에너빌리티·밥캣·로보틱스 등. 회장 박정원. 로고는 동적 이탤릭 'DOOSAN' 블루 워드마크(#005eb8) — 구 3중 사각형(blue/cyan/green) 로고에서 현 워드마크로 변경."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-asset-match"],
+    "note": "공식 도메인 doosan.com(=KOSPI 000150 (주)두산)이 헤더 로고로 /images/common/CI_new.png(블루 'DOOSAN' 워드마크)를 서빙. ★currency: Commons 'Doosan logo.svg'(3중 사각형)는 구버전이라 배제 → 'Doosan Group and Corporation - Logo.svg'(이탤릭 블루 워드마크)가 공식 CI_new.png와 일치 → 현행. 결정론적 path bbox로 풀 'DOOSAN' 확인(viewBox 1530으로 N 클리핑 보정).",
+    "sources": ["https://www.doosan.com/", "https://ko.wikipedia.org/wiki/두산", "https://commons.wikimedia.org/wiki/File:Doosan_Group_and_Corporation_-_Logo.svg"]
+  },
+  "history": {
+    "founded": "1896-08-01", "last_rebrand": "2023-01-01", "is_original": false, "basis": "rebrand-date",
+    "note": "구 3중 사각형 CI(1998~) → 근래 동적 이탤릭 'DOOSAN' 블루 워드마크로 변경(공식 CI_new.png 일치). 정확한 도입 연도 미확정.",
+    "sources": ["https://ko.wikipedia.org/wiki/두산"]
+  },
+  "related_sources": ["https://www.doosan.com/", "https://ko.wikipedia.org/wiki/두산", "https://commons.wikimedia.org/wiki/File:Doosan_Group_and_Corporation_-_Logo.svg"],
+  "notes": "★/loop 순차 수집 21번(인지도 high, 서브에이전트 랭킹 #1). ★currency 함정 회피: 공식 헤더 CI_new.png(블루 워드마크) ≠ Commons 'Doosan logo.svg'(구 3중 사각형) → 구버전 배제하고 'Doosan Group and Corporation - Logo.svg'(신 워드마크, #005eb8) 채택 후 공식과 시각 대조 일치 확인. path가 viewBox(1501) 살짝 초과(1525)해 'N' 클리핑 → viewBox 1530으로 보정. 단색 #005eb8 → light/dark. T3 confidence medium(공식이 raster라 직접 SVG 대조 불가).",
+  "assets": [
+    {
+      "file": "doosan-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Doosan Group and Corporation - Logo.svg (신 워드마크)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Doosan_Group_and_Corporation_-_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Doosan_Group_and_Corporation_-_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+viewbox-fix", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.doosan.com/", "note": "[A+B/D] 공식 헤더 CI_new.png(블루 'DOOSAN' 워드마크)와 시각 일치 → 현행. 구 3중 사각형 Commons 파일은 배제" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Doosan_Group_and_Corporation_-_Logo.svg", "note": "[검증] qlmanage 렌더 → 동적 이탤릭 'DOOSAN'(#005eb8) 현행 로고와 일치. viewBox 1530×210(보정), 2 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "official-raster-cross-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "공식 CI는 raster(CI_new.png)라 동일 SVG 직접 대조 불가(시각 일치로 currency 확인)",
+          "신 CI 정확한 도입 연도 미확정"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 두산",
+      "notes": "동적 이탤릭 'DOOSAN' 워드마크 #005eb8. viewBox 0 0 1530 210, 2 path. light-bg용."
+    },
+    {
+      "file": "doosan-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "Doosan 로고 — 다크용(#005eb8→#fff 단색 반전)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Doosan_Group_and_Corporation_-_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Doosan_Group_and_Corporation_-_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Doosan_Group_and_Corporation_-_Logo.svg", "note": "동일 path, #005eb8→#FFFFFF (단색 로고 표준 반전)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 두산",
+      "notes": "단색 #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

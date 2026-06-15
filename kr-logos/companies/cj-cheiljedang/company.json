@@ -1,0 +1,79 @@
+{
+  "id": "cj-cheiljedang",
+  "identity": {
+    "name_ko": "CJ제일제당",
+    "name_en": "CJ CheilJedang",
+    "legal_name_ko": "씨제이제일제당 주식회사",
+    "legal_name_en": "CJ CheilJedang Corp.",
+    "aliases": ["CJ제일제당", "씨제이제일제당", "CJ CheilJedang", "제일제당"],
+    "group_ko": "CJ그룹", "group_en": "CJ Group",
+    "stock_code": "097950", "dart_corp_code": null,
+    "homepage": "https://www.cj.co.kr",
+    "industry": "식품·바이오 제조",
+    "affiliate_note": "CJ그룹 식품·바이오 핵심사(KOSPI 097950). 1953 제일제당 → CJ그룹 모태. 비비고/햇반 등. 대표 강신호·손경식. 로고는 CJ 마스터 마크('CJ' 검정 + 생명의 꽃 블로섬 3색: blue #007DC3/orange #F8971D/red #E31B23). 전용 'CJ제일제당' 풀 락업(블로섬+제일제당 워드마크)은 래스터만 가용."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 cj.co.kr(=CJ제일제당 코퍼레이트 사이트, KOSPI 097950 씨제이제일제당(주)). ★자산: 공식 헤더/푸터 로고는 PNG(footer_logo.png, 'CJ제일제당' 흰색 락업) → 풀 락업 벡터 부재. 위키미디어 공용 'CJ logo.svg'(T3, CJ 마스터 마크 'CJ'+블로섬, 5 path raster 0) 사용. ★이건 CJ 마스터 심볼+레터마크(제일제당 descriptor 미포함) — 그룹 공유 마크.",
+    "sources": ["https://www.cj.co.kr/", "https://ko.wikipedia.org/wiki/CJ제일제당", "https://commons.wikimedia.org/wiki/File:CJ_logo.svg"]
+  },
+  "history": {
+    "founded": "1953-08-01", "last_rebrand": "2002-01-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1953 제일제당공업 → 2002 CJ 브랜드. CJ '생명의 꽃' 블로섬 + 'CJ' 레터마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/CJ제일제당"]
+  },
+  "related_sources": ["https://www.cj.co.kr/", "https://ko.wikipedia.org/wiki/CJ제일제당", "https://commons.wikimedia.org/wiki/File:CJ_logo.svg"],
+  "notes": "★/loop 순차 수집 29번(서브에이전트 랭킹 #1). CI-우선: ②공식 헤더/푸터=PNG('CJ제일제당' 락업, 벡터 부재) → ⑤위키미디어 공용 'CJ logo.svg'(CJ 마스터 마크). ★카테고리: CJ 마스터 심볼+'CJ' 레터마크 제공(제일제당 descriptor 워드마크는 raster-only → open). CJ 블로섬은 그룹 공유 마크지만 distinctive symbol이라 채택(Doosan 워드마크 케이스와 달리 고유 심볼). 'CJ' 레터 implicit-black → 명시 fill, dark는 #fff 파생(블로섬 컬러 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "cj-cheiljedang-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — CJ logo.svg (CJ 마스터 마크, implicit-black 명시화)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/CJ_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:CJ_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+explicit-fill", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.cj.co.kr/", "note": "[B 보강] 공식 도메인(CJ제일제당 코퍼레이트)이 CJ 블로섬+제일제당 브랜드 사용(헤더/푸터 PNG)" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:CJ_logo.svg", "note": "[검증] qlmanage 렌더 → 'CJ'(검정) + 생명의 꽃 블로섬(blue #007DC3/orange #F8971D/red #E31B23) CJ 마스터 마크와 일치. viewBox 320.8×275.4, 5 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 직접 교차확인 미완",
+          "★ CJ 마스터 마크(그룹 공유 'CJ'+블로섬) — 전용 'CJ제일제당' 풀 락업(+제일제당 워드마크)은 래스터만, 벡터 미확보(T0 브랜드킷 필요)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "씨제이제일제당 주식회사",
+      "notes": "CJ 마스터 마크: 'CJ'(#000000) + 블로섬(blue/orange/red). viewBox 320.8×275.4, 5 path. light-bg용(블로섬은 dark-safe)."
+    },
+    {
+      "file": "cj-cheiljedang-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "CJ 로고 — 다크용('CJ' #000→#fff 파생, 블로섬 컬러 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/CJ_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:CJ_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:CJ_logo.svg", "note": "동일 path, 중성 'CJ' #000→#FFFFFF. 블로섬(#007DC3/#F8971D/#E31B23) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생", "전용 제일제당 락업 미확보"]
+      },
+      "status": "verified", "trademark_owner": "씨제이제일제당 주식회사",
+      "notes": "'CJ' #FFFFFF + 블로섬. 다크 배경용 파생."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "kb-financial",
+  "identity": {
+    "name_ko": "KB금융",
+    "name_en": "KB Financial Group",
+    "legal_name_ko": "주식회사 케이비금융지주",
+    "legal_name_en": "KB Financial Group Inc.",
+    "aliases": ["KB금융", "KB금융그룹", "KB Financial Group", "케이비금융지주", "KB국민", "국민은행"],
+    "group_ko": "KB금융그룹", "group_en": "KB Financial Group",
+    "stock_code": "105560", "dart_corp_code": null,
+    "homepage": "https://www.kbfg.com",
+    "industry": "금융 지주회사",
+    "affiliate_note": "KB금융그룹 지주사(KOSPI 105560). 2008 설립. KB국민은행·KB증권·KB손해보험·KB국민카드 등 보유. 회장 양종희. 로고는 KB '별(★)' 심볼(amber #FCAF16) + 'KB' 워드마크(taupe #776C61) — 국민은행 시절부터의 상징 별 브랜드."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 kbfg.com(=KOSPI 105560 (주)KB금융지주). ★자산: 공식 사이트가 JS SPA라 정적 로고 미노출 → 위키미디어 공용 'KB logo.svg'(T3, 5 path 중 dashed 가이드 3개 제거 후 실로고 3 path) 사용. 렌더로 KB 별 심볼+'KB' 현행 로고와 일치 확인.",
+    "sources": ["https://www.kbfg.com/", "https://ko.wikipedia.org/wiki/KB금융지주", "https://commons.wikimedia.org/wiki/File:KB_logo.svg"]
+  },
+  "history": {
+    "founded": "2008-09-29", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "2008 KB금융지주 출범. KB 별 심볼은 국민은행 브랜드를 계승. 현행 브랜드와 일치(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/KB금융지주"]
+  },
+  "related_sources": ["https://www.kbfg.com/", "https://ko.wikipedia.org/wiki/KB금융지주", "https://commons.wikimedia.org/wiki/File:KB_logo.svg"],
+  "notes": "★/loop 순차 수집 5번(인지도 high, 서브에이전트 랭킹 #1). CI-우선 체크리스트: ②홈페이지=JS SPA(정적 로고 0) → ⑤위키미디어 공용. ★Commons 파일에 dashed 레이아웃 가이드(fill=none, stroke #00AEEF, degenerate 단일점 d) 3개 섞여있어 제거 후 실로고 3 path만 채택. 결정론적 path bbox로 viewBox 충전 확인(원본 이미 tight). 별 심볼 amber #FCAF16 + 'KB' taupe #776C61. light 공식 + dark는 KB 글자만 #fff 파생(별 amber 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "kb-financial-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — KB logo.svg (레이아웃 가이드 path 제거)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/KB_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KB_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+guide-strip", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.kbfg.com/", "note": "[B 보강] 공식 도메인이 KB금융 사이트(JS SPA·정적 로고 미노출). 동일 KB 별+KB 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:KB_logo.svg", "note": "[검증] qlmanage 렌더 → KB 별(amber #FCAF16) + 'KB'(taupe #776C61) 현행 로고와 일치. viewBox 110.68×36.18, 실로고 3 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "path-bbox-deterministic"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS SPA라 동일 파일 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "'KB금융그룹' 풀 워드마크(별+KB+금융그룹 텍스트) 별도 존재 가능 — 현재는 코어 KB 심볼마크"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 케이비금융지주",
+      "notes": "KB 별 심볼(#FCAF16) + 'KB' 워드마크(#776C61). viewBox ~111×37.5, 3 path. light-bg용(별은 dark-safe)."
+    },
+    {
+      "file": "kb-financial-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "KB 로고 — 다크용('KB' #776C61→#fff 파생, 별 amber 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/KB_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KB_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:KB_logo.svg", "note": "동일 path, 중성 'KB' 글자색만 #776C61→#FFFFFF. 브랜드 별 amber(#FCAF16) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생 — 공식 다크 자산 미확인"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 케이비금융지주",
+      "notes": "별 #FCAF16 + 'KB' #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

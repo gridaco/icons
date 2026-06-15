@@ -1,0 +1,104 @@
+{
+  "id": "kakao",
+  "identity": {
+    "name_ko": "카카오",
+    "name_en": "Kakao",
+    "legal_name_ko": "주식회사 카카오",
+    "legal_name_en": "Kakao Corp.",
+    "aliases": ["카카오", "Kakao", "kakao"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": "035720",
+    "dart_corp_code": null,
+    "homepage": "https://www.kakaocorp.com",
+    "industry": "인터넷 플랫폼",
+    "affiliate_note": "카카오 본체(종목코드 035720) 한정. 카카오뱅크·카카오페이·카카오게임즈 등 계열사와 구분. 소문자 'kakao' 워드마크가 본 브랜드."
+  },
+  "history": {
+    "founded": "2010-09-06",
+    "last_rebrand": null,
+    "is_original": null,
+    "basis": "founding-date",
+    "sources": [
+      "https://namu.wiki/w/카카오",
+      "https://ko.wikipedia.org/wiki/카카오_(기업)"
+    ]
+  },
+  "related_sources": [
+    "https://www.kakaocorp.com/page/",
+    "https://www.kakaocorp.com/page/detail/11340",
+    "https://namu.wiki/w/카카오"
+  ],
+  "notes": "(주)카카오 — 2010 설립, 2014 다음 합병 후 2015 '카카오' 사명. 공식 kakaocorp 헤더의 소문자 'kakao' 인라인 SVG를 window.name 전송법으로 추출(T3 위키미디어 옐로우본에서 업그레이드). 로고 도입/리뉴얼 정확 일자 미확인.",
+  "assets": [
+    {
+      "file": "kakao-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "카카오 공식 사이트(kakaocorp.com) 헤더 인라인 SVG",
+        "source_url": "https://www.kakaocorp.com/page/",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-15",
+        "capture_method": "browser:inline-svg-extract",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.kakaocorp.com/page/",
+          "note": "공식 헤더의 현행 'kakao' 인라인 SVG(viewBox 0 0 74 24, 검정) — DOM 직접 추출"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://www.kakaocorp.com/page/",
+          "note": "렌더 후 사용자가 소문자 'kakao' 워드마크임을 육안 확인"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-15",
+        "verified_by": "agent:claude-code + human",
+        "method": ["visual-render-check", "human-confirmation", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["현 워드마크 도입/리뉴얼 정확 연도 미확인"]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 카카오",
+      "notes": "검정 'kakao' 워드마크. viewBox 0 0 74 24. 'k' 사선은 luminance 마스크 사용(마스크용 white 유지)."
+    },
+    {
+      "file": "kakao-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "카카오 공식 인라인 워드마크 — 다크 배경용(검정→화이트)",
+        "source_url": "https://www.kakaocorp.com/page/",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-15",
+        "capture_method": "derived-from-light",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.kakaocorp.com/page/",
+          "note": "동일 path. 가시 path fill=black→white (luminance 마스크의 white는 유지) → 다크 배경용 화이트 워드마크"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-15",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "high",
+        "open_questions": []
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 카카오",
+      "notes": "가시 path만 #fff로 변경, 마스크 구조 유지."
+    }
+  ]
+}

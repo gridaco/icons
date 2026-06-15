@@ -1,0 +1,76 @@
+{
+  "id": "hanwha-ocean",
+  "identity": {
+    "name_ko": "한화오션",
+    "name_en": "Hanwha Ocean",
+    "legal_name_ko": "한화오션 주식회사",
+    "legal_name_en": "Hanwha Ocean Co., Ltd.",
+    "aliases": ["한화오션", "Hanwha Ocean", "대우조선해양", "DSME", "Daewoo Shipbuilding"],
+    "group_ko": "한화그룹", "group_en": "Hanwha Group",
+    "stock_code": "042660", "dart_corp_code": null,
+    "homepage": "https://www.hanwhaocean.com",
+    "industry": "조선·해양 (선박/해양플랜트/방산)",
+    "affiliate_note": "한화그룹 조선·해양 핵심사(KOSPI 042660). 대우조선해양(DSME) → 2023-05 한화 인수·'한화오션' 사명변경. 상선·LNG선·잠수함(방산). 대표 김희철. 로고는 한화 오렌지 3원(tri-circle) 심볼(#ed7100/#f49f51/#f7bb82) + 'Hanwha Ocean' 워드마크(#231815)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 hanwhaocean.com(=KOSPI 042660 한화오션(주)) + 한화그룹. ★자산: 위키미디어 공용 'Hanwha Ocean Logo.svg'(T3, 13 path, raster 0) 사용. 렌더로 한화 오렌지 3원 심볼 + 'Hanwha Ocean' 현행 로고 확인. ★currency: 2023 리브랜드 후 한화 오렌지 브랜드(구 '대우조선해양'/DSME 로고 배제). ★서브에이전트 'navy #003087' 주장 오류 → 실제 한화 오렌지+검정.",
+    "sources": ["https://www.hanwhaocean.com/", "https://ko.wikipedia.org/wiki/한화오션", "https://commons.wikimedia.org/wiki/File:Hanwha_Ocean_Logo.svg"]
+  },
+  "history": {
+    "founded": "2000-10-01", "last_rebrand": "2023-05-23", "is_original": false, "basis": "rebrand-date",
+    "note": "대우조선해양 → 2023-05 한화 인수·'한화오션'. 한화 오렌지 3원 심볼 + 'Hanwha Ocean'이 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/한화오션"]
+  },
+  "related_sources": ["https://www.hanwhaocean.com/", "https://ko.wikipedia.org/wiki/한화오션", "https://commons.wikimedia.org/wiki/File:Hanwha_Ocean_Logo.svg"],
+  "notes": "★/loop 순차 수집 26번(인지도 high, 서브에이전트 랭킹 #1). ⑤위키미디어 공용. 한화 계열 오렌지 3원 패턴(한화에어로스페이스와 동일 구조). ★currency: 2023 한화 인수 후 리브랜드 → 구 DSME 로고 배제. ★색상 교정: 서브에이전트 'navy/ocean blue' 주장 → 실제 한화 오렌지(#ed7100/#f49f51/#f7bb82)+검정(#231815). light 원본 + dark는 워드마크 #231815→#fff(오렌지 심볼 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "hanwha-ocean-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Hanwha Ocean Logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hanwha_Ocean_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hanwha_Ocean_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hanwhaocean.com/", "note": "[B 보강] 공식 도메인이 한화오션 사이트. 동일 한화 오렌지 3원+Hanwha Ocean 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Hanwha_Ocean_Logo.svg", "note": "[검증] qlmanage 렌더 → 한화 오렌지 3원 심볼(#ed7100/#f49f51/#f7bb82) + 'Hanwha Ocean'(#231815) 현행 로고와 일치. viewBox 134×105, 13 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(위키미디어) — 공식 직접 교차확인 미완(브랜드 시각 일치는 확인)"]
+      },
+      "status": "verified", "trademark_owner": "한화오션 주식회사",
+      "notes": "한화 오렌지 3원 심볼 + 'Hanwha Ocean'(#231815). viewBox 134×105, 13 path. light-bg용."
+    },
+    {
+      "file": "hanwha-ocean-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "Hanwha Ocean 로고 — 다크용(워드마크 #231815→#fff 파생, 오렌지 심볼 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hanwha_Ocean_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hanwha_Ocean_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Hanwha_Ocean_Logo.svg", "note": "동일 path, 'Hanwha Ocean' #231815→#FFFFFF. 오렌지 3원 심볼 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "한화오션 주식회사",
+      "notes": "워드마크 #FFFFFF + 오렌지 3원 심볼. 다크 배경용 파생."
+    }
+  ]
+}

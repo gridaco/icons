@@ -1,0 +1,35 @@
+{
+  "id": "toss",
+  "identity": {
+    "name_ko": "토스",
+    "name_en": "Toss",
+    "legal_name_ko": "비바리퍼블리카",
+    "legal_name_en": "Viva Republica",
+    "aliases": ["토스", "Toss", "비바리퍼블리카", "Viva Republica"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": null,
+    "dart_corp_code": null,
+    "homepage": "https://toss.im",
+    "industry": "핀테크 (비상장)",
+    "affiliate_note": "법인은 비바리퍼블리카, 서비스·브랜드는 'Toss'. 토스뱅크·토스증권·토스페이먼츠 등 계열과 구분. 브랜드 마크는 Toss 시그니처/심볼로 통일."
+  },
+  "history": {
+    "founded": "2013-04-01",
+    "last_rebrand": "2022-09-05",
+    "is_original": false,
+    "basis": "rebrand-news",
+    "sources": [
+      "https://brand.toss.im/",
+      "https://static.toss.im/assets/homepage/brand/2026-CI/Toss_Logo_Primary.zip"
+    ]
+  },
+  "related_sources": [
+    "https://brand.toss.im/",
+    "https://toss.im/"
+  ],
+  "notes": "비바리퍼블리카 2013 설립. 현 CI(3D 블루 심볼 + toss 워드마크)는 2022-09-05 발표. ★증거: 공식 zip 경로는 '2026-CI'지만 내부 PNG 파일 수정일이 2022-08-30/09-05 → 폴더명과 무관하게 현행 로고는 2022 리브랜드.",
+  "blockers": "공식 T0 자산(brand.toss.im 다운로드)은 .ai(+.png)뿐이고 .ai의 PDF 레이어는 래스터 프리뷰만 포함(벡터 추출 불가, Illustrator 필요). 라이브 toss.im은 JS SPA이며 금융 도메인이라 Claude in Chrome에서 차단됨. svgl 등 1차 확인 T3 미보유. 깨끗한 현행 SVG를 현재 도구로 확보 불가.",
+  "assets": [],
+  "status_note": "deferred / needs-review — 커밋 가능한 검증 SVG 미확보. 진행 경로: (1) 공식 .ai를 Illustrator로 SVG 변환, 또는 (2) toss.im 접근 가능한 환경에서 헤더 인라인 SVG 추출, 또는 (3) 신뢰 가능한 T3(브랜드페치 등) 2022 현행본 교차검증."
+}

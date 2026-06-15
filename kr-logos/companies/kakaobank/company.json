@@ -1,0 +1,57 @@
+{
+  "id": "kakaobank",
+  "identity": {
+    "name_ko": "카카오뱅크",
+    "name_en": "KakaoBank",
+    "legal_name_ko": "주식회사 카카오뱅크",
+    "legal_name_en": "KakaoBank Corp.",
+    "aliases": ["카카오뱅크", "KakaoBank", "kakaobank"],
+    "group_ko": "카카오", "group_en": "Kakao",
+    "stock_code": "323410", "dart_corp_code": null,
+    "homepage": "https://www.kakaobank.com",
+    "industry": "인터넷전문은행",
+    "affiliate_note": "카카오 계열 인터넷전문은행(KOSPI 323410). 2017 출범. 모바일 1위 뱅킹앱. 대표 윤호영. 로고는 카카오 옐로우 라운드 배지(#ffe300) + 검정 'ㅂ/B' 심볼 + 'kakaobank' 워드마크(#1c1c1c). ★별개 엔티티: 카카오페이(377300)와 구분."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 kakaobank.com(=KOSPI 323410 (주)카카오뱅크). ★자산: 공식 사이트 정적 로고 미노출(헤더 inline) → 위키미디어 공용 'KakaoBank logo.svg'(T3, 11 path, raster 0) 사용. 렌더로 옐로우 배지+'kakaobank' 현행 로고 확인. ★namesake: 카카오페이와 구분.",
+    "sources": ["https://www.kakaobank.com/", "https://ko.wikipedia.org/wiki/카카오뱅크", "https://commons.wikimedia.org/wiki/File:KakaoBank_logo.svg"]
+  },
+  "history": {
+    "founded": "2016-01-22", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "note": "2016 설립, 2017 영업개시. 옐로우 배지 + 'kakaobank'가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/카카오뱅크"]
+  },
+  "related_sources": ["https://www.kakaobank.com/", "https://ko.wikipedia.org/wiki/카카오뱅크", "https://commons.wikimedia.org/wiki/File:KakaoBank_logo.svg"],
+  "notes": "★/loop 순차 수집 28번(서브에이전트 랭킹 #1 — 잔여 high(고려아연/현대로템/현대오토에버)보다 소비자 인지도 높다고 판단해 카카오뱅크 선택). CI-우선: ②공식 정적 로고 미노출 → ⑤위키미디어 공용. 색 #ffe300(카카오 옐로우)/#1c1c1c(검정) 실측. ★dark 변형 보류: 검정(#1c1c1c)이 배지 내 'B' 심볼 + 'kakaobank' 워드마크 공용이라 단순 글로벌 반전 시 배지 B까지 흰색됨(비충실) → light만 제공, dark는 공식 자산 필요(open). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "kakaobank-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — KakaoBank logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/KakaoBank_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KakaoBank_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.kakaobank.com/", "note": "[B 보강] 공식 도메인이 카카오뱅크 사이트. 동일 옐로우 배지+kakaobank 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:KakaoBank_logo.svg", "note": "[검증] qlmanage 렌더 → 카카오 옐로우 배지(#ffe300, 검정 'B' 심볼) + 'kakaobank'(#1c1c1c) 현행 로고와 일치. viewBox 166.7×36.7, 11 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "dark 변형 미제공(배지 내 검정 'B'와 워드마크가 색 공용 → 단순 반전 불가, 공식 다크 자산 필요)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 카카오뱅크",
+      "notes": "카카오 옐로우 배지(#ffe300) + 검정 'B' + 'kakaobank'(#1c1c1c). viewBox 166.7×36.7, 11 path. light-bg용(옐로우 배지는 dark-safe)."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "korean-air",
+  "identity": {
+    "name_ko": "대한항공",
+    "name_en": "Korean Air",
+    "legal_name_ko": "주식회사 대한항공",
+    "legal_name_en": "Korean Air Lines Co., Ltd.",
+    "aliases": ["대한항공", "Korean Air", "KAL", "Korean Air Lines"],
+    "group_ko": "한진그룹", "group_en": "Hanjin Group",
+    "stock_code": "003490", "dart_corp_code": null,
+    "homepage": "https://www.koreanair.com",
+    "industry": "항공 운송 (FSC)",
+    "affiliate_note": "한진그룹 국적 항공사(KOSPI 003490). 1969 설립. 2025-03 아시아나항공 통합 + 대규모 리브랜드(신 CI). 대표 조원태·우기홍. ★현행 로고(2025): 네이비 원형 스월 심볼(#051766, 흰 swirl 음각) + 'KOREAN AIR' 워드마크. 구 빨강/파랑 태극 크레인 마크는 배제."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 koreanair.com(=KOSPI 003490 (주)대한항공). ★자산: 위키미디어 공용 'Korean Air 2025.svg'(T3, 11 path, raster 0) 사용. ★currency 핵심: ko.wiki 대한항공 인포박스가 'Korean_Air_2025.svg'를 현행으로 사용 → 2025 리브랜드 신 로고 확정(구 태극 크레인 'Korean Air Taegeuk.svg' 등 배제).",
+    "sources": ["https://www.koreanair.com/", "https://ko.wikipedia.org/wiki/대한항공", "https://commons.wikimedia.org/wiki/File:Korean_Air_2025.svg"]
+  },
+  "history": {
+    "founded": "1969-03-01", "last_rebrand": "2025-03-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1969 설립. 2025-03 아시아나 통합 시점 대규모 리브랜드(네이비 스월 심볼 + KOREAN AIR). render-verified, ko.wiki currency 확인.",
+    "sources": ["https://ko.wikipedia.org/wiki/대한항공"]
+  },
+  "related_sources": ["https://www.koreanair.com/", "https://ko.wikipedia.org/wiki/대한항공", "https://commons.wikimedia.org/wiki/File:Korean_Air_2025.svg"],
+  "notes": "★/loop 순차 수집 33번(서브에이전트 랭킹 #1). ★currency 함정 회피: Commons 검색은 구 'Korean Air logo (Hangul)'/'Korean Air Taegeuk'(구 태극 크레인)을 상단 노출했으나, ko.wiki 인포박스가 'Korean Air 2025.svg'(2025 신 CI) 사용 → 신 로고 채택. 네이비 #051766 + 흰 swirl 음각. EN 'KOREAN AIR' 채택(글로벌 primary, Hangul '대한항공' 2025 변형도 Commons 존재). ★dark 보류: 심볼 흰 swirl이 음각 knockout이라 단순 navy→white 반전 시 swirl 소실 → 공식 화이트 자산 필요. T3 confidence medium.",
+  "assets": [
+    {
+      "file": "korean-air-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Korean Air 2025.svg (2025 신 CI)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Korean_Air_2025.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Korean_Air_2025.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.koreanair.com/", "note": "[B 보강] 공식 도메인이 대한항공 사이트. 2025 신 CI(네이비 스월+KOREAN AIR) 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_2025.svg", "note": "[검증] qlmanage 렌더 → 네이비 원형 스월 심볼(#051766) + 'KOREAN AIR'(네이비) 2025 신 로고와 일치. viewBox 1907×291, 11 path, raster 0" },
+        { "type": "third-party-reference", "url": "https://ko.wikipedia.org/wiki/대한항공", "note": "[C/D] ko.wiki 인포박스가 'Korean Air 2025.svg' 사용 → currency 확인(구 태극 크레인 배제)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "wikipedia-currency-cross-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트 직접 교차확인 미완(ko.wiki 인포박스로 currency 보강)",
+          "Hangul '대한항공' 2025 변형 미수집(Commons 존재)",
+          "dark 변형 미제공(심볼 흰 swirl knockout → 단순 반전 불가)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 대한항공",
+      "notes": "2025 신 CI: 네이비 원형 스월 심볼(#051766, 흰 swirl) + 'KOREAN AIR'. viewBox 1907×291, 11 path. light-bg용."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dn-solutions",
+  "identity": {
+    "name_ko": "DN솔루션즈",
+    "name_en": "DN Solutions",
+    "legal_name_ko": "디엔솔루션즈 주식회사",
+    "legal_name_en": "DN Solutions Co., Ltd.",
+    "aliases": ["DN솔루션즈", "디엔솔루션즈", "DN Solutions", "두산공작기계", "Doosan Machine Tools"],
+    "group_ko": "DN그룹", "group_en": "DN Group",
+    "stock_code": null, "dart_corp_code": null,
+    "homepage": "https://www.dn-solutions.com",
+    "industry": "공작기계 (CNC 머시닝센터/터닝센터)",
+    "affiliate_note": "DN그룹 계열(모회사 DN오토모티브 064760). 구 두산공작기계 — 2016 두산인프라코어에서 분리, 2022 DN그룹(DN오토모티브) 인수 후 'DN솔루션즈'로 사명변경. 비상장(모회사가 상장)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["official-domain", "rebrand-history", "group-affiliation", "legal-name-match"],
+    "note": "공식 도메인 dn-solutions.com이 로고 서빙 + 두산공작기계→DN솔루션즈 사명변경이 다수 언론으로 교차확인. 비상장이라 종목코드 없음(모회사 DN오토모티브 064760).",
+    "sources": [
+      "https://www.dn-solutions.com/",
+      "https://namu.wiki/w/DN솔루션즈",
+      "https://www.sedaily.com/NewsView/2663VNNPHN"
+    ]
+  },
+  "history": {
+    "founded": "2016-01-01",
+    "last_rebrand": "2022-06-02",
+    "is_original": false,
+    "basis": "rebrand-date",
+    "sources": [
+      "https://kidd.co.kr/news/227280",
+      "https://v.daum.net/v/20220525180513583",
+      "https://news.g-enews.com/article/Industry/2022/05/202205251703298782a67d2c7d5a_1"
+    ]
+  },
+  "related_sources": [
+    "https://www.dn-solutions.com/",
+    "https://namu.wiki/w/DN솔루션즈",
+    "https://www.sedaily.com/NewsView/2663VNNPHN",
+    "https://kidd.co.kr/news/227280"
+  ],
+  "notes": "검증 프레임워크 적용(무명). ★카테고리: 벡터 미가용 — 공식 사이트가 로고를 PNG(500×500, common/logo.png)로만 서빙, SVG 형제파일(logo.svg 등) 404. 신원은 확실(도메인+리브랜드 교차확인)하나 T0/T1 벡터 자산이 없어 needs-review. 라스터 내용: 파란색 + 검정 'DN SOLUTIONS' 락업(DN 심볼 + SOLUTIONS 워드마크) 2종. 리브랜드 시점 주의 — 2022-06-02 이전 자료는 '두산공작기계' 로고.",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "DN솔루션즈 공식 사이트 로고 — 라스터 전용(PNG)",
+        "source_url": "https://www.dn-solutions.com/resources/w/images/common/logo.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "browser:discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.dn-solutions.com/", "note": "[B] 공식 도메인이 logo.png(500×500)를 헤더 로고로 서빙. 파란/검정 'DN SOLUTIONS' 락업 — 렌더 육안 확인" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "raster-only-confirmed"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "공식이 벡터(SVG) 미제공 — logo.svg/logo_w.svg/symbol.svg 모두 404",
+          "벡터 확보 경로: 공식 브랜드 가이드/홍보팀 요청(T0), 또는 T4 재구성. 현 PNG는 식별·참조용",
+          "리브랜드(2022-06-02) 후 자산 — 두산공작기계 구로고와 혼동 금지"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "디엔솔루션즈 주식회사",
+      "notes": "벡터 미가용. 식별은 완료(공식 PNG), 벡터 자산만 부재."
+    }
+  ]
+}

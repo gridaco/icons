@@ -1,0 +1,58 @@
+{
+  "id": "sk-telecom",
+  "identity": {
+    "name_ko": "SK텔레콤",
+    "name_en": "SK Telecom",
+    "legal_name_ko": "에스케이텔레콤 주식회사",
+    "legal_name_en": "SK Telecom Co., Ltd.",
+    "aliases": ["SK텔레콤", "에스케이텔레콤", "SK Telecom", "SKT", "SK telecom"],
+    "group_ko": "SK그룹", "group_en": "SK Group",
+    "stock_code": "017670", "dart_corp_code": null,
+    "homepage": "https://www.sktelecom.com",
+    "industry": "전기 통신업 (이동통신)",
+    "affiliate_note": "SK그룹 계열(KOSPI 017670). 국내 1위 이동통신사. 대표 유영상. 로고는 SK '행복날개'(red #E71836 + orange #F57F26 나비형 심볼) + 'SK telecom' 워드마크 락업(2017 SK그룹 통합 CI)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 sktelecom.com(=KOSPI 017670 에스케이텔레콤(주)) + SK그룹 계열. ★자산: 공식 사이트가 JS SPA라 정적 로고 미노출(흔한 헤더 경로 전부 404) → 위키미디어 공용 SVG(T3) 사용. 렌더로 현행 'SK 행복날개 + SK telecom' 로고와 일치 확인.",
+    "sources": ["https://www.sktelecom.com/", "https://ko.wikipedia.org/wiki/SK텔레콤", "https://commons.wikimedia.org/wiki/File:SK_Telecom_Logo.svg"]
+  },
+  "history": {
+    "founded": "1984-03-29", "last_rebrand": "2017-01-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1984 한국이동통신 설립. 1997 SK텔레콤. 2017 SK그룹 통합 CI(행복날개)로 현재 로고. 현행 브랜드와 일치(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/SK텔레콤"]
+  },
+  "related_sources": ["https://www.sktelecom.com/", "https://ko.wikipedia.org/wiki/SK텔레콤", "https://commons.wikimedia.org/wiki/File:SK_Telecom_Logo.svg"],
+  "notes": "★/loop 순차 수집 2번(인지도 high, 서브에이전트 랭킹 #1). CI-우선 체크리스트: ②홈페이지=JS SPA(정적 자산 0, 헤더 경로 전부 404) → ⑤위키미디어 공용에서 진짜 SVG(107 path, raster 0) 확보. 렌더로 'SK 행복날개 + SK telecom'(red/orange) 현행 로고 확인. 워드마크가 white punch-out counter 구조라 light-bg 전용(dark는 공식 다크 자산 필요 → open). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "sk-telecom-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — SK Telecom Logo.svg (Adobe Illustrator export)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SK_Telecom_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:SK_Telecom_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.sktelecom.com/", "note": "[B 보강] 공식 도메인이 SK텔레콤 사이트(JS SPA·정적 로고 미노출). 동일 행복날개+SK telecom 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:SK_Telecom_Logo.svg", "note": "[검증] qlmanage 렌더 → SK 행복날개(red #E71836/orange #F57F26) + 'SK'(red) 'telecom'(orange) 현행 로고와 일치. viewBox 467×184, 107 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS SPA라 동일 파일 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "다크 변형: 워드마크 white punch-out counter 구조 → 단순 recolor 불가, 공식 다크 자산 필요",
+          "T0/T1 상향: SK텔레콤 뉴스룸/브랜드킷 또는 브라우저로 헤더 로고 추출"
+        ]
+      },
+      "status": "verified", "trademark_owner": "에스케이텔레콤 주식회사",
+      "notes": "행복날개 심볼 + 'SK telecom' 락업. red #E71836 + orange #F57F26. viewBox 467×184, 107 path. light-bg 전용."
+    }
+  ]
+}

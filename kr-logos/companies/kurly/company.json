@@ -1,0 +1,98 @@
+{
+  "id": "kurly",
+  "identity": {
+    "name_ko": "컬리",
+    "name_en": "Kurly",
+    "legal_name_ko": "주식회사 컬리",
+    "legal_name_en": "Kurly Inc.",
+    "aliases": ["컬리", "Kurly", "마켓컬리", "Market Kurly", "뷰티컬리"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": null,
+    "dart_corp_code": null,
+    "homepage": "https://www.kurly.com",
+    "industry": "신선식품 새벽배송 커머스 (비상장)",
+    "affiliate_note": "독립. 비상장(2023-01 IPO 철회). 서비스 '마켓컬리/뷰티컬리', 브랜드 마크는 'Kurly Purple(#5F0080)' 워드마크."
+  },
+  "history": {
+    "founded": "2014-12-01",
+    "last_rebrand": null,
+    "is_original": null,
+    "basis": "founding-date",
+    "sources": [
+      "https://namu.wiki/w/컬리",
+      "https://www.kurly.com"
+    ]
+  },
+  "related_sources": [
+    "https://www.kurly.com",
+    "https://namu.wiki/w/컬리"
+  ],
+  "notes": "2014 설립, 2015-05 마켓컬리 출시. 공식 스토어가 BI 로고를 정적 SVG(res.kurly.com .../kurly-bi-logo...svg)로 서빙 — curl로 직접 확보.",
+  "assets": [
+    {
+      "file": "kurly-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "컬리 공식 스토어 정적 자산(res.kurly.com)의 BI 로고 SVG",
+        "source_url": "https://res.kurly.com/v/2026.06.14.01/_next/static/media/kurly-bi-logo.0wrrx12~5.lye.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.kurly.com/main",
+          "note": "라이브 kurly.com이 'kurly-bi-logo' SVG를 헤더 자산으로 현재 서빙 — DOM 확인 2026-06-14. Kurly Purple #5F0080."
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "live-reference-check", "brand-hex-check"],
+        "confidence": "high",
+        "open_questions": ["로고 도입/리뉴얼 정확 일자 미확인"]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 컬리",
+      "notes": "Kurly Purple #5F0080 워드마크. viewBox 0 0 82 42 (투명 bbox path 포함)."
+    },
+    {
+      "file": "kurly-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "컬리 BI 로고 — 다크 배경용(화이트 파생)",
+        "source_url": "https://res.kurly.com/v/2026.06.14.01/_next/static/media/kurly-bi-logo.0wrrx12~5.lye.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "derived-from-light",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.kurly.com/main",
+          "note": "동일 path. 다크 배경 대비 위해 #5F0080→#FFFFFF (단색 녹아웃)"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "medium",
+        "open_questions": ["공식 화이트 변형 미확인 — 단색 녹아웃 가정"]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 컬리",
+      "notes": "light와 동일 path, fill #FFFFFF."
+    }
+  ]
+}

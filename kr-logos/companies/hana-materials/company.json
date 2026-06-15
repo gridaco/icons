@@ -1,0 +1,55 @@
+{
+  "id": "hana-materials",
+  "identity": {
+    "name_ko": "하나머티리얼즈",
+    "name_en": "Hana Materials",
+    "legal_name_ko": "하나머티리얼즈 주식회사",
+    "legal_name_en": "Hana Materials Inc.",
+    "aliases": ["하나머티리얼즈", "Hana Materials"],
+    "group_ko": "하나마이크론", "group_en": "Hana Micron",
+    "stock_code": "166090", "dart_corp_code": null,
+    "homepage": "https://hanamts.com",
+    "industry": "반도체 소재 (실리콘 전극/링)",
+    "affiliate_note": "하나마이크론 계열(KOSDAQ 166090). 반도체 식각공정용 실리콘 전극·링. 대표 김현주. ★리스트 group 오태깅 정정: '하나금융' 아님(반도체 소재기업, 하나마이크론 자회사). 하나금융그룹과 무관."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "representative-match"],
+    "note": "공식 도메인 hanamts.com + KOSDAQ 166090 = 하나머티리얼즈(주), 대표 김현주(KIND 일치). 하나마이크론 계열. ★동음이의 경고: '하나'≠하나금융 — 위키미디어의 'Hana Bank/Hana Financial' SVG는 다른 법인이므로 사용 금지.",
+    "sources": ["https://hanamts.com/", "https://ko.wikipedia.org/wiki/하나머티리얼즈"]
+  },
+  "history": {
+    "founded": "2007-01-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://ko.wikipedia.org/wiki/하나머티리얼즈", "https://hanamts.com/"]
+  },
+  "related_sources": ["https://hanamts.com/", "https://ko.wikipedia.org/wiki/하나머티리얼즈"],
+  "notes": "★랜덤 수집 테스트(3차 배치, 5개 중). ★카테고리: 벡터 미가용 — 체크리스트 끝까지 적용: 홈페이지 로고 PNG(WordPress 테마, blue-hanalogo.png/logowhiteko@3x.png, SVG 0) / 테마 디렉터리 SVG 없음 / 위키미디어엔 하나금융·하나은행 로고만(다른 법인, 사용 불가). 신원 확실(종목코드 166090)하나 T0/T1/T3 벡터 부재 → needs-review.",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "하나머티리얼즈 공식 사이트 헤더 로고 — 라스터 전용(PNG)",
+        "source_url": "https://hanamts.com/wp-content/themes/hana_materials/resource/img/blue-hanalogo.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "browser:discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://hanamts.com/", "note": "[B] 공식 도메인(WordPress)이 blue-hanalogo.png/logowhiteko@3x.png를 헤더 로고로 서빙. SVG 0개" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "raster-only-confirmed-thorough"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "전체 체크리스트 적용 후 벡터 부재: 홈 PNG / 테마디렉터리 SVG 없음 / 커먼즈 무(하나금융 로고만=오답)",
+          "벡터 확보 경로: 하나머티리얼즈 IR/홍보 브랜드킷 요청(T0), 또는 T4 재구성",
+          "★동음이의: 하나금융/하나은행 로고를 절대 차용 금지"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "하나머티리얼즈 주식회사",
+      "notes": "벡터 미가용(철저 확인). 식별 완료, 벡터만 부재."
+    }
+  ]
+}

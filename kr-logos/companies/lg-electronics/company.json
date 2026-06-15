@@ -1,0 +1,75 @@
+{
+  "id": "lg-electronics",
+  "identity": {
+    "name_ko": "LG전자",
+    "name_en": "LG Electronics",
+    "legal_name_ko": "LG전자 주식회사",
+    "legal_name_en": "LG Electronics Inc.",
+    "aliases": ["LG", "엘지", "엘지전자"],
+    "group_ko": "LG그룹",
+    "group_en": "LG Corporation",
+    "stock_code": "066570",
+    "dart_corp_code": null,
+    "homepage": "https://www.lge.co.kr",
+    "industry": "가전/전자",
+    "affiliate_note": "★계열사 공유 마크 주의: 포착한 'LG 페이스' 심볼+LG 레터는 LG그룹 공통 CI로, LG화학·LG디스플레이·LG에너지솔루션·LG U+ 등 다수 계열사가 동일 마크를 사용한다. 본 엔트리는 종목코드 066570(LG전자) 한정 — 로고 자체는 그룹 공통."
+  },
+  "history": {
+    "founded": "1958-10-01",
+    "last_rebrand": "2023",
+    "is_original": false,
+    "basis": "rebrand-news",
+    "sources": [
+      "https://www.lgnewsroom.com/2023/04/lg-smiles-back-to-the-world-with-its-new-brand-identity/",
+      "https://www.lg.com/global/our-brand/brand-story/"
+    ]
+  },
+  "related_sources": [
+    "https://www.lg.com/global/",
+    "https://www.lgnewsroom.com/2023/04/lg-smiles-back-to-the-world-with-its-new-brand-identity/",
+    "https://namu.wiki/w/LG전자",
+    "https://ko.wikipedia.org/wiki/LG전자"
+  ],
+  "notes": "1958년 금성사(GoldStar)로 설립, 1995년 'LG전자'로 사명 변경. 현 브랜드 아이덴티티는 2023년 리프레시(플랫·Active Red, Wolff Olins). 1958→설립, 2023→현 로고.",
+  "assets": [
+    {
+      "file": "lg-electronics-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "LG 공식 글로벌 사이트(lg.com) 헤더 로고 자산",
+        "source_url": "https://www.lg.com/content/dam/lge/common/logo/logo-lg-100-44.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.lg.com/global/",
+          "note": "공식 글로벌 사이트 헤더가 <img alt=\"LG logo (Life's Good)\" src=\".../logo-lg-100-44.svg\">로 현재 사용 — DOM+스크린샷 확인 2026-06-14"
+        },
+        {
+          "type": "news-article",
+          "url": "https://www.lgnewsroom.com/2023/04/lg-smiles-back-to-the-world-with-its-new-brand-identity/",
+          "note": "2023 브랜드 아이덴티티 리프레시 공식 발표 — 현 로고가 현행임을 뒷받침"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-official-header", "vector-integrity-check", "brand-hex-check", "rebrand-timeline-check"],
+        "confidence": "high",
+        "open_questions": [
+          "다크 배경용 화이트/녹아웃 변형: 공식 파일 미발견(404). naive 리컬러는 다색(레드+그레이+화이트)이라 보류 — 공식 dark 자산 별도 확보 필요"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "LG전자 주식회사 / LG Corporation",
+      "notes": "LG Red #A50034 + LG 레터 #707070 + 화이트 페이스. viewBox 0 0 225 99, 6 paths, 순수 벡터. 다색이라 dark 파생 보류."
+    }
+  ]
+}

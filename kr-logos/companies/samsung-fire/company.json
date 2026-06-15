@@ -1,0 +1,58 @@
+{
+  "id": "samsung-fire",
+  "identity": {
+    "name_ko": "삼성화재",
+    "name_en": "Samsung Fire & Marine Insurance",
+    "legal_name_ko": "삼성화재해상보험 주식회사",
+    "legal_name_en": "Samsung Fire & Marine Insurance Co., Ltd.",
+    "aliases": ["삼성화재", "삼성화재해상보험", "Samsung Fire & Marine Insurance", "Samsung Fire", "애니카"],
+    "group_ko": "삼성그룹", "group_en": "Samsung Group",
+    "stock_code": "000810", "dart_corp_code": null,
+    "homepage": "https://www.samsungfire.com",
+    "industry": "보험업 (손해보험)",
+    "affiliate_note": "삼성그룹 손해보험 1위(KOSPI 000810). 1952 설립(안국화재). 자동차보험 '애니카'. 대표 이문화. 로고는 Samsung 블루 타원(ellipse) + 'SAMSUNG FIRE & MARINE INSURANCE' 워드마크 — 삼성 금융계열 타원 유지(전자만 2015 폐지). 색 #003f98."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 samsungfire.com(=KOSPI 000810 삼성화재해상보험(주)). ★자산: 공식 사이트가 정적 로고 미노출(inline svg 0, 자산 dir 404) → 위키미디어 공용 'Samsung Fire & Marine Insurance logo.svg'(T3, 37 path, raster 0) 사용. 렌더로 Samsung 타원 + 영문 사명 로고 확인. ★삼성 금융계열 타원 패턴(삼성생명과 동일, #003f98).",
+    "sources": ["https://www.samsungfire.com/", "https://ko.wikipedia.org/wiki/삼성화재해상보험", "https://commons.wikimedia.org/wiki/File:Samsung_Fire_%26_Marine_Insurance_logo.svg"]
+  },
+  "history": {
+    "founded": "1952-01-26", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1952 안국화재 → 삼성화재. Samsung 타원 + 영문 사명이 현행 CI(삼성 금융계열 타원 유지). render-verified.",
+    "sources": ["https://ko.wikipedia.org/wiki/삼성화재해상보험"]
+  },
+  "related_sources": ["https://www.samsungfire.com/", "https://ko.wikipedia.org/wiki/삼성화재해상보험", "https://commons.wikimedia.org/wiki/File:Samsung_Fire_%26_Marine_Insurance_logo.svg"],
+  "notes": "★/loop 순차 수집 12번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식=정적 로고 0(자산 404) → ⑤위키미디어 공용. 삼성 금융계열 타원 패턴 재확인(#003f98, 삼성생명 ENG와 동일 블루). ★Commons엔 ENG 락업만(KOR '삼성화재' 미존재) → ENG 채택. width/height(236×24.17 mm)와 viewBox(62.4×6.4) 불일치 → width/height 제거 후 viewBox 거버닝으로 정상 렌더. dark 보류(타원 knockout). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "samsung-fire-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Samsung Fire & Marine Insurance logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Samsung_Fire_%26_Marine_Insurance_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Samsung_Fire_%26_Marine_Insurance_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.samsungfire.com/", "note": "[B 보강] 공식 도메인이 삼성화재 사이트(정적 로고 미노출). 동일 Samsung 타원+사명 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Samsung_Fire_%26_Marine_Insurance_logo.svg", "note": "[검증] qlmanage 렌더 → Samsung 블루 타원(white SAMSUNG knockout) + 'SAMSUNG FIRE & MARINE INSURANCE'(#003f98) 로고와 일치. viewBox 62.4×6.4, 37 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트 정적 로고 미노출이라 직접 교차확인 미완(삼성 금융계열 타원 패턴은 일관)",
+          "KOR '삼성화재' 락업은 Commons에 없음(ENG만 수집)",
+          "dark 변형 미제공(타원 knockout 구조)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "삼성화재해상보험 주식회사",
+      "notes": "Samsung 블루 타원 + 'SAMSUNG FIRE & MARINE INSURANCE'. #003f98. viewBox 62.4×6.4, 37 path. light-bg용."
+    }
+  ]
+}

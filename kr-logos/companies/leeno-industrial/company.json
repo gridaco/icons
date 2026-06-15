@@ -1,0 +1,114 @@
+{
+  "id": "leeno-industrial",
+  "identity": {
+    "name_ko": "리노공업",
+    "name_en": "LEENO Industrial",
+    "legal_name_ko": "리노공업주식회사",
+    "legal_name_en": "LEENO INDUSTRIAL INC.",
+    "aliases": ["리노공업", "LEENO", "리노"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": "058470",
+    "dart_corp_code": null,
+    "homepage": "https://leeno.com",
+    "industry": "반도체 테스트 부품(리노핀/소켓)",
+    "affiliate_note": "독립 강소기업(코스닥 058470), 대기업집단 계열 아님. 반도체 테스트 소켓/핀 세계적 강자."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor",
+    "verified": true,
+    "method": ["stock-code", "official-domain-hosts-krx-filing"],
+    "note": "도메인 leeno.com = 법인 확정 — leeno.com이 한국거래소/금융위 제출 '사업보고서(제29기)' PDF를 직접 호스팅(leeno.com/wp-content/.../리노공업-사업보고서...pdf). KOSDAQ 058470 + 영문 법인명 LEENO INDUSTRIAL INC. 일치.",
+    "sources": [
+      "https://leeno.com/wp-content/uploads/2025/03/리노공업-사업보고서일반법인-2025.03.18.pdf",
+      "https://ko.wikipedia.org/wiki/리노공업"
+    ]
+  },
+  "history": {
+    "founded": "1978-11-01",
+    "last_rebrand": null,
+    "is_original": null,
+    "basis": "founding-date",
+    "sources": [
+      "https://ko.wikipedia.org/wiki/리노공업",
+      "https://namu.wiki/w/리노공업"
+    ]
+  },
+  "related_sources": [
+    "https://leeno.com/kr/",
+    "https://ko.wikipedia.org/wiki/리노공업",
+    "https://www.rocketpunch.com/companies/leeno-industrial"
+  ],
+  "notes": "1978 리노공업사 설립, 1996 법인전환, 2001 코스닥 상장. ★검증 프레임워크 시연(무명 기업): recognition 없이 A(신원앵커)+B(권위)+C(교차확인)으로 신뢰 확립. 로고 도입/리뉴얼 정확 일자 미확인.",
+  "assets": [
+    {
+      "file": "leeno-industrial-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "리노공업 공식 사이트(leeno.com) 헤더 로고 자산",
+        "source_url": "https://leeno.com/kr/wp-content/uploads/sites/8/2023/02/leeno-logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-15",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://leeno.com/kr/",
+          "note": "[B 권위] 공식 도메인 헤더가 'LEENO' 워드마크 SVG(viewBox 159.4×34.885, 흰색)를 현재 사용"
+        },
+        {
+          "type": "official-current-context",
+          "url": "https://leeno.com/kr/",
+          "note": "[C 교차확인] 공식 홈 히어로 영상의 본사 사옥 외벽 사이니지에도 동일 'LEENO' 마크 노출 — 독립 2차 컨텍스트 일치"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-15",
+        "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "cross-context-match", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["로고 도입/리뉴얼 정확 연도 미확인 (자산 경로상 2023 업로드)"]
+      },
+      "status": "verified",
+      "trademark_owner": "리노공업주식회사",
+      "notes": "원본 흰색(#fff), 어두운 배경용. viewBox 0 0 159.4 34.885, 단일 path."
+    },
+    {
+      "file": "leeno-industrial-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "리노공업 공식 로고 — 밝은 배경용(흰색→검정 파생)",
+        "source_url": "https://leeno.com/kr/wp-content/uploads/sites/8/2023/02/leeno-logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-15",
+        "capture_method": "derived-from-dark",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://leeno.com/kr/",
+          "note": "동일 path. 단색 워드마크라 밝은 배경용으로 #000000 적용"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-15",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "high",
+        "open_questions": []
+      },
+      "status": "verified",
+      "trademark_owner": "리노공업주식회사",
+      "notes": "dark와 동일 path, fill #000000."
+    }
+  ]
+}

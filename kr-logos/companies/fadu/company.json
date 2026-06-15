@@ -1,0 +1,76 @@
+{
+  "id": "fadu",
+  "identity": {
+    "name_ko": "파두",
+    "name_en": "FADU",
+    "legal_name_ko": "주식회사 파두",
+    "legal_name_en": "FADU Inc.",
+    "aliases": ["파두", "FADU"],
+    "group_ko": null, "group_en": null,
+    "stock_code": "440110", "dart_corp_code": null,
+    "homepage": "https://www.fadu.io",
+    "industry": "팹리스 반도체 (SSD 컨트롤러)",
+    "affiliate_note": "독립 팹리스(코스닥 440110, 2023 상장). 2015 설립. Flash 스토리지 컨트롤러. 공동대표 남이현·이지효."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "trademark-notice", "legal-name-match"],
+    "note": "공식 도메인 fadu.io가 로고를 서빙 + 푸터에 '© 2015–2025 FADU Inc.' 및 명시적 상표 고지 'FADU and the FADU logo are properties of FADU Inc.' 게재 → 로고 귀속 직접 확인. 코스닥 440110 = 주식회사 파두.",
+    "sources": ["https://www.fadu.io/", "https://ko.wikipedia.org/wiki/파두_(기업)"]
+  },
+  "history": {
+    "founded": "2015-01-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://www.fadu.io/", "https://ko.wikipedia.org/wiki/파두_(기업)"]
+  },
+  "related_sources": ["https://www.fadu.io/", "https://ko.wikipedia.org/wiki/파두_(기업)"],
+  "notes": "검증 프레임워크 적용(무명). ★로고 귀속 증거가 이례적으로 강함 — 공식 사이트가 'FADU and the FADU logo are properties of FADU Inc.' 명문화. 원본 fadu-logo.svg(141×30)는 크림슨 심볼(흰 번개)+흰색 'FADU' 워드마크 가로 락업 + 대형 드롭섀도 필터. 정규화: 드롭섀도/clip 제거. dark=원본 색(흰 워드마크), light=워드마크만 #1A1A1A로 단색 파생(크림슨 심볼 유지). 별도 자산 fadu-logo-white.svg(전체 흰색 스택형 389×209)도 존재.",
+  "assets": [
+    {
+      "file": "fadu-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "파두 공식 사이트(fadu.io) 헤더 로고 — 밝은 배경용(워드마크 검정 파생)",
+        "source_url": "https://www.fadu.io/images/fadu-logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "browser:discovery+curl, normalized", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.fadu.io/", "note": "[B] 공식 도메인 헤더 로고 fadu-logo.svg(viewBox 141×30)" },
+        { "type": "trademark-record", "url": "https://www.fadu.io/", "note": "[A/C] 푸터 명시: 'FADU and the FADU logo are properties of FADU Inc.' — 로고 귀속 직접 증거" },
+        { "type": "screenshot", "url": "https://www.fadu.io/", "note": "[검증] 렌더 확인 → 크림슨 심볼(흰 번개)+검정 'FADU' 워드마크 육안 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "trademark-notice", "render-check", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["원본은 흰 워드마크(다크용)만 제공 — light는 워드마크 검정 파생", "원본의 대형 드롭섀도 필터는 정규화로 제거(브랜드 식별과 무관)"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 파두 (FADU Inc.)",
+      "notes": "크림슨 심볼(#BC263D) 유지 + 워드마크 #1A1A1A. 4 paths, 필터 제거."
+    },
+    {
+      "file": "fadu-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "파두 공식 사이트(fadu.io) 헤더 로고 SVG(원본 색)",
+        "source_url": "https://www.fadu.io/images/fadu-logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "browser:discovery+curl, normalized", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.fadu.io/", "note": "[B] 공식 헤더 로고 원본(크림슨 심볼 + 흰색 워드마크, 다크 배경용)" },
+        { "type": "trademark-record", "url": "https://www.fadu.io/", "note": "[A/C] 'FADU and the FADU logo are properties of FADU Inc.'" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "trademark-notice", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["원본의 대형 드롭섀도 필터는 정규화로 제거"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 파두 (FADU Inc.)",
+      "notes": "원본 색(크림슨 심볼 #BC263D + 흰 워드마크). 4 paths, 드롭섀도/clip 정규화 제거."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "ktng",
+  "identity": {
+    "name_ko": "KT&G",
+    "name_en": "KT&G",
+    "legal_name_ko": "주식회사 케이티앤지",
+    "legal_name_en": "KT&G Corporation",
+    "aliases": ["KT&G", "케이티앤지", "KT&G Corporation", "한국담배인삼공사", "Korea Tobacco & Ginseng"],
+    "group_ko": "KT&G", "group_en": "KT&G",
+    "stock_code": "033780", "dart_corp_code": null,
+    "homepage": "https://www.ktng.com",
+    "industry": "담배 제조 (+ 건강기능식품 KGC정관장)",
+    "affiliate_note": "독립 대기업(KOSPI 033780). 1899 연혁 → 한국담배인삼공사 → 2002 민영화·KT&G. 담배(에쎄/레종) + 자회사 KGC인삼공사(정관장). 대표 방경만. 로고는 회색 'KT&G' 워드마크(#4c4d4f) + 컬러 밸런스 바람개비 심볼(cyan/green/orange/gray)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 ktng.com(=KOSPI 033780 (주)케이티앤지). ★자산: 공식 사이트가 inline SVG 39개 SPA라 헤더 로고 특정 어려움 → 위키미디어 공용 'KT&G Logo.svg'(T3, 12 path, raster 0) 사용. 렌더로 회색 'KT&G' + 컬러 바람개비 현행 로고 확인. ★currency: 'KT&G Logo (2002-2012).svg'(구버전)와 구분 — 무접미 파일이 현행. namesake 회피: KGC(정관장)/Indonesia/TSPM 등 자회사 배제.",
+    "sources": ["https://www.ktng.com/", "https://ko.wikipedia.org/wiki/KT%26G", "https://commons.wikimedia.org/wiki/File:KT%26G_Logo.svg"]
+  },
+  "history": {
+    "founded": "1987-04-01", "last_rebrand": "2002-01-01", "is_original": false, "basis": "rebrand-date",
+    "note": "한국담배인삼공사 → 2002 민영화 'KT&G'. 컬러 바람개비+회색 워드마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/KT%26G"]
+  },
+  "related_sources": ["https://www.ktng.com/", "https://ko.wikipedia.org/wiki/KT%26G", "https://commons.wikimedia.org/wiki/File:KT%26G_Logo.svg"],
+  "notes": "★/loop 순차 수집 9번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식=inline SVG 39개 SPA(특정난) → ⑤위키미디어 공용. ★서브에이전트 오정보 교정 2건: (a)'2019 아이콘 제거' 주장 → 실제 컬러 바람개비 현행 유지, (b)'red #E60012 primary' → 실제 회색 워드마크 #4c4d4f + 멀티컬러 심볼. ★bbox 파서가 미추적 transform에 막혀(좌표 viewBox 초과) crop 포기, native viewBox 553×217 유지(width/height 일치라 정상 렌더). light 원본 + dark는 워드마크 #4c4d4f만 #fff 파생(심볼 컬러 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "ktng-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — KT&G Logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/KT%26G_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KT%26G_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.ktng.com/", "note": "[B 보강] 공식 도메인이 KT&G 사이트(inline SVG SPA). 동일 'KT&G'+바람개비 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:KT%26G_Logo.svg", "note": "[검증] qlmanage 렌더 → 회색 'KT&G'(#4c4d4f) + 컬러 바람개비(cyan #009edb/green #8cc63f/orange #f15a22,#f7931d/gray #a7a9ac) 현행 로고와 일치. viewBox 553×217, 12 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트 inline SVG와 직접 동일성 교차확인 미완(브랜드 시각 일치는 확인)",
+          "T1 상향: 브라우저로 ktng.com 헤더 inline SVG 추출"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 케이티앤지",
+      "notes": "회색 'KT&G' 워드마크 + 컬러 밸런스 바람개비. viewBox 553×217, 12 path. light-bg용(컬러 심볼은 dark-safe, 워드마크만 light용)."
+    },
+    {
+      "file": "ktng-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "KT&G 로고 — 다크용(워드마크 #4c4d4f→#fff 파생, 심볼 컬러 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/KT%26G_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:KT%26G_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:KT%26G_Logo.svg", "note": "동일 path, 'KT&G' 워드마크 #4c4d4f→#FFFFFF. 바람개비 컬러(#009edb/#8cc63f/#f15a22/#f7931d/#a7a9ac) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 케이티앤지",
+      "notes": "워드마크 #FFFFFF + 컬러 바람개비. 다크 배경용 파생."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "musinsa",
+  "identity": {
+    "name_ko": "무신사",
+    "name_en": "MUSINSA",
+    "legal_name_ko": "주식회사 무신사",
+    "legal_name_en": "MUSINSA Co., Ltd.",
+    "aliases": ["무신사", "MUSINSA", "무진장 신발 사진이 많은 곳"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": null,
+    "dart_corp_code": null,
+    "homepage": "https://www.musinsa.com",
+    "industry": "패션 커머스 플랫폼 (비상장)",
+    "affiliate_note": "독립(비상장). ★주의: 스토어 메인은 '무진장 세일' 캠페인 붓글씨 로고가 헤더에 뜰 수 있음 — 그건 브랜드 마크가 아님. 브랜드 워드마크는 'MUSINSA'."
+  },
+  "history": {
+    "founded": "2012-01-01",
+    "last_rebrand": "2025-10-22",
+    "is_original": false,
+    "basis": "rebrand-news",
+    "sources": [
+      "https://about.musinsa.com/newsroom/2025-1022",
+      "https://namu.wiki/w/무신사"
+    ]
+  },
+  "related_sources": [
+    "https://about.musinsa.com/",
+    "https://about.musinsa.com/newsroom/2025-1022"
+  ],
+  "notes": "코퍼레이트 사이트(about.musinsa.com) 헤더의 'MUSINSA' 워드마크를 정적 SVG로 확보. ★1차 시도 시 스토어 캠페인('무진장') 붓글씨 로고를 잘못 추출 → 렌더+사용자 확인으로 교정함. 법인 설립 정확 일자 미확인.",
+  "assets": [
+    {
+      "file": "musinsa-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "MUSINSA 코퍼레이트 사이트(about.musinsa.com) 헤더 로고 정적 SVG",
+        "source_url": "https://cdn.prod.website-files.com/625d0ed07079ed51be21d181/625fb047dced7eb2bd71dbd7_logo_musinsa.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://about.musinsa.com/newsroom",
+          "note": "코퍼레이트 사이트 헤더가 'MUSINSA' 워드마크(viewBox 0 0 118 20)를 현재 사용 — DOM 확인 2026-06-14"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://about.musinsa.com/newsroom",
+          "note": "렌더 후 사용자가 'MUSINSA' 워드마크임을 육안 확인(무진장 캠페인 로고 아님)"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code + human",
+        "method": ["visual-render-check", "human-confirmation", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": [
+          "이 자산(about.musinsa.com Webflow, 자산ID 625fb047≈2022)이 2025-10 리브랜드의 볼드 가중치까지 반영했는지 확정 필요"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 무신사",
+      "notes": "원본 white → 밝은 배경용 #000000. viewBox 0 0 118 20, 단일 path(7글자 MUSINSA)."
+    },
+    {
+      "file": "musinsa-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "MUSINSA 코퍼레이트 헤더 로고 SVG (원본 화이트, 다크 배경용)",
+        "source_url": "https://cdn.prod.website-files.com/625d0ed07079ed51be21d181/625fb047dced7eb2bd71dbd7_logo_musinsa.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://about.musinsa.com/newsroom",
+          "note": "원본 자산이 화이트(fill:white)로 제공됨 → 다크 배경용 그대로 사용"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": []
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 무신사",
+      "notes": "원본 화이트 그대로(#FFFFFF). light와 동일 path."
+    }
+  ]
+}

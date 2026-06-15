@@ -1,0 +1,59 @@
+{
+  "id": "samsung-life",
+  "identity": {
+    "name_ko": "삼성생명",
+    "name_en": "Samsung Life Insurance",
+    "legal_name_ko": "삼성생명보험 주식회사",
+    "legal_name_en": "Samsung Life Insurance Co., Ltd.",
+    "aliases": ["삼성생명", "삼성생명보험", "Samsung Life Insurance", "Samsung Life"],
+    "group_ko": "삼성그룹", "group_en": "Samsung Group",
+    "stock_code": "032830", "dart_corp_code": null,
+    "homepage": "https://www.samsunglife.com",
+    "industry": "보험업 (생명보험)",
+    "affiliate_note": "삼성그룹 금융계열 1위 생명보험사(KOSPI 032830). 1957 설립. 대표 홍원학. 로고는 '삼성생명' 워드마크 + Samsung 블루 타원(ellipse) 락업 — 삼성 금융계열사는 전자(2015 타원 폐지)와 달리 타원 마크 유지."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 samsunglife.com(=KOSPI 032830 삼성생명보험(주)). ★자산: 공식 사이트가 JS 셸(3.5KB, 자산 dir 프로빙 404) → 위키미디어 공용 'Samsung life logo.svg'(T3, 14 path, raster 0, 삼성생명 KOR) 사용. ★currency 확인: ko.wikipedia 삼성생명 인포박스가 타원 로고('Samsung Life Insurance logo.svg')를 현행으로 사용 → 타원이 현행. ★namesake: 삼성전자/삼성그룹 우산 SVG와 구분(이건 생명보험 엔티티).",
+    "sources": ["https://www.samsunglife.com/", "https://ko.wikipedia.org/wiki/삼성생명", "https://commons.wikimedia.org/wiki/File:Samsung_life_logo.svg"]
+  },
+  "history": {
+    "founded": "1957-04-01", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1957 동방생명 → 삼성생명. '삼성생명' + Samsung 타원이 현행 CI(ko.wiki 인포박스 타원 사용으로 currency 확인).",
+    "sources": ["https://ko.wikipedia.org/wiki/삼성생명"]
+  },
+  "related_sources": ["https://www.samsunglife.com/", "https://ko.wikipedia.org/wiki/삼성생명", "https://commons.wikimedia.org/wiki/File:Samsung_life_logo.svg"],
+  "notes": "★/loop 순차 수집 11번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식=JS 셸(자산 404) → ⑤위키미디어 공용. ★currency 검증: ko.wiki 인포박스가 타원 버전 사용 → 삼성 금융계열 타원 현행 확인(전자만 2015 타원 폐지). ★변형 선택: KOR '삼성생명'(#2347a3, 본 수집) vs ko.wiki가 쓰는 ENG 'Samsung Life Insurance logo.svg'(#003f98) — 한국 로고집이라 KOR 채택, 색상 hex 차이는 open. ★dark 변형 보류: 타원 내 'SAMSUNG' knockout 구조라 단순 recolor 부적합. T3 confidence medium.",
+  "assets": [
+    {
+      "file": "samsung-life-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Samsung life logo.svg (삼성생명 KOR)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Samsung_life_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Samsung_life_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.samsunglife.com/", "note": "[B 보강] 공식 도메인이 삼성생명 사이트(JS 셸). 동일 삼성생명+Samsung 타원 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Samsung_life_logo.svg", "note": "[검증] qlmanage 렌더 → '삼성생명'(#2347a3) + Samsung 블루 타원(white SAMSUNG knockout) 로고와 일치. viewBox 200.4×36.5, 14 path, raster 0" },
+        { "type": "third-party-reference", "url": "https://ko.wikipedia.org/wiki/삼성생명", "note": "[C/D 보강] ko.wiki 인포박스가 타원 로고를 현행으로 사용 → currency 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "wikipedia-currency-cross-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS 셸이라 동일 파일 직접 교차확인 미완",
+          "색상 hex: 본 KOR 파일 #2347a3 vs ko.wiki ENG 변형 #003f98 — 공식 정확 hex 미확정",
+          "dark 변형 미제공(타원 knockout 구조)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "삼성생명보험 주식회사",
+      "notes": "'삼성생명' 워드마크 + Samsung 블루 타원. #2347a3. viewBox 200.4×36.5, 14 path. light-bg용."
+    }
+  ]
+}

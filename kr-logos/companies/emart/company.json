@@ -1,0 +1,76 @@
+{
+  "id": "emart",
+  "identity": {
+    "name_ko": "이마트",
+    "name_en": "E-Mart",
+    "legal_name_ko": "주식회사 이마트",
+    "legal_name_en": "Emart Inc.",
+    "aliases": ["이마트", "E-Mart", "emart", "신세계 이마트"],
+    "group_ko": "신세계그룹", "group_en": "Shinsegae Group",
+    "stock_code": "139480", "dart_corp_code": null,
+    "homepage": "https://www.emart.com",
+    "industry": "유통 (대형마트)",
+    "affiliate_note": "신세계그룹 대형마트 1위(KOSPI 139480). 1993 1호점, 2011 신세계에서 인적분할 상장. 트레이더스·노브랜드 운영. 대표 한채양. 로고는 소문자 'emart' 워드마크(노랑 'e' #feb415 + 회색 'mart' #494b57). ★별개 엔티티: 신세계백화점(004170)과 구분."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 emart.com/emart.ssg.com(=KOSPI 139480 (주)이마트). ★자산: 공식 사이트 정적 로고 미노출 → 위키미디어 공용 'Emart Logo.svg'(T3, 2 path, raster 0) 사용. 렌더로 'emart'(노랑 e + 회색 mart) 현행 로고 확인. ★namesake: 'Emart 24'(편의점 자회사)와 구분. ★서브에이전트 '노랑 on 빨강' 주장 오류 → 실제 노랑 e(#feb415)+회색 mart(#494b57), 빨강 없음.",
+    "sources": ["https://www.emart.com/", "https://ko.wikipedia.org/wiki/이마트", "https://commons.wikimedia.org/wiki/File:Emart_Logo.svg"]
+  },
+  "history": {
+    "founded": "1993-11-12", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1993 창동 1호점. 소문자 'emart'(노랑 e + 회색 mart) 워드마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/이마트"]
+  },
+  "related_sources": ["https://www.emart.com/", "https://ko.wikipedia.org/wiki/이마트", "https://commons.wikimedia.org/wiki/File:Emart_Logo.svg"],
+  "notes": "★/loop 순차 수집 31번(서브에이전트 랭킹 #1). CI-우선: ②공식 정적 로고 미노출 → ⑤위키미디어 공용. ★색상 교정: 서브에이전트 '노랑 #FFD100 on 빨강 #E5242D' 주장 → 실제 노랑 e(#feb415) + 회색 mart(#494b57), 빨강 없음. ★viewBox 없는 Inkscape 파일(width/height 278×79, paths transform됨) → viewBox='0 0 278.95642 79.470963' 추가해 포터블화. light 원본 + dark는 'mart' #494b57→#fff(노랑 e 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "emart-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Emart Logo.svg (viewBox 보정)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emart_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Emart_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+viewbox-add", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.emart.com/", "note": "[B 보강] 공식 도메인이 이마트 사이트. 동일 'emart' 워드마크 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Emart_Logo.svg", "note": "[검증] qlmanage 렌더 → 'emart'(노랑 e #feb415 + 회색 mart #494b57) 현행 로고와 일치. viewBox 278.96×79.47(보정), 2 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(위키미디어) — 공식 직접 교차확인 미완(브랜드 시각 일치는 확인)"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 이마트",
+      "notes": "'emart' 워드마크: 노랑 'e'(#feb415) + 회색 'mart'(#494b57). viewBox 278.96×79.47, 2 path. light-bg용."
+    },
+    {
+      "file": "emart-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "emart 로고 — 다크용('mart' #494b57→#fff 파생, 노랑 e 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Emart_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Emart_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Emart_Logo.svg", "note": "동일 path, 'mart' 회색 #494b57→#FFFFFF. 노랑 'e'(#feb415) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 이마트",
+      "notes": "노랑 'e' + 'mart' #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

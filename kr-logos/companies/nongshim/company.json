@@ -1,0 +1,76 @@
+{
+  "id": "nongshim",
+  "identity": {
+    "name_ko": "농심",
+    "name_en": "Nongshim",
+    "legal_name_ko": "주식회사 농심",
+    "legal_name_en": "Nongshim Co., Ltd.",
+    "aliases": ["농심", "Nongshim", "農心"],
+    "group_ko": "농심그룹", "group_en": "Nongshim Group",
+    "stock_code": "004370", "dart_corp_code": null,
+    "homepage": "https://www.nongshim.com",
+    "industry": "식품 제조 (라면/스낵)",
+    "affiliate_note": "농심그룹 식품 핵심사(KOSPI 004370). 1965 설립. 신라면·새우깡·짜파게티 등. 대표 이병학. 로고는 빨강 타원 링 심볼(#E60013, 흰 중앙) + '농심' 워드마크(검정 #000). ★별개 엔티티: 지주 농심홀딩스(072710)와 구분."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 nongshim.com(=KOSPI 004370 (주)농심). ★자산: 공식 사이트 정적 로고 미노출 → 위키미디어 공용 'Nongshim Logo.svg'(KOR, T3, 6 path, raster 0) 사용. 렌더로 빨강 타원 심볼+'농심' 현행 로고 확인. ★namesake: 지주 농심홀딩스(072710)와 구분.",
+    "sources": ["https://www.nongshim.com/", "https://ko.wikipedia.org/wiki/농심", "https://commons.wikimedia.org/wiki/File:Nongshim_Logo.svg"]
+  },
+  "history": {
+    "founded": "1965-09-18", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "note": "1965 롯데공업 → 1978 농심. 빨강 타원 심볼 + '농심' 워드마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/농심"]
+  },
+  "related_sources": ["https://www.nongshim.com/", "https://ko.wikipedia.org/wiki/농심", "https://commons.wikimedia.org/wiki/File:Nongshim_Logo.svg"],
+  "notes": "★/loop 순차 수집 36번(서브에이전트 랭킹 #1). CI-우선: ②공식 정적 로고 미노출 → ⑤위키미디어 공용 'Nongshim Logo.svg'(KOR, ENG/hanja도 존재). 색 #E60013(빨강)/#000(검정)/#FFF(타원 중앙) 실측. light 원본 + dark는 '농심' #000→#fff(빨강 타원/흰 중앙 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "nongshim-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Nongshim Logo.svg (KOR)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nongshim_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Nongshim_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.nongshim.com/", "note": "[B 보강] 공식 도메인이 농심 사이트. 동일 빨강 타원+농심 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Nongshim_Logo.svg", "note": "[검증] qlmanage 렌더 → 빨강 타원 링 심볼(#E60013, 흰 중앙) + '농심'(#000) 현행 로고와 일치. viewBox 105.8×34.1, 6 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(위키미디어) — 공식 직접 교차확인 미완(브랜드 시각 일치는 확인)"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 농심",
+      "notes": "빨강 타원 링 심볼(#E60013) + '농심'(#000). viewBox 105.8×34.1, 6 path. light-bg용."
+    },
+    {
+      "file": "nongshim-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "농심 로고 — 다크용('농심' #000→#fff 파생, 빨강 타원 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nongshim_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Nongshim_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Nongshim_Logo.svg", "note": "동일 path, '농심' #000→#FFFFFF. 빨강 타원(#E60013)+흰 중앙 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 농심",
+      "notes": "'농심' #FFFFFF + 빨강 타원 심볼. 다크 배경용 파생."
+    }
+  ]
+}

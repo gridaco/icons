@@ -1,0 +1,106 @@
+{
+  "id": "hyundai-motor",
+  "identity": {
+    "name_ko": "현대자동차",
+    "name_en": "Hyundai Motor",
+    "legal_name_ko": "현대자동차 주식회사",
+    "legal_name_en": "Hyundai Motor Company",
+    "aliases": ["현대차", "Hyundai", "HMC"],
+    "group_ko": "현대자동차그룹",
+    "group_en": "Hyundai Motor Group",
+    "stock_code": "005380",
+    "dart_corp_code": null,
+    "homepage": "https://www.hyundai.com",
+    "industry": "완성차 제조",
+    "affiliate_note": "현대자동차그룹 계열 — 종목코드 005380(현대자동차) 한정. 기아·현대모비스·현대제철, 그리고 HD현대(구 현대중공업그룹)·현대백화점그룹 등 '현대' 분리그룹과 혼동 주의."
+  },
+  "history": {
+    "founded": "1967-12-29",
+    "last_rebrand": "1990",
+    "is_original": false,
+    "basis": "rebrand-news",
+    "sources": [
+      "https://www.theguru.co.kr/news/article.html?no=47561",
+      "https://www.hyundai.com/kr/ko/info/ci"
+    ]
+  },
+  "related_sources": [
+    "https://www.hyundai.com/kr/ko/info/ci",
+    "https://namu.wiki/w/현대자동차",
+    "https://www.theguru.co.kr/news/article.html?no=47561"
+  ],
+  "notes": "현 CI(슬랜트 오벌-H 심볼 + 이탤릭 'HYUNDAI' 워드마크)는 약 1990년 도입, 이후 디자인 유지(2021년은 엠블럼 재질만 변경). last_rebrand=1990은 대략치.",
+  "assets": [
+    {
+      "file": "hyundai-motor-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "현대자동차 공식 사이트 헤더 로고 자산(logo.svg) — CI 페이지에서 동일 마크 확인",
+        "source_url": "https://www.hyundai.com/contents/images/logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.hyundai.com/contents/images/logo.svg",
+          "note": "공식 사이트 헤더 background-image로 현재 사용 중인 벡터 로고 (DOM 확인 2026-06-14)"
+        },
+        {
+          "type": "brand-guideline",
+          "url": "https://www.hyundai.com/kr/ko/info/ci",
+          "note": "공식 CI 페이지가 동일 로고타입(블루 #002C5F)을 표준으로 안내 — 형태·색 일치"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-official-ci", "vector-integrity-check", "brand-hex-check"],
+        "confidence": "high",
+        "open_questions": [
+          "현 CI 도입 정확 연도(1990 대략) 추가 확정 필요"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "현대자동차 주식회사",
+      "notes": "Hyundai Blue #002C5F. viewBox 0 0 166 23, 5 paths. 오벌-H 심볼 + HYUNDAI 워드마크 lockup."
+    },
+    {
+      "file": "hyundai-motor-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "현대자동차 공식 로고(logo.svg) 화이트 녹아웃 — 다크 배경용",
+        "source_url": "https://www.hyundai.com/contents/images/logo.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "derived-from-light",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "brand-guideline",
+          "url": "https://www.hyundai.com/kr/ko/info/ci",
+          "note": "공식 CI 페이지가 어두운/사진 배경에 화이트 녹아웃 로고 사용을 예시 → 동일 path 화이트 적용"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "high",
+        "open_questions": []
+      },
+      "status": "verified",
+      "trademark_owner": "현대자동차 주식회사",
+      "notes": "light와 동일 path, fill만 #FFFFFF (공식 화이트 녹아웃 사용에 부합)."
+    }
+  ]
+}

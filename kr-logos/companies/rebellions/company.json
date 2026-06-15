@@ -1,0 +1,89 @@
+{
+  "id": "rebellions",
+  "identity": {
+    "name_ko": "리벨리온",
+    "name_en": "Rebellions",
+    "legal_name_ko": "리벨리온 주식회사",
+    "legal_name_en": "Rebellions Inc.",
+    "aliases": ["리벨리온", "Rebellions", "리벨리온-사피온", "리벨리온-사페온"],
+    "group_ko": null, "group_en": null,
+    "stock_code": null, "dart_corp_code": null,
+    "homepage": "https://rebellions.ai",
+    "industry": "AI 반도체 (NPU 팹리스)",
+    "affiliate_note": "독립 AI반도체 스타트업(비상장 유니콘, 기업가치 약 1.3조). 2020 설립. 2024.12 사피온코리아(SK텔레콤 계열)와 합병하여 '리벨리온' 단일 사명으로 출범. 단독대표 박성현. 칩: ATOM·REBEL."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["official-domain", "legal-name-match", "representative-match"],
+    "note": "공식 도메인 kr.rebellions.ai/rebellions.ai 푸터에 'Rebellions Inc.' + 본사 주소(경기 성남시 분당구 정자일로 156번길 6, 3F) 명시. 대표 박성현, 다수 언론·THE VC 교차확인. 비상장이라 종목코드 없음, 사업자등록번호 공개정보 미확인.",
+    "sources": [
+      "https://kr.rebellions.ai/",
+      "https://thevc.kr/rebellions",
+      "https://ko.wikipedia.org/wiki/리벨리온_(기업)"
+    ]
+  },
+  "history": {
+    "founded": "2020-09-01",
+    "last_rebrand": "2024-12-02",
+    "is_original": false,
+    "basis": "merger-relaunch",
+    "sources": [
+      "https://kr.rebellions.ai/newsroom/리벨리온-사피온-합병법인-공식-출범/",
+      "https://www.hankookilbo.com/News/Read/A2024120213500002364",
+      "https://www.aitimes.com/news/articleView.html?idxno=165830"
+    ]
+  },
+  "related_sources": [
+    "https://kr.rebellions.ai/",
+    "https://thevc.kr/rebellions",
+    "https://ko.wikipedia.org/wiki/리벨리온_(기업)",
+    "https://namu.wiki/w/리벨리온(인공지능 기업)"
+  ],
+  "notes": "검증 프레임워크 적용(무명). 2024.12 사피온 합병 출범이 사실상 현 브랜드의 기준점 — 현 로고 자산은 2025/08 업로드된 합병 후 브랜드. 로고는 심볼+'Rebellions' 워드마크 락업. 공식이 light-bg/dark-bg 두 변형을 각각 별도 색상으로 제공(색 파생 아님).",
+  "assets": [
+    {
+      "file": "rebellions-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "리벨리온 공식 사이트(kr.rebellions.ai) light-bg 로고 SVG",
+        "source_url": "https://kr.rebellions.ai/wp-content/uploads/2025/08/logo-light-bg.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "curl:asset-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://kr.rebellions.ai/", "note": "[B] 공식 도메인이 light-bg 로고로 서빙(viewBox 1325×245, 심볼 #52F756/#808A96 + 검정 'Rebellions' 워드마크)" },
+        { "type": "press-release", "url": "https://kr.rebellions.ai/newsroom/리벨리온-사피온-합병법인-공식-출범/", "note": "[C/D] 2024.12 합병법인 출범 보도자료 — 현 브랜드 기준점" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["사업자등록번호 공개정보 미확인(도메인 권위로 보완)"]
+      },
+      "status": "verified", "trademark_owner": "리벨리온 주식회사",
+      "notes": "공식 light 변형(원본 그대로). 15 paths."
+    },
+    {
+      "file": "rebellions-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "리벨리온 공식 사이트(kr.rebellions.ai) dark-bg 로고 SVG",
+        "source_url": "https://kr.rebellions.ai/wp-content/uploads/2025/08/logo-dark-bg.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "curl:asset-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://kr.rebellions.ai/", "note": "[B] 공식 도메인이 dark-bg 로고로 서빙(viewBox 1326×245, 심볼 #00FC00/#CDDEE9 + 흰색 'Rebellions' 워드마크). light와 별개 색상의 공식 자산." }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "리벨리온 주식회사",
+      "notes": "공식 dark 변형(원본 그대로, 색 파생 아님). 15 paths."
+    }
+  ]
+}

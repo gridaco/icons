@@ -1,0 +1,83 @@
+{
+  "id": "s-oil",
+  "identity": {
+    "name_ko": "에쓰오일",
+    "name_en": "S-OIL",
+    "legal_name_ko": "에쓰-오일 주식회사",
+    "legal_name_en": "S-OIL Corporation",
+    "aliases": ["에쓰오일", "S-OIL", "S-Oil", "에스오일", "쌍용정유"],
+    "group_ko": "사우디 아람코(Saudi Aramco)", "group_en": "Saudi Aramco",
+    "stock_code": "010950", "dart_corp_code": null,
+    "homepage": "https://www.s-oil.com",
+    "industry": "정유/석유화학",
+    "affiliate_note": "KOSPI 010950 상장. 최대주주 = 사우디 아람코(AOC, ~63%). 구 쌍용정유(1976 설립) → 2000년 S-OIL로 사명. ★리스트 오류 정정: master-500에서 'private'로 잘못 분류·중복(S-Oil/에쓰오일)이었으나 실제 KOSPI 상장사로 통합."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "legal-name-match", "official-brand-kit"],
+    "note": "공식 도메인 s-oil.com + KOSPI 010950 = 에쓰-오일(주). 공식 CI 페이지(s-oil.com/company/CI.aspx)가 브랜드 자산(Wordmark/Logotype/Signature, AI·EPS·JPG)을 직접 배포 → 로고 귀속 T0 확정.",
+    "sources": ["https://www.s-oil.com/company/CI.aspx", "https://ko.wikipedia.org/wiki/에쓰오일"]
+  },
+  "history": {
+    "founded": "1976-01-01", "last_rebrand": "2000-01-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/에쓰오일", "https://www.s-oil.com/company/CI.aspx"]
+  },
+  "related_sources": ["https://www.s-oil.com/company/CI.aspx", "https://www.s-oil.com/", "https://ko.wikipedia.org/wiki/에쓰오일"],
+  "notes": "★수정 이력: 1차 수집 때 홈페이지 헤더만 보고 '래스터뿐(needs-review)'으로 오판 → 사용자 지적으로 공식 CI 페이지 발견. ★T0 공식 브랜드킷(CI.aspx)의 Wordmark.ai를 pdftocairo로 변환(PDF1.4=실벡터, 292/168 path, raster 0) 후, 가이드 시트에서 색상(초록 #108449=워드마크 / 노랑 #FAB20B=햇살심볼)+위치로 로고만 분리. 렌더로 '햇살 심볼 + S-OIL' 락업 확인. ★교훈: .ai는 toss/yanolja(신형, raster-only)와 달리 구형(2008, Illustrator 8.0)은 PDF호환 실벡터 — 단정 말고 변환 시도할 것.",
+  "assets": [
+    {
+      "file": "s-oil-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T0",
+        "source_name": "S-OIL 공식 CI 브랜드킷 Wordmark.ai (CI.aspx 배포)",
+        "source_url": "https://www.s-oil.com/Data/CI/Wordmark_AI.zip",
+        "archive_url": null, "original_format": "ai(pdf1.4)",
+        "captured_at": "2026-06-15", "capture_method": "ci-page:brandkit-download → pdftocairo(ai→svg) → color/position-isolation", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "brand-guideline", "url": "https://www.s-oil.com/company/CI.aspx", "note": "[A/B] 공식 CI 페이지가 Wordmark/Logotype/Signature AI·EPS 브랜드킷 배포 → T0 귀속" },
+        { "type": "official-current-context", "url": "https://www.s-oil.com/", "note": "[C] 홈페이지 헤더 logo.png(래스터)와 동일 마크 — 교차확인" },
+        { "type": "screenshot", "url": "https://www.s-oil.com/company/CI.aspx", "note": "[검증] AI→SVG 변환·분리 후 렌더 → 노랑 햇살 심볼 + 초록 'S-OIL' 락업 육안 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-brand-kit", "ai-vector-conversion", "render-check", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["로고 currency(최신 리뉴얼 일자) 미확정 — CI킷 파일 메타 2008. 현 사이트 마크와 동일 확인됨"]
+      },
+      "status": "verified", "trademark_owner": "에쓰-오일 주식회사",
+      "notes": "공식 색(워드마크 #108449, 심볼 #FAB20B). 10 paths(초록5+노랑5). 가이드시트에서 분리."
+    },
+    {
+      "file": "s-oil-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T0", "source_name": "S-OIL 락업 — 다크용(워드마크 초록→흰색 파생)",
+        "source_url": "https://www.s-oil.com/Data/CI/Wordmark_AI.zip",
+        "archive_url": null, "original_format": "ai(pdf1.4)",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "brand-guideline", "url": "https://www.s-oil.com/company/CI.aspx", "note": "동일 path, 워드마크만 #108449→#fff, 노랑 심볼 유지" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "에쓰-오일 주식회사", "notes": "워드마크 #fff, 심볼 #FAB20B."
+    },
+    {
+      "file": "s-oil-symbol.svg",
+      "properties": { "theme": "any", "kind": "symbol" },
+      "provenance": {
+        "source_tier": "T0", "source_name": "S-OIL 햇살 심볼 (Wordmark.ai에서 분리)",
+        "source_url": "https://www.s-oil.com/Data/CI/Wordmark_AI.zip",
+        "archive_url": null, "original_format": "ai(pdf1.4)",
+        "captured_at": "2026-06-15", "capture_method": "ci-page:brandkit → pdftocairo → isolation", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "brand-guideline", "url": "https://www.s-oil.com/company/CI.aspx", "note": "[B] 공식 브랜드킷 내 햇살(sunburst) 심볼" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["official-brand-kit", "vector-integrity-check"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "에쓰-오일 주식회사", "notes": "노랑 햇살 심볼 #FAB20B. 5 paths."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "vinatech",
+  "identity": {
+    "name_ko": "비나텍",
+    "name_en": "Vina Tech",
+    "legal_name_ko": "비나텍 주식회사",
+    "legal_name_en": "VINATech Co., Ltd.",
+    "aliases": ["비나텍", "VINATech", "Vina Tech"],
+    "group_ko": null, "group_en": null,
+    "stock_code": "126340", "dart_corp_code": null,
+    "homepage": "https://www.vina.co.kr",
+    "industry": "슈퍼커패시터/연료전지 소재",
+    "affiliate_note": "독립 강소기업(KOSDAQ 126340). 1999 설립, 대표 성도경. 슈퍼커패시터·연료전지용 MEA/탄소소재."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "representative-match"],
+    "note": "공식 도메인 vina.co.kr이 로고 SVG를 직접 서빙 + KOSDAQ 126340 = 비나텍(주), 대표 성도경(KIND 일치).",
+    "sources": ["https://www.vina.co.kr/", "https://ko.wikipedia.org/wiki/비나텍"]
+  },
+  "history": {
+    "founded": "1999-01-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://www.vina.co.kr/", "https://ko.wikipedia.org/wiki/비나텍"]
+  },
+  "related_sources": ["https://www.vina.co.kr/", "https://ko.wikipedia.org/wiki/비나텍"],
+  "notes": "★랜덤 수집 테스트(5개 중). 공식 로고 SVG(img_logo.svg) 직격 — viewBox 202×46. 흰색 'VINATECH' 워드마크 + 초록 라디얼그라데이션(#c2d500→#4c9c2e) 잎/V 심볼 락업. 그라데이션은 SVG 네이티브(radialGradient)라 무결. 원본 흰색 워드마크(다크용); light는 워드마크만 #111 파생(그라데이션 심볼 유지).",
+  "assets": [
+    {
+      "file": "vinatech-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "비나텍 공식 사이트 로고 SVG(원본)",
+        "source_url": "https://www.vina.co.kr/img/common/img_logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.vina.co.kr/", "note": "[B] 공식 도메인이 img_logo.svg(viewBox 202×46, 흰 워드마크 + 초록 그라데이션 심볼)를 로고로 서빙" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high", "open_questions": ["원본이 흰색 워드마크(다크용) — light는 워드마크 단색 파생"]
+      },
+      "status": "verified", "trademark_owner": "비나텍 주식회사",
+      "notes": "흰 워드마크(#fff) + 초록 라디얼그라데이션 심볼. 5 paths."
+    },
+    {
+      "file": "vinatech-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "비나텍 로고 — 밝은 배경용(워드마크 #fff→#111 파생)",
+        "source_url": "https://www.vina.co.kr/img/common/img_logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-dark", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://www.vina.co.kr/", "note": "동일 path, 워드마크만 #fff→#111111, 초록 그라데이션 심볼 유지" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "비나텍 주식회사", "notes": "워드마크 #111111, 그라데이션 심볼 유지."
+    }
+  ]
+}

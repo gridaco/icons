@@ -1,0 +1,35 @@
+{
+  "id": "balaan",
+  "identity": {
+    "name_ko": "발란",
+    "name_en": "Balaan",
+    "legal_name_ko": "주식회사 발란",
+    "legal_name_en": "Balaan Inc.",
+    "aliases": ["발란", "Balaan"],
+    "group_ko": null, "group_en": null,
+    "stock_code": null, "dart_corp_code": null,
+    "homepage": "https://www.balaan.co.kr",
+    "industry": "명품 이커머스 플랫폼",
+    "affiliate_note": "비상장. 2015 설립, 대표 최형록. ★폐업(파산) 기업 — 2025.03.31 기업회생 신청, 2026.02.09 회생 폐지, 2026.02.24 서울회생법원 파산 선고."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": false,
+    "method": ["news-corroboration"],
+    "note": "공식 도메인(balaan.co.kr) 접속 불가(HTTP 000, 사이트 다운) — 1차 신원앵커(사업자등록번호/공식 푸터) 확인 불가. 다수 언론으로 회사 식별·파산 사실만 교차확인.",
+    "sources": [
+      "https://zdnet.co.kr/view/?no=20250331131622",
+      "https://namu.wiki/w/발란"
+    ]
+  },
+  "history": {
+    "founded": "2015-01-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://namu.wiki/w/발란"]
+  },
+  "related_sources": [
+    "https://zdnet.co.kr/view/?no=20250331131622",
+    "https://imnews.imbc.com/news/2025/econo/article/6701468_36737.html",
+    "https://namu.wiki/w/발란"
+  ],
+  "notes": "★랜덤 수집 테스트(5개 중). ★DEFERRED — 폐업/파산 기업. 공식 웹사이트 다운(www.balaan.co.kr→HTTP 000; balaan.com·balaan.co.kr 모두 죽은 도메인으로 리다이렉트). 공식 소스에서 로고/신원앵커 확보 불가 + 파산으로 currency·존속성 자체가 무효. ★리스트 품질 이슈: master-500은 현재 시점 소스 기반이라 폐업 기업을 포함할 수 있음 — '존속 여부' 검증 단계 필요함을 보여주는 사례.",
+  "assets": []
+}

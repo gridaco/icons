@@ -1,0 +1,72 @@
+{
+  "id": "shinhan",
+  "identity": {
+    "name_ko": "신한지주",
+    "name_en": "Shinhan Financial Group",
+    "legal_name_ko": "주식회사 신한금융지주회사",
+    "legal_name_en": "Shinhan Financial Group Co., Ltd.",
+    "aliases": ["신한지주", "신한금융그룹", "신한금융지주", "Shinhan Financial Group", "Shinhan"],
+    "group_ko": "신한금융그룹", "group_en": "Shinhan Financial Group",
+    "stock_code": "055550", "dart_corp_code": null,
+    "homepage": "https://www.shinhangroup.com",
+    "industry": "금융 지주회사",
+    "affiliate_note": "신한금융그룹 지주사(KOSPI 055550). 2001 설립. 신한은행·신한카드·신한투자증권·신한라이프 등 보유. 회장 진옥동. 로고는 파랑 'S' 새/날개 심볼 + '신한금융그룹' 워드마크(Shinhan Blue #0046FF)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-asset-path"],
+    "note": "공식 도메인 shinhangroup.com(=KOSPI 055550 (주)신한금융지주회사)이 헤더 로고로 /resources/publish/kr/images/common/logo.svg를 직접 서빙(T1). 렌더로 'S' 심볼 + '신한금융그룹'(Shinhan Blue) 확인. ★namesake 주의: 'Shinhan Bank Logo' 등 자회사 마크와 구분 — 이건 지주(신한금융그룹) 공식 자산.",
+    "sources": ["https://www.shinhangroup.com/", "https://ko.wikipedia.org/wiki/신한금융지주"]
+  },
+  "history": {
+    "founded": "2001-09-01", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "2001 신한금융지주 출범. 'S' 심볼 + 신한금융그룹 블루 워드마크가 현행 CI. render-verified(공식 라이브 자산).",
+    "sources": ["https://ko.wikipedia.org/wiki/신한금융지주", "https://www.shinhangroup.com/"]
+  },
+  "related_sources": ["https://www.shinhangroup.com/", "https://ko.wikipedia.org/wiki/신한금융지주"],
+  "notes": "★/loop 순차 수집 7번(인지도 high, 서브에이전트 랭킹 #1). ★T1 직격 — Commons엔 신한'은행'/자회사 마크만 있어 부적합했고, 공식 사이트 SPA의 자산 디렉터리 /resources/publish/kr/images/common/ 를 프로빙해 logo.svg(1 path, raster 0, width/height=viewBox 211×40)를 직접 확보. ★서브에이전트 색상 오정보('crimson')를 디스커버리로 교정: 실제 Shinhan Blue #0046FF. 단일 fill이라 light(#0046FF)+dark(#fff) 깔끔한 쌍.",
+  "assets": [
+    {
+      "file": "shinhan-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "신한금융그룹 공식 사이트 헤더 로고 (logo.svg)",
+        "source_url": "https://www.shinhangroup.com/resources/publish/kr/images/common/logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:asset-dir-probe→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.shinhangroup.com/", "note": "[A+B] 공식 도메인(KOSPI 055550)이 logo.svg를 헤더 로고로 서빙. viewBox 211×40, 단일 path, fill #0046FF" },
+        { "type": "screenshot", "url": "https://www.shinhangroup.com/", "note": "[검증] qlmanage 렌더 → 'S' 심볼 + '신한금융그룹'(Shinhan Blue) 현행 로고와 일치" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "주식회사 신한금융지주회사",
+      "notes": "'S' 심볼 + '신한금융그룹' 워드마크, Shinhan Blue #0046FF. viewBox 211×40, 1 path. light-bg용."
+    },
+    {
+      "file": "shinhan-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "신한금융그룹 로고 — 다크용(#0046FF→#fff 파생)",
+        "source_url": "https://www.shinhangroup.com/resources/publish/kr/images/common/logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.shinhangroup.com/", "note": "동일 단일 path, fill #0046FF→#FFFFFF (단색 로고 표준 반전)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "주식회사 신한금융지주회사",
+      "notes": "단일 path #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

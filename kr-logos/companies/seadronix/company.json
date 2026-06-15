@@ -1,0 +1,109 @@
+{
+  "id": "seadronix",
+  "identity": {
+    "name_ko": "씨드로닉스",
+    "name_en": "Seadronix",
+    "legal_name_ko": "씨드로닉스 주식회사",
+    "legal_name_en": "Seadronix Corp.",
+    "aliases": ["Seadronix", "AVISS"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": null,
+    "dart_corp_code": null,
+    "homepage": "https://www.seadronix.com",
+    "industry": "해양 AI / 자율운항·접안 솔루션",
+    "affiliate_note": "독립 딥테크 스타트업 — 대기업집단 계열 아님. 비상장(2026-06 기준). 동명의 해외기업과 무관(대전 소재 해양 AI)."
+  },
+  "history": {
+    "founded": "2015-12-01",
+    "last_rebrand": null,
+    "is_original": null,
+    "basis": "founding-date",
+    "sources": [
+      "https://thevc.kr/seadronix",
+      "https://www.rocketpunch.com/companies/seadronix"
+    ]
+  },
+  "related_sources": [
+    "https://www.seadronix.com/",
+    "https://www.seadronix.com/news/",
+    "https://thevc.kr/seadronix",
+    "https://www.rocketpunch.com/companies/seadronix",
+    "https://www.jobplanet.co.kr/companies/346350"
+  ],
+  "assets": [
+    {
+      "file": "seadronix-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "씨드로닉스 공식 웹사이트 — 헤더 로고 자산",
+        "source_url": "https://www.seadronix.com/wp-content/themes/v4/resources/images/logo-dark.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.seadronix.com/",
+          "note": "공식 홈페이지 헤더가 <img class=\"logo-dark\" src=\".../logo-dark.svg\"> 로 동일 lockup을 현재 사용 — DOM 확인 2026-06-14"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://www.seadronix.com/",
+          "note": "히어로 화면에 동일 심볼+워드마크 lockup 노출(흰색 버전), 형태·자간 일치"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-official-header", "vector-integrity-check", "live-reference-check"],
+        "confidence": "high",
+        "open_questions": [
+          "2015 설립 이후 CI 리브랜드 이력 미확인 — 현재 로고가 최초(is_original) 여부 추가 조사 필요"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "씨드로닉스 주식회사",
+      "notes": "navy(#0c3c60) 컬러 버전. 밝은 배경용. viewBox 0 0 1435.89 358.76. 색상은 내부 <style>.cls-1 로 자가완결."
+    },
+    {
+      "file": "seadronix-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "씨드로닉스 공식 웹사이트 — 헤더 로고 자산(다크 배경용)",
+        "source_url": "https://www.seadronix.com/wp-content/themes/v4/resources/images/logo-light.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.seadronix.com/",
+          "note": "히어로(다크 배경) 헤더에 흰색 lockup 노출 — 스크린샷 확인 2026-06-14"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-official-header", "vector-integrity-check", "live-reference-check"],
+        "confidence": "high",
+        "open_questions": [
+          "light 변형과 동일 path, fill만 #fff — 별도 리브랜드 이력은 light 자산과 함께 추적"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "씨드로닉스 주식회사",
+      "notes": "white(#fff) 컬러 버전. 어두운 배경용. light 변형과 동일 path."
+    }
+  ]
+}

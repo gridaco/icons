@@ -1,0 +1,57 @@
+{
+  "id": "lotte-shopping",
+  "identity": {
+    "name_ko": "롯데쇼핑",
+    "name_en": "Lotte Shopping",
+    "legal_name_ko": "롯데쇼핑 주식회사",
+    "legal_name_en": "Lotte Shopping Co., Ltd.",
+    "aliases": ["롯데쇼핑", "Lotte Shopping", "롯데백화점", "롯데마트", "롯데시네마"],
+    "group_ko": "롯데그룹", "group_en": "Lotte Group",
+    "stock_code": "023530", "dart_corp_code": null,
+    "homepage": "https://www.lotteshopping.com",
+    "industry": "유통 (백화점/대형마트/시네마)",
+    "affiliate_note": "롯데그룹 유통 핵심사(KOSPI 023530). 1970 설립. 롯데백화점·롯데마트·롯데시네마 운영. 대표 김상현·정준호. 로고는 Lotte 마스터 마크(2017 CI: 빨강 라운드 배지 #e60013 + 흰 'l' 심볼 + 'LOTTE' 워드마크). 전용 '롯데쇼핑' 락업은 마스터+descriptor."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 lotteshopping.com(=KOSPI 023530 롯데쇼핑(주)). ★자산: 공식 사이트 정적 로고 경로 catch-all(200 text/html) → 위키미디어 공용 'Lotte Logo (2017).svg'(T3, 9 path, raster 0) 사용. 렌더로 빨강 배지+'LOTTE' 2017 마스터 CI 확인. ★namesake 회피: Lotte Chemical/Hotel/Duty Free/World Tower 등 자매사 마크 배제. 이건 Lotte 마스터 마크(그룹 공유, 쇼핑 descriptor 미포함).",
+    "sources": ["https://www.lotteshopping.com/", "https://ko.wikipedia.org/wiki/롯데쇼핑", "https://commons.wikimedia.org/wiki/File:Lotte_Logo_(2017).svg"]
+  },
+  "history": {
+    "founded": "1970-07-02", "last_rebrand": "2017-01-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1970 설립. 2017 Lotte 통합 CI(빨강 배지 + 'l' 심볼 + LOTTE)가 현행. render-verified.",
+    "sources": ["https://ko.wikipedia.org/wiki/롯데쇼핑"]
+  },
+  "related_sources": ["https://www.lotteshopping.com/", "https://ko.wikipedia.org/wiki/롯데쇼핑", "https://commons.wikimedia.org/wiki/File:Lotte_Logo_(2017).svg"],
+  "notes": "★/loop 순차 수집 30번(서브에이전트 랭킹 #1). CI-우선: ②공식 정적 경로 catch-all(200 HTML) → ⑤위키미디어 공용 'Lotte Logo (2017).svg'(Lotte 마스터 마크). ★CJ제일제당과 동류: 그룹 공유 마스터 마크지만 distinctive symbol(빨강 'l' 배지)이라 채택, 전용 '롯데쇼핑' descriptor 락업은 raster(open). 빨강#e60013+흰#ffffff → light(dark-safe, 빨강 배지가 다크에서도 보임). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "lotte-shopping-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Lotte Logo (2017).svg (Lotte 마스터 마크)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Lotte_Logo_%282017%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Lotte_Logo_(2017).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.lotteshopping.com/", "note": "[B 보강] 공식 도메인(롯데쇼핑)이 Lotte 빨강 배지+LOTTE 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Lotte_Logo_(2017).svg", "note": "[검증] qlmanage 렌더 → 빨강 라운드 배지(#e60013, 흰 'l' 심볼) + 'LOTTE'(빨강) 2017 마스터 CI와 일치. viewBox 298×93, 9 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 직접 교차확인 미완",
+          "★ Lotte 마스터 마크(그룹 공유) — 전용 '롯데쇼핑' descriptor 락업은 래스터(벡터 미확보)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "롯데쇼핑 주식회사",
+      "notes": "Lotte 마스터 마크: 빨강 배지(#e60013) + 흰 'l' + 'LOTTE'. viewBox 298×93, 9 path. 빨강+흰이라 light/dark 양쪽 사용 가능."
+    }
+  ]
+}

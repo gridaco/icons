@@ -1,0 +1,57 @@
+{
+  "id": "sk-hynix",
+  "identity": {
+    "name_ko": "SK하이닉스",
+    "name_en": "SK hynix",
+    "legal_name_ko": "에스케이하이닉스 주식회사",
+    "legal_name_en": "SK hynix Inc.",
+    "aliases": ["SK하이닉스", "에스케이하이닉스", "SK hynix", "하이닉스", "Hynix"],
+    "group_ko": "SK그룹", "group_en": "SK Group",
+    "stock_code": "000660", "dart_corp_code": null,
+    "homepage": "https://www.skhynix.com",
+    "industry": "반도체 제조 (메모리/DRAM/NAND/HBM)",
+    "affiliate_note": "SK그룹 계열(KOSPI 000660). 글로벌 2위 메모리 반도체. 1983 현대전자 → 2001 하이닉스반도체 → 2012 SK 인수. 대표 곽노정. 로고는 SK '행복날개'(red #e31837 + orange #f58025) + 'SK hynix' 락업."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 skhynix.com(=KOSPI 000660 에스케이하이닉스(주)) + SK그룹 계열. ★자산: 공식 사이트가 JS SPA + Azure CDN라 정적 로고 미노출(헤더 경로 전부 404) → 위키미디어 공용 SVG(T3) 사용. 렌더로 현행 'SK 행복날개 + SK hynix' 로고와 일치 확인.",
+    "sources": ["https://www.skhynix.com/", "https://ko.wikipedia.org/wiki/SK하이닉스", "https://commons.wikimedia.org/wiki/File:SK_Hynix.svg"]
+  },
+  "history": {
+    "founded": "1983-02-24", "last_rebrand": "2012-03-26", "is_original": false, "basis": "rebrand-date",
+    "note": "1983 현대전자산업 설립. 2001 하이닉스반도체. 2012 SK텔레콤이 인수 → 'SK하이닉스' + SK 행복날개 CI. 현행 브랜드와 일치(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/SK하이닉스"]
+  },
+  "related_sources": ["https://www.skhynix.com/", "https://ko.wikipedia.org/wiki/SK하이닉스", "https://commons.wikimedia.org/wiki/File:SK_Hynix.svg"],
+  "notes": "★/loop 순차 수집 3번(인지도 high, 서브에이전트 랭킹 #1). CI-우선 체크리스트: ②홈페이지=JS SPA(Azure CDN, 정적 로고 0, 경로 전부 404) → ⑤위키미디어 공용에서 진짜 SVG(14 path, raster 0) 확보. ★vector-integrity: Commons Inkscape SVG가 mm width/height를 가져 qlmanage 썸네일에서 '좌상단 35%'로 잘못 보였으나, path 좌표 bbox를 결정론적으로 파싱하니 내용이 viewBox(0 0 28.45 15.03)를 꽉 채움 — mm width/height만 제거하면 정상. red/orange 단색이라 light/dark 양쪽 사용가능. T3 confidence medium.",
+  "assets": [
+    {
+      "file": "sk-hynix-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — SK Hynix.svg (Inkscape)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/SK_Hynix.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:SK_Hynix.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.skhynix.com/", "note": "[B 보강] 공식 도메인이 SK하이닉스 사이트(JS SPA·Azure CDN·정적 로고 미노출). 동일 행복날개+SK hynix 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:SK_Hynix.svg", "note": "[검증] qlmanage 렌더 → SK 행복날개(red #e31837/orange #f58025) + 'SK'(red) 'hynix'(orange) 현행 로고와 일치. viewBox 28.45×15.03, 14 path, raster 0, 콘텐츠 bbox가 viewBox 충전" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "path-bbox-deterministic"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS SPA라 동일 파일 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "T0/T1 상향: SK하이닉스 뉴스룸/브랜드킷 또는 브라우저로 헤더 로고 추출"
+        ]
+      },
+      "status": "verified", "trademark_owner": "에스케이하이닉스 주식회사",
+      "notes": "행복날개 심볼 + 'SK hynix' 락업. red #e31837 + orange #f58025. viewBox 0 0 28.452518 15.028476, 14 path. 단색이라 light/dark 양쪽 사용 가능."
+    }
+  ]
+}

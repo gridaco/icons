@@ -1,0 +1,80 @@
+{
+  "id": "samsung-sdi",
+  "identity": {
+    "name_ko": "삼성SDI",
+    "name_en": "Samsung SDI",
+    "legal_name_ko": "삼성에스디아이 주식회사",
+    "legal_name_en": "Samsung SDI Co., Ltd.",
+    "aliases": ["삼성SDI", "삼성에스디아이", "Samsung SDI"],
+    "group_ko": "삼성그룹", "group_en": "Samsung Group",
+    "stock_code": "006400", "dart_corp_code": null,
+    "homepage": "https://www.samsungsdi.co.kr",
+    "industry": "이차전지·전자재료 제조",
+    "affiliate_note": "삼성그룹 배터리/소재 핵심사(KOSPI 006400). 1970 설립(삼성-NEC). 이차전지(EV/소형) + 전자재료. 대표 최주선. 로고는 Samsung 블루 타원(#034F9E, white SAMSUNG knockout) + '삼성SDI' 워드마크 — 삼성 비(非)전자 계열은 타원 유지(전자만 2015 폐지)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 samsungsdi.co.kr(=KOSPI 006400 삼성에스디아이(주)). ★자산: 공식 사이트 정적 로고 미노출(자산 dir 미적중) → 위키미디어 공용 'Samsung SDI logo (korean).svg'(T3, 7 path, raster 0, 단색 #034F9E) 사용. ★currency 확인: ko.wiki 삼성SDI 인포박스가 바로 이 (korean) 타원 파일을 현행으로 사용 → 타원 현행(서브에이전트 '오벌 없음' 주장은 오류).",
+    "sources": ["https://www.samsungsdi.co.kr/", "https://ko.wikipedia.org/wiki/삼성SDI", "https://commons.wikimedia.org/wiki/File:Samsung_SDI_logo_(korean).svg"]
+  },
+  "history": {
+    "founded": "1970-01-20", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1970 설립. Samsung 타원 + '삼성SDI'가 현행 CI(ko.wiki 인포박스 동일 파일로 currency 확인).",
+    "sources": ["https://ko.wikipedia.org/wiki/삼성SDI"]
+  },
+  "related_sources": ["https://www.samsungsdi.co.kr/", "https://ko.wikipedia.org/wiki/삼성SDI", "https://commons.wikimedia.org/wiki/File:Samsung_SDI_logo_(korean).svg"],
+  "notes": "★/loop 순차 수집 20번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식 정적 로고 미노출 → ⑤위키미디어 공용. ★서브에이전트 오정보 교정: '삼성SDI는 wordmark-only, 오벌 없음' 주장 → 실제 Samsung 타원 사용, ko.wiki 인포박스로 currency 확인. 단색 #034F9E라 light(#034F9E)+dark(#fff) 깔끔(knockout SAMSUNG도 단색 반전으로 정상). KOR 채택(ENG도 Commons 존재). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "samsung-sdi-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Samsung SDI logo (korean).svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Samsung_SDI_logo_%28korean%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Samsung_SDI_logo_(korean).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.samsungsdi.co.kr/", "note": "[B 보강] 공식 도메인이 삼성SDI 사이트. 동일 Samsung 타원+삼성SDI 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Samsung_SDI_logo_(korean).svg", "note": "[검증] qlmanage 렌더 → Samsung 블루 타원(white SAMSUNG knockout) + '삼성SDI'(#034F9E) 현행 로고와 일치. viewBox 170×30, 7 path, raster 0" },
+        { "type": "third-party-reference", "url": "https://ko.wikipedia.org/wiki/삼성SDI", "note": "[C/D] ko.wiki 인포박스가 동일 파일 사용 → currency 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "wikipedia-currency-cross-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트 직접 교차확인 미완(ko.wiki 인포박스로 currency 보강)",
+          "ENG 'Samsung SDI' 락업 미수집(Commons 존재)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "삼성에스디아이 주식회사",
+      "notes": "Samsung 블루 타원 + '삼성SDI'. 단색 #034F9E. viewBox 170×30, 7 path. light-bg용."
+    },
+    {
+      "file": "samsung-sdi-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "삼성SDI 로고 — 다크용(#034F9E→#fff 단색 반전)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Samsung_SDI_logo_%28korean%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Samsung_SDI_logo_(korean).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Samsung_SDI_logo_(korean).svg", "note": "동일 단색 path, #034F9E→#FFFFFF (단색 로고 표준 반전, knockout SAMSUNG는 배경색 표시)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "삼성에스디아이 주식회사",
+      "notes": "단색 #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "hyundai-mobis",
+  "identity": {
+    "name_ko": "현대모비스",
+    "name_en": "Hyundai Mobis",
+    "legal_name_ko": "현대모비스 주식회사",
+    "legal_name_en": "Hyundai Mobis Co., Ltd.",
+    "aliases": ["현대모비스", "Hyundai Mobis", "모비스"],
+    "group_ko": "현대자동차그룹", "group_en": "Hyundai Motor Group",
+    "stock_code": "012330", "dart_corp_code": null,
+    "homepage": "https://www.mobis.co.kr",
+    "industry": "자동차 부품 제조 (모듈/AS부품)",
+    "affiliate_note": "현대자동차그룹 핵심 부품사(KOSPI 012330). 1977 현대정공 → 2000 현대모비스. 모듈·핵심부품·AS부품. 대표 이규석. 로고는 'HYUNDAI'(blue #1C4381) + 'MOBIS'(black) + O를 감싸는 빨강 스워시(#CC1424)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 mobis.co.kr(=KOSPI 012330 현대모비스(주)) + 현대차그룹. ★자산: 공식 헤더는 logo.png(래스터), SVG는 symbol.svg(심볼만)만 노출 → 풀 락업은 위키미디어 공용 'Hyundai Mobis Logo.svg'(T3, 12 path, raster 0) 사용. 렌더로 'HYUNDAI MOBIS'+빨강 스워시 현행 로고 확인.",
+    "sources": ["https://www.mobis.co.kr/", "https://ko.wikipedia.org/wiki/현대모비스", "https://commons.wikimedia.org/wiki/File:Hyundai_Mobis_Logo.svg"]
+  },
+  "history": {
+    "founded": "1977-07-01", "last_rebrand": "2000-11-01", "is_original": false, "basis": "rebrand-date",
+    "note": "1977 현대정공 → 2000 현대모비스 사명. 'HYUNDAI MOBIS' 워드마크 + 빨강 스워시가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/현대모비스"]
+  },
+  "related_sources": ["https://www.mobis.co.kr/", "https://ko.wikipedia.org/wiki/현대모비스", "https://commons.wikimedia.org/wiki/File:Hyundai_Mobis_Logo.svg"],
+  "notes": "★/loop 순차 수집 14번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식 헤더=logo.png(래스터), symbol.svg만 SVG → 풀 락업은 ⑤위키미디어 공용. ★implicit-black: 'MOBIS' 글자 path가 fill 없음(기본 검정)이라 명시 fill=#000000 추가(light), dark는 그걸 #fff로(HYUNDAI 블루+빨강 스워시 유지). 색 #1C4381/#CC1424 실측. T3 confidence medium.",
+  "assets": [
+    {
+      "file": "hyundai-mobis-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Hyundai Mobis Logo.svg (implicit-black을 #000 명시화)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hyundai_Mobis_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Mobis_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download+explicit-fill", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.mobis.co.kr/", "note": "[B 보강] 공식 도메인이 현대모비스 사이트(헤더 logo.png). 동일 HYUNDAI MOBIS+빨강 스워시 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Hyundai_Mobis_Logo.svg", "note": "[검증] qlmanage 렌더 → 'HYUNDAI'(blue #1C4381) + 'MOBIS'(black) + 빨강 스워시(#CC1424) 현행 로고와 일치. viewBox 720×248, 12 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 풀 락업 SVG 직접 교차확인 미완(공식은 PNG, render-verify로 일치 확인)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "현대모비스 주식회사",
+      "notes": "'HYUNDAI'(#1C4381) + 'MOBIS'(#000000) + 빨강 스워시(#CC1424). viewBox 720×248, 12 path. light-bg용."
+    },
+    {
+      "file": "hyundai-mobis-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "Hyundai Mobis 로고 — 다크용(MOBIS #000→#fff 파생, HYUNDAI 블루+빨강 스워시 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hyundai_Mobis_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Mobis_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Hyundai_Mobis_Logo.svg", "note": "동일 path, 중성 'MOBIS' #000→#FFFFFF. HYUNDAI 블루(#1C4381)+빨강 스워시(#CC1424) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생(HYUNDAI 블루는 다크에서 대비 다소 낮음)"]
+      },
+      "status": "verified", "trademark_owner": "현대모비스 주식회사",
+      "notes": "'MOBIS' #FFFFFF + HYUNDAI 블루 + 빨강 스워시. 다크 배경용 파생."
+    }
+  ]
+}

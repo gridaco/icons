@@ -1,0 +1,52 @@
+{
+  "id": "skc",
+  "identity": {
+    "name_ko": "SKC",
+    "name_en": "SKC",
+    "legal_name_ko": "에스케이씨 주식회사",
+    "legal_name_en": "SKC Co., Ltd.",
+    "aliases": ["SKC", "에스케이씨", "선경화학"],
+    "group_ko": "SK그룹", "group_en": "SK Group",
+    "stock_code": "011790", "dart_corp_code": null,
+    "homepage": "https://www.skc.kr",
+    "industry": "화학소재 (동박/필름/반도체소재)",
+    "affiliate_note": "SK그룹 계열(KOSPI 011790). 구 선경화학(1976)→SKC. 2차전지 동박(SK넥실리스)·반도체소재. 대표 김종우. 로고는 SK 그룹공유 '행복날개' + SKC."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-brand-kit", "group-affiliation"],
+    "note": "공식 도메인 skc.kr + KOSPI 011790 = 에스케이씨(주). 공식 CI 페이지(/corporation/intro/ci.do)가 CI 다운로드 zip(ci_skc.ai 포함)을 직접 배포 → T0 귀속. SK그룹 계열.",
+    "sources": ["https://www.skc.kr/kor/corporation/intro/ci.do", "https://ko.wikipedia.org/wiki/SKC"]
+  },
+  "history": {
+    "founded": "1976-04-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://ko.wikipedia.org/wiki/SKC", "https://www.skc.kr/"]
+  },
+  "related_sources": ["https://www.skc.kr/kor/corporation/intro/ci.do", "https://ko.wikipedia.org/wiki/SKC"],
+  "notes": "★랜덤 수집 테스트(3차 배치, 5개 중, 개선 체크리스트 적용). 홈은 PNG였으나 CI 페이지에서 CI 다운로드 zip(ci_skc.ai) 확보 → pdftocairo 변환(10 path, raster 0; fill=none 전체페이지 클립프레임 3개는 색상필터로 제외) 후 bbox 크롭. 렌더로 'SKC' + SK 행복날개(red #E41636 + orange #F46F1B) 확인. ★다크 변형: 빨강이 워드마크·날개에 공유돼 단색 분리 모호 → 공식 컬러 락업(light)만 수록, 다크용 화이트는 보류(공식 자산 필요). ★계열사 주의: 행복날개는 SK 전 계열 공유 — 'SKC' 표기로 식별.",
+  "assets": [
+    {
+      "file": "skc-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T0",
+        "source_name": "SKC 공식 CI 다운로드 킷 (ci_skc.ai)",
+        "source_url": "https://www.skc.kr/upload/ci/20170901/20170901022424490021.zip",
+        "archive_url": null, "original_format": "ai(pdf1.4)",
+        "captured_at": "2026-06-15", "capture_method": "ci-page:brandkit→pdftocairo(ai→svg)→color-filter+bbox-crop", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "brand-guideline", "url": "https://www.skc.kr/kor/corporation/intro/ci.do", "note": "[A/B] 공식 CI 페이지가 CI 다운로드 zip(ci_skc.ai) 배포 → T0" },
+        { "type": "screenshot", "url": "https://www.skc.kr/kor/corporation/intro/ci.do", "note": "[검증] AI→SVG 변환·크롭 후 렌더 → 'SKC' + SK 행복날개 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-brand-kit", "ai-vector-conversion", "render-check", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["CI킷 파일 2017 — 현 SK 행복날개와 동일(현행). 다크용 화이트 변형 미수록(빨강 공유로 분리 모호)"]
+      },
+      "status": "verified", "trademark_owner": "에스케이씨 주식회사",
+      "notes": "SK 행복날개(red #E41636 + orange #F46F1B) + 'SKC'. 7 paths(클립프레임 제외)."
+    }
+  ]
+}

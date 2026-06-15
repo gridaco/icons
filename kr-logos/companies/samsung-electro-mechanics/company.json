@@ -1,0 +1,77 @@
+{
+  "id": "samsung-electro-mechanics",
+  "identity": {
+    "name_ko": "삼성전기",
+    "name_en": "Samsung Electro-Mechanics",
+    "legal_name_ko": "삼성전기 주식회사",
+    "legal_name_en": "Samsung Electro-Mechanics Co., Ltd.",
+    "aliases": ["삼성전기", "Samsung Electro-Mechanics", "SEMCO"],
+    "group_ko": "삼성그룹", "group_en": "Samsung Group",
+    "stock_code": "009150", "dart_corp_code": null,
+    "homepage": "https://www.samsungsem.com",
+    "industry": "전자부품 제조 (MLCC/카메라모듈/기판)",
+    "affiliate_note": "삼성그룹 전자부품 핵심사(KOSPI 009150). 1973 설립. MLCC(적층세라믹콘덴서)·카메라모듈·반도체기판. 대표 장덕현. 로고는 Samsung 블루 타원(#034EA2, white SAMSUNG knockout) + '삼성전기' 워드마크 — 삼성 제조계열 타원 유지."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 samsungsem.com(=KOSPI 009150 삼성전기(주)). ★자산: 공식 사이트 정적 로고 미노출 → 위키미디어 공용 'Samsung Electro-Mechanics logo (korean).svg'(T3, 10 path, raster 0, 단색 #034EA2) 사용. ★currency 확인: ko.wiki 삼성전기 인포박스가 바로 이 (korean) 파일을 현행으로 사용 → 타원 현행.",
+    "sources": ["https://www.samsungsem.com/", "https://ko.wikipedia.org/wiki/삼성전기", "https://commons.wikimedia.org/wiki/File:Samsung_Electro-Mechanics_logo_(korean).svg"]
+  },
+  "history": {
+    "founded": "1973-08-08", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1973 설립. Samsung 타원 + '삼성전기'가 현행 CI(ko.wiki 인포박스 동일 파일로 currency 확인).",
+    "sources": ["https://ko.wikipedia.org/wiki/삼성전기"]
+  },
+  "related_sources": ["https://www.samsungsem.com/", "https://ko.wikipedia.org/wiki/삼성전기", "https://commons.wikimedia.org/wiki/File:Samsung_Electro-Mechanics_logo_(korean).svg"],
+  "notes": "★/loop 순차 수집 24번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식 정적 로고 미노출 → ⑤위키미디어 공용. 삼성 제조계열 타원 패턴(삼성SDI와 동일 구조, 단색 #034EA2). ko.wiki 인포박스 동일 파일로 currency 확인. KOR 채택(ENG/CHN/JPN도 Commons 존재). 단색이라 light(#034EA2)+dark(#fff). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "samsung-electro-mechanics-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Samsung Electro-Mechanics logo (korean).svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Samsung_Electro-Mechanics_logo_%28korean%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Samsung_Electro-Mechanics_logo_(korean).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.samsungsem.com/", "note": "[B 보강] 공식 도메인이 삼성전기 사이트. 동일 Samsung 타원+삼성전기 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Samsung_Electro-Mechanics_logo_(korean).svg", "note": "[검증] qlmanage 렌더 → Samsung 블루 타원(white SAMSUNG knockout) + '삼성전기'(#034EA2) 현행 로고와 일치. viewBox 569×120, 10 path, raster 0" },
+        { "type": "third-party-reference", "url": "https://ko.wikipedia.org/wiki/삼성전기", "note": "[C/D] ko.wiki 인포박스가 동일 파일 사용 → currency 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "wikipedia-currency-cross-check"],
+        "confidence": "medium",
+        "open_questions": ["T3(위키미디어) — 공식 직접 교차확인 미완(ko.wiki 인포박스로 currency 보강)", "ENG 락업 미수집(Commons 존재)"]
+      },
+      "status": "verified", "trademark_owner": "삼성전기 주식회사",
+      "notes": "Samsung 블루 타원 + '삼성전기'. 단색 #034EA2. viewBox 569×120, 10 path. light-bg용."
+    },
+    {
+      "file": "samsung-electro-mechanics-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "삼성전기 로고 — 다크용(#034EA2→#fff 단색 반전)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Samsung_Electro-Mechanics_logo_%28korean%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Samsung_Electro-Mechanics_logo_(korean).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Samsung_Electro-Mechanics_logo_(korean).svg", "note": "동일 단색 path, #034EA2→#FFFFFF (단색 로고 표준 반전)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "삼성전기 주식회사",
+      "notes": "단색 #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

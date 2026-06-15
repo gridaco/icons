@@ -1,0 +1,56 @@
+{
+  "id": "woori-financial",
+  "identity": {
+    "name_ko": "우리금융지주",
+    "name_en": "Woori Financial Group",
+    "legal_name_ko": "주식회사 우리금융지주",
+    "legal_name_en": "Woori Financial Group Inc.",
+    "aliases": ["우리금융지주", "우리금융그룹", "Woori Financial Group", "우리은행", "Woori"],
+    "group_ko": "우리금융그룹", "group_en": "Woori Financial Group",
+    "stock_code": "316140", "dart_corp_code": null,
+    "homepage": "https://www.woorifg.com",
+    "industry": "금융 지주회사",
+    "affiliate_note": "우리금융그룹 지주사(KOSPI 316140). 2019 재출범. 우리은행·우리카드·우리투자증권 등 보유. 회장 임종룡. 로고는 파랑 웨이브 심볼 + '우리금융그룹' 워드마크. ★별개 엔티티: 우리은행(자회사)과 워드마크 다름."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-asset-png"],
+    "note": "공식 도메인 woorifg.com(=KOSPI 316140 (주)우리금융지주)이 og:image + 헤더 로고로 /common/images/pc_head_logo.png(파랑 웨이브 + '우리금융그룹')를 서빙. 신원 확실. ★단 벡터 부재: 공식은 PNG만, SVG 형제 전부 404. Commons엔 '우리은행'(자회사) SVG만 존재(워드마크 다른 엔티티 → 사용 불가). en.wiki도 그룹 로고는 PNG.",
+    "sources": ["https://www.woorifg.com/", "https://ko.wikipedia.org/wiki/우리금융지주", "https://en.wikipedia.org/wiki/Woori_Financial_Group"]
+  },
+  "history": {
+    "founded": "2019-01-11", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "note": "2001 우리금융지주 최초 출범 → 2014 해체 → 2019 재설립. 파랑 웨이브 + '우리금융그룹' 현행 로고(공식 PNG 확인).",
+    "sources": ["https://ko.wikipedia.org/wiki/우리금융지주"]
+  },
+  "related_sources": ["https://www.woorifg.com/", "https://ko.wikipedia.org/wiki/우리금융지주"],
+  "notes": "★/loop 순차 수집 18번(인지도 high, 서브에이전트 랭킹 #1). ★카테고리: 신원 확실·벡터 부재 → needs-review. CI-우선 전체 적용: ②공식 SPA(자산 경로 catch-all 200 HTML), og:image=pc_head_logo.png(래스터 182×32), SVG 형제 전부 404 / ⑤Commons엔 '우리은행' SVG만(자회사=워드마크 다른 엔티티, 사용 금지) / en.wiki 그룹 로고도 PNG. T0 브랜드킷/브라우저 추출/T4 재구성 필요. 키움·하나머티리얼즈·쏠리드와 동류.",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "우리금융그룹 공식 헤더 로고 — 라스터 전용(PNG)",
+        "source_url": "https://www.woorifg.com/common/images/pc_head_logo.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "browser:og-image-discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.woorifg.com/", "note": "[A+B] 공식 도메인이 og:image + 헤더 로고로 pc_head_logo.png(파랑 웨이브 + '우리금융그룹')를 서빙. 렌더 확인" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "raster-only-confirmed-thorough"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "전체 체크리스트 적용 후 벡터 부재: 공식 PNG / SVG 형제 404 / Commons는 '우리은행'(자회사, 워드마크 다름) 뿐 / en.wiki도 PNG",
+          "벡터 확보 경로: 우리금융 IR/홍보 브랜드킷(T0), 브라우저로 헤더 추출, 또는 T4 재구성",
+          "★namesake: 'Logo of Woori Bank.svg'(우리은행)는 다른 엔티티 — 절대 차용 금지"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "주식회사 우리금융지주",
+      "notes": "벡터 미가용(철저 확인). 신원 완료(316140), 그룹 로고 벡터만 부재(공식 PNG)."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "bucketplace",
+  "identity": {
+    "name_ko": "버킷플레이스",
+    "name_en": "Bucketplace",
+    "legal_name_ko": "주식회사 버킷플레이스",
+    "legal_name_en": "Bucketplace Co., Ltd.",
+    "aliases": ["버킷플레이스", "Bucketplace", "오늘의집", "ohouse", "오늘의집(서비스)"],
+    "group_ko": null, "group_en": null,
+    "stock_code": null, "dart_corp_code": null,
+    "homepage": "https://ohou.se",
+    "industry": "인테리어/홈 커머스 플랫폼",
+    "affiliate_note": "독립 비상장 스타트업(유니콘). 2014 설립, 대표 이승재. ★법인명=버킷플레이스, 서비스명=오늘의집(ohou.se) — 동일 entity. 리스트에 '오늘의집'과 '버킷플레이스' 중복 등재되어 있었음 → 본 레코드로 통합."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["business-registration-number", "legal-name-match", "official-domain", "cdn-namespace-match"],
+    "note": "공식 도메인 ohou.se 푸터: (주)버킷플레이스 + 사업자등록번호 119-86-91245 + 대표이사 이승재 + 본사(서울 서초구 서초대로74길 4 삼성생명서초타워). 로고/이미지 CDN 네임스페이스가 'bucketplace-v2'로 법인명 일치 → 서비스(오늘의집)와 법인(버킷플레이스) 동일성 확정.",
+    "sources": ["https://ohou.se/", "https://namu.wiki/w/오늘의집"]
+  },
+  "history": {
+    "founded": "2014-07-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://namu.wiki/w/오늘의집", "https://ohou.se/"]
+  },
+  "related_sources": ["https://ohou.se/", "https://namu.wiki/w/오늘의집"],
+  "notes": "★랜덤 수집 테스트(5개 중). 리스트 품질 이슈 발견: 'private/오늘의집'과 'private/버킷플레이스' 두 행이 동일 회사 → 통합 필요(master-500 정리 대상). 로고는 파란 집모양 심볼(#00a1ff)+'오늘의집' 한글 워드마크 락업 — 렌더 확인. 공식 CDN(asset.ohousecdn.com)이 horizontal/symbol SVG 제공.",
+  "assets": [
+    {
+      "file": "bucketplace-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "오늘의집 공식 CDN horizontal 로고 SVG",
+        "source_url": "https://asset.ohousecdn.com/static/AssetOhouseHorizontal/ohouse-horizontal.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "browser:discovery+curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://ohou.se/", "note": "[B] 공식 도메인 헤더가 ohouse-horizontal.svg(viewBox 481×136, 집심볼 #00a1ff + '오늘의집' #111)를 로고로 서빙" },
+        { "type": "screenshot", "url": "https://ohou.se/", "note": "[검증] 렌더 → 파란 집 심볼 + '오늘의집' 워드마크 육안 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["워드마크가 서비스명('오늘의집')이며 법인명(버킷플레이스) 워드마크는 별도 — 본 자산은 서비스 로고"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 버킷플레이스",
+      "notes": "원본(#111 워드마크 + #00a1ff 심볼). 3 paths."
+    },
+    {
+      "file": "bucketplace-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "오늘의집 로고 — 다크용(워드마크 #111→#fff 파생)",
+        "source_url": "https://asset.ohousecdn.com/static/AssetOhouseHorizontal/ohouse-horizontal.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://ohou.se/", "note": "동일 path, 워드마크만 #111→#fff, 파란 심볼 유지" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "주식회사 버킷플레이스", "notes": "워드마크 #fff, 심볼 #00a1ff."
+    },
+    {
+      "file": "bucketplace-symbol.svg",
+      "properties": { "theme": "any", "kind": "symbol" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "오늘의집 공식 CDN 심볼 SVG",
+        "source_url": "https://asset.ohousecdn.com/static/AssetOhouseSymbol/ohouse-symbol.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "browser:discovery+curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://ohou.se/", "note": "[B] 공식 CDN이 심볼 단독 SVG(viewBox 480×480, 집 모양 #00a1ff + 내부 #fff) 제공" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "주식회사 버킷플레이스", "notes": "집 모양 심볼. 2 paths(#00a1ff + #fff)."
+    }
+  ]
+}

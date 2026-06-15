@@ -1,0 +1,55 @@
+{
+  "id": "pan-ocean",
+  "identity": {
+    "name_ko": "팬오션",
+    "name_en": "Pan Ocean",
+    "legal_name_ko": "팬오션 주식회사",
+    "legal_name_en": "Pan Ocean Co., Ltd.",
+    "aliases": ["팬오션", "Pan Ocean", "STX팬오션", "범양상선"],
+    "group_ko": "하림그룹", "group_en": "Harim Group",
+    "stock_code": "028670", "dart_corp_code": null,
+    "homepage": "https://www.panocean.com",
+    "industry": "해상운송 (벌크/컨테이너/탱커)",
+    "affiliate_note": "KOSPI 028670. ★하림그룹 계열(2015 하림지주가 STX팬오션 인수→팬오션). 구 범양상선→STX팬오션→팬오션. ★리스트 group 미태깅 정정: 사명 접두사 휴리스틱이 '하림' 미감지(대표 김홍국=하림 회장)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "legal-name-match", "parent-disclosure"],
+    "note": "공식 도메인 panocean.com이 로고 서빙 + KOSPI 028670 = 팬오션(주). 공식 사이트가 모기업 하림그룹 및 계열사(하림지주·(주)하림·선진·팜스코·NS홈쇼핑) 명시.",
+    "sources": ["https://www.panocean.com/", "https://ko.wikipedia.org/wiki/팬오션"]
+  },
+  "history": {
+    "founded": "1966-06-01", "last_rebrand": "2015-04-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/팬오션", "https://www.panocean.com/"]
+  },
+  "related_sources": ["https://www.panocean.com/", "https://ko.wikipedia.org/wiki/팬오션"],
+  "notes": "★랜덤 수집 테스트(5개 중). ★카테고리: 벡터 미가용 — 공식 사이트가 로고를 PNG(/kor/images/logo_c.png 컬러 + logo_blk.png 흑백)로만 서빙, 페이지 내 SVG 0개. 신원 확실(종목코드 028670+모기업 하림 명시)하나 벡터 부재로 needs-review. STX→하림 인수(2015) 시점 전후 로고 혼동 주의.",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "팬오션 공식 사이트 로고 — 라스터 전용(PNG, 컬러/흑백 2종)",
+        "source_url": "https://www.panocean.com/kor/images/logo_c.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "browser:discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.panocean.com/", "note": "[B] 공식 도메인이 logo_c.png(컬러)+logo_blk.png(흑백)을 로고로 서빙. SVG 0개" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "raster-only-confirmed"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "공식이 벡터(SVG) 미제공 — PNG만 확인",
+          "벡터 확보 경로: 공식 브랜드 가이드/IR 요청(T0), 또는 T4 재구성",
+          "하림 인수(2015) 후 현 로고 — 구 STX팬오션 로고와 혼동 금지"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "팬오션 주식회사",
+      "notes": "벡터 미가용. 컬러/흑백 PNG 2종 확인."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "meissa",
+  "identity": {
+    "name_ko": "메이사",
+    "name_en": "Meissa",
+    "legal_name_ko": "주식회사 메이사",
+    "legal_name_en": "Meissa Inc.",
+    "aliases": ["메이사", "Meissa"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": null,
+    "dart_corp_code": null,
+    "homepage": "https://www.meissa.ai",
+    "industry": "드론 공간정보 / 3D 디지털트윈 (콘테크)",
+    "affiliate_note": "독립 스타트업(비상장, 2026 코스닥 상장 목표). 대기업 계열 아님. 동명의 해외 'Meissa'와 무관 — 한국 공간정보 스타트업(meissa.ai)."
+  },
+  "history": {
+    "founded": "2017-11-01",
+    "last_rebrand": null,
+    "is_original": null,
+    "basis": "founding-date",
+    "sources": [
+      "https://thevc.kr/meissa",
+      "https://www.meissa.ai/en/about"
+    ]
+  },
+  "related_sources": [
+    "https://www.meissa.ai/en",
+    "https://thevc.kr/meissa",
+    "https://www.newsspace.kr/news/article.html?no=4610"
+  ],
+  "notes": "2017-11 설립. 파일명이 'Meissa_CI'인 공식 CI 자산. 로고 도입/리뉴얼 정확 일자는 미확인.",
+  "assets": [
+    {
+      "file": "meissa-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "메이사 공식 사이트(meissa.ai) 헤더 CI 자산 (Webflow CDN)",
+        "source_url": "https://cdn.prod.website-files.com/6502720bc1c183e59a391cc7/666aa2d44e5ce799859cde87_Meissa_CI_%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5%20137.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:asset-download",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.meissa.ai/en",
+          "note": "공식 사이트 헤더가 파일명 'Meissa_CI'의 CDN SVG(teal 심볼 + meissa 워드마크)를 현재 사용 — 형태 일치"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "live-reference-check"],
+        "confidence": "high",
+        "open_questions": [
+          "로고 도입/리뉴얼 정확 일자 미확인 (설립 2017 기준)"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 메이사",
+      "notes": "teal 심볼 #00a8c2 + 워드마크 #050000. viewBox 0 0 205.74 53.31, 13 paths."
+    },
+    {
+      "file": "meissa-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "메이사 공식 CI 자산 — 다크 배경용 파생(워드마크 화이트)",
+        "source_url": "https://cdn.prod.website-files.com/6502720bc1c183e59a391cc7/666aa2d44e5ce799859cde87_Meissa_CI_%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5%20137.svg",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "derived-from-light",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.meissa.ai/en",
+          "note": "light와 동일 path. 다크 배경 대비를 위해 워드마크만 화이트(#fff)로, teal 심볼은 유지 — 표준 처리 가정"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"],
+        "confidence": "medium",
+        "open_questions": [
+          "공식 다크/화이트 변형 미확인 — 워드마크 화이트화는 합리적 가정이나 공식 자산으로 교차검증 필요"
+        ]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 메이사",
+      "notes": "파생: 워드마크 #050000→#ffffff, teal 심볼 #00a8c2 유지."
+    }
+  ]
+}

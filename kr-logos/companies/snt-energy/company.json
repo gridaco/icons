@@ -1,0 +1,55 @@
+{
+  "id": "snt-energy",
+  "identity": {
+    "name_ko": "SNT에너지",
+    "name_en": "SNT Energy",
+    "legal_name_ko": "에스엔티에너지 주식회사",
+    "legal_name_en": "SNT Energy Co., Ltd.",
+    "aliases": ["SNT에너지", "SNT Energy", "S&TC", "에스엔티씨"],
+    "group_ko": "SNT그룹", "group_en": "SNT Group",
+    "stock_code": "100840", "dart_corp_code": null,
+    "homepage": "https://www.hisnt.com",
+    "industry": "공기냉각기/열교환기/HRSG 등 산업기계",
+    "affiliate_note": "KOSPI 100840. ★SNT그룹 계열(지주 SNT홀딩스; 형제사 SNT다이내믹스·SNT모티브). 구 S&TC(에스엔티씨). 대표 신경인. ★리스트 group 미태깅 정정(접두사 'SNT' 미등록)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "representative-match"],
+    "note": "공식 도메인 hisnt.com이 로고 서빙 + KOSPI 100840 = 에스엔티에너지(주), 대표 신경인(KIND 상장법인목록 일치). SNT그룹 계열.",
+    "sources": ["https://www.hisnt.com/", "https://ko.wikipedia.org/wiki/SNT에너지"]
+  },
+  "history": {
+    "founded": "1979-01-01", "last_rebrand": "2018-01-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/SNT에너지", "https://www.hisnt.com/"]
+  },
+  "related_sources": ["https://www.hisnt.com/", "https://ko.wikipedia.org/wiki/SNT에너지"],
+  "notes": "★랜덤 수집 테스트(5개 중). ★카테고리: 벡터 미가용 — 공식 사이트가 로고를 PNG(/kor/images/gnb/logo.png, CSS background)로만 서빙, 페이지 내 SVG 0개. 신원 확실(종목코드 100840+대표 신경인)하나 벡터 부재로 needs-review. S&TC→SNT에너지 사명변경 시점 로고 currency 재확인 필요.",
+  "assets": [
+    {
+      "file": null,
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "SNT에너지 공식 사이트 로고 — 라스터 전용(PNG)",
+        "source_url": "https://www.hisnt.com/kor/images/gnb/logo.png",
+        "archive_url": null, "original_format": "png",
+        "captured_at": "2026-06-15", "capture_method": "browser:css-bg-discovery", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hisnt.com/", "note": "[B] 공식 도메인이 gnb/logo.png를 CSS background 로고로 서빙. SVG 0개" }
+      ],
+      "verification": {
+        "verified": false, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "raster-only-confirmed"],
+        "confidence": "needs-review",
+        "open_questions": [
+          "공식이 벡터(SVG) 미제공 — PNG만 확인",
+          "벡터 확보 경로: 공식 브랜드 가이드/IR 요청(T0), 또는 T4 재구성",
+          "S&TC→SNT에너지 사명변경 시점 및 현 로고 도입일 미확인"
+        ]
+      },
+      "status": "needs-review", "trademark_owner": "에스엔티에너지 주식회사",
+      "notes": "벡터 미가용. 식별 완료(공식 PNG), 벡터 자산만 부재."
+    }
+  ]
+}

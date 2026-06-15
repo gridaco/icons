@@ -1,0 +1,78 @@
+{
+  "id": "hd-hyundai",
+  "identity": {
+    "name_ko": "HD현대",
+    "name_en": "HD Hyundai",
+    "legal_name_ko": "에이치디현대 주식회사",
+    "legal_name_en": "HD Hyundai Co., Ltd.",
+    "aliases": ["HD현대", "에이치디현대", "HD Hyundai", "현대중공업지주", "Hyundai Heavy Industries Holdings"],
+    "group_ko": "HD현대그룹", "group_en": "HD Hyundai Group",
+    "stock_code": "267250", "dart_corp_code": null,
+    "homepage": "https://www.hd.com",
+    "industry": "지주회사 (조선·기계·에너지 그룹 지주)",
+    "affiliate_note": "HD현대그룹 지주사 정점(KOSPI 267250). 2017 현대중공업지주 → 2022-11 'HD현대' 사명/CI 변경. 조선(HD한국조선해양)·건설기계(인프라코어)·정유(오일뱅크) 등. 대표 권오갑·정기선. 로고는 녹색 접힌 화살표 심볼(3 shades green) + 'HD' 워드마크(navy #012f87). ★현대차그룹과 무관(현대중공업 계보)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 hd.com(=KOSPI 267250 (주)HD현대). ★자산: 공식 사이트가 JS 셸(877B)+API(400 JSON)라 정적 로고 미노출 → 위키미디어 공용 'HD Hyundai logo.svg'(T3, 5 path, raster 0) 사용. 렌더로 녹색 화살표 + 'HD' 현행 로고 확인. ★namesake 회피: HD Hyundai Electric/Infracore/Oilbank/Robotics 등 자회사 마크 + 구 'Hyundai Heavy Industries' 마크 배제.",
+    "sources": ["https://www.hd.com/", "https://ko.wikipedia.org/wiki/HD현대", "https://commons.wikimedia.org/wiki/File:HD_Hyundai_logo.svg"]
+  },
+  "history": {
+    "founded": "2017-04-01", "last_rebrand": "2022-11-01", "is_original": false, "basis": "rebrand-date",
+    "note": "2017 현대중공업지주 설립 → 2022-11 'HD현대'로 사명·CI 변경(녹색 화살표 + HD). render-verified.",
+    "sources": ["https://ko.wikipedia.org/wiki/HD현대"]
+  },
+  "related_sources": ["https://www.hd.com/", "https://ko.wikipedia.org/wiki/HD현대", "https://commons.wikimedia.org/wiki/File:HD_Hyundai_logo.svg"],
+  "notes": "★/loop 순차 수집 19번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식=JS 셸+API(400 JSON) → ⑤위키미디어 공용. ★색상 교정: 서브에이전트 'HD Blue #003087' → 실제는 녹색 화살표(#008231/#00ad1d/#02e400) + navy HD(#012f87). light 원본 + dark는 'HD' #012f87→#fff(녹색 화살표 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "hd-hyundai-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — HD Hyundai logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/HD_Hyundai_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:HD_Hyundai_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hd.com/", "note": "[B 보강] 공식 도메인이 HD현대 사이트(JS 셸). 동일 녹색 화살표+HD 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:HD_Hyundai_logo.svg", "note": "[검증] qlmanage 렌더 → 녹색 접힌 화살표(#008231/#00ad1d/#02e400) + 'HD'(navy #012f87) 현행 로고와 일치. viewBox 581×253, 5 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS 셸이라 직접 교차확인 미완(브랜드 시각 일치는 확인)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "에이치디현대 주식회사",
+      "notes": "녹색 접힌 화살표 심볼 + 'HD'(#012f87). viewBox 581×253, 5 path. light-bg용."
+    },
+    {
+      "file": "hd-hyundai-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "HD현대 로고 — 다크용('HD' #012f87→#fff 파생, 녹색 화살표 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/HD_Hyundai_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:HD_Hyundai_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:HD_Hyundai_logo.svg", "note": "동일 path, 'HD' navy #012f87→#FFFFFF. 녹색 화살표(#008231/#00ad1d/#02e400) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "에이치디현대 주식회사",
+      "notes": "'HD' #FFFFFF + 녹색 화살표. 다크 배경용 파생."
+    }
+  ]
+}

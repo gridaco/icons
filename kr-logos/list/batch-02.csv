@@ -1,0 +1,41 @@
+fame,name_ko,name_en,stock_code,group,category,note
+high,SK하이닉스,SK hynix,000660,SK그룹,반도체,계열사 마크 검증
+high,기아,Kia,000270,현대자동차그룹,완성차,2021 로고 리브랜드(현행성 주의)
+high,포스코홀딩스,POSCO Holdings,005490,포스코그룹,철강/지주,2022 지주전환 리브랜드
+high,KT,KT,030200,KT그룹,통신,
+high,LG화학,LG Chem,051910,LG그룹,화학,LG 그룹공유마크+서브워드마크
+high,삼성SDS,Samsung SDS,018260,삼성그룹,IT서비스,★계열사 동음이의 테스트(삼성)
+high,한화에어로스페이스,Hanwha Aerospace,012450,한화그룹,방산/항공,
+high,CJ제일제당,CJ CheilJedang,097950,CJ그룹,식품,
+high,신세계,Shinsegae,004170,신세계그룹,유통,
+high,HD현대,HD Hyundai,267250,HD현대그룹,조선/지주,구 현대중공업지주(현행성+동음이의 '현대')
+mid,KB금융,KB Financial Group,105560,KB금융그룹,금융,
+mid,신한금융지주,Shinhan Financial Group,055550,신한금융그룹,금융,
+mid,하나금융그룹,Hana Financial Group,086790,하나금융그룹,금융,
+mid,카카오뱅크,KakaoBank,323410,카카오그룹,금융,★금융도메인 브라우저 차단 가능
+mid,삼성생명,Samsung Life,032830,삼성그룹,보험,계열사 마크
+mid,엔씨소프트,NCSOFT,036570,,게임,
+mid,넷마블,Netmarble,251270,,게임,
+mid,크래프톤,KRAFTON,259960,,게임,
+mid,펄어비스,Pearl Abyss,263750,,게임,
+mid,넥슨코리아,Nexon Korea,,넥슨,게임,법인 넥슨코리아(비상장)·넥슨은 일본상장
+mid,셀트리온,Celltrion,068270,셀트리온그룹,바이오,
+mid,삼성바이오로직스,Samsung Biologics,207940,삼성그룹,바이오,계열사 마크
+mid,유한양행,Yuhan,000100,,제약,
+mid,농심,Nongshim,004370,농심그룹,식품,
+mid,오뚜기,Ottogi,007310,,식품,
+mid,하이트진로,HiteJinro,000080,,주류,
+mid,두나무,Dunamu,,,핀테크/크립토,업비트 운영(비상장)·금융 차단 가능
+mid,직방,Zigbang,,,프롭테크,비상장
+mid,버킷플레이스,Bucketplace,,,커머스,서비스 '오늘의집'(비상장)
+mid,에이블리,Ably,,,패션커머스,비상장
+low,루닛,Lunit,328130,,의료AI,영상진단 AI(코스닥)
+low,뷰노,VUNO,338220,,의료AI,코스닥
+low,리벨리온,Rebellions,,,AI반도체,2022설립 유니콘(비상장)
+low,퓨리오사AI,FuriosaAI,,,AI반도체,비상장 유니콘
+low,파두,FADU,440110,,팹리스/SSD컨트롤러,코스닥
+low,리노공업,Leeno Industrial,058470,,반도체부품,1978설립 부산·반도체 테스트핀 세계1위
+low,고영테크놀러지,Koh Young,098460,,검사장비,3D 납도포검사 세계1위
+low,동운아나텍,Dongwoon Anatech,094170,,팹리스,코스닥
+low,DN솔루션즈,DN Solutions,,DN그룹,공작기계,구 두산공작기계(현행성 주의)
+low,LIG넥스원,LIG Nex1,079550,LIG그룹,방산,

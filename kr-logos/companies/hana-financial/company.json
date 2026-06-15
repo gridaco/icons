@@ -1,0 +1,79 @@
+{
+  "id": "hana-financial",
+  "identity": {
+    "name_ko": "하나금융지주",
+    "name_en": "Hana Financial Group",
+    "legal_name_ko": "주식회사 하나금융지주",
+    "legal_name_en": "Hana Financial Group Inc.",
+    "aliases": ["하나금융지주", "하나금융그룹", "Hana Financial Group", "하나은행", "Hana"],
+    "group_ko": "하나금융그룹", "group_en": "Hana Financial Group",
+    "stock_code": "086790", "dart_corp_code": null,
+    "homepage": "https://www.hanafn.com",
+    "industry": "금융 지주회사",
+    "affiliate_note": "하나금융그룹 지주사(KOSPI 086790). 2005 설립. 하나은행·하나증권·하나카드 등 보유. 회장 함영주. 로고는 'Hana 춤추는 사람' 심볼(teal-green #009591 몸체 + magenta #ed1651 머리점) + '하나금융그룹' 워드마크(#231f20). ★동음이의 주의: 반도체 하나머티리얼즈(166090)와 무관 — 이쪽이 하나'금융'."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 hanafn.com(=KOSPI 086790 (주)하나금융지주). ★자산: 공식 사이트가 JS 셸(3.4KB, /assets/img/logo.svg 404)이라 → 위키미디어 공용 'Hana Financial Group Logo (kor).svg'(T3, 10 path, raster 0) 사용. 렌더로 Hana 심볼+'하나금융그룹' 현행 로고 확인. ★namesake: 'Hana Bank' 자회사 마크와 구분 — 이건 group 마크. (별도 동음이의: 하나머티리얼즈≠하나금융.)",
+    "sources": ["https://www.hanafn.com/", "https://ko.wikipedia.org/wiki/하나금융지주", "https://commons.wikimedia.org/wiki/File:Hana_Financial_Group_Logo_(kor).svg"]
+  },
+  "history": {
+    "founded": "2005-12-01", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "2005 하나금융지주 출범. 'Hana 춤추는 사람' 심볼 + 하나금융그룹 워드마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/하나금융지주"]
+  },
+  "related_sources": ["https://www.hanafn.com/", "https://ko.wikipedia.org/wiki/하나금융지주", "https://commons.wikimedia.org/wiki/File:Hana_Financial_Group_Logo_(kor).svg"],
+  "notes": "★/loop 순차 수집 10번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식=JS 셸(자산 dir 프로빙 404) → ⑤위키미디어 공용. ★엔티티 명확화: 과거 하나머티리얼즈 수집 때 '커먼즈 Hana 로고는 하나금융=오답'이라 경고했는데, 이번엔 그 하나금융이 바로 대상 → 'Hana Financial Group Logo (kor)' 정당 사용. 색상 #009591/#ed1651/#231f20 실측. KOR 락업 light + dark(워드마크 #231f20→#fff, 심볼 컬러 유지). ENG 락업도 Commons에 존재(미수집). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "hana-financial-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Hana Financial Group Logo (kor).svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hana_Financial_Group_Logo_%28kor%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hana_Financial_Group_Logo_(kor).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hanafn.com/", "note": "[B 보강] 공식 도메인이 하나금융 사이트(JS 셸). 동일 Hana 심볼+하나금융그룹 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Hana_Financial_Group_Logo_(kor).svg", "note": "[검증] qlmanage 렌더 → Hana 춤추는 사람 심볼(green #009591 + magenta #ed1651) + '하나금융그룹'(#231f20) 현행 로고와 일치. viewBox 265.6×52.9, 10 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS 셸이라 동일 파일 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "ENG 락업(Commons 'Hana Financial Group Logo (eng).svg') 미수집"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 하나금융지주",
+      "notes": "Hana 심볼(green #009591 + magenta #ed1651) + '하나금융그룹'(#231f20). viewBox 265.6×52.9, 10 path. light-bg용."
+    },
+    {
+      "file": "hana-financial-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "Hana FG 로고 — 다크용(워드마크 #231f20→#fff 파생, 심볼 컬러 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hana_Financial_Group_Logo_%28kor%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hana_Financial_Group_Logo_(kor).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Hana_Financial_Group_Logo_(kor).svg", "note": "동일 path, '하나금융그룹' 워드마크 #231f20→#FFFFFF. 심볼 green/magenta 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 하나금융지주",
+      "notes": "워드마크 #FFFFFF + 심볼 green/magenta. 다크 배경용 파생."
+    }
+  ]
+}

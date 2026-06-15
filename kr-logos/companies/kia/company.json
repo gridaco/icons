@@ -1,0 +1,73 @@
+{
+  "id": "kia",
+  "identity": {
+    "name_ko": "기아",
+    "name_en": "Kia",
+    "legal_name_ko": "기아 주식회사",
+    "legal_name_en": "Kia Corporation",
+    "aliases": ["기아", "Kia", "KIA", "기아자동차", "Kia Motors"],
+    "group_ko": "현대자동차그룹", "group_en": "Hyundai Motor Group",
+    "stock_code": "000270", "dart_corp_code": null,
+    "homepage": "https://www.kia.com",
+    "industry": "자동차 제조 (완성차)",
+    "affiliate_note": "현대자동차그룹 계열(KOSPI 000270). 1944 경성정공 창립. 2021 사명 변경(기아자동차→기아) + 글로벌 리브랜드로 현재의 'KIA' 리드미컬 시그니처 로고 도입. 대표 송호성·최준영(각자대표)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 kia.com(=KOSPI 000270 기아(주))이 헤더 로고로 logo.svg(#000)+logo_w.svg(#fff)를 직접 서빙. 현대차그룹 계열. 종목코드(A)+공식 도메인(B) 동시 충족.",
+    "sources": ["https://www.kia.com/kr/main.html", "https://ko.wikipedia.org/wiki/기아_(기업)"]
+  },
+  "history": {
+    "founded": "1944-12-01", "last_rebrand": "2021-01-06", "is_original": false, "basis": "rebrand-date",
+    "note": "2021-01-06 글로벌 브랜드 쇼케이스에서 신규 로고(리드미컬 시그니처) 공개. 사명 '기아자동차주식회사'→'기아주식회사'는 2021-03-30 주총 승인. 현재 라이브 홈페이지가 이 로고를 서빙 중(현행 확인).",
+    "sources": ["https://ko.wikipedia.org/wiki/기아_(기업)", "https://www.kia.com/kr/main.html"]
+  },
+  "related_sources": ["https://www.kia.com/kr/main.html", "https://ko.wikipedia.org/wiki/기아_(기업)"],
+  "notes": "★/loop 순차 수집 1번(인지도 high 최상위, 서브에이전트 랭킹 #1). CI-우선 체크리스트 ②단계(홈페이지 자산)에서 즉시 공식 벡터 확보 — kia.com clientlibs의 logo.svg(#000)·logo_w.svg(#fff)는 동일 path를 색만 다르게 서빙하는 공식 light/dark 쌍(파생 아님). 렌더로 2021 리드미컬 'KIA' 시그니처 확인. 단일 path, raster 0. T1 high.",
+  "assets": [
+    {
+      "file": "kia-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "Kia 공식 사이트 헤더 로고 (logo.svg, #000)",
+        "source_url": "https://www.kia.com/etc.clientlibs/kwp-global/clientlibs/clientlib-site/resources/images/common/logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.kia.com/kr/main.html", "note": "[A+B] 공식 도메인(KOSPI 000270)이 logo.svg를 헤더 로고로 서빙. viewBox 102.6×51.3, 단일 path, CSS fill:#000" },
+        { "type": "screenshot", "url": "https://www.kia.com/kr/main.html", "note": "[검증] qlmanage 렌더 → 2021 리드미컬 'KIA' 시그니처 로고와 일치 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "기아 주식회사",
+      "notes": "리드미컬 'KIA' 시그니처 워드마크. 단일 path, fill #000000(공식 light). viewBox 102.6×51.3."
+    },
+    {
+      "file": "kia-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "Kia 공식 사이트 헤더 로고 (logo_w.svg, #fff)",
+        "source_url": "https://www.kia.com/etc.clientlibs/kwp-global/clientlibs/clientlib-site/resources/images/common/logo_w.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.kia.com/kr/main.html", "note": "[B] 공식이 동일 path를 fill:#fff로 서빙(logo_w.svg) — 다크용 공식 변형이지 파생 아님" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "기아 주식회사",
+      "notes": "동일 path, fill #FFFFFF(공식 dark, logo_w.svg)."
+    }
+  ]
+}

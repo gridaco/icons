@@ -1,0 +1,34 @@
+{
+  "id": "jvm",
+  "identity": {
+    "name_ko": "제이브이엠",
+    "name_en": "JVM",
+    "legal_name_ko": "주식회사 제이브이엠",
+    "legal_name_en": "JVM Co., Ltd.",
+    "aliases": ["제이브이엠", "JVM"],
+    "group_ko": "한미사이언스 그룹",
+    "group_en": "Hanmi Science Group",
+    "stock_code": "054950",
+    "dart_corp_code": null,
+    "homepage": "https://www.myjvm.com",
+    "industry": "약국 자동조제(ATDPS) 장비 제조 (코스닥)",
+    "affiliate_note": "★계열/네임세이크 주의: 한미사이언스(한미약품) 그룹 계열. 현 로고에 'Hanmi Family Company' 태그라인 동반. 제3자 'JVM' 벡터(Jung von Matt·JVM Lending 등)는 전부 무관한 동명 기업 — 종목코드 054950로 엔티티 고정."
+  },
+  "history": {
+    "founded": null,
+    "last_rebrand": null,
+    "is_original": null,
+    "basis": "unknown",
+    "sources": [
+      "https://www.myjvm.com/en/company/history.php"
+    ]
+  },
+  "related_sources": [
+    "https://www.myjvm.com",
+    "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A054950"
+  ],
+  "notes": "한미 계열 ATDPS 제조사. 현 로고: 파란 'JVM' + 빨간 'Hanmi Family Company' 태그라인.",
+  "blockers": "공식 myjvm.com 헤더 로고가 저해상 PNG(/images/common/logo.png, ~3KB)뿐 — 벡터/브랜드킷 전무. 제3자 'JVM' SVG는 모두 동명 무관 기업(오식별 위험). 깨끗한 벡터는 T4 재구성(수작업 재현) 필요.",
+  "assets": [],
+  "status_note": "deferred / needs-review (HARD) — 벡터 부재. 진행 경로: T4 재구성(저해상 PNG 기준 워드마크+태그라인 재현, confidence low) 또는 기업에 공식 자산 요청. 네임세이크 자산 절대 사용 금지."
+}

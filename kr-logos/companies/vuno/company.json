@@ -1,0 +1,68 @@
+{
+  "id": "vuno",
+  "identity": {
+    "name_ko": "뷰노",
+    "name_en": "VUNO",
+    "legal_name_ko": "주식회사 뷰노",
+    "legal_name_en": "VUNO Inc.",
+    "aliases": ["뷰노", "VUNO"],
+    "group_ko": null, "group_en": null,
+    "stock_code": "338220", "dart_corp_code": null,
+    "homepage": "https://www.vuno.co",
+    "industry": "의료 AI (영상·생체신호 진단)",
+    "affiliate_note": "독립 의료AI 기업(코스닥 338220). 2014 설립. 대표 이예하. 슬로건 'View the Invisible, Know the Unknown'."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["business-registration-number", "stock-code", "legal-name-match", "official-domain"],
+    "note": "공식 도메인 vuno.co 푸터에 사업자등록번호 135-86-50644 + 법인명 (주)뷰노 + 대표 이예하 + 본사주소(서울 서초구 강남대로 479 신논현타워 9층) 명시. 코스닥 338220 일치. 사업자번호=가장 강한 신원앵커(A).",
+    "sources": ["https://www.vuno.co/", "https://ko.wikipedia.org/wiki/뷰노"]
+  },
+  "history": {
+    "founded": "2014-12-01", "last_rebrand": null, "is_original": null, "basis": "founding-date",
+    "sources": ["https://ko.wikipedia.org/wiki/뷰노", "https://www.vuno.co/"]
+  },
+  "related_sources": ["https://www.vuno.co/", "https://ko.wikipedia.org/wiki/뷰노"],
+  "notes": "검증 프레임워크 적용(무명). 신원앵커 매우 강함(사업자번호+종목코드+법인명+주소 모두 도메인에서 확인). 로고는 'vuno' 모노크롬 워드마크(마지막 O가 시그니처 스월 심볼로 통합) — 렌더 확인. 공식은 흰색만 서빙(header logo_img.svg=#fff, footer logo_img_f2f2f2.svg=#f2f2f1); 흰색을 다크용으로 채택, 라이트(검정)는 단색 파생.",
+  "assets": [
+    {
+      "file": "vuno-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "뷰노 공식 사이트(vuno.co) 헤더 로고 SVG",
+        "source_url": "https://www.vuno.co/views/res/imgs/common/logo_img.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "browser:css-bg-discovery+curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.vuno.co/", "note": "[B] 공식 도메인 헤더가 CSS background로 logo_img.svg(viewBox 122×25, fill #fff, 6 path)를 'vuno' 로고로 서빙" },
+        { "type": "screenshot", "url": "https://www.vuno.co/", "note": "[검증] 검정 변환 후 렌더 → 'vuno' 워드마크(O=스월 심볼) 육안 확인" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high",
+        "open_questions": ["공식이 흰색 변형만 서빙 — 브랜드 컬러(유채색) 버전 존재 여부 미확인"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 뷰노",
+      "notes": "원본 흰색(#fff) 헤더 로고. viewBox 0 0 122 25, 6 paths."
+    },
+    {
+      "file": "vuno-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "뷰노 로고 — 밝은 배경용(흰색→검정 파생)",
+        "source_url": "https://www.vuno.co/views/res/imgs/common/logo_img.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-dark", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://www.vuno.co/", "note": "동일 path, 단색이라 #fff→#111111" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "주식회사 뷰노", "notes": "fill #111111."
+    }
+  ]
+}

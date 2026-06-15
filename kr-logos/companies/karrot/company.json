@@ -1,0 +1,66 @@
+{
+  "id": "karrot",
+  "identity": {
+    "name_ko": "당근",
+    "name_en": "Karrot",
+    "legal_name_ko": "주식회사 당근마켓",
+    "legal_name_en": "Danggeun Market Inc.",
+    "aliases": ["당근", "당근마켓", "Karrot", "Daangn"],
+    "group_ko": null,
+    "group_en": null,
+    "stock_code": null,
+    "dart_corp_code": null,
+    "homepage": "https://www.daangn.com",
+    "industry": "하이퍼로컬 커뮤니티/중고거래 플랫폼 (비상장)",
+    "affiliate_note": "서비스명 '당근'(2023~), 법인명은 '주식회사 당근마켓' 유지. ★현행성: 2023 리브랜드로 구 '당근마켓' 로고는 폐기 — 신 심볼(주황 핀 #FF6F0F + 초록 잎 #00A05B)만 유효."
+  },
+  "history": {
+    "founded": "2015-07-01",
+    "last_rebrand": "2023-08-28",
+    "is_original": false,
+    "basis": "rebrand-news",
+    "sources": [
+      "https://www.etnews.com/20230828000008",
+      "https://namu.wiki/w/당근(플랫폼)"
+    ]
+  },
+  "related_sources": [
+    "https://www.daangn.com/kr/",
+    "https://www.etnews.com/20230828000008"
+  ],
+  "notes": "2015 '당근마켓' 시작, 2023-08-28 '당근'으로 리브랜드 + 신규 심볼(주황 핀=지역, 초록 하트잎=연결). 현 심볼을 daangn.com 헤더 인라인 SVG에서 추출.",
+  "assets": [
+    {
+      "file": "karrot-symbol-light.svg",
+      "properties": { "theme": "light", "kind": "symbol" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "당근 공식 사이트(daangn.com) 헤더 인라인 SVG 심볼",
+        "source_url": "https://www.daangn.com/kr/",
+        "archive_url": null,
+        "original_format": "svg",
+        "captured_at": "2026-06-14",
+        "capture_method": "browser:inline-svg-extract",
+        "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        {
+          "type": "official-current-context",
+          "url": "https://www.daangn.com/kr/",
+          "note": "라이브 헤더의 현행 심볼 인라인 SVG(viewBox 0 0 203 114, 주황 #FF6F0F + 초록 #00A05B) — 2023 리브랜드 반영본 직접 추출 2026-06-14"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "verified_at": "2026-06-14",
+        "verified_by": "agent:claude-code",
+        "method": ["visual-diff-vs-official-header", "vector-integrity-check", "brand-hex-check"],
+        "confidence": "high",
+        "open_questions": ["'당근' 한글 워드마크 lockup 별도 미수집 (심볼만 확보)"]
+      },
+      "status": "verified",
+      "trademark_owner": "주식회사 당근마켓",
+      "notes": "2색 심볼(주황 핀 + 초록 잎). 컬러 마크라 밝은/어두운 배경 모두 사용 가능. viewBox 0 0 203 114, 3 paths."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "posco-holdings",
+  "identity": {
+    "name_ko": "POSCO홀딩스",
+    "name_en": "POSCO Holdings",
+    "legal_name_ko": "주식회사 포스코홀딩스",
+    "legal_name_en": "POSCO Holdings Inc.",
+    "aliases": ["POSCO홀딩스", "포스코홀딩스", "POSCO Holdings", "포스코", "POSCO", "posco"],
+    "group_ko": "POSCO그룹", "group_en": "POSCO Group",
+    "stock_code": "005490", "dart_corp_code": null,
+    "homepage": "https://www.poscoholdings.com",
+    "industry": "지주회사 (철강·이차전지소재 그룹 지주)",
+    "affiliate_note": "POSCO그룹 지주사 정점(KOSPI 005490). 1968 포항종합제철 → 2002 'POSCO' 사명 → 2022-03 지주사 전환(POSCO홀딩스, 철강사업은 (주)포스코로 물적분할). 회장 장인화. 로고는 소문자 'posco' 워드마크(POSCO blue #00588a). ★별개 엔티티: 이미 수집한 포스코인터내셔널(047050)과 다름."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 poscoholdings.com(=KOSPI 005490 (주)포스코홀딩스). ★자산: 공식 사이트가 JS 셸(curl 114B 스텁)이라 정적 로고 미노출 → 위키미디어 공용 'POSCO logo.svg'(T3, 1 path, raster 0) 사용. 렌더로 소문자 'posco' 현행 워드마크 확인. namesake 회피: POSCO Chemical/FUTURE M/E&C/INTERNATIONAL 등 자회사 마크 배제.",
+    "sources": ["https://www.poscoholdings.com/", "https://ko.wikipedia.org/wiki/포스코홀딩스", "https://commons.wikimedia.org/wiki/File:POSCO_logo.svg"]
+  },
+  "history": {
+    "founded": "1968-04-01", "last_rebrand": "2022-03-02", "is_original": false, "basis": "rebrand-date",
+    "note": "1968 포항종합제철 설립. 2002 'POSCO'(소문자 posco 워드마크). 2022-03-02 지주사 POSCO홀딩스 전환. 'posco' 워드마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/포스코홀딩스"]
+  },
+  "related_sources": ["https://www.poscoholdings.com/", "https://ko.wikipedia.org/wiki/포스코홀딩스", "https://commons.wikimedia.org/wiki/File:POSCO_logo.svg"],
+  "notes": "★/loop 순차 수집 8번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식 사이트=JS 셸(114B, curl 불가) → ⑤위키미디어 공용. ★qlmanage width/height(1024×277) mislead로 'posc' 클리핑돼 보였으나 width/height 제거 후 viewBox(-0.9 -0.9 118.2 32.0) 거버닝하니 'posco' 전체 정상. ★색상 교정: 서브에이전트 '#003087 navy' 주장 → 실제 파일 #00588a(POSCO blue). 단일 fill이라 light(#00588a)+dark(#fff). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "posco-holdings-wordmark-light.svg",
+      "properties": { "theme": "light", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — POSCO logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/POSCO_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:POSCO_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.poscoholdings.com/", "note": "[B 보강] 공식 도메인이 POSCO홀딩스 사이트(JS 셸·정적 로고 미노출). 동일 'posco' 워드마크 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:POSCO_logo.svg", "note": "[검증] qlmanage 렌더(width/height 제거 후) → 소문자 'posco'(#00588a) 현행 워드마크와 일치. viewBox 118.2×32.0, 1 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS 셸이라 동일 파일 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "T1 상향: 브라우저로 poscoholdings.com 헤더 로고 추출"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 포스코홀딩스",
+      "notes": "소문자 'posco' 워드마크, POSCO blue #00588a. viewBox -0.9 -0.9 118.2 32.0, 1 path. light-bg용."
+    },
+    {
+      "file": "posco-holdings-wordmark-dark.svg",
+      "properties": { "theme": "dark", "kind": "wordmark" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "POSCO 로고 — 다크용(#00588a→#fff 파생)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/POSCO_logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:POSCO_logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:POSCO_logo.svg", "note": "동일 단일 path, fill #00588a→#FFFFFF (단색 로고 표준 반전)" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 포스코홀딩스",
+      "notes": "단일 path #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

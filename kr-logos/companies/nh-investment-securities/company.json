@@ -1,0 +1,75 @@
+{
+  "id": "nh-investment-securities",
+  "identity": {
+    "name_ko": "NH투자증권",
+    "name_en": "NH Investment & Securities",
+    "legal_name_ko": "엔에이치투자증권 주식회사",
+    "legal_name_en": "NH Investment & Securities Co., Ltd.",
+    "aliases": ["NH투자증권", "엔에이치투자증권", "NH Investment & Securities", "우리투자증권", "NH농협증권"],
+    "group_ko": "농협금융지주(NH)", "group_en": "NH Financial Group",
+    "stock_code": "005940", "dart_corp_code": null,
+    "homepage": "https://www.nhqv.com",
+    "industry": "증권/금융투자",
+    "affiliate_note": "NH농협금융지주 계열(KOSPI 005940). 2015 우리투자증권+NH농협증권 합병으로 출범. 대표 윤병운. ★리스트 group 미태깅 정정: 농협(NH). 로고는 NH 새싹 심볼 + 'NH투자증권'(blue #007ec3 — 농협은행 green과 구분되는 증권 전용 블루)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation", "third-party-named-entity"],
+    "note": "공식 도메인 nhqv.com(→nhsec.com)이 NH투자증권 사이트 + KOSPI 005940 = 엔에이치투자증권(주). NH농협금융 계열. ★자산은 공식 사이트가 JS전용(렌더 멈춤·자산 미노출)이라 위키미디어 커먼즈 SVG(T3) 사용 — 파일명이 정확히 'NH Investment & Securities'(=NH투자증권 영문 법인명)로 엔티티 일치.",
+    "sources": ["https://www.nhqv.com/", "https://ko.wikipedia.org/wiki/NH투자증권", "https://commons.wikimedia.org/wiki/File:NH_Investment_%26_Securities_Logo_(KOR).svg"]
+  },
+  "history": {
+    "founded": "1969-01-01", "last_rebrand": "2015-01-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/NH투자증권", "https://www.nhqv.com/"]
+  },
+  "related_sources": ["https://www.nhqv.com/", "https://ko.wikipedia.org/wiki/NH투자증권", "https://commons.wikimedia.org/wiki/File:NH_Investment_%26_Securities_Logo_(KOR).svg"],
+  "notes": "★랜덤 수집 테스트(3차 배치, 5개 중). ★T3(위키미디어) 경로 — 공식 사이트(nhsec.com)가 JS전용으로 자산 미노출 & 렌더 타임아웃 → 체크리스트 5단계(위키미디어 커먼즈)에서 진짜 SVG 확보(ENG/KOR, raster 0). 렌더로 NH 새싹 심볼 + 'NH투자증권'(blue/gold) 현행 로고 확인. ★T3라 confidence medium(공식 라이브 사이트 교차확인 미완 — open_question).",
+  "assets": [
+    {
+      "file": "nh-investment-securities-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — NH Investment & Securities Logo (KOR)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/NH_Investment_%26_Securities_Logo_%28KOR%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:NH_Investment_%26_Securities_Logo_(KOR).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.nhqv.com/", "note": "[B 보강] 공식 도메인이 NH투자증권 사이트(JS전용·자산 미노출)" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:NH_Investment_%26_Securities_Logo_(KOR).svg", "note": "[검증] 렌더 → NH 새싹 심볼 + 'NH투자증권'(blue #007ec3/gold #fdbd40) — 현행 로고와 일치" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 라이브 사이트가 JS전용/렌더멈춤이라 동일 자산 직접 교차확인 미완",
+          "T0/T1 상향 경로: NH투자증권 IR/홍보 브랜드킷 또는 앱 자산 추출"
+        ]
+      },
+      "status": "verified", "trademark_owner": "엔에이치투자증권 주식회사",
+      "notes": "한글 락업. NH 새싹(blue/gold) + 'NH투자증권'. viewBox 175×26, 10 paths."
+    },
+    {
+      "file": "nh-investment-securities-lockup-en-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — NH Investment & Securities Logo (ENG)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/NH_Investment_%26_Securities_Logo_%28ENG%29.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:NH_Investment_%26_Securities_Logo_(ENG).svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:NH_Investment_%26_Securities_Logo_(ENG).svg", "note": "영문 락업 변형(동일 심볼)" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "vector-integrity-check"], "confidence": "medium",
+        "open_questions": ["T3 — 공식 직접 교차확인 미완"] },
+      "status": "verified", "trademark_owner": "엔에이치투자증권 주식회사",
+      "notes": "영문 락업. NH 새싹 + 'NH Investment & Securities'. viewBox 157×26, 26 paths."
+    }
+  ]
+}

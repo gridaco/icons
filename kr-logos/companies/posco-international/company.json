@@ -1,0 +1,65 @@
+{
+  "id": "posco-international",
+  "identity": {
+    "name_ko": "포스코인터내셔널",
+    "name_en": "POSCO International",
+    "legal_name_ko": "주식회사 포스코인터내셔널",
+    "legal_name_en": "POSCO INTERNATIONAL Corporation",
+    "aliases": ["포스코인터내셔널", "포스코대우", "대우인터내셔널", "POSCO International", "POSCO DAEWOO"],
+    "group_ko": "포스코그룹", "group_en": "POSCO Group",
+    "stock_code": "047050", "dart_corp_code": null,
+    "homepage": "https://www.poscointl.com",
+    "industry": "종합상사 (무역/에너지/식량)",
+    "affiliate_note": "포스코그룹 계열(KOSPI 047050). 구 (주)대우 무역부문→대우인터내셔널→2016 포스코대우→2019 포스코인터내셔널. 2023 포스코에너지 흡수합병."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "legal-name-match", "group-affiliation"],
+    "note": "공식 도메인 poscointl.com이 헤더 로고 SVG를 직접 서빙 + KOSPI 047050 = (주)포스코인터내셔널. 포스코그룹 계열.",
+    "sources": ["https://www.poscointl.com/", "https://ko.wikipedia.org/wiki/포스코인터내셔널"]
+  },
+  "history": {
+    "founded": "1967-12-01", "last_rebrand": "2019-03-01", "is_original": false, "basis": "rebrand-date",
+    "sources": ["https://ko.wikipedia.org/wiki/포스코인터내셔널", "https://www.poscointl.com/"]
+  },
+  "related_sources": ["https://www.poscointl.com/", "https://ko.wikipedia.org/wiki/포스코인터내셔널"],
+  "notes": "★랜덤 수집 테스트(5개 중, 개선 체크리스트 적용). 공식 헤더 인라인/자산 SVG(header_logo.svg) 직격 — viewBox 336×85, 18 path 단색 'POSCO INTERNATIONAL'. 원본 흰색(#fff, 다크배경용); light는 #111 단색 파생. 2019 사명변경(포스코대우→포스코인터내셔널) 후 현행. 포스코 서체형 'POSCO'+'INTERNATIONAL' 결합이라 lockup으로 분류.",
+  "assets": [
+    {
+      "file": "posco-international-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "포스코인터내셔널 공식 사이트 헤더 로고 SVG(원본 흰색)",
+        "source_url": "https://www.poscointl.com/images/header_logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:checklist→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.poscointl.com/", "note": "[B] 공식 도메인 헤더가 header_logo.svg(viewBox 336×85, 18 path, #fff)를 로고로 서빙" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high", "open_questions": ["원본이 흰색(다크용)만 — light는 단색 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 포스코인터내셔널",
+      "notes": "원본 #fff. 18 paths."
+    },
+    {
+      "file": "posco-international-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1", "source_name": "포스코인터내셔널 로고 — 밝은 배경용(#fff→#111 파생)",
+        "source_url": "https://www.poscointl.com/images/header_logo.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-dark", "captured_by": "agent:claude-code"
+      },
+      "evidence": [ { "type": "official-current-context", "url": "https://www.poscointl.com/", "note": "동일 path, 단색 #fff→#111111" } ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "high", "open_questions": [] },
+      "status": "verified", "trademark_owner": "주식회사 포스코인터내셔널", "notes": "fill #111111."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "hanwha-aerospace",
+  "identity": {
+    "name_ko": "한화에어로스페이스",
+    "name_en": "Hanwha Aerospace",
+    "legal_name_ko": "한화에어로스페이스 주식회사",
+    "legal_name_en": "Hanwha Aerospace Co., Ltd.",
+    "aliases": ["한화에어로스페이스", "Hanwha Aerospace", "한화테크윈", "삼성테크윈"],
+    "group_ko": "한화그룹", "group_en": "Hanwha Group",
+    "stock_code": "012450", "dart_corp_code": null,
+    "homepage": "https://www.hanwhaaerospace.co.kr",
+    "industry": "항공엔진·방산 (우주/지상방산)",
+    "affiliate_note": "한화그룹 방산·항공 핵심사(KOSPI 012450). 삼성테크윈 → 2015 한화 인수 → 2018 한화에어로스페이스. 항공엔진·K9 자주포·우주(한화스페이스허브). 대표 손재일. 로고는 한화 3원(tri-circle) 오렌지 심볼(#ed7100/#f4a051/#f7bb82) + 'Hanwha Aerospace' 워드마크(#231815)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "group-affiliation"],
+    "note": "공식 도메인 hanwhaaerospace.co.kr(=KOSPI 012450 한화에어로스페이스(주)) + 한화그룹. ★자산: 공식 사이트 SPA가 정적 경로에 JSON 응답(catch-all) → 위키미디어 공용 'Hanwha Aerospace Logo.svg'(T3, 18 path, raster 0) 사용. 렌더로 한화 오렌지 3원 심볼 + 'Hanwha Aerospace' 현행 로고 확인. ★namesake 회피: Hanwha Solutions/Ocean/Vision/Eagles 등 자매사 마크 배제.",
+    "sources": ["https://www.hanwhaaerospace.co.kr/", "https://ko.wikipedia.org/wiki/한화에어로스페이스", "https://commons.wikimedia.org/wiki/File:Hanwha_Aerospace_Logo.svg"]
+  },
+  "history": {
+    "founded": "1977-08-01", "last_rebrand": "2018-04-01", "is_original": false, "basis": "rebrand-date",
+    "note": "삼성테크윈 → 한화테크윈 → 2018-04 한화에어로스페이스. 한화 오렌지 3원 심볼 + 'Hanwha Aerospace'가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/한화에어로스페이스"]
+  },
+  "related_sources": ["https://www.hanwhaaerospace.co.kr/", "https://ko.wikipedia.org/wiki/한화에어로스페이스", "https://commons.wikimedia.org/wiki/File:Hanwha_Aerospace_Logo.svg"],
+  "notes": "★/loop 순차 수집 17번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식 SPA가 정적 경로에 JSON 반환(가짜 200) → ⑤위키미디어 공용. ★색상 교정: 서브에이전트 'navy #001F5B + red #E3231B' 주장 → 실제는 한화 오렌지 3원(#ed7100/#f4a051/#f7bb82) + 검정 워드마크(#231815). light 원본 + dark는 워드마크 #231815→#fff(오렌지 심볼 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "hanwha-aerospace-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Hanwha Aerospace Logo.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hanwha_Aerospace_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hanwha_Aerospace_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.hanwhaaerospace.co.kr/", "note": "[B 보강] 공식 도메인이 한화에어로스페이스 사이트(SPA). 동일 한화 오렌지 3원+Hanwha Aerospace 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Hanwha_Aerospace_Logo.svg", "note": "[검증] qlmanage 렌더 → 한화 오렌지 3원 심볼(#ed7100/#f4a051/#f7bb82) + 'Hanwha Aerospace'(#231815) 현행 로고와 일치. viewBox 134×108, 18 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 SPA가 JSON 반환이라 직접 교차확인 미완(브랜드 시각 일치는 확인)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "한화에어로스페이스 주식회사",
+      "notes": "한화 오렌지 3원 심볼 + 'Hanwha Aerospace'(#231815). viewBox 134×108, 18 path. light-bg용."
+    },
+    {
+      "file": "hanwha-aerospace-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "Hanwha Aerospace 로고 — 다크용(워드마크 #231815→#fff 파생, 오렌지 심볼 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hanwha_Aerospace_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Hanwha_Aerospace_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Hanwha_Aerospace_Logo.svg", "note": "동일 path, 'Hanwha Aerospace' #231815→#FFFFFF. 오렌지 3원 심볼 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "한화에어로스페이스 주식회사",
+      "notes": "워드마크 #FFFFFF + 오렌지 3원 심볼. 다크 배경용 파생."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "celltrion",
+  "identity": {
+    "name_ko": "셀트리온",
+    "name_en": "Celltrion",
+    "legal_name_ko": "주식회사 셀트리온",
+    "legal_name_en": "Celltrion, Inc.",
+    "aliases": ["셀트리온", "Celltrion"],
+    "group_ko": "셀트리온그룹", "group_en": "Celltrion Group",
+    "stock_code": "068270", "dart_corp_code": null,
+    "homepage": "https://www.celltrion.com",
+    "industry": "바이오의약품 (바이오시밀러)",
+    "affiliate_note": "셀트리온그룹 핵심사(KOSPI 068270). 2002 설립. 바이오시밀러(램시마/트룩시마/허쥬마) + 코로나 항체치료제 렉키로나. 2023 셀트리온헬스케어 합병. 회장 서정진. 로고는 녹색 3원 심볼(#51b848) + 'CELLTRION' 워드마크(#231f20, CELL 볼드 + TRION 아웃라인)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 celltrion.com(=KOSPI 068270 (주)셀트리온). ★자산: 공식 사이트 자산 dir 프로빙 미적중 → 위키미디어 공용 'Celltrion CI.svg'(T3, 12 path, raster 0) 사용. 렌더로 녹색 3원 심볼 + 'CELLTRION' 현행 로고 확인.",
+    "sources": ["https://www.celltrion.com/", "https://ko.wikipedia.org/wiki/셀트리온", "https://commons.wikimedia.org/wiki/File:Celltrion_CI.svg"]
+  },
+  "history": {
+    "founded": "2002-02-26", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "2002 설립. 녹색 3원 심볼 + 'CELLTRION' 워드마크가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/셀트리온"]
+  },
+  "related_sources": ["https://www.celltrion.com/", "https://ko.wikipedia.org/wiki/셀트리온", "https://commons.wikimedia.org/wiki/File:Celltrion_CI.svg"],
+  "notes": "★/loop 순차 수집 13번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식 자산 dir(/front/assets/common/images/) 프로빙 미적중 → ⑤위키미디어 공용. mm width/height(72.9mm)가 viewBox(72.9) 수치 일치라 qlmanage mislead 없음(정상 렌더). 색상 #231f20(워드마크)/#51b848(녹색 심볼) 실측. light 원본 + dark는 워드마크 #231f20→#fff(녹색 심볼 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "celltrion-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Celltrion CI.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Celltrion_CI.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Celltrion_CI.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.celltrion.com/", "note": "[B 보강] 공식 도메인이 셀트리온 사이트. 동일 녹색 심볼+CELLTRION 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Celltrion_CI.svg", "note": "[검증] qlmanage 렌더 → 녹색 3원 심볼(#51b848) + 'CELLTRION'(#231f20, CELL 볼드/TRION 아웃라인) 현행 로고와 일치. viewBox 72.9×18.6, 12 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트 자산 직접 교차확인 미완(브랜드 시각 일치는 확인)",
+          "T1 상향: 브라우저로 celltrion.com 헤더 로고 추출"
+        ]
+      },
+      "status": "verified", "trademark_owner": "주식회사 셀트리온",
+      "notes": "녹색 3원 심볼(#51b848) + 'CELLTRION'(#231f20). viewBox 72.9×18.6, 12 path. light-bg용."
+    },
+    {
+      "file": "celltrion-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "Celltrion 로고 — 다크용(워드마크 #231f20→#fff 파생, 녹색 심볼 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Celltrion_CI.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Celltrion_CI.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Celltrion_CI.svg", "note": "동일 path, 'CELLTRION' 워드마크 #231f20→#FFFFFF. 녹색 심볼(#51b848) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "주식회사 셀트리온",
+      "notes": "워드마크 #FFFFFF + 녹색 심볼 #51b848. 다크 배경용 파생."
+    }
+  ]
+}

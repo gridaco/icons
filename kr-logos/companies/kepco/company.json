@@ -1,0 +1,78 @@
+{
+  "id": "kepco",
+  "identity": {
+    "name_ko": "한국전력공사",
+    "name_en": "KEPCO",
+    "legal_name_ko": "한국전력공사",
+    "legal_name_en": "Korea Electric Power Corporation",
+    "aliases": ["한국전력", "한국전력공사", "한전", "KEPCO", "Korea Electric Power Corporation"],
+    "group_ko": "한국전력공사 (공기업)", "group_en": "KEPCO (state-owned)",
+    "stock_code": "015760", "dart_corp_code": null,
+    "homepage": "https://home.kepco.co.kr",
+    "industry": "전기업 (전력 송배전)",
+    "affiliate_note": "정부 지배 공기업(KOSPI 015760, 산업은행·정부 지분). 국내 유일 전력 판매. 사장 김동철. 로고는 빨강 원형 심볼(#E60012) + '한국전력공사'(blue #004098) + 'KOREA ELECTRIC POWER CORPORATION' 락업."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 kepco.co.kr(=KOSPI 015760 한국전력공사). ★자산: 공식 사이트가 JS SPA + PNG(로고 정적 SVG 미노출) → 위키미디어 공용 'Kepco logo ko-en.svg'(T3, 42 path, raster 0) 사용. 렌더로 빨강 원형 심볼+'한국전력공사' 현행 로고와 일치 확인. (자회사 namesake 회피: KEPCO KPS=한전KPS, KEPCO E&C=한전기술 ≠ 본사.)",
+    "sources": ["https://home.kepco.co.kr/", "https://ko.wikipedia.org/wiki/한국전력공사", "https://commons.wikimedia.org/wiki/File:Kepco_logo_ko-en.svg"]
+  },
+  "history": {
+    "founded": "1961-07-01", "last_rebrand": null, "is_original": null, "basis": "current-CI-render-verified",
+    "note": "1961 한국전력주식회사 → 1982 한국전력공사. 빨강 원형 심볼 + 한국전력공사 블루 워드마크가 장기 사용 현행 CI. render-verified.",
+    "sources": ["https://ko.wikipedia.org/wiki/한국전력공사"]
+  },
+  "related_sources": ["https://home.kepco.co.kr/", "https://ko.wikipedia.org/wiki/한국전력공사", "https://commons.wikimedia.org/wiki/File:Kepco_logo_ko-en.svg"],
+  "notes": "★/loop 순차 수집 6번(인지도 high, 서브에이전트 랭킹 #1). CI-우선 체크리스트: ②홈페이지=JS SPA+PNG(정적 SVG 0) → ⑤위키미디어 공용. ★Commons 자회사 namesake 회피: 'KEPCO KPS Logo.svg'(한전KPS), 'KEPCO E&C Logo.svg'(한전기술)는 다른 법인 → 본사 'Kepco logo ko-en.svg' 채택. 결정론적 bbox로 viewBox(290.4×43.2) 충전 확인. light 공식 + dark는 블루 워드마크만 #fff 파생(빨강 심볼 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "kepco-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Kepco logo ko-en.svg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kepco_logo_ko-en.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Kepco_logo_ko-en.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://home.kepco.co.kr/", "note": "[B 보강] 공식 도메인이 KEPCO 사이트(JS SPA·PNG). 동일 빨강심볼+한국전력공사 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Kepco_logo_ko-en.svg", "note": "[검증] qlmanage 렌더 → 빨강 원형 심볼(#E60012) + '한국전력공사'(blue #004098) + 'KOREA ELECTRIC POWER CORPORATION' 현행 로고와 일치. viewBox 290.4×43.2, 42 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check", "path-bbox-deterministic"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS SPA라 동일 파일 직접 교차확인 미완(브랜드 시각 일치는 확인)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "한국전력공사",
+      "notes": "빨강 원형 심볼 + '한국전력공사'(blue) + 영문. viewBox 290.4×43.2, 42 path. light-bg용."
+    },
+    {
+      "file": "kepco-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "KEPCO 로고 — 다크용(블루 워드마크 #004098→#fff 파생, 빨강 심볼 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kepco_logo_ko-en.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Kepco_logo_ko-en.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Kepco_logo_ko-en.svg", "note": "동일 path, 블루 워드마크 #004098→#FFFFFF. 빨강 심볼(#E60012)+내부 흰 스트라이프 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생 — 공식 다크 자산 미확인"]
+      },
+      "status": "verified", "trademark_owner": "한국전력공사",
+      "notes": "빨강 심볼 + 워드마크 #FFFFFF. 다크 배경용 파생."
+    }
+  ]
+}

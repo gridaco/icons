@@ -1,0 +1,73 @@
+{
+  "id": "lg-energy-solution",
+  "identity": {
+    "name_ko": "LG에너지솔루션",
+    "name_en": "LG Energy Solution",
+    "legal_name_ko": "주식회사 엘지에너지솔루션",
+    "legal_name_en": "LG Energy Solution, Ltd.",
+    "aliases": ["LG에너지솔루션", "엘지에너지솔루션", "LG Energy Solution", "LGES", "LG엔솔"],
+    "group_ko": "LG그룹", "group_en": "LG Group",
+    "stock_code": "373220", "dart_corp_code": null,
+    "homepage": "https://www.lgensol.com",
+    "industry": "이차전지 제조 (EV/ESS 배터리)",
+    "affiliate_note": "LG그룹 배터리 핵심사(KOSPI 373220). 2020-12 LG화학 전지사업부 물적분할 → 2022-01 상장. 글로벌 톱티어 이차전지. 대표 김동명. 로고는 LG '얼굴' 빨강 원(#C00C3F — LGES 전용 레드, LG #A50034와 다름) + 'LG 에너지솔루션' 회색 워드마크(#6D6E71)."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain", "official-asset-path", "group-affiliation"],
+    "note": "공식 도메인 lgensol.com(=KOSPI 373220 (주)엘지에너지솔루션) + LG그룹. ★T1 직격: 공식 사이트가 /inc/images/symbol/CI.svg(light) + CI_wh.svg(white)를 직접 서빙. 렌더로 LG 얼굴 + 'LG 에너지솔루션' 현행 로고 확인. ★색 교정: LGES 레드는 #C00C3F(서브에이전트 '#A50034' 주장과 다름, 실측).",
+    "sources": ["https://www.lgensol.com/", "https://ko.wikipedia.org/wiki/LG에너지솔루션"]
+  },
+  "history": {
+    "founded": "2020-12-01", "last_rebrand": null, "is_original": true, "basis": "founding-date",
+    "note": "2020-12 LG화학에서 분할 설립. 출범 시부터 LG 얼굴 심볼 + 'LG 에너지솔루션' CI 사용(현행, T1 라이브 자산).",
+    "sources": ["https://ko.wikipedia.org/wiki/LG에너지솔루션", "https://www.lgensol.com/"]
+  },
+  "related_sources": ["https://www.lgensol.com/", "https://ko.wikipedia.org/wiki/LG에너지솔루션"],
+  "notes": "★/loop 순차 수집 16번(인지도 high, 서브에이전트 랭킹 #1). ★T1 직격 — 공식 사이트가 /inc/images/symbol/CI.svg(light, gray 워드마크) + CI_wh.svg(white, 다크용) 두 공식 변형을 직접 서빙(파생 아님). LG 계열이나 레드가 LG 표준 #A50034가 아닌 LGES 전용 #C00C3F(실측 교정). light/dark 모두 공식. confidence high.",
+  "assets": [
+    {
+      "file": "lg-energy-solution-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "LG에너지솔루션 공식 CI.svg (light, gray 워드마크)",
+        "source_url": "https://www.lgensol.com/inc/images/symbol/CI.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:official-asset→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.lgensol.com/", "note": "[A+B] 공식 도메인(KOSPI 373220)이 /inc/images/symbol/CI.svg를 CI 자산으로 서빙. viewBox 226×36, 20 path, raster 0" },
+        { "type": "screenshot", "url": "https://www.lgensol.com/", "note": "[검증] qlmanage 렌더 → LG 빨강 얼굴(#C00C3F) + 'LG 에너지솔루션'(#6D6E71) 현행 로고와 일치" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "render-check", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "주식회사 엘지에너지솔루션",
+      "notes": "LG 빨강 얼굴(#C00C3F) + 'LG 에너지솔루션'(#6D6E71). viewBox 226×36, 20 path. light-bg용."
+    },
+    {
+      "file": "lg-energy-solution-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T1",
+        "source_name": "LG에너지솔루션 공식 CI_wh.svg (white, 다크용)",
+        "source_url": "https://www.lgensol.com/inc/images/symbol/CI_wh.svg",
+        "archive_url": null, "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "discovery:official-asset→curl", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://www.lgensol.com/", "note": "[A+B] 공식이 CI_wh.svg(white 워드마크 + 빨강 얼굴)를 다크용 변형으로 직접 서빙 — 파생 아님" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "official-asset", "vector-integrity-check"],
+        "confidence": "high", "open_questions": []
+      },
+      "status": "verified", "trademark_owner": "주식회사 엘지에너지솔루션",
+      "notes": "white 워드마크 + LG 빨강 얼굴(#C00C3F). viewBox 240×38, 20 path. 공식 다크용."
+    }
+  ]
+}

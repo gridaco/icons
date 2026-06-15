@@ -1,0 +1,79 @@
+{
+  "id": "mirae-asset-securities",
+  "identity": {
+    "name_ko": "미래에셋증권",
+    "name_en": "Mirae Asset Securities",
+    "legal_name_ko": "미래에셋증권 주식회사",
+    "legal_name_en": "Mirae Asset Securities Co., Ltd.",
+    "aliases": ["미래에셋증권", "Mirae Asset Securities", "미래에셋대우", "미래에셋"],
+    "group_ko": "미래에셋그룹", "group_en": "Mirae Asset Financial Group",
+    "stock_code": "006800", "dart_corp_code": null,
+    "homepage": "https://securities.miraeasset.com",
+    "industry": "증권/금융투자",
+    "affiliate_note": "미래에셋그룹 증권사(KOSPI 006800). 1970 설립(구 대우증권) → 2016 미래에셋 합병 미래에셋대우 → 2021 미래에셋증권. 국내 자기자본 1위 증권사. 대표 김미섭·허선호. 로고는 통합 'MIRAE ASSET' 마스터 브랜드(navy #004179 + 오렌지 스워시 #F6821F) — 증권 계열도 동일 마스터 마크 사용."
+  },
+  "identity_anchor": {
+    "type": "identity-anchor", "verified": true,
+    "method": ["stock-code", "official-domain"],
+    "note": "공식 도메인 securities.miraeasset.com(=KOSPI 006800 미래에셋증권(주)). ★자산: 공식 사이트 JS 셸(4.3KB) → 위키미디어 공용 'Mirae Asset Logo.svg'(T3, 12 path, raster 0, 마스터 브랜드) 사용. 렌더로 'MIRAE ASSET' + 오렌지 스워시 확인. ★변형 선택: 'Mirae Asset Group logo.svg'는 'Global Investments'(자산운용) 부제 포함 → 부제 없는 마스터 마크 채택(증권 계열에 적합).",
+    "sources": ["https://securities.miraeasset.com/", "https://ko.wikipedia.org/wiki/미래에셋증권", "https://commons.wikimedia.org/wiki/File:Mirae_Asset_Logo.svg"]
+  },
+  "history": {
+    "founded": "1970-09-23", "last_rebrand": "2021-05-01", "is_original": false, "basis": "rebrand-date",
+    "note": "구 대우증권 → 2016 미래에셋대우 → 2021-05 미래에셋증권. 통합 'MIRAE ASSET' 마스터 브랜드가 현행 CI(render-verified).",
+    "sources": ["https://ko.wikipedia.org/wiki/미래에셋증권"]
+  },
+  "related_sources": ["https://securities.miraeasset.com/", "https://ko.wikipedia.org/wiki/미래에셋증권", "https://commons.wikimedia.org/wiki/File:Mirae_Asset_Logo.svg"],
+  "notes": "★/loop 순차 수집 22번(인지도 high, 서브에이전트 랭킹 #1). CI-우선: ②공식=JS 셸 → ⑤위키미디어 공용. ★변형 2개 비교: 'Mirae Asset Group logo.svg'(28 path, 'Global Investments' 부제=자산운용) vs 'Mirae Asset Logo.svg'(12 path, 부제 없는 마스터). 미래에셋은 통합 브랜드라 증권 계열도 마스터 'MIRAE ASSET' 마크 사용 → 후자 채택. 색 #004179(navy)/#F6821F(orange swoosh) 실측. light 원본 + dark는 navy 워드마크 #004179→#fff(오렌지 스워시 유지). T3 confidence medium.",
+  "assets": [
+    {
+      "file": "mirae-asset-securities-lockup-light.svg",
+      "properties": { "theme": "light", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "위키미디어 공용 — Mirae Asset Logo.svg (마스터 브랜드)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mirae_Asset_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Mirae_Asset_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "wikimedia-commons-download", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://securities.miraeasset.com/", "note": "[B 보강] 공식 도메인이 미래에셋증권 사이트(JS 셸). 동일 'MIRAE ASSET' 마스터 브랜드 사용" },
+        { "type": "screenshot", "url": "https://commons.wikimedia.org/wiki/File:Mirae_Asset_Logo.svg", "note": "[검증] qlmanage 렌더 → 'MIRAE ASSET'(navy #004179) + 오렌지 스워시(#F6821F) 마스터 브랜드와 일치. viewBox 850×201, 12 path, raster 0" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["identity-anchor", "third-party-svg", "render-check", "vector-integrity-check"],
+        "confidence": "medium",
+        "open_questions": [
+          "T3(위키미디어) — 공식 사이트가 JS 셸이라 직접 교차확인 미완",
+          "마스터 'MIRAE ASSET' 마크(증권 전용 '미래에셋증권' 부제 락업과 다를 수 있음 — 통합 브랜드 정책상 마스터 채택)"
+        ]
+      },
+      "status": "verified", "trademark_owner": "미래에셋증권 주식회사",
+      "notes": "'MIRAE ASSET' 마스터 브랜드(navy #004179) + 오렌지 스워시(#F6821F). viewBox 850×201, 12 path. light-bg용."
+    },
+    {
+      "file": "mirae-asset-securities-lockup-dark.svg",
+      "properties": { "theme": "dark", "kind": "lockup" },
+      "provenance": {
+        "source_tier": "T3",
+        "source_name": "MIRAE ASSET 로고 — 다크용(navy #004179→#fff 파생, 오렌지 스워시 유지)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mirae_Asset_Logo.svg",
+        "archive_url": "https://commons.wikimedia.org/wiki/File:Mirae_Asset_Logo.svg",
+        "original_format": "svg",
+        "captured_at": "2026-06-15", "capture_method": "derived-from-light", "captured_by": "agent:claude-code"
+      },
+      "evidence": [
+        { "type": "official-current-context", "url": "https://commons.wikimedia.org/wiki/File:Mirae_Asset_Logo.svg", "note": "동일 path, 'MIRAE ASSET' navy #004179→#FFFFFF. 오렌지 스워시(#F6821F) 보존" }
+      ],
+      "verification": {
+        "verified": true, "verified_at": "2026-06-15", "verified_by": "agent:claude-code",
+        "method": ["vector-integrity-check", "derived-color-only"], "confidence": "medium",
+        "open_questions": ["다크 변형은 파생"]
+      },
+      "status": "verified", "trademark_owner": "미래에셋증권 주식회사",
+      "notes": "'MIRAE ASSET' #FFFFFF + 오렌지 스워시. 다크 배경용 파생."
+    }
+  ]
+}

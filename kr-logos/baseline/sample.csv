@@ -1,0 +1,16 @@
+tier,name_ko,name_en,stock_code,website,note
+easy,삼성전자,Samsung Electronics,005930,https://www.samsung.com,전자/반도체 대기업
+easy,현대자동차,Hyundai Motor,005380,https://www.hyundai.com,완성차
+easy,LG전자,LG Electronics,066570,https://www.lge.co.kr,가전/전자
+easy,네이버,NAVER,035420,https://www.navercorp.com,인터넷 플랫폼
+easy,카카오,Kakao,035720,https://www.kakaocorp.com,인터넷 플랫폼
+medium,비바리퍼블리카(토스),Viva Republica (Toss),,https://toss.im,핀테크 (비상장)
+medium,당근,Karrot,,https://www.daangn.com,중고거래 플랫폼 (비상장)
+medium,무신사,Musinsa,,https://www.musinsa.com,패션 커머스 (비상장)
+medium,컬리,Kurly,,https://www.kurly.com,신선식품 커머스 (IPO 추진)
+medium,야놀자,Yanolja,,https://www.yanolja.com,여행/숙박 플랫폼 (비상장)
+hard,씨드로닉스,Seadronix,,,해양 AI 선박 자율운항 (딥테크 스타트업)
+hard,메디웨일,Mediwhale,,,망막 AI 심뇌혈관 진단 (헬스테크 스타트업)
+hard,메이사,Meissa,,,드론 3D 디지털트윈 (딥테크 스타트업)
+hard,제이브이엠,JVM,054950,,약국 자동조제 장비 (코스닥 강소기업)
+hard,코맥스,Commax,036690,,홈네트워크/보안 (강소기업)
