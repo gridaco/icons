@@ -1,14 +1,14 @@
 {
   "totals": {
-    "files": 14216,
-    "unique": 4916,
+    "files": 14259,
+    "unique": 4955,
     "icons": {
-      "files": 13138,
-      "unique": 4260
+      "files": 13178,
+      "unique": 4297
     },
     "logos": {
-      "files": 1078,
-      "unique": 656
+      "files": 1081,
+      "unique": 658
     }
   },
   "vendors": {
@@ -27,8 +27,8 @@
     "lucide-icons": {
       "name": "Lucide Icons",
       "kind": "icons",
-      "files": 1714,
-      "unique": 1714
+      "files": 1747,
+      "unique": 1747
     },
     "phosphor-icons": {
       "name": "Phosphor Icons",
@@ -39,14 +39,14 @@
     "octicons": {
       "name": "Primer Octicons",
       "kind": "icons",
-      "files": 732,
-      "unique": 378
+      "files": 739,
+      "unique": 382
     },
     "svgl": {
       "name": "SVGL",
       "kind": "logos",
-      "files": 1078,
-      "unique": 656
+      "files": 1081,
+      "unique": 658
     }
   }
 }

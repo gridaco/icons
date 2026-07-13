@@ -4543,6 +4543,20 @@
       ]
     },
     {
+      "name": "graph-stacked-area-16",
+      "file": "src/graph-stacked-area-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "graph-stacked-area-24",
+      "file": "src/graph-stacked-area-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "hash-16",
       "file": "src/hash-16.svg",
       "properties": {
@@ -6990,6 +7004,20 @@
       ]
     },
     {
+      "name": "project-check-16",
+      "file": "src/project-check-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "project-check-24",
+      "file": "src/project-check-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "project-roadmap-16",
       "file": "src/project-roadmap-16.svg",
       "properties": {
@@ -8864,6 +8892,13 @@
       ]
     },
     {
+      "name": "stack-add-16",
+      "file": "src/stack-add-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "stack-check-16",
       "file": "src/stack-check-16.svg",
       "properties": {
@@ -10016,6 +10051,20 @@
         "movie",
         "stream"
       ]
+    },
+    {
+      "name": "view-files-16",
+      "file": "src/view-files-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "view-files-24",
+      "file": "src/view-files-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "vscode-16",
