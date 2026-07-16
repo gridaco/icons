@@ -2149,6 +2149,22 @@
       }
     },
     {
+      "name": "eve-dark",
+      "file": "src/eve-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "eve-light",
+      "file": "src/eve-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "exome",
       "file": "src/exome.svg",
       "properties": {
@@ -5479,6 +5495,14 @@
     {
       "name": "platzi",
       "file": "src/platzi.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "plausible",
+      "file": "src/plausible.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"

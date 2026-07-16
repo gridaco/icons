@@ -108,6 +108,11 @@
       ]
     },
     {
+      "name": "ad",
+      "file": "src/ad.svg",
+      "properties": {}
+    },
+    {
       "name": "air-vent",
       "file": "src/air-vent.svg",
       "properties": {},
@@ -2259,6 +2264,11 @@
       ]
     },
     {
+      "name": "banknote-check",
+      "file": "src/banknote-check.svg",
+      "properties": {}
+    },
+    {
       "name": "banknote-x",
       "file": "src/banknote-x.svg",
       "properties": {},
@@ -3216,6 +3226,11 @@
         "security",
         "tools"
       ]
+    },
+    {
+      "name": "bone-fracture",
+      "file": "src/bone-fracture.svg",
+      "properties": {}
     },
     {
       "name": "bone",
@@ -6828,6 +6843,11 @@
       ]
     },
     {
+      "name": "circle-euro",
+      "file": "src/circle-euro.svg",
+      "properties": {}
+    },
+    {
       "name": "circle-fading-arrow-up",
       "file": "src/circle-fading-arrow-up.svg",
       "properties": {},
@@ -7645,6 +7665,16 @@
         "rising",
         "falling"
       ]
+    },
+    {
+      "name": "clock-arrow-left",
+      "file": "src/clock-arrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "clock-arrow-right",
+      "file": "src/clock-arrow-right.svg",
+      "properties": {}
     },
     {
       "name": "clock-arrow-up",
@@ -8865,6 +8895,16 @@
       ]
     },
     {
+      "name": "database-arrow-down",
+      "file": "src/database-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "database-arrow-up",
+      "file": "src/database-arrow-up.svg",
+      "properties": {}
+    },
+    {
       "name": "database-backup",
       "file": "src/database-backup.svg",
       "properties": {},
@@ -8887,6 +8927,21 @@
       ]
     },
     {
+      "name": "database-check",
+      "file": "src/database-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "database-minus",
+      "file": "src/database-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "database-plus",
+      "file": "src/database-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "database-search",
       "file": "src/database-search.svg",
       "properties": {},
@@ -8902,6 +8957,11 @@
         "devices",
         "development"
       ]
+    },
+    {
+      "name": "database-x",
+      "file": "src/database-x.svg",
+      "properties": {}
     },
     {
       "name": "database-zap",
@@ -10135,6 +10195,11 @@
         "design",
         "security"
       ]
+    },
+    {
+      "name": "eye-dashed",
+      "file": "src/eye-dashed.svg",
+      "properties": {}
     },
     {
       "name": "eye-off",
@@ -15415,6 +15480,16 @@
       ]
     },
     {
+      "name": "list-sort-ascending",
+      "file": "src/list-sort-ascending.svg",
+      "properties": {}
+    },
+    {
+      "name": "list-sort-descending",
+      "file": "src/list-sort-descending.svg",
+      "properties": {}
+    },
+    {
       "name": "list-start",
       "file": "src/list-start.svg",
       "properties": {},
@@ -18922,6 +18997,11 @@
       ]
     },
     {
+      "name": "paper-bag",
+      "file": "src/paper-bag.svg",
+      "properties": {}
+    },
+    {
       "name": "paperclip",
       "file": "src/paperclip.svg",
       "properties": {},
@@ -19244,6 +19324,11 @@
       ]
     },
     {
+      "name": "pencil-sparkles",
+      "file": "src/pencil-sparkles.svg",
+      "properties": {}
+    },
+    {
       "name": "pencil",
       "file": "src/pencil.svg",
       "properties": {},
@@ -19306,6 +19391,11 @@
         "accessibility",
         "stick figure"
       ]
+    },
+    {
+      "name": "phi",
+      "file": "src/phi.svg",
+      "properties": {}
     },
     {
       "name": "philippine-peso",
@@ -19852,6 +19942,11 @@
         "multimedia",
         "social"
       ]
+    },
+    {
+      "name": "podium",
+      "file": "src/podium.svg",
+      "properties": {}
     },
     {
       "name": "pointer-off",
@@ -21454,6 +21549,11 @@
       ]
     },
     {
+      "name": "save-check",
+      "file": "src/save-check.svg",
+      "properties": {}
+    },
+    {
       "name": "save-off",
       "file": "src/save-off.svg",
       "properties": {},
@@ -21464,6 +21564,16 @@
         "text",
         "files"
       ]
+    },
+    {
+      "name": "save-pen",
+      "file": "src/save-pen.svg",
+      "properties": {}
+    },
+    {
+      "name": "save-plus",
+      "file": "src/save-plus.svg",
+      "properties": {}
     },
     {
       "name": "save",
@@ -22121,6 +22231,11 @@
         "development",
         "devices"
       ]
+    },
+    {
+      "name": "server-plus",
+      "file": "src/server-plus.svg",
+      "properties": {}
     },
     {
       "name": "server",
@@ -25400,6 +25515,11 @@
       ]
     },
     {
+      "name": "star-check",
+      "file": "src/star-check.svg",
+      "properties": {}
+    },
+    {
       "name": "star-half",
       "file": "src/star-half.svg",
       "properties": {},
@@ -25415,6 +25535,11 @@
       ]
     },
     {
+      "name": "star-minus",
+      "file": "src/star-minus.svg",
+      "properties": {}
+    },
+    {
       "name": "star-off",
       "file": "src/star-off.svg",
       "properties": {},
@@ -25427,6 +25552,16 @@
         "multimedia",
         "social"
       ]
+    },
+    {
+      "name": "star-plus",
+      "file": "src/star-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "star-x",
+      "file": "src/star-x.svg",
+      "properties": {}
     },
     {
       "name": "star",
@@ -25792,6 +25927,11 @@
       "tags": [
         "text"
       ]
+    },
+    {
+      "name": "summary",
+      "file": "src/summary.svg",
+      "properties": {}
     },
     {
       "name": "sun-dim",
@@ -26165,6 +26305,16 @@
         "pharmacy",
         "medical"
       ]
+    },
+    {
+      "name": "tag-plus",
+      "file": "src/tag-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "tag-x",
+      "file": "src/tag-x.svg",
+      "properties": {}
     },
     {
       "name": "tag",
@@ -27998,6 +28148,11 @@
       ]
     },
     {
+      "name": "user-round-arrow-left",
+      "file": "src/user-round-arrow-left.svg",
+      "properties": {}
+    },
+    {
       "name": "user-round-check",
       "file": "src/user-round-check.svg",
       "properties": {},
@@ -28931,6 +29086,11 @@
       ]
     },
     {
+      "name": "webcam-off",
+      "file": "src/webcam-off.svg",
+      "properties": {}
+    },
+    {
       "name": "webcam",
       "file": "src/webcam.svg",
       "properties": {},
@@ -29262,6 +29422,11 @@
         "animals",
         "security"
       ]
+    },
+    {
+      "name": "wrench-off",
+      "file": "src/wrench-off.svg",
+      "properties": {}
     },
     {
       "name": "wrench",
