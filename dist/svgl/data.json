@@ -5197,6 +5197,14 @@
       }
     },
     {
+      "name": "ossium_logo",
+      "file": "src/ossium_logo.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "oxc",
       "file": "src/oxc.svg",
       "properties": {

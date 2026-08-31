@@ -5083,6 +5083,20 @@
       ]
     },
     {
+      "name": "issue-relates-to-16",
+      "file": "src/issue-relates-to-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "issue-relates-to-24",
+      "file": "src/issue-relates-to-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "issue-reopened-16",
       "file": "src/issue-reopened-16.svg",
       "properties": {
@@ -7158,6 +7172,20 @@
         "help",
         "explain"
       ]
+    },
+    {
+      "name": "question-bubble-16",
+      "file": "src/question-bubble-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "question-bubble-24",
+      "file": "src/question-bubble-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "quote-16",
