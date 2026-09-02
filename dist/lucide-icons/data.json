@@ -620,28 +620,9 @@
       ]
     },
     {
-      "name": "angry",
-      "file": "src/angry.svg",
-      "properties": {},
-      "description": "Circular head containing facial features expressing intense negative emotion or anger.",
-      "tags": [
-        "emoji",
-        "anger",
-        "face",
-        "emotion"
-      ]
-    },
-    {
-      "name": "annoyed",
-      "file": "src/annoyed.svg",
-      "properties": {},
-      "description": "Stylized face with furrowed brows and a downturned mouth representing annoyance or dissatisfaction.",
-      "tags": [
-        "emoji",
-        "nuisance",
-        "face",
-        "emotion"
-      ]
+      "name": "angle",
+      "file": "src/angle.svg",
+      "properties": {}
     },
     {
       "name": "antenna",
@@ -1648,6 +1629,16 @@
         "chemistry",
         "science"
       ]
+    },
+    {
+      "name": "audio-lines-off",
+      "file": "src/audio-lines-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "audio-lines-x",
+      "file": "src/audio-lines-x.svg",
+      "properties": {}
     },
     {
       "name": "audio-lines",
@@ -4652,6 +4643,16 @@
       ]
     },
     {
+      "name": "broom-sparkles",
+      "file": "src/broom-sparkles.svg",
+      "properties": {}
+    },
+    {
+      "name": "broom",
+      "file": "src/broom.svg",
+      "properties": {}
+    },
+    {
       "name": "brush-cleaning",
       "file": "src/brush-cleaning.svg",
       "properties": {},
@@ -5485,6 +5486,11 @@
         "accessibility",
         "multimedia"
       ]
+    },
+    {
+      "name": "car-battery",
+      "file": "src/car-battery.svg",
+      "properties": {}
     },
     {
       "name": "car-front",
@@ -8729,6 +8735,26 @@
       ]
     },
     {
+      "name": "credit-card-check",
+      "file": "src/credit-card-check.svg",
+      "properties": {}
+    },
+    {
+      "name": "credit-card-minus",
+      "file": "src/credit-card-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "credit-card-plus",
+      "file": "src/credit-card-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "credit-card-x",
+      "file": "src/credit-card-x.svg",
+      "properties": {}
+    },
+    {
       "name": "credit-card",
       "file": "src/credit-card.svg",
       "properties": {},
@@ -9956,6 +9982,11 @@
       ]
     },
     {
+      "name": "eject",
+      "file": "src/eject.svg",
+      "properties": {}
+    },
+    {
       "name": "ellipse",
       "file": "src/ellipse.svg",
       "properties": {},
@@ -10245,6 +10276,41 @@
         "design",
         "security"
       ]
+    },
+    {
+      "name": "face-angry",
+      "file": "src/face-angry.svg",
+      "properties": {}
+    },
+    {
+      "name": "face-expressionless",
+      "file": "src/face-expressionless.svg",
+      "properties": {}
+    },
+    {
+      "name": "face-grinning",
+      "file": "src/face-grinning.svg",
+      "properties": {}
+    },
+    {
+      "name": "face-neutral",
+      "file": "src/face-neutral.svg",
+      "properties": {}
+    },
+    {
+      "name": "face-slightly-frowning",
+      "file": "src/face-slightly-frowning.svg",
+      "properties": {}
+    },
+    {
+      "name": "face-slightly-smiling-plus",
+      "file": "src/face-slightly-smiling-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "face-slightly-smiling",
+      "file": "src/face-slightly-smiling.svg",
+      "properties": {}
     },
     {
       "name": "factory",
@@ -12093,20 +12159,6 @@
       ]
     },
     {
-      "name": "frown",
-      "file": "src/frown.svg",
-      "properties": {},
-      "description": "A circular face shape with a downward-curving mouth line representing sadness or negative emotion.",
-      "tags": [
-        "emoji",
-        "face",
-        "bad",
-        "sad",
-        "emotion",
-        "account"
-      ]
-    },
-    {
       "name": "fuel",
       "file": "src/fuel.svg",
       "properties": {},
@@ -12176,6 +12228,11 @@
         "hopper",
         "layout"
       ]
+    },
+    {
+      "name": "galaxy",
+      "file": "src/galaxy.svg",
+      "properties": {}
     },
     {
       "name": "gallery-horizontal-end",
@@ -13868,25 +13925,6 @@
       ]
     },
     {
-      "name": "history",
-      "file": "src/history.svg",
-      "properties": {},
-      "description": "Curved arrow indicating time reversal or history tracking.",
-      "tags": [
-        "time",
-        "redo",
-        "undo",
-        "rewind",
-        "timeline",
-        "version",
-        "time machine",
-        "backup",
-        "rotate",
-        "ccw",
-        "arrows"
-      ]
-    },
-    {
       "name": "hop-off",
       "file": "src/hop-off.svg",
       "properties": {},
@@ -14759,17 +14797,14 @@
       ]
     },
     {
-      "name": "laugh",
-      "file": "src/laugh.svg",
-      "properties": {},
-      "description": "Circular face showing wide smile and closed eyes representing happiness or intense laughter.",
-      "tags": [
-        "emoji",
-        "face",
-        "happy",
-        "good",
-        "emotion"
-      ]
+      "name": "layer-arrow-down",
+      "file": "src/layer-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "layer-arrow-up",
+      "file": "src/layer-arrow-up.svg",
+      "properties": {}
     },
     {
       "name": "layers-2",
@@ -14790,6 +14825,16 @@
         "design",
         "layout"
       ]
+    },
+    {
+      "name": "layers-arrow-down",
+      "file": "src/layers-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "layers-arrow-up",
+      "file": "src/layers-arrow-up.svg",
+      "properties": {}
     },
     {
       "name": "layers-minus",
@@ -14858,6 +14903,11 @@
         "design",
         "layout"
       ]
+    },
+    {
+      "name": "layout-freeform",
+      "file": "src/layout-freeform.svg",
+      "properties": {}
     },
     {
       "name": "layout-grid",
@@ -15324,6 +15374,11 @@
         "text",
         "arrows"
       ]
+    },
+    {
+      "name": "list-clock",
+      "file": "src/list-clock.svg",
+      "properties": {}
     },
     {
       "name": "list-collapse",
@@ -15797,6 +15852,11 @@
       ]
     },
     {
+      "name": "mail-badge",
+      "file": "src/mail-badge.svg",
+      "properties": {}
+    },
+    {
       "name": "mail-check",
       "file": "src/mail-check.svg",
       "properties": {},
@@ -15816,6 +15876,11 @@
         "task",
         "mail"
       ]
+    },
+    {
+      "name": "mail-clock",
+      "file": "src/mail-clock.svg",
+      "properties": {}
     },
     {
       "name": "mail-minus",
@@ -16378,18 +16443,6 @@
       ]
     },
     {
-      "name": "meh",
-      "file": "src/meh.svg",
-      "properties": {},
-      "description": "Circle containing two small circles and a horizontal line representing a neutral emotional state.",
-      "tags": [
-        "emoji",
-        "face",
-        "neutral",
-        "emotion"
-      ]
-    },
-    {
       "name": "memory-stick",
       "file": "src/memory-stick.svg",
       "properties": {},
@@ -16474,6 +16527,11 @@
         "development",
         "social"
       ]
+    },
+    {
+      "name": "message-circle-dashed-check",
+      "file": "src/message-circle-dashed-check.svg",
+      "properties": {}
     },
     {
       "name": "message-circle-dashed",
@@ -17050,6 +17108,11 @@
       ]
     },
     {
+      "name": "mic-audio-lines",
+      "file": "src/mic-audio-lines.svg",
+      "properties": {}
+    },
+    {
       "name": "mic-off",
       "file": "src/mic-off.svg",
       "properties": {},
@@ -17064,6 +17127,11 @@
         "connectivity",
         "multimedia"
       ]
+    },
+    {
+      "name": "mic-signal",
+      "file": "src/mic-signal.svg",
+      "properties": {}
     },
     {
       "name": "mic-vocal",
@@ -17150,6 +17218,11 @@
         "food-beverage",
         "home"
       ]
+    },
+    {
+      "name": "midi-port",
+      "file": "src/midi-port.svg",
+      "properties": {}
     },
     {
       "name": "milestone",
@@ -17598,6 +17671,21 @@
         "night",
         "accessibility"
       ]
+    },
+    {
+      "name": "mop-sparkles",
+      "file": "src/mop-sparkles.svg",
+      "properties": {}
+    },
+    {
+      "name": "mop",
+      "file": "src/mop.svg",
+      "properties": {}
+    },
+    {
+      "name": "mosque",
+      "file": "src/mosque.svg",
+      "properties": {}
     },
     {
       "name": "motorbike",
@@ -19830,6 +19918,21 @@
       ]
     },
     {
+      "name": "playing-card",
+      "file": "src/playing-card.svg",
+      "properties": {}
+    },
+    {
+      "name": "playing-cards-fan",
+      "file": "src/playing-cards-fan.svg",
+      "properties": {}
+    },
+    {
+      "name": "playing-cards",
+      "file": "src/playing-cards.svg",
+      "properties": {}
+    },
+    {
       "name": "plug-2",
       "file": "src/plug-2.svg",
       "properties": {},
@@ -19923,24 +20026,6 @@
         "gadget",
         "corkscrew",
         "tools"
-      ]
-    },
-    {
-      "name": "podcast",
-      "file": "src/podcast.svg",
-      "properties": {},
-      "description": "Microphone symbol representing audio recording or podcasting.",
-      "tags": [
-        "audio",
-        "music",
-        "mic",
-        "talk",
-        "voice",
-        "subscribe",
-        "subscription",
-        "stream",
-        "multimedia",
-        "social"
       ]
     },
     {
@@ -21027,6 +21112,16 @@
       ]
     },
     {
+      "name": "robot-arm",
+      "file": "src/robot-arm.svg",
+      "properties": {}
+    },
+    {
+      "name": "robot-vacuum",
+      "file": "src/robot-vacuum.svg",
+      "properties": {}
+    },
+    {
       "name": "rocket",
       "file": "src/rocket.svg",
       "properties": {},
@@ -21118,6 +21213,11 @@
       ]
     },
     {
+      "name": "rotate-ccw-clock",
+      "file": "src/rotate-ccw-clock.svg",
+      "properties": {}
+    },
+    {
       "name": "rotate-ccw-key",
       "file": "src/rotate-ccw-key.svg",
       "properties": {},
@@ -21175,6 +21275,11 @@
         "design",
         "photography"
       ]
+    },
+    {
+      "name": "rotate-cw-fading-clock",
+      "file": "src/rotate-cw-fading-clock.svg",
+      "properties": {}
     },
     {
       "name": "rotate-cw-square",
@@ -21656,6 +21761,11 @@
       ]
     },
     {
+      "name": "scan-box",
+      "file": "src/scan-box.svg",
+      "properties": {}
+    },
+    {
       "name": "scan-eye",
       "file": "src/scan-eye.svg",
       "properties": {},
@@ -21781,6 +21891,11 @@
         "multimedia",
         "accessibility"
       ]
+    },
+    {
+      "name": "scan-square",
+      "file": "src/scan-square.svg",
+      "properties": {}
     },
     {
       "name": "scan-text",
@@ -22825,6 +22940,16 @@
       ]
     },
     {
+      "name": "shield-keyhole",
+      "file": "src/shield-keyhole.svg",
+      "properties": {}
+    },
+    {
+      "name": "shield-lock",
+      "file": "src/shield-lock.svg",
+      "properties": {}
+    },
+    {
       "name": "shield-minus",
       "file": "src/shield-minus.svg",
       "properties": {},
@@ -23172,6 +23297,11 @@
         "gaming",
         "shapes"
       ]
+    },
+    {
+      "name": "ship-cargo",
+      "file": "src/ship-cargo.svg",
+      "properties": {}
     },
     {
       "name": "ship-wheel",
@@ -23715,39 +23845,6 @@
         "screen",
         "connectivity",
         "devices"
-      ]
-    },
-    {
-      "name": "smile-plus",
-      "file": "src/smile-plus.svg",
-      "properties": {},
-      "description": "Stylized smiling face integrated with a plus sign indicating happiness or adding a positive reaction.",
-      "tags": [
-        "emoji",
-        "face",
-        "happy",
-        "good",
-        "emotion",
-        "react",
-        "reaction",
-        "add",
-        "social",
-        "notifications",
-        "communication"
-      ]
-    },
-    {
-      "name": "smile",
-      "file": "src/smile.svg",
-      "properties": {},
-      "description": "Circle face with an upturned mouth symbolizing happiness or positive emotion.",
-      "tags": [
-        "emoji",
-        "face",
-        "happy",
-        "good",
-        "emotion",
-        "account"
       ]
     },
     {
@@ -24762,6 +24859,11 @@
       ]
     },
     {
+      "name": "square-dimensions",
+      "file": "src/square-dimensions.svg",
+      "properties": {}
+    },
+    {
       "name": "square-divide",
       "file": "src/square-divide.svg",
       "properties": {},
@@ -24955,6 +25057,11 @@
         "development",
         "tools"
       ]
+    },
+    {
+      "name": "square-off",
+      "file": "src/square-off.svg",
+      "properties": {}
     },
     {
       "name": "square-parking-off",
@@ -25323,6 +25430,11 @@
         "shell",
         "development"
       ]
+    },
+    {
+      "name": "square-text",
+      "file": "src/square-text.svg",
+      "properties": {}
     },
     {
       "name": "square-user-round",
@@ -27332,6 +27444,11 @@
       ]
     },
     {
+      "name": "trailer",
+      "file": "src/trailer.svg",
+      "properties": {}
+    },
+    {
       "name": "train-front-tunnel",
       "file": "src/train-front-tunnel.svg",
       "properties": {},
@@ -28026,6 +28143,11 @@
       ]
     },
     {
+      "name": "usb-c-port",
+      "file": "src/usb-c-port.svg",
+      "properties": {}
+    },
+    {
       "name": "usb",
       "file": "src/usb.svg",
       "properties": {},
@@ -28303,6 +28425,11 @@
       ]
     },
     {
+      "name": "user-shield",
+      "file": "src/user-shield.svg",
+      "properties": {}
+    },
+    {
       "name": "user-star",
       "file": "src/user-star.svg",
       "properties": {},
@@ -28495,6 +28622,11 @@
         "travel",
         "home"
       ]
+    },
+    {
+      "name": "vector-polygon",
+      "file": "src/vector-polygon.svg",
+      "properties": {}
     },
     {
       "name": "vector-square",
