@@ -1645,6 +1645,38 @@
       }
     },
     {
+      "name": "depot-dark",
+      "file": "src/depot-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "depot-light",
+      "file": "src/depot-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "depot-wordmark-dark",
+      "file": "src/depot-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "depot-wordmark-light",
+      "file": "src/depot-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "designali",
       "file": "src/designali.svg",
       "properties": {
@@ -4002,6 +4034,38 @@
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "mastra-icon-dark",
+      "file": "src/mastra-icon-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "mastra-icon-light",
+      "file": "src/mastra-icon-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "mastra-wordmark-dark",
+      "file": "src/mastra-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "mastra-wordmark-light",
+      "file": "src/mastra-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {
@@ -7253,11 +7317,35 @@
       }
     },
     {
-      "name": "tanstack",
-      "file": "src/tanstack.svg",
+      "name": "tanstack_dark",
+      "file": "src/tanstack_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "tanstack_light",
+      "file": "src/tanstack_light.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "tanstack_wordmark_dark",
+      "file": "src/tanstack_wordmark_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "tanstack_wordmark_light",
+      "file": "src/tanstack_wordmark_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {

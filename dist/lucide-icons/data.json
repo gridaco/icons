@@ -4545,6 +4545,11 @@
       ]
     },
     {
+      "name": "bridge",
+      "file": "src/bridge.svg",
+      "properties": {}
+    },
+    {
       "name": "briefcase-business",
       "file": "src/briefcase-business.svg",
       "properties": {},
@@ -5389,6 +5394,16 @@
         "devices",
         "communication"
       ]
+    },
+    {
+      "name": "can-soda",
+      "file": "src/can-soda.svg",
+      "properties": {}
+    },
+    {
+      "name": "can",
+      "file": "src/can.svg",
+      "properties": {}
     },
     {
       "name": "candy-cane",
@@ -6727,6 +6742,11 @@
         "menu",
         "arrows"
       ]
+    },
+    {
+      "name": "circle-dashed-check",
+      "file": "src/circle-dashed-check.svg",
+      "properties": {}
     },
     {
       "name": "circle-dashed",
@@ -8750,6 +8770,11 @@
       "properties": {}
     },
     {
+      "name": "credit-card-reader",
+      "file": "src/credit-card-reader.svg",
+      "properties": {}
+    },
+    {
       "name": "credit-card-x",
       "file": "src/credit-card-x.svg",
       "properties": {}
@@ -9539,6 +9564,11 @@
       ]
     },
     {
+      "name": "dome",
+      "file": "src/dome.svg",
+      "properties": {}
+    },
+    {
       "name": "donut",
       "file": "src/donut.svg",
       "properties": {},
@@ -9616,6 +9646,11 @@
         "travel",
         "security"
       ]
+    },
+    {
+      "name": "door-stairwell",
+      "file": "src/door-stairwell.svg",
+      "properties": {}
     },
     {
       "name": "dot",
@@ -10050,6 +10085,16 @@
         "layout",
         "development"
       ]
+    },
+    {
+      "name": "engine",
+      "file": "src/engine.svg",
+      "properties": {}
+    },
+    {
+      "name": "equal-approximately-not",
+      "file": "src/equal-approximately-not.svg",
+      "properties": {}
     },
     {
       "name": "equal-approximately",
@@ -12386,6 +12431,16 @@
       ]
     },
     {
+      "name": "gap-horizontal",
+      "file": "src/gap-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "gap-vertical",
+      "file": "src/gap-vertical.svg",
+      "properties": {}
+    },
+    {
       "name": "gauge",
       "file": "src/gauge.svg",
       "properties": {},
@@ -12459,6 +12514,16 @@
         "payment",
         "finance"
       ]
+    },
+    {
+      "name": "germ-off",
+      "file": "src/germ-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "germ",
+      "file": "src/germ.svg",
+      "properties": {}
     },
     {
       "name": "ghost",
@@ -15202,6 +15267,11 @@
       ]
     },
     {
+      "name": "lighthouse",
+      "file": "src/lighthouse.svg",
+      "properties": {}
+    },
+    {
       "name": "line-dot-right-horizontal",
       "file": "src/line-dot-right-horizontal.svg",
       "properties": {},
@@ -15908,6 +15978,11 @@
         "read",
         "mail"
       ]
+    },
+    {
+      "name": "mail-pen",
+      "file": "src/mail-pen.svg",
+      "properties": {}
     },
     {
       "name": "mail-plus",
@@ -23395,6 +23470,16 @@
       ]
     },
     {
+      "name": "shopping-cart-minus",
+      "file": "src/shopping-cart-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "shopping-cart-plus",
+      "file": "src/shopping-cart-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "shopping-cart",
       "file": "src/shopping-cart.svg",
       "properties": {},
@@ -23470,6 +23555,11 @@
         "mail",
         "files"
       ]
+    },
+    {
+      "name": "shrimp-off",
+      "file": "src/shrimp-off.svg",
+      "properties": {}
     },
     {
       "name": "shrimp",
@@ -24894,6 +24984,11 @@
         "calculate",
         "math"
       ]
+    },
+    {
+      "name": "square-exclamation-point",
+      "file": "src/square-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "square-function",
@@ -27526,18 +27621,9 @@
       ]
     },
     {
-      "name": "trash-2",
-      "file": "src/trash-2.svg",
-      "properties": {},
-      "description": "A trash can representing deletion or garbage.",
-      "tags": [
-        "garbage",
-        "delete",
-        "remove",
-        "bin",
-        "files",
-        "mail"
-      ]
+      "name": "trash-off",
+      "file": "src/trash-off.svg",
+      "properties": {}
     },
     {
       "name": "trash",
@@ -28194,6 +28280,11 @@
       ]
     },
     {
+      "name": "user-group",
+      "file": "src/user-group.svg",
+      "properties": {}
+    },
+    {
       "name": "user-key",
       "file": "src/user-key.svg",
       "properties": {},
@@ -28302,6 +28393,11 @@
         "gear",
         "account"
       ]
+    },
+    {
+      "name": "user-round-group",
+      "file": "src/user-round-group.svg",
+      "properties": {}
     },
     {
       "name": "user-round-key",
@@ -28809,6 +28905,16 @@
         "design",
         "photography"
       ]
+    },
+    {
+      "name": "virus-off",
+      "file": "src/virus-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "virus",
+      "file": "src/virus.svg",
+      "properties": {}
     },
     {
       "name": "voicemail",
@@ -29326,6 +29432,11 @@
         "gluten",
         "food-beverage"
       ]
+    },
+    {
+      "name": "whistle",
+      "file": "src/whistle.svg",
+      "properties": {}
     },
     {
       "name": "whole-word",
