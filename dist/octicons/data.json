@@ -1095,6 +1095,34 @@
       ]
     },
     {
+      "name": "chat-16",
+      "file": "src/chat-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chat-24",
+      "file": "src/chat-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "chat-question-16",
+      "file": "src/chat-question-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chat-question-24",
+      "file": "src/chat-question-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "check-16",
       "file": "src/check-16.svg",
       "properties": {
@@ -5345,6 +5373,20 @@
         "legal",
         "bill"
       ]
+    },
+    {
+      "name": "library-16",
+      "file": "src/library-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "library-24",
+      "file": "src/library-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "light-bulb-16",
