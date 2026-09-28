@@ -785,6 +785,21 @@
       ]
     },
     {
+      "name": "bookmark-fill-16",
+      "file": "src/bookmark-fill-16.svg",
+      "properties": {
+        "size": "16"
+      },
+      "description": "Ribbon shape representing saving or marking content for later reference.",
+      "tags": [
+        "bookmark",
+        "save",
+        "favorite",
+        "marker",
+        "ribbon"
+      ]
+    },
+    {
       "name": "bookmark-fill-24",
       "file": "src/bookmark-fill-24.svg",
       "properties": {
@@ -797,21 +812,6 @@
         "favorite",
         "marker",
         "ribbon"
-      ]
-    },
-    {
-      "name": "bookmark-filled-16",
-      "file": "src/bookmark-filled-16.svg",
-      "properties": {
-        "size": "16"
-      },
-      "description": "A solid ribbon bookmark symbol representing saved or bookmarked content.",
-      "tags": [
-        "bookmark",
-        "save",
-        "marker",
-        "read",
-        "reference"
       ]
     },
     {
@@ -1093,6 +1093,55 @@
         "date",
         "appointment"
       ]
+    },
+    {
+      "name": "chat-16",
+      "file": "src/chat-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chat-24",
+      "file": "src/chat-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "chat-add-16",
+      "file": "src/chat-add-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chat-add-24",
+      "file": "src/chat-add-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "chat-locked-16",
+      "file": "src/chat-locked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chat-question-16",
+      "file": "src/chat-question-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "chat-question-24",
+      "file": "src/chat-question-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "check-16",
@@ -1942,6 +1991,20 @@
       ]
     },
     {
+      "name": "comment-fill-16",
+      "file": "src/comment-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "comment-fill-24",
+      "file": "src/comment-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "comment-locked-16",
       "file": "src/comment-locked-16.svg",
       "properties": {
@@ -2254,6 +2317,20 @@
         "trigger",
         "aim"
       ]
+    },
+    {
+      "name": "cursor-16",
+      "file": "src/cursor-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "cursor-24",
+      "file": "src/cursor-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "dash-16",
@@ -4363,6 +4440,13 @@
       ]
     },
     {
+      "name": "git-pull-request-unlisted-16",
+      "file": "src/git-pull-request-unlisted-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "globe-16",
       "file": "src/globe-16.svg",
       "properties": {
@@ -5345,6 +5429,20 @@
         "legal",
         "bill"
       ]
+    },
+    {
+      "name": "library-16",
+      "file": "src/library-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "library-24",
+      "file": "src/library-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "light-bulb-16",
@@ -6770,6 +6868,20 @@
       ]
     },
     {
+      "name": "person-cursor-16",
+      "file": "src/person-cursor-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "person-cursor-24",
+      "file": "src/person-cursor-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "person-fill-16",
       "file": "src/person-fill-16.svg",
       "properties": {
@@ -6879,34 +6991,6 @@
         "table",
         "project",
         "filter"
-      ]
-    },
-    {
-      "name": "play-16",
-      "file": "src/play-16.svg",
-      "properties": {
-        "size": "16"
-      },
-      "description": "Right-pointing triangle symbolizing play or start action.",
-      "tags": [
-        "play",
-        "start",
-        "begin",
-        "action"
-      ]
-    },
-    {
-      "name": "play-24",
-      "file": "src/play-24.svg",
-      "properties": {
-        "size": "24"
-      },
-      "description": "Right-pointing triangle symbolizing play or start action.",
-      "tags": [
-        "play",
-        "start",
-        "begin",
-        "action"
       ]
     },
     {
@@ -7378,6 +7462,21 @@
       ]
     },
     {
+      "name": "repo-delete-16",
+      "file": "src/repo-delete-16.svg",
+      "properties": {
+        "size": "16"
+      },
+      "description": "Wastebasket icon representing delete or removal action.",
+      "tags": [
+        "trash",
+        "delete",
+        "remove",
+        "garbage",
+        "bin"
+      ]
+    },
+    {
       "name": "repo-delete-24",
       "file": "src/repo-delete-24.svg",
       "properties": {
@@ -7390,21 +7489,6 @@
         "remove",
         "garbage",
         "bin"
-      ]
-    },
-    {
-      "name": "repo-deleted-16",
-      "file": "src/repo-deleted-16.svg",
-      "properties": {
-        "size": "16"
-      },
-      "description": "Trash can symbol indicating file or item deletion.",
-      "tags": [
-        "delete",
-        "trash",
-        "remove",
-        "bin",
-        "garbage"
       ]
     },
     {
@@ -9371,6 +9455,20 @@
       ]
     },
     {
+      "name": "terminal-locked-16",
+      "file": "src/terminal-locked-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "terminal-locked-24",
+      "file": "src/terminal-locked-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "three-bars-16",
       "file": "src/three-bars-16.svg",
       "properties": {
@@ -9571,6 +9669,34 @@
       ]
     },
     {
+      "name": "triangle-16",
+      "file": "src/triangle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "triangle-24",
+      "file": "src/triangle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
+      "name": "triangle-circle-16",
+      "file": "src/triangle-circle-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "triangle-circle-24",
+      "file": "src/triangle-circle-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "triangle-down-16",
       "file": "src/triangle-down-16.svg",
       "properties": {
@@ -9595,6 +9721,20 @@
         "point",
         "direction"
       ]
+    },
+    {
+      "name": "triangle-fill-16",
+      "file": "src/triangle-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "triangle-fill-24",
+      "file": "src/triangle-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "triangle-left-16",
