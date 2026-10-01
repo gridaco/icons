@@ -1645,6 +1645,38 @@
       }
     },
     {
+      "name": "depot-dark",
+      "file": "src/depot-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "depot-light",
+      "file": "src/depot-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "depot-wordmark-dark",
+      "file": "src/depot-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "depot-wordmark-light",
+      "file": "src/depot-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "designali",
       "file": "src/designali.svg",
       "properties": {
@@ -4005,6 +4037,38 @@
       }
     },
     {
+      "name": "mastra-icon-dark",
+      "file": "src/mastra-icon-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "mastra-icon-light",
+      "file": "src/mastra-icon-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "mastra-wordmark-dark",
+      "file": "src/mastra-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "mastra-wordmark-light",
+      "file": "src/mastra-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "materialui",
       "file": "src/materialui.svg",
       "properties": {
@@ -6157,6 +6221,22 @@
       }
     },
     {
+      "name": "reddit-wordmark-orange",
+      "file": "src/reddit-wordmark-orange.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "reddit-wordmark-white",
+      "file": "src/reddit-wordmark-white.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "reddit",
       "file": "src/reddit.svg",
       "properties": {
@@ -6409,6 +6489,38 @@
       "file": "src/resend-wordmark-white.svg",
       "properties": {
         "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "retain-dark",
+      "file": "src/retain-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "retain-light",
+      "file": "src/retain-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "retain-wordmark-dark",
+      "file": "src/retain-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "retain-wordmark-light",
+      "file": "src/retain-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
         "kind": "wordmark"
       }
     },
@@ -7253,11 +7365,35 @@
       }
     },
     {
-      "name": "tanstack",
-      "file": "src/tanstack.svg",
+      "name": "tanstack_dark",
+      "file": "src/tanstack_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "tanstack_light",
+      "file": "src/tanstack_light.svg",
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "tanstack_wordmark_dark",
+      "file": "src/tanstack_wordmark_dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "tanstack_wordmark_light",
+      "file": "src/tanstack_wordmark_light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {
@@ -7786,6 +7922,38 @@
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "typesafe-ai-dark",
+      "file": "src/typesafe-ai-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "typesafe-ai-light",
+      "file": "src/typesafe-ai-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "typesafe-ai-wordmark-dark",
+      "file": "src/typesafe-ai-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "typesafe-ai-wordmark-light",
+      "file": "src/typesafe-ai-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {

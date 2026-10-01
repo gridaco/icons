@@ -228,18 +228,6 @@
       ]
     },
     {
-      "name": "album",
-      "file": "src/album.svg",
-      "properties": {},
-      "description": "Stack of layered square frames representing a collection or photo album.",
-      "tags": [
-        "photo",
-        "book",
-        "photography",
-        "multimedia"
-      ]
-    },
-    {
       "name": "align-center-horizontal",
       "file": "src/align-center-horizontal.svg",
       "properties": {},
@@ -2207,6 +2195,11 @@
       ]
     },
     {
+      "name": "bangladeshi-taka",
+      "file": "src/bangladeshi-taka.svg",
+      "properties": {}
+    },
+    {
       "name": "banknote-arrow-down",
       "file": "src/banknote-arrow-down.svg",
       "properties": {},
@@ -3357,6 +3350,11 @@
       ]
     },
     {
+      "name": "book-bookmark",
+      "file": "src/book-bookmark.svg",
+      "properties": {}
+    },
+    {
       "name": "book-check",
       "file": "src/book-check.svg",
       "properties": {},
@@ -3624,56 +3622,6 @@
         "knowledge",
         "development",
         "security",
-        "gaming"
-      ]
-    },
-    {
-      "name": "book-marked",
-      "file": "src/book-marked.svg",
-      "properties": {},
-      "description": "A ribbon banner overlaying a page representing saving or marking content for later reference.",
-      "tags": [
-        "dictionary",
-        "reading",
-        "booklet",
-        "magazine",
-        "leaflet",
-        "pamphlet",
-        "tome",
-        "library",
-        "writing",
-        "written",
-        "writer",
-        "author",
-        "story",
-        "script",
-        "fiction",
-        "novel",
-        "information",
-        "knowledge",
-        "education",
-        "high school",
-        "university",
-        "college",
-        "academy",
-        "student",
-        "study",
-        "learning",
-        "homework",
-        "research",
-        "documentation",
-        "saved",
-        "later",
-        "future",
-        "reference",
-        "index",
-        "code",
-        "coding",
-        "version control",
-        "git",
-        "repository",
-        "text",
-        "development",
         "gaming"
       ]
     },
@@ -4545,6 +4493,11 @@
       ]
     },
     {
+      "name": "bridge",
+      "file": "src/bridge.svg",
+      "properties": {}
+    },
+    {
       "name": "briefcase-business",
       "file": "src/briefcase-business.svg",
       "properties": {},
@@ -4585,6 +4538,11 @@
         "medical",
         "transportation"
       ]
+    },
+    {
+      "name": "briefcase-plus",
+      "file": "src/briefcase-plus.svg",
+      "properties": {}
     },
     {
       "name": "briefcase",
@@ -4800,21 +4758,14 @@
       ]
     },
     {
-      "name": "building-2",
-      "file": "src/building-2.svg",
-      "properties": {},
-      "description": "Simplified rectangular structure representing an office building or corporate organization.",
-      "tags": [
-        "business",
-        "company",
-        "enterprise",
-        "skyscraper",
-        "organisation",
-        "organization",
-        "city",
-        "account",
-        "buildings"
-      ]
+      "name": "building-complex-plus",
+      "file": "src/building-complex-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "building-complex",
+      "file": "src/building-complex.svg",
+      "properties": {}
     },
     {
       "name": "building",
@@ -5069,6 +5020,11 @@
         "task",
         "time"
       ]
+    },
+    {
+      "name": "calendar-chevrons-right",
+      "file": "src/calendar-chevrons-right.svg",
+      "properties": {}
     },
     {
       "name": "calendar-clock",
@@ -5391,6 +5347,16 @@
       ]
     },
     {
+      "name": "can-soda",
+      "file": "src/can-soda.svg",
+      "properties": {}
+    },
+    {
+      "name": "can",
+      "file": "src/can.svg",
+      "properties": {}
+    },
+    {
       "name": "candy-cane",
       "file": "src/candy-cane.svg",
       "properties": {},
@@ -5595,6 +5561,16 @@
         "eat",
         "food-beverage"
       ]
+    },
+    {
+      "name": "carton-off",
+      "file": "src/carton-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "carton",
+      "file": "src/carton.svg",
+      "properties": {}
     },
     {
       "name": "case-lower",
@@ -6729,6 +6705,11 @@
       ]
     },
     {
+      "name": "circle-dashed-check",
+      "file": "src/circle-dashed-check.svg",
+      "properties": {}
+    },
+    {
       "name": "circle-dashed",
       "file": "src/circle-dashed.svg",
       "properties": {},
@@ -7335,6 +7316,21 @@
         "entertainment",
         "multimedia"
       ]
+    },
+    {
+      "name": "clef-alto",
+      "file": "src/clef-alto.svg",
+      "properties": {}
+    },
+    {
+      "name": "clef-bass",
+      "file": "src/clef-bass.svg",
+      "properties": {}
+    },
+    {
+      "name": "clef-treble",
+      "file": "src/clef-treble.svg",
+      "properties": {}
     },
     {
       "name": "clipboard-check",
@@ -8750,6 +8746,11 @@
       "properties": {}
     },
     {
+      "name": "credit-card-reader",
+      "file": "src/credit-card-reader.svg",
+      "properties": {}
+    },
+    {
       "name": "credit-card-x",
       "file": "src/credit-card-x.svg",
       "properties": {}
@@ -8877,6 +8878,11 @@
         "water",
         "food-beverage"
       ]
+    },
+    {
+      "name": "cupcake",
+      "file": "src/cupcake.svg",
+      "properties": {}
     },
     {
       "name": "currency",
@@ -9539,6 +9545,11 @@
       ]
     },
     {
+      "name": "dome",
+      "file": "src/dome.svg",
+      "properties": {}
+    },
+    {
       "name": "donut",
       "file": "src/donut.svg",
       "properties": {},
@@ -9580,6 +9591,11 @@
       ]
     },
     {
+      "name": "door-closed-package",
+      "file": "src/door-closed-package.svg",
+      "properties": {}
+    },
+    {
       "name": "door-closed",
       "file": "src/door-closed.svg",
       "properties": {},
@@ -9616,6 +9632,11 @@
         "travel",
         "security"
       ]
+    },
+    {
+      "name": "door-stairwell",
+      "file": "src/door-stairwell.svg",
+      "properties": {}
     },
     {
       "name": "dot",
@@ -10052,6 +10073,16 @@
       ]
     },
     {
+      "name": "engine",
+      "file": "src/engine.svg",
+      "properties": {}
+    },
+    {
+      "name": "equal-approximately-not",
+      "file": "src/equal-approximately-not.svg",
+      "properties": {}
+    },
+    {
       "name": "equal-approximately",
       "file": "src/equal-approximately.svg",
       "properties": {},
@@ -10352,6 +10383,11 @@
         "multimedia",
         "arrows"
       ]
+    },
+    {
+      "name": "faucet",
+      "file": "src/faucet.svg",
+      "properties": {}
     },
     {
       "name": "feather",
@@ -11519,34 +11555,6 @@
       ]
     },
     {
-      "name": "flip-horizontal-2",
-      "file": "src/flip-horizontal-2.svg",
-      "properties": {},
-      "description": "Two opposing horizontal chevrons representing a mirror or flip function.",
-      "tags": [
-        "reflect",
-        "mirror",
-        "alignment",
-        "dashed",
-        "design",
-        "photography"
-      ]
-    },
-    {
-      "name": "flip-vertical-2",
-      "file": "src/flip-vertical-2.svg",
-      "properties": {},
-      "description": "Vertical bidirectional arrows symbolizing reflection, mirroring, or flipping.",
-      "tags": [
-        "reflect",
-        "mirror",
-        "alignment",
-        "dashed",
-        "design",
-        "photography"
-      ]
-    },
-    {
       "name": "flower-2",
       "file": "src/flower-2.svg",
       "properties": {},
@@ -12386,6 +12394,16 @@
       ]
     },
     {
+      "name": "gap-horizontal",
+      "file": "src/gap-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "gap-vertical",
+      "file": "src/gap-vertical.svg",
+      "properties": {}
+    },
+    {
       "name": "gauge",
       "file": "src/gauge.svg",
       "properties": {},
@@ -12459,6 +12477,16 @@
         "payment",
         "finance"
       ]
+    },
+    {
+      "name": "germ-off",
+      "file": "src/germ-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "germ",
+      "file": "src/germ.svg",
+      "properties": {}
     },
     {
       "name": "ghost",
@@ -12762,6 +12790,11 @@
         "status",
         "navigation"
       ]
+    },
+    {
+      "name": "globe-code",
+      "file": "src/globe-code.svg",
+      "properties": {}
     },
     {
       "name": "globe-lock",
@@ -13990,6 +14023,11 @@
       ]
     },
     {
+      "name": "hourglass-cog",
+      "file": "src/hourglass-cog.svg",
+      "properties": {}
+    },
+    {
       "name": "hourglass",
       "file": "src/hourglass.svg",
       "properties": {},
@@ -14000,6 +14038,11 @@
         "sandglass",
         "gaming"
       ]
+    },
+    {
+      "name": "house-cog",
+      "file": "src/house-cog.svg",
+      "properties": {}
     },
     {
       "name": "house-heart",
@@ -14080,6 +14123,11 @@
         "buildings",
         "navigation"
       ]
+    },
+    {
+      "name": "houses",
+      "file": "src/houses.svg",
+      "properties": {}
     },
     {
       "name": "ice-cream-bowl",
@@ -14397,6 +14445,11 @@
       ]
     },
     {
+      "name": "iv-bag",
+      "file": "src/iv-bag.svg",
+      "properties": {}
+    },
+    {
       "name": "japanese-yen",
       "file": "src/japanese-yen.svg",
       "properties": {},
@@ -14577,6 +14630,11 @@
         "devices",
         "development"
       ]
+    },
+    {
+      "name": "lambda",
+      "file": "src/lambda.svg",
+      "properties": {}
     },
     {
       "name": "lamp-ceiling",
@@ -14893,6 +14951,16 @@
       ]
     },
     {
+      "name": "layout-arrow-down",
+      "file": "src/layout-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-arrow-right",
+      "file": "src/layout-arrow-right.svg",
+      "properties": {}
+    },
+    {
       "name": "layout-dashboard",
       "file": "src/layout-dashboard.svg",
       "properties": {},
@@ -15074,6 +15142,11 @@
       ]
     },
     {
+      "name": "letters",
+      "file": "src/letters.svg",
+      "properties": {}
+    },
+    {
       "name": "library-big",
       "file": "src/library-big.svg",
       "properties": {},
@@ -15202,6 +15275,21 @@
       ]
     },
     {
+      "name": "lighthouse",
+      "file": "src/lighthouse.svg",
+      "properties": {}
+    },
+    {
+      "name": "line-dot-bottom-vertical",
+      "file": "src/line-dot-bottom-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "line-dot-left-horizontal",
+      "file": "src/line-dot-left-horizontal.svg",
+      "properties": {}
+    },
+    {
       "name": "line-dot-right-horizontal",
       "file": "src/line-dot-right-horizontal.svg",
       "properties": {},
@@ -15217,6 +15305,11 @@
         "development",
         "navigation"
       ]
+    },
+    {
+      "name": "line-dot-top-vertical",
+      "file": "src/line-dot-top-vertical.svg",
+      "properties": {}
     },
     {
       "name": "line-squiggle",
@@ -15908,6 +16001,11 @@
         "read",
         "mail"
       ]
+    },
+    {
+      "name": "mail-pen",
+      "file": "src/mail-pen.svg",
+      "properties": {}
     },
     {
       "name": "mail-plus",
@@ -17060,6 +17158,11 @@
       ]
     },
     {
+      "name": "messages-circle",
+      "file": "src/messages-circle.svg",
+      "properties": {}
+    },
+    {
       "name": "messages-square",
       "file": "src/messages-square.svg",
       "properties": {},
@@ -17520,6 +17623,11 @@
       ]
     },
     {
+      "name": "monitor-pc",
+      "file": "src/monitor-pc.svg",
+      "properties": {}
+    },
+    {
       "name": "monitor-play",
       "file": "src/monitor-play.svg",
       "properties": {},
@@ -17856,6 +17964,16 @@
       ]
     },
     {
+      "name": "mouth-off",
+      "file": "src/mouth-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "mouth",
+      "file": "src/mouth.svg",
+      "properties": {}
+    },
+    {
       "name": "move-3d",
       "file": "src/move-3d.svg",
       "properties": {},
@@ -18123,6 +18241,11 @@
       ]
     },
     {
+      "name": "nepali-rupee",
+      "file": "src/nepali-rupee.svg",
+      "properties": {}
+    },
+    {
       "name": "network",
       "file": "src/network.svg",
       "properties": {},
@@ -18173,6 +18296,11 @@
         "enby",
         "medical"
       ]
+    },
+    {
+      "name": "notebook-dot",
+      "file": "src/notebook-dot.svg",
+      "properties": {}
     },
     {
       "name": "notebook-pen",
@@ -19156,6 +19284,11 @@
       ]
     },
     {
+      "name": "park",
+      "file": "src/park.svg",
+      "properties": {}
+    },
+    {
       "name": "parking-meter",
       "file": "src/parking-meter.svg",
       "properties": {},
@@ -19883,6 +20016,11 @@
         "travel",
         "navigation"
       ]
+    },
+    {
+      "name": "plant-pot",
+      "file": "src/plant-pot.svg",
+      "properties": {}
     },
     {
       "name": "play-off",
@@ -21275,6 +21413,11 @@
         "design",
         "photography"
       ]
+    },
+    {
+      "name": "rotate-cw-clock",
+      "file": "src/rotate-cw-clock.svg",
+      "properties": {}
     },
     {
       "name": "rotate-cw-fading-clock",
@@ -23395,6 +23538,16 @@
       ]
     },
     {
+      "name": "shopping-cart-minus",
+      "file": "src/shopping-cart-minus.svg",
+      "properties": {}
+    },
+    {
+      "name": "shopping-cart-plus",
+      "file": "src/shopping-cart-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "shopping-cart",
       "file": "src/shopping-cart.svg",
       "properties": {},
@@ -23470,6 +23623,11 @@
         "mail",
         "files"
       ]
+    },
+    {
+      "name": "shrimp-off",
+      "file": "src/shrimp-off.svg",
+      "properties": {}
     },
     {
       "name": "shrimp",
@@ -24522,6 +24680,11 @@
       ]
     },
     {
+      "name": "square-bookmark",
+      "file": "src/square-bookmark.svg",
+      "properties": {}
+    },
+    {
       "name": "square-bottom-dashed-scissors",
       "file": "src/square-bottom-dashed-scissors.svg",
       "properties": {},
@@ -24806,6 +24969,11 @@
       ]
     },
     {
+      "name": "square-dashed-plus",
+      "file": "src/square-dashed-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "square-dashed-text",
       "file": "src/square-dashed-text.svg",
       "properties": {},
@@ -24840,6 +25008,16 @@
         "11",
         "development"
       ]
+    },
+    {
+      "name": "square-dashed-x-corner",
+      "file": "src/square-dashed-x-corner.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-x",
+      "file": "src/square-dashed-x.svg",
+      "properties": {}
     },
     {
       "name": "square-dashed",
@@ -24894,6 +25072,11 @@
         "calculate",
         "math"
       ]
+    },
+    {
+      "name": "square-exclamation-point",
+      "file": "src/square-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "square-function",
@@ -25329,6 +25512,11 @@
         "development",
         "math"
       ]
+    },
+    {
+      "name": "square-sparkles",
+      "file": "src/square-sparkles.svg",
+      "properties": {}
     },
     {
       "name": "square-split-horizontal",
@@ -26956,6 +27144,11 @@
       ]
     },
     {
+      "name": "tic-tac-toe",
+      "file": "src/tic-tac-toe.svg",
+      "properties": {}
+    },
+    {
       "name": "ticket-check",
       "file": "src/ticket-check.svg",
       "properties": {},
@@ -27302,6 +27495,16 @@
       ]
     },
     {
+      "name": "toothbrush-sparkles",
+      "file": "src/toothbrush-sparkles.svg",
+      "properties": {}
+    },
+    {
+      "name": "toothbrush",
+      "file": "src/toothbrush.svg",
+      "properties": {}
+    },
+    {
       "name": "tornado",
       "file": "src/tornado.svg",
       "properties": {},
@@ -27526,18 +27729,9 @@
       ]
     },
     {
-      "name": "trash-2",
-      "file": "src/trash-2.svg",
-      "properties": {},
-      "description": "A trash can representing deletion or garbage.",
-      "tags": [
-        "garbage",
-        "delete",
-        "remove",
-        "bin",
-        "files",
-        "mail"
-      ]
+      "name": "trash-off",
+      "file": "src/trash-off.svg",
+      "properties": {}
     },
     {
       "name": "trash",
@@ -27723,6 +27917,16 @@
       ]
     },
     {
+      "name": "triangles-centerline-dashed-horizontal",
+      "file": "src/triangles-centerline-dashed-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "triangles-centerline-dashed-vertical",
+      "file": "src/triangles-centerline-dashed-vertical.svg",
+      "properties": {}
+    },
+    {
       "name": "trophy",
       "file": "src/trophy.svg",
       "properties": {},
@@ -27767,6 +27971,11 @@
         "lorry",
         "transportation"
       ]
+    },
+    {
+      "name": "tube-lotion",
+      "file": "src/tube-lotion.svg",
+      "properties": {}
     },
     {
       "name": "turkish-lira",
@@ -28194,6 +28403,11 @@
       ]
     },
     {
+      "name": "user-group",
+      "file": "src/user-group.svg",
+      "properties": {}
+    },
+    {
       "name": "user-key",
       "file": "src/user-key.svg",
       "properties": {},
@@ -28302,6 +28516,11 @@
         "gear",
         "account"
       ]
+    },
+    {
+      "name": "user-round-group",
+      "file": "src/user-round-group.svg",
+      "properties": {}
     },
     {
       "name": "user-round-key",
@@ -28809,6 +29028,16 @@
         "design",
         "photography"
       ]
+    },
+    {
+      "name": "virus-off",
+      "file": "src/virus-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "virus",
+      "file": "src/virus.svg",
+      "properties": {}
     },
     {
       "name": "voicemail",
@@ -29326,6 +29555,11 @@
         "gluten",
         "food-beverage"
       ]
+    },
+    {
+      "name": "whistle",
+      "file": "src/whistle.svg",
+      "properties": {}
     },
     {
       "name": "whole-word",
