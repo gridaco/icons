@@ -7386,6 +7386,20 @@
       ]
     },
     {
+      "name": "release-16",
+      "file": "src/release-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "release-24",
+      "file": "src/release-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "reply-16",
       "file": "src/reply-16.svg",
       "properties": {
