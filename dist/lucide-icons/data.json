@@ -804,6 +804,11 @@
       ]
     },
     {
+      "name": "armenian-dram",
+      "file": "src/armenian-dram.svg",
+      "properties": {}
+    },
+    {
       "name": "arrow-big-down-dash",
       "file": "src/arrow-big-down-dash.svg",
       "properties": {},
@@ -9571,6 +9576,11 @@
       ]
     },
     {
+      "name": "door-closed-cog",
+      "file": "src/door-closed-cog.svg",
+      "properties": {}
+    },
+    {
       "name": "door-closed-locked",
       "file": "src/door-closed-locked.svg",
       "properties": {},
@@ -14520,6 +14530,11 @@
       ]
     },
     {
+      "name": "kazakh-tenge",
+      "file": "src/kazakh-tenge.svg",
+      "properties": {}
+    },
+    {
       "name": "key-round",
       "file": "src/key-round.svg",
       "properties": {},
@@ -14975,6 +14990,11 @@
     {
       "name": "layout-freeform",
       "file": "src/layout-freeform.svg",
+      "properties": {}
+    },
+    {
+      "name": "layout-grid-circles",
+      "file": "src/layout-grid-circles.svg",
       "properties": {}
     },
     {
@@ -20296,6 +20316,11 @@
       ]
     },
     {
+      "name": "printer-3d",
+      "file": "src/printer-3d.svg",
+      "properties": {}
+    },
+    {
       "name": "printer-check",
       "file": "src/printer-check.svg",
       "properties": {},
@@ -21622,6 +21647,11 @@
         "development",
         "social"
       ]
+    },
+    {
+      "name": "rugby-ball",
+      "file": "src/rugby-ball.svg",
+      "properties": {}
     },
     {
       "name": "ruler-dimension-line",
@@ -26942,6 +26972,21 @@
       ]
     },
     {
+      "name": "text-align-justify-center",
+      "file": "src/text-align-justify-center.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-justify-end",
+      "file": "src/text-align-justify-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-justify-start",
+      "file": "src/text-align-justify-start.svg",
+      "properties": {}
+    },
+    {
       "name": "text-align-justify",
       "file": "src/text-align-justify.svg",
       "properties": {},
@@ -29703,6 +29748,11 @@
         "blow",
         "sustainability"
       ]
+    },
+    {
+      "name": "wind-arrow-up",
+      "file": "src/wind-arrow-up.svg",
+      "properties": {}
     },
     {
       "name": "wind",
