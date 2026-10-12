@@ -7386,6 +7386,20 @@
       ]
     },
     {
+      "name": "release-16",
+      "file": "src/release-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "release-24",
+      "file": "src/release-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "reply-16",
       "file": "src/reply-16.svg",
       "properties": {
@@ -9037,6 +9051,13 @@
       ]
     },
     {
+      "name": "stack-slash-16",
+      "file": "src/stack-slash-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "star-16",
       "file": "src/star-16.svg",
       "properties": {
@@ -10261,6 +10282,20 @@
         "data",
         "storage"
       ]
+    },
+    {
+      "name": "wall-16",
+      "file": "src/wall-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "wall-24",
+      "file": "src/wall-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "webhook-16",
