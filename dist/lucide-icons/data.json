@@ -804,6 +804,11 @@
       ]
     },
     {
+      "name": "armenian-dram",
+      "file": "src/armenian-dram.svg",
+      "properties": {}
+    },
+    {
       "name": "arrow-big-down-dash",
       "file": "src/arrow-big-down-dash.svg",
       "properties": {},
@@ -9571,6 +9576,11 @@
       ]
     },
     {
+      "name": "door-closed-cog",
+      "file": "src/door-closed-cog.svg",
+      "properties": {}
+    },
+    {
       "name": "door-closed-locked",
       "file": "src/door-closed-locked.svg",
       "properties": {},
@@ -13145,6 +13155,11 @@
       ]
     },
     {
+      "name": "groceries",
+      "file": "src/groceries.svg",
+      "properties": {}
+    },
+    {
       "name": "group",
       "file": "src/group.svg",
       "properties": {},
@@ -13409,6 +13424,11 @@
         "shopping",
         "transportation"
       ]
+    },
+    {
+      "name": "handle-bottom-right",
+      "file": "src/handle-bottom-right.svg",
+      "properties": {}
     },
     {
       "name": "handshake",
@@ -13956,6 +13976,11 @@
         "text",
         "design"
       ]
+    },
+    {
+      "name": "hiking-stick",
+      "file": "src/hiking-stick.svg",
+      "properties": {}
     },
     {
       "name": "hop-off",
@@ -14520,6 +14545,11 @@
       ]
     },
     {
+      "name": "kazakh-tenge",
+      "file": "src/kazakh-tenge.svg",
+      "properties": {}
+    },
+    {
       "name": "key-round",
       "file": "src/key-round.svg",
       "properties": {},
@@ -14978,6 +15008,11 @@
       "properties": {}
     },
     {
+      "name": "layout-grid-circles",
+      "file": "src/layout-grid-circles.svg",
+      "properties": {}
+    },
+    {
       "name": "layout-grid",
       "file": "src/layout-grid.svg",
       "properties": {},
@@ -15140,6 +15175,11 @@
         "tools",
         "shapes"
       ]
+    },
+    {
+      "name": "lens",
+      "file": "src/lens.svg",
+      "properties": {}
     },
     {
       "name": "letters",
@@ -15973,6 +16013,11 @@
     {
       "name": "mail-clock",
       "file": "src/mail-clock.svg",
+      "properties": {}
+    },
+    {
+      "name": "mail-dot",
+      "file": "src/mail-dot.svg",
       "properties": {}
     },
     {
@@ -19670,6 +19715,11 @@
       ]
     },
     {
+      "name": "phone-log",
+      "file": "src/phone-log.svg",
+      "properties": {}
+    },
+    {
       "name": "phone-missed",
       "file": "src/phone-missed.svg",
       "properties": {},
@@ -20294,6 +20344,11 @@
         "communication",
         "design"
       ]
+    },
+    {
+      "name": "printer-3d",
+      "file": "src/printer-3d.svg",
+      "properties": {}
     },
     {
       "name": "printer-check",
@@ -21624,6 +21679,11 @@
       ]
     },
     {
+      "name": "rugby-ball",
+      "file": "src/rugby-ball.svg",
+      "properties": {}
+    },
+    {
       "name": "ruler-dimension-line",
       "file": "src/ruler-dimension-line.svg",
       "properties": {},
@@ -22173,6 +22233,11 @@
       ]
     },
     {
+      "name": "scratch-blocks",
+      "file": "src/scratch-blocks.svg",
+      "properties": {}
+    },
+    {
       "name": "screen-share-off",
       "file": "src/screen-share-off.svg",
       "properties": {},
@@ -22199,6 +22264,11 @@
         "devices",
         "communication"
       ]
+    },
+    {
+      "name": "screw",
+      "file": "src/screw.svg",
+      "properties": {}
     },
     {
       "name": "scroll-text",
@@ -22477,6 +22547,11 @@
         "development",
         "devices"
       ]
+    },
+    {
+      "name": "server-nas",
+      "file": "src/server-nas.svg",
+      "properties": {}
     },
     {
       "name": "server-off",
@@ -23081,6 +23156,11 @@
         "development",
         "gaming"
       ]
+    },
+    {
+      "name": "shield-house",
+      "file": "src/shield-house.svg",
+      "properties": {}
     },
     {
       "name": "shield-keyhole",
@@ -26942,6 +27022,21 @@
       ]
     },
     {
+      "name": "text-align-justify-center",
+      "file": "src/text-align-justify-center.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-justify-end",
+      "file": "src/text-align-justify-end.svg",
+      "properties": {}
+    },
+    {
+      "name": "text-align-justify-start",
+      "file": "src/text-align-justify-start.svg",
+      "properties": {}
+    },
+    {
       "name": "text-align-justify",
       "file": "src/text-align-justify.svg",
       "properties": {},
@@ -28602,6 +28697,11 @@
       ]
     },
     {
+      "name": "user-round-star",
+      "file": "src/user-round-star.svg",
+      "properties": {}
+    },
+    {
       "name": "user-round-x",
       "file": "src/user-round-x.svg",
       "properties": {},
@@ -29610,6 +29710,11 @@
       ]
     },
     {
+      "name": "wifi-lock",
+      "file": "src/wifi-lock.svg",
+      "properties": {}
+    },
+    {
       "name": "wifi-low",
       "file": "src/wifi-low.svg",
       "properties": {},
@@ -29703,6 +29808,11 @@
         "blow",
         "sustainability"
       ]
+    },
+    {
+      "name": "wind-arrow-up",
+      "file": "src/wind-arrow-up.svg",
+      "properties": {}
     },
     {
       "name": "wind",
