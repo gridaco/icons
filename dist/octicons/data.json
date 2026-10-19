@@ -1673,6 +1673,20 @@
       ]
     },
     {
+      "name": "code-badge-16",
+      "file": "src/code-badge-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "code-badge-24",
+      "file": "src/code-badge-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "code-of-conduct-16",
       "file": "src/code-of-conduct-16.svg",
       "properties": {
@@ -2355,6 +2369,20 @@
         "hyphen",
         "range"
       ]
+    },
+    {
+      "name": "dashboard-16",
+      "file": "src/dashboard-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "dashboard-24",
+      "file": "src/dashboard-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "database-16",
