@@ -1699,6 +1699,11 @@
       ]
     },
     {
+      "name": "avocado",
+      "file": "src/avocado.svg",
+      "properties": {}
+    },
+    {
       "name": "award",
       "file": "src/award.svg",
       "properties": {},
@@ -1775,6 +1780,11 @@
         "gaming",
         "photography"
       ]
+    },
+    {
+      "name": "bacon",
+      "file": "src/bacon.svg",
+      "properties": {}
     },
     {
       "name": "badge-alert",
@@ -2621,6 +2631,11 @@
         "drink",
         "food-beverage"
       ]
+    },
+    {
+      "name": "belarusian-ruble",
+      "file": "src/belarusian-ruble.svg",
+      "properties": {}
     },
     {
       "name": "bell-check",
@@ -4360,6 +4375,11 @@
       ]
     },
     {
+      "name": "brain-off",
+      "file": "src/brain-off.svg",
+      "properties": {}
+    },
+    {
       "name": "brain",
       "file": "src/brain.svg",
       "properties": {},
@@ -5025,6 +5045,11 @@
         "task",
         "time"
       ]
+    },
+    {
+      "name": "calendar-chevrons-left",
+      "file": "src/calendar-chevrons-left.svg",
+      "properties": {}
     },
     {
       "name": "calendar-chevrons-right",
@@ -5716,6 +5741,11 @@
         "connectivity",
         "photography"
       ]
+    },
+    {
+      "name": "certificate",
+      "file": "src/certificate.svg",
+      "properties": {}
     },
     {
       "name": "chart-area",
@@ -6710,6 +6740,26 @@
       ]
     },
     {
+      "name": "circle-chevrons-down",
+      "file": "src/circle-chevrons-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevrons-left",
+      "file": "src/circle-chevrons-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevrons-right",
+      "file": "src/circle-chevrons-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevrons-up",
+      "file": "src/circle-chevrons-up.svg",
+      "properties": {}
+    },
+    {
       "name": "circle-dashed-check",
       "file": "src/circle-dashed-check.svg",
       "properties": {}
@@ -6854,6 +6904,11 @@
         "arrows",
         "development"
       ]
+    },
+    {
+      "name": "circle-fading-play",
+      "file": "src/circle-fading-play.svg",
+      "properties": {}
     },
     {
       "name": "circle-fading-plus",
@@ -8705,6 +8760,11 @@
       ]
     },
     {
+      "name": "cpu-ai",
+      "file": "src/cpu-ai.svg",
+      "properties": {}
+    },
+    {
       "name": "cpu",
       "file": "src/cpu.svg",
       "properties": {},
@@ -10011,6 +10071,16 @@
         "food-beverage",
         "animals"
       ]
+    },
+    {
+      "name": "eighth-note",
+      "file": "src/eighth-note.svg",
+      "properties": {}
+    },
+    {
+      "name": "eighth-notes",
+      "file": "src/eighth-notes.svg",
+      "properties": {}
     },
     {
       "name": "eject",
@@ -12063,6 +12133,16 @@
       ]
     },
     {
+      "name": "folder-user",
+      "file": "src/folder-user.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-users",
+      "file": "src/folder-users.svg",
+      "properties": {}
+    },
+    {
       "name": "folder-x",
       "file": "src/folder-x.svg",
       "properties": {},
@@ -12961,6 +13041,16 @@
       ]
     },
     {
+      "name": "graph-hub",
+      "file": "src/graph-hub.svg",
+      "properties": {}
+    },
+    {
+      "name": "graph-star",
+      "file": "src/graph-star.svg",
+      "properties": {}
+    },
+    {
       "name": "grid-2x2-check",
       "file": "src/grid-2x2-check.svg",
       "properties": {},
@@ -13177,6 +13267,11 @@
       ]
     },
     {
+      "name": "guitar-electric",
+      "file": "src/guitar-electric.svg",
+      "properties": {}
+    },
+    {
       "name": "guitar",
       "file": "src/guitar.svg",
       "properties": {},
@@ -13200,6 +13295,11 @@
         "noise",
         "multimedia"
       ]
+    },
+    {
+      "name": "half-note",
+      "file": "src/half-note.svg",
+      "properties": {}
     },
     {
       "name": "ham",
@@ -15182,6 +15282,11 @@
       "properties": {}
     },
     {
+      "name": "letter-spacing",
+      "file": "src/letter-spacing.svg",
+      "properties": {}
+    },
+    {
       "name": "letters",
       "file": "src/letters.svg",
       "properties": {}
@@ -15349,6 +15454,11 @@
     {
       "name": "line-dot-top-vertical",
       "file": "src/line-dot-top-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "line-height",
+      "file": "src/line-height.svg",
       "properties": {}
     },
     {
@@ -16808,6 +16918,11 @@
       ]
     },
     {
+      "name": "message-circle-text",
+      "file": "src/message-circle-text.svg",
+      "properties": {}
+    },
+    {
       "name": "message-circle-warning",
       "file": "src/message-circle-warning.svg",
       "properties": {},
@@ -18185,60 +18300,6 @@
       "tags": [
         "arrows",
         "cursors"
-      ]
-    },
-    {
-      "name": "music-2",
-      "file": "src/music-2.svg",
-      "properties": {},
-      "description": "Musical quaver or eighth note symbol.",
-      "tags": [
-        "quaver",
-        "eighth note",
-        "note",
-        "multimedia",
-        "files"
-      ]
-    },
-    {
-      "name": "music-3",
-      "file": "src/music-3.svg",
-      "properties": {},
-      "description": "Eighth note symbol representing musical sound or audio files.",
-      "tags": [
-        "crotchet",
-        "minim",
-        "quarter note",
-        "half note",
-        "note",
-        "multimedia",
-        "files"
-      ]
-    },
-    {
-      "name": "music-4",
-      "file": "src/music-4.svg",
-      "properties": {},
-      "description": "Musical note symbol representing a single sound file or audio content.",
-      "tags": [
-        "semiquaver",
-        "sixteenth note",
-        "note",
-        "multimedia",
-        "files"
-      ]
-    },
-    {
-      "name": "music",
-      "file": "src/music.svg",
-      "properties": {},
-      "description": "Musical eighth note symbol representing sound or music files.",
-      "tags": [
-        "note",
-        "quaver",
-        "eighth note",
-        "multimedia",
-        "files"
       ]
     },
     {
@@ -19645,6 +19706,11 @@
         "finance",
         "shopping"
       ]
+    },
+    {
+      "name": "perfume-bottle",
+      "file": "src/perfume-bottle.svg",
+      "properties": {}
     },
     {
       "name": "person-standing",
@@ -23955,6 +24021,11 @@
       ]
     },
     {
+      "name": "sixteenth-notes",
+      "file": "src/sixteenth-notes.svg",
+      "properties": {}
+    },
+    {
       "name": "skip-back",
       "file": "src/skip-back.svg",
       "properties": {},
@@ -24070,6 +24141,11 @@
         "finance",
         "devices"
       ]
+    },
+    {
+      "name": "smartphone-user-round",
+      "file": "src/smartphone-user-round.svg",
+      "properties": {}
     },
     {
       "name": "smartphone",
@@ -27543,6 +27619,11 @@
       ]
     },
     {
+      "name": "tombstone",
+      "file": "src/tombstone.svg",
+      "properties": {}
+    },
+    {
       "name": "tool-case",
       "file": "src/tool-case.svg",
       "properties": {},
@@ -28788,6 +28869,16 @@
         "account",
         "contact"
       ]
+    },
+    {
+      "name": "users-collaboration",
+      "file": "src/users-collaboration.svg",
+      "properties": {}
+    },
+    {
+      "name": "users-round-collaboration",
+      "file": "src/users-round-collaboration.svg",
+      "properties": {}
     },
     {
       "name": "users-round",
