@@ -1253,6 +1253,38 @@
       }
     },
     {
+      "name": "cockroachlabs-dark",
+      "file": "src/cockroachlabs-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "cockroachlabs-light",
+      "file": "src/cockroachlabs-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "cockroachlabs-wordmark-dark",
+      "file": "src/cockroachlabs-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "cockroachlabs-wordmark-light",
+      "file": "src/cockroachlabs-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
       "name": "codesandbox-square",
       "file": "src/codesandbox-square.svg",
       "properties": {
@@ -3885,6 +3917,30 @@
       }
     },
     {
+      "name": "logbrew-wordmark-dark",
+      "file": "src/logbrew-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "logbrew-wordmark-light",
+      "file": "src/logbrew-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "logbrew",
+      "file": "src/logbrew.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "loom",
       "file": "src/loom.svg",
       "properties": {
@@ -5517,6 +5573,30 @@
       }
     },
     {
+      "name": "pi-dark",
+      "file": "src/pi-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "pi-light",
+      "file": "src/pi-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "pi",
+      "file": "src/pi.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "pinia",
       "file": "src/pinia.svg",
       "properties": {
@@ -6057,6 +6137,46 @@
       "file": "src/r_dark.svg",
       "properties": {
         "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "radius-dark",
+      "file": "src/radius-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "radius-light",
+      "file": "src/radius-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "radius-wordmark-dark",
+      "file": "src/radius-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "radius-wordmark-light",
+      "file": "src/radius-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "radius",
+      "file": "src/radius.svg",
+      "properties": {
+        "theme": "light",
         "kind": "symbol"
       }
     },

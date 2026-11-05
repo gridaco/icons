@@ -742,20 +742,14 @@
       ]
     },
     {
-      "name": "archive-restore",
-      "file": "src/archive-restore.svg",
-      "properties": {},
-      "description": "File container icon with an upward arrow representing archive restoration or retrieval.",
-      "tags": [
-        "unarchive",
-        "index",
-        "backup",
-        "box",
-        "storage",
-        "records",
-        "files",
-        "mail"
-      ]
+      "name": "archive-arrow-down",
+      "file": "src/archive-arrow-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "archive-arrow-up",
+      "file": "src/archive-arrow-up.svg",
+      "properties": {}
     },
     {
       "name": "archive-x",
@@ -1699,6 +1693,11 @@
       ]
     },
     {
+      "name": "avocado",
+      "file": "src/avocado.svg",
+      "properties": {}
+    },
+    {
       "name": "award",
       "file": "src/award.svg",
       "properties": {},
@@ -1748,6 +1747,11 @@
       ]
     },
     {
+      "name": "azerbaijani-manat",
+      "file": "src/azerbaijani-manat.svg",
+      "properties": {}
+    },
+    {
       "name": "baby",
       "file": "src/baby.svg",
       "properties": {},
@@ -1775,6 +1779,11 @@
         "gaming",
         "photography"
       ]
+    },
+    {
+      "name": "bacon",
+      "file": "src/bacon.svg",
+      "properties": {}
     },
     {
       "name": "badge-alert",
@@ -2121,6 +2130,11 @@
         "suitcase",
         "transportation"
       ]
+    },
+    {
+      "name": "ball-wave",
+      "file": "src/ball-wave.svg",
+      "properties": {}
     },
     {
       "name": "balloon",
@@ -2621,6 +2635,11 @@
         "drink",
         "food-beverage"
       ]
+    },
+    {
+      "name": "belarusian-ruble",
+      "file": "src/belarusian-ruble.svg",
+      "properties": {}
     },
     {
       "name": "bell-check",
@@ -3163,17 +3182,6 @@
         "wireless",
         "connectivity",
         "devices"
-      ]
-    },
-    {
-      "name": "bold",
-      "file": "src/bold.svg",
-      "properties": {},
-      "description": "A symbol representing strong text formatting or font weight.",
-      "tags": [
-        "text",
-        "strong",
-        "format"
       ]
     },
     {
@@ -4277,6 +4285,11 @@
       ]
     },
     {
+      "name": "boxes-linked",
+      "file": "src/boxes-linked.svg",
+      "properties": {}
+    },
+    {
       "name": "boxes",
       "file": "src/boxes.svg",
       "properties": {},
@@ -4358,6 +4371,11 @@
         "science",
         "development"
       ]
+    },
+    {
+      "name": "brain-off",
+      "file": "src/brain-off.svg",
+      "properties": {}
     },
     {
       "name": "brain",
@@ -4962,6 +4980,16 @@
       ]
     },
     {
+      "name": "calendar-arrow-left",
+      "file": "src/calendar-arrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "calendar-arrow-right",
+      "file": "src/calendar-arrow-right.svg",
+      "properties": {}
+    },
+    {
       "name": "calendar-arrow-up",
       "file": "src/calendar-arrow-up.svg",
       "properties": {},
@@ -5025,6 +5053,11 @@
         "task",
         "time"
       ]
+    },
+    {
+      "name": "calendar-chevrons-left",
+      "file": "src/calendar-chevrons-left.svg",
+      "properties": {}
     },
     {
       "name": "calendar-chevrons-right",
@@ -5718,6 +5751,11 @@
       ]
     },
     {
+      "name": "certificate",
+      "file": "src/certificate.svg",
+      "properties": {}
+    },
+    {
       "name": "chart-area",
       "file": "src/chart-area.svg",
       "properties": {},
@@ -5800,6 +5838,11 @@
         "graph",
         "charts"
       ]
+    },
+    {
+      "name": "chart-bell-curve",
+      "file": "src/chart-bell-curve.svg",
+      "properties": {}
     },
     {
       "name": "chart-candlestick",
@@ -6042,6 +6085,16 @@
         "charts",
         "files"
       ]
+    },
+    {
+      "name": "chart-quadrant",
+      "file": "src/chart-quadrant.svg",
+      "properties": {}
+    },
+    {
+      "name": "chart-radar",
+      "file": "src/chart-radar.svg",
+      "properties": {}
     },
     {
       "name": "chart-scatter",
@@ -6710,6 +6763,26 @@
       ]
     },
     {
+      "name": "circle-chevrons-down",
+      "file": "src/circle-chevrons-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevrons-left",
+      "file": "src/circle-chevrons-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevrons-right",
+      "file": "src/circle-chevrons-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-chevrons-up",
+      "file": "src/circle-chevrons-up.svg",
+      "properties": {}
+    },
+    {
       "name": "circle-dashed-check",
       "file": "src/circle-dashed-check.svg",
       "properties": {}
@@ -6856,6 +6929,11 @@
       ]
     },
     {
+      "name": "circle-fading-play",
+      "file": "src/circle-fading-play.svg",
+      "properties": {}
+    },
+    {
       "name": "circle-fading-plus",
       "file": "src/circle-fading-plus.svg",
       "properties": {},
@@ -6890,6 +6968,141 @@
         "sports",
         "science"
       ]
+    },
+    {
+      "name": "circle-letter-a",
+      "file": "src/circle-letter-a.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-b",
+      "file": "src/circle-letter-b.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-c",
+      "file": "src/circle-letter-c.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-d",
+      "file": "src/circle-letter-d.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-e",
+      "file": "src/circle-letter-e.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-f",
+      "file": "src/circle-letter-f.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-g",
+      "file": "src/circle-letter-g.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-h",
+      "file": "src/circle-letter-h.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-i",
+      "file": "src/circle-letter-i.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-j",
+      "file": "src/circle-letter-j.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-k",
+      "file": "src/circle-letter-k.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-l",
+      "file": "src/circle-letter-l.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-m",
+      "file": "src/circle-letter-m.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-n",
+      "file": "src/circle-letter-n.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-o",
+      "file": "src/circle-letter-o.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-p-off",
+      "file": "src/circle-letter-p-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-p",
+      "file": "src/circle-letter-p.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-q",
+      "file": "src/circle-letter-q.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-r",
+      "file": "src/circle-letter-r.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-s",
+      "file": "src/circle-letter-s.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-t",
+      "file": "src/circle-letter-t.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-u",
+      "file": "src/circle-letter-u.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-v",
+      "file": "src/circle-letter-v.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-w",
+      "file": "src/circle-letter-w.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-x",
+      "file": "src/circle-letter-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-y",
+      "file": "src/circle-letter-y.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-letter-z",
+      "file": "src/circle-letter-z.svg",
+      "properties": {}
     },
     {
       "name": "circle-minus",
@@ -6934,31 +7147,6 @@
         "wrong",
         "failure",
         "shapes"
-      ]
-    },
-    {
-      "name": "circle-parking-off",
-      "file": "src/circle-parking-off.svg",
-      "properties": {},
-      "description": "Parking symbol inside a circle crossed out by a diagonal line indicating no parking.",
-      "tags": [
-        "parking lot",
-        "car park",
-        "no parking",
-        "transportation",
-        "navigation"
-      ]
-    },
-    {
-      "name": "circle-parking",
-      "file": "src/circle-parking.svg",
-      "properties": {},
-      "description": "Stylized vehicle contained within an enclosing circle representing parking or transportation.",
-      "tags": [
-        "parking lot",
-        "car park",
-        "transportation",
-        "navigation"
       ]
     },
     {
@@ -8609,17 +8797,6 @@
       ]
     },
     {
-      "name": "copyright",
-      "file": "src/copyright.svg",
-      "properties": {},
-      "description": "The letter C contained within a geometric boundary representing copyright or intellectual property.",
-      "tags": [
-        "licence",
-        "license",
-        "text"
-      ]
-    },
-    {
       "name": "corner-down-left",
       "file": "src/corner-down-left.svg",
       "properties": {},
@@ -8703,6 +8880,11 @@
         "arrow",
         "arrows"
       ]
+    },
+    {
+      "name": "cpu-ai",
+      "file": "src/cpu-ai.svg",
+      "properties": {}
     },
     {
       "name": "cpu",
@@ -8969,6 +9151,11 @@
       "properties": {}
     },
     {
+      "name": "database-cog",
+      "file": "src/database-cog.svg",
+      "properties": {}
+    },
+    {
       "name": "database-minus",
       "file": "src/database-minus.svg",
       "properties": {}
@@ -9115,6 +9302,16 @@
         "sweet",
         "food-beverage"
       ]
+    },
+    {
+      "name": "diagram-flow-horizontal",
+      "file": "src/diagram-flow-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "diagram-flow-vertical",
+      "file": "src/diagram-flow-vertical.svg",
+      "properties": {}
     },
     {
       "name": "diameter",
@@ -9898,6 +10095,16 @@
       ]
     },
     {
+      "name": "earbuds-off",
+      "file": "src/earbuds-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "earbuds",
+      "file": "src/earbuds.svg",
+      "properties": {}
+    },
+    {
       "name": "earth-lock",
       "file": "src/earth-lock.svg",
       "properties": {},
@@ -10013,6 +10220,16 @@
       ]
     },
     {
+      "name": "eighth-note",
+      "file": "src/eighth-note.svg",
+      "properties": {}
+    },
+    {
+      "name": "eighth-notes",
+      "file": "src/eighth-notes.svg",
+      "properties": {}
+    },
+    {
       "name": "eject",
       "file": "src/eject.svg",
       "properties": {}
@@ -10081,6 +10298,11 @@
         "layout",
         "development"
       ]
+    },
+    {
+      "name": "emirati-dirham",
+      "file": "src/emirati-dirham.svg",
+      "properties": {}
     },
     {
       "name": "engine",
@@ -10672,6 +10894,11 @@
         "gear",
         "files"
       ]
+    },
+    {
+      "name": "file-database",
+      "file": "src/file-database.svg",
+      "properties": {}
     },
     {
       "name": "file-diff",
@@ -12063,6 +12290,16 @@
       ]
     },
     {
+      "name": "folder-user",
+      "file": "src/folder-user.svg",
+      "properties": {}
+    },
+    {
+      "name": "folder-users",
+      "file": "src/folder-users.svg",
+      "properties": {}
+    },
+    {
       "name": "folder-x",
       "file": "src/folder-x.svg",
       "properties": {},
@@ -12780,6 +13017,11 @@
       ]
     },
     {
+      "name": "globe-ban",
+      "file": "src/globe-ban.svg",
+      "properties": {}
+    },
+    {
       "name": "globe-check",
       "file": "src/globe-check.svg",
       "properties": {},
@@ -12959,6 +13201,16 @@
         "food",
         "food-beverage"
       ]
+    },
+    {
+      "name": "graph-hub",
+      "file": "src/graph-hub.svg",
+      "properties": {}
+    },
+    {
+      "name": "graph-star",
+      "file": "src/graph-star.svg",
+      "properties": {}
     },
     {
       "name": "grid-2x2-check",
@@ -13177,6 +13429,11 @@
       ]
     },
     {
+      "name": "guitar-electric",
+      "file": "src/guitar-electric.svg",
+      "properties": {}
+    },
+    {
       "name": "guitar",
       "file": "src/guitar.svg",
       "properties": {},
@@ -13200,6 +13457,11 @@
         "noise",
         "multimedia"
       ]
+    },
+    {
+      "name": "half-note",
+      "file": "src/half-note.svg",
+      "properties": {}
     },
     {
       "name": "ham",
@@ -13706,19 +13968,6 @@
       ]
     },
     {
-      "name": "heading",
-      "file": "src/heading.svg",
-      "properties": {},
-      "description": "Three layered horizontal bars representing text structure or document heading levels.",
-      "tags": [
-        "h1",
-        "html",
-        "markup",
-        "markdown",
-        "text"
-      ]
-    },
-    {
       "name": "headphone-off",
       "file": "src/headphone-off.svg",
       "properties": {},
@@ -13983,6 +14232,11 @@
       "properties": {}
     },
     {
+      "name": "hockey-stick",
+      "file": "src/hockey-stick.svg",
+      "properties": {}
+    },
+    {
       "name": "hop-off",
       "file": "src/hop-off.svg",
       "properties": {},
@@ -14031,6 +14285,11 @@
         "navigation",
         "travel"
       ]
+    },
+    {
+      "name": "hot-air-balloon",
+      "file": "src/hot-air-balloon.svg",
+      "properties": {}
     },
     {
       "name": "hotel",
@@ -14860,6 +15119,11 @@
       ]
     },
     {
+      "name": "laser",
+      "file": "src/laser.svg",
+      "properties": {}
+    },
+    {
       "name": "lasso-select",
       "file": "src/lasso-select.svg",
       "properties": {},
@@ -15182,6 +15446,141 @@
       "properties": {}
     },
     {
+      "name": "letter-a",
+      "file": "src/letter-a.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-b",
+      "file": "src/letter-b.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-c",
+      "file": "src/letter-c.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-d",
+      "file": "src/letter-d.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-e",
+      "file": "src/letter-e.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-f",
+      "file": "src/letter-f.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-g",
+      "file": "src/letter-g.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-h",
+      "file": "src/letter-h.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-i",
+      "file": "src/letter-i.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-j",
+      "file": "src/letter-j.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-k",
+      "file": "src/letter-k.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-l",
+      "file": "src/letter-l.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-m",
+      "file": "src/letter-m.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-n",
+      "file": "src/letter-n.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-o",
+      "file": "src/letter-o.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-p",
+      "file": "src/letter-p.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-q",
+      "file": "src/letter-q.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-r",
+      "file": "src/letter-r.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-s",
+      "file": "src/letter-s.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-spacing",
+      "file": "src/letter-spacing.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-t",
+      "file": "src/letter-t.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-u",
+      "file": "src/letter-u.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-v",
+      "file": "src/letter-v.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-w",
+      "file": "src/letter-w.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-x",
+      "file": "src/letter-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-y",
+      "file": "src/letter-y.svg",
+      "properties": {}
+    },
+    {
+      "name": "letter-z",
+      "file": "src/letter-z.svg",
+      "properties": {}
+    },
+    {
       "name": "letters",
       "file": "src/letters.svg",
       "properties": {}
@@ -15349,6 +15748,11 @@
     {
       "name": "line-dot-top-vertical",
       "file": "src/line-dot-top-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "line-height",
+      "file": "src/line-height.svg",
       "properties": {}
     },
     {
@@ -16463,6 +16867,41 @@
       ]
     },
     {
+      "name": "margin-bottom",
+      "file": "src/margin-bottom.svg",
+      "properties": {}
+    },
+    {
+      "name": "margin-horizontal",
+      "file": "src/margin-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "margin-left",
+      "file": "src/margin-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "margin-right",
+      "file": "src/margin-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "margin-top",
+      "file": "src/margin-top.svg",
+      "properties": {}
+    },
+    {
+      "name": "margin-vertical",
+      "file": "src/margin-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "margin",
+      "file": "src/margin.svg",
+      "properties": {}
+    },
+    {
       "name": "mars-stroke",
       "file": "src/mars-stroke.svg",
       "properties": {},
@@ -16806,6 +17245,11 @@
         "response",
         "social"
       ]
+    },
+    {
+      "name": "message-circle-text",
+      "file": "src/message-circle-text.svg",
+      "properties": {}
     },
     {
       "name": "message-circle-warning",
@@ -17531,6 +17975,11 @@
       ]
     },
     {
+      "name": "monitor-activity",
+      "file": "src/monitor-activity.svg",
+      "properties": {}
+    },
+    {
       "name": "monitor-check",
       "file": "src/monitor-check.svg",
       "properties": {},
@@ -18188,60 +18637,6 @@
       ]
     },
     {
-      "name": "music-2",
-      "file": "src/music-2.svg",
-      "properties": {},
-      "description": "Musical quaver or eighth note symbol.",
-      "tags": [
-        "quaver",
-        "eighth note",
-        "note",
-        "multimedia",
-        "files"
-      ]
-    },
-    {
-      "name": "music-3",
-      "file": "src/music-3.svg",
-      "properties": {},
-      "description": "Eighth note symbol representing musical sound or audio files.",
-      "tags": [
-        "crotchet",
-        "minim",
-        "quarter note",
-        "half note",
-        "note",
-        "multimedia",
-        "files"
-      ]
-    },
-    {
-      "name": "music-4",
-      "file": "src/music-4.svg",
-      "properties": {},
-      "description": "Musical note symbol representing a single sound file or audio content.",
-      "tags": [
-        "semiquaver",
-        "sixteenth note",
-        "note",
-        "multimedia",
-        "files"
-      ]
-    },
-    {
-      "name": "music",
-      "file": "src/music.svg",
-      "properties": {},
-      "description": "Musical eighth note symbol representing sound or music files.",
-      "tags": [
-        "note",
-        "quaver",
-        "eighth note",
-        "multimedia",
-        "files"
-      ]
-    },
-    {
       "name": "navigation-2-off",
       "file": "src/navigation-2-off.svg",
       "properties": {},
@@ -18543,6 +18938,11 @@
         "text",
         "social"
       ]
+    },
+    {
+      "name": "numbers",
+      "file": "src/numbers.svg",
+      "properties": {}
     },
     {
       "name": "nut-off",
@@ -19645,6 +20045,11 @@
         "finance",
         "shopping"
       ]
+    },
+    {
+      "name": "perfume-bottle",
+      "file": "src/perfume-bottle.svg",
+      "properties": {}
     },
     {
       "name": "person-standing",
@@ -23939,6 +24344,11 @@
       ]
     },
     {
+      "name": "siren-off",
+      "file": "src/siren-off.svg",
+      "properties": {}
+    },
+    {
       "name": "siren",
       "file": "src/siren.svg",
       "properties": {},
@@ -23953,6 +24363,11 @@
         "light",
         "medical"
       ]
+    },
+    {
+      "name": "sixteenth-notes",
+      "file": "src/sixteenth-notes.svg",
+      "properties": {}
     },
     {
       "name": "skip-back",
@@ -24070,6 +24485,11 @@
         "finance",
         "devices"
       ]
+    },
+    {
+      "name": "smartphone-user-round",
+      "file": "src/smartphone-user-round.svg",
+      "properties": {}
     },
     {
       "name": "smartphone",
@@ -24948,6 +25368,26 @@
       ]
     },
     {
+      "name": "square-chevrons-down",
+      "file": "src/square-chevrons-down.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chevrons-left",
+      "file": "src/square-chevrons-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chevrons-right",
+      "file": "src/square-chevrons-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-chevrons-up",
+      "file": "src/square-chevrons-up.svg",
+      "properties": {}
+    },
+    {
       "name": "square-code",
       "file": "src/square-code.svg",
       "properties": {},
@@ -25172,6 +25612,11 @@
       ]
     },
     {
+      "name": "square-kanban-plus",
+      "file": "src/square-kanban-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "square-kanban",
       "file": "src/square-kanban.svg",
       "properties": {},
@@ -25197,6 +25642,141 @@
         "development",
         "design"
       ]
+    },
+    {
+      "name": "square-letter-a",
+      "file": "src/square-letter-a.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-b",
+      "file": "src/square-letter-b.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-c",
+      "file": "src/square-letter-c.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-d",
+      "file": "src/square-letter-d.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-e",
+      "file": "src/square-letter-e.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-f",
+      "file": "src/square-letter-f.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-g",
+      "file": "src/square-letter-g.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-h",
+      "file": "src/square-letter-h.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-i",
+      "file": "src/square-letter-i.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-j",
+      "file": "src/square-letter-j.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-k",
+      "file": "src/square-letter-k.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-l",
+      "file": "src/square-letter-l.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-m",
+      "file": "src/square-letter-m.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-n",
+      "file": "src/square-letter-n.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-o",
+      "file": "src/square-letter-o.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-p-off",
+      "file": "src/square-letter-p-off.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-p",
+      "file": "src/square-letter-p.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-q",
+      "file": "src/square-letter-q.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-r",
+      "file": "src/square-letter-r.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-s",
+      "file": "src/square-letter-s.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-t",
+      "file": "src/square-letter-t.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-u",
+      "file": "src/square-letter-u.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-v",
+      "file": "src/square-letter-v.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-w",
+      "file": "src/square-letter-w.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-x",
+      "file": "src/square-letter-x.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-y",
+      "file": "src/square-letter-y.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-letter-z",
+      "file": "src/square-letter-z.svg",
+      "properties": {}
     },
     {
       "name": "square-library",
@@ -25232,21 +25812,6 @@
         "multimedia",
         "navigation",
         "development"
-      ]
-    },
-    {
-      "name": "square-m",
-      "file": "src/square-m.svg",
-      "properties": {},
-      "description": "Square containing subway or metro transportation line.",
-      "tags": [
-        "metro",
-        "subway",
-        "underground",
-        "track",
-        "line",
-        "transportation",
-        "navigation"
       ]
     },
     {
@@ -25327,29 +25892,39 @@
       "properties": {}
     },
     {
-      "name": "square-parking-off",
-      "file": "src/square-parking-off.svg",
-      "properties": {},
-      "description": "Parking symbol enclosed in a square crossed by a diagonal line indicating no parking or disabled status.",
-      "tags": [
-        "parking lot",
-        "car park",
-        "no parking",
-        "transportation",
-        "navigation"
-      ]
+      "name": "square-padding-bottom",
+      "file": "src/square-padding-bottom.svg",
+      "properties": {}
     },
     {
-      "name": "square-parking",
-      "file": "src/square-parking.svg",
-      "properties": {},
-      "description": "Square containing parallel lines representing a designated parking lot or vehicle space.",
-      "tags": [
-        "parking lot",
-        "car park",
-        "transportation",
-        "navigation"
-      ]
+      "name": "square-padding-horizontal",
+      "file": "src/square-padding-horizontal.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-padding-left",
+      "file": "src/square-padding-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-padding-right",
+      "file": "src/square-padding-right.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-padding-top",
+      "file": "src/square-padding-top.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-padding-vertical",
+      "file": "src/square-padding-vertical.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-padding",
+      "file": "src/square-padding.svg",
+      "properties": {}
     },
     {
       "name": "square-pause",
@@ -27543,6 +28118,11 @@
       ]
     },
     {
+      "name": "tombstone",
+      "file": "src/tombstone.svg",
+      "properties": {}
+    },
+    {
       "name": "tool-case",
       "file": "src/tool-case.svg",
       "properties": {},
@@ -28697,6 +29277,11 @@
       ]
     },
     {
+      "name": "user-round-shield",
+      "file": "src/user-round-shield.svg",
+      "properties": {}
+    },
+    {
       "name": "user-round-star",
       "file": "src/user-round-star.svg",
       "properties": {}
@@ -28788,6 +29373,16 @@
         "account",
         "contact"
       ]
+    },
+    {
+      "name": "users-collaboration",
+      "file": "src/users-collaboration.svg",
+      "properties": {}
+    },
+    {
+      "name": "users-round-collaboration",
+      "file": "src/users-round-collaboration.svg",
+      "properties": {}
     },
     {
       "name": "users-round",

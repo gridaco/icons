@@ -1176,6 +1176,13 @@
       ]
     },
     {
+      "name": "check-agent-16",
+      "file": "src/check-agent-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "check-circle-16",
       "file": "src/check-circle-16.svg",
       "properties": {
@@ -1671,6 +1678,20 @@
       "tags": [
         "brackets"
       ]
+    },
+    {
+      "name": "code-badge-16",
+      "file": "src/code-badge-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "code-badge-24",
+      "file": "src/code-badge-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "code-of-conduct-16",
@@ -2355,6 +2376,20 @@
         "hyphen",
         "range"
       ]
+    },
+    {
+      "name": "dashboard-16",
+      "file": "src/dashboard-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "dashboard-24",
+      "file": "src/dashboard-24.svg",
+      "properties": {
+        "size": "24"
+      }
     },
     {
       "name": "database-16",
@@ -4246,6 +4281,13 @@
       ]
     },
     {
+      "name": "git-closed-agent-16",
+      "file": "src/git-closed-agent-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "git-commit-16",
       "file": "src/git-commit-16.svg",
       "properties": {
@@ -4292,6 +4334,13 @@
       ]
     },
     {
+      "name": "git-draft-agent-16",
+      "file": "src/git-draft-agent-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
       "name": "git-merge-16",
       "file": "src/git-merge-16.svg",
       "properties": {
@@ -4312,6 +4361,13 @@
       "tags": [
         "join"
       ]
+    },
+    {
+      "name": "git-merge-agent-16",
+      "file": "src/git-merge-agent-16.svg",
+      "properties": {
+        "size": "16"
+      }
     },
     {
       "name": "git-merge-queue-16",
@@ -4364,6 +4420,13 @@
       "tags": [
         "review"
       ]
+    },
+    {
+      "name": "git-pull-request-agent-16",
+      "file": "src/git-pull-request-agent-16.svg",
+      "properties": {
+        "size": "16"
+      }
     },
     {
       "name": "git-pull-request-closed-16",
@@ -4442,6 +4505,13 @@
     {
       "name": "git-pull-request-unlisted-16",
       "file": "src/git-pull-request-unlisted-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "git-que-merge-agent-16",
+      "file": "src/git-que-merge-agent-16.svg",
       "properties": {
         "size": "16"
       }
