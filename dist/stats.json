@@ -1,10 +1,10 @@
 {
   "totals": {
-    "files": 14608,
-    "unique": 5258,
+    "files": 14636,
+    "unique": 5286,
     "icons": {
-      "files": 13490,
-      "unique": 4591
+      "files": 13518,
+      "unique": 4619
     },
     "logos": {
       "files": 1118,
@@ -27,8 +27,8 @@
     "lucide-icons": {
       "name": "Lucide Icons",
       "kind": "icons",
-      "files": 2018,
-      "unique": 2018
+      "files": 2046,
+      "unique": 2046
     },
     "phosphor-icons": {
       "name": "Phosphor Icons",

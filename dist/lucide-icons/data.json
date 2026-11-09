@@ -1786,22 +1786,6 @@
       "properties": {}
     },
     {
-      "name": "badge-alert",
-      "file": "src/badge-alert.svg",
-      "properties": {},
-      "description": "A badge shape containing an exclamation mark indicating an alert or notification status.",
-      "tags": [
-        "check",
-        "verified",
-        "unverified",
-        "security",
-        "safety",
-        "issue",
-        "account",
-        "social"
-      ]
-    },
-    {
       "name": "badge-cent",
       "file": "src/badge-cent.svg",
       "properties": {},
@@ -1878,6 +1862,11 @@
         "payment",
         "shopping"
       ]
+    },
+    {
+      "name": "badge-exclamation-point",
+      "file": "src/badge-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "badge-indian-rupee",
@@ -2395,6 +2384,11 @@
       ]
     },
     {
+      "name": "battery-exclamation-point",
+      "file": "src/battery-exclamation-point.svg",
+      "properties": {}
+    },
+    {
       "name": "battery-full",
       "file": "src/battery-full.svg",
       "properties": {},
@@ -2458,22 +2452,6 @@
         "maximum",
         "upgrade",
         "extra",
-        "devices"
-      ]
-    },
-    {
-      "name": "battery-warning",
-      "file": "src/battery-warning.svg",
-      "properties": {},
-      "description": "Battery shape containing a lightning bolt and an exclamation point indicating low charge or warning status.",
-      "tags": [
-        "power",
-        "electricity",
-        "energy",
-        "accumulator",
-        "charge",
-        "exclamation mark",
-        "connectivity",
         "devices"
       ]
     },
@@ -3295,50 +3273,6 @@
       ]
     },
     {
-      "name": "book-alert",
-      "file": "src/book-alert.svg",
-      "properties": {},
-      "description": "Open book combined with a warning triangle indicating an alert or important notice.",
-      "tags": [
-        "reading",
-        "paperback",
-        "booklet",
-        "magazine",
-        "leaflet",
-        "pamphlet",
-        "tome",
-        "library",
-        "writing",
-        "written",
-        "writer",
-        "author",
-        "story",
-        "script",
-        "fiction",
-        "novel",
-        "information",
-        "knowledge",
-        "education",
-        "high school",
-        "university",
-        "college",
-        "academy",
-        "student",
-        "study",
-        "learning",
-        "homework",
-        "research",
-        "documentation",
-        "warning",
-        "alert",
-        "danger",
-        "exclamation mark",
-        "text",
-        "development",
-        "gaming"
-      ]
-    },
-    {
       "name": "book-audio",
       "file": "src/book-audio.svg",
       "properties": {},
@@ -3498,6 +3432,11 @@
         "pull",
         "development"
       ]
+    },
+    {
+      "name": "book-exclamation-point",
+      "file": "src/book-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "book-headphones",
@@ -6174,6 +6113,11 @@
       ]
     },
     {
+      "name": "cheese",
+      "file": "src/cheese.svg",
+      "properties": {}
+    },
+    {
       "name": "chef-hat",
       "file": "src/chef-hat.svg",
       "properties": {},
@@ -6551,17 +6495,14 @@
       ]
     },
     {
-      "name": "circle-alert",
-      "file": "src/circle-alert.svg",
-      "properties": {},
-      "description": "Exclamation mark enclosed within a circle representing an alert or warning status.",
-      "tags": [
-        "warning",
-        "alert",
-        "danger",
-        "exclamation mark",
-        "notifications"
-      ]
+      "name": "circle-arrow-down-left-exit",
+      "file": "src/circle-arrow-down-left-exit.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-down-right-exit",
+      "file": "src/circle-arrow-down-right-exit.svg",
+      "properties": {}
     },
     {
       "name": "circle-arrow-down",
@@ -6597,62 +6538,6 @@
       ]
     },
     {
-      "name": "circle-arrow-out-down-left",
-      "file": "src/circle-arrow-out-down-left.svg",
-      "properties": {},
-      "description": "Circle enclosing a diagonal arrow pointing southwest representing export or directional movement.",
-      "tags": [
-        "outwards",
-        "direction",
-        "south-west",
-        "diagonal",
-        "arrows"
-      ]
-    },
-    {
-      "name": "circle-arrow-out-down-right",
-      "file": "src/circle-arrow-out-down-right.svg",
-      "properties": {},
-      "description": "A circle containing a diagonal arrow pointing down and to the right, representing an action of exporting or downloading.",
-      "tags": [
-        "outwards",
-        "direction",
-        "south-east",
-        "diagonal",
-        "arrows"
-      ]
-    },
-    {
-      "name": "circle-arrow-out-up-left",
-      "file": "src/circle-arrow-out-up-left.svg",
-      "properties": {},
-      "description": "Circle containing an arrow pointing up and left, representing exit or back navigation.",
-      "tags": [
-        "outwards",
-        "direction",
-        "north-west",
-        "diagonal",
-        "keyboard",
-        "button",
-        "escape",
-        "arrows",
-        "development"
-      ]
-    },
-    {
-      "name": "circle-arrow-out-up-right",
-      "file": "src/circle-arrow-out-up-right.svg",
-      "properties": {},
-      "description": "Circle containing an arrow pointing diagonally up and right, symbolizing external movement or export.",
-      "tags": [
-        "outwards",
-        "direction",
-        "north-east",
-        "diagonal",
-        "arrows"
-      ]
-    },
-    {
       "name": "circle-arrow-right",
       "file": "src/circle-arrow-right.svg",
       "properties": {},
@@ -6668,6 +6553,16 @@
         "arrows",
         "gaming"
       ]
+    },
+    {
+      "name": "circle-arrow-up-left-exit",
+      "file": "src/circle-arrow-up-left-exit.svg",
+      "properties": {}
+    },
+    {
+      "name": "circle-arrow-up-right-exit",
+      "file": "src/circle-arrow-up-right-exit.svg",
+      "properties": {}
     },
     {
       "name": "circle-arrow-up",
@@ -6913,6 +6808,11 @@
       "properties": {}
     },
     {
+      "name": "circle-exclamation-point",
+      "file": "src/circle-exclamation-point.svg",
+      "properties": {}
+    },
+    {
       "name": "circle-fading-arrow-up",
       "file": "src/circle-fading-arrow-up.svg",
       "properties": {},
@@ -6927,6 +6827,11 @@
         "arrows",
         "development"
       ]
+    },
+    {
+      "name": "circle-fading-check",
+      "file": "src/circle-fading-check.svg",
+      "properties": {}
     },
     {
       "name": "circle-fading-play",
@@ -7830,19 +7735,6 @@
       ]
     },
     {
-      "name": "clock-alert",
-      "file": "src/clock-alert.svg",
-      "properties": {},
-      "description": "Clock face containing an exclamation mark signifying a time-related alert or warning.",
-      "tags": [
-        "time",
-        "watch",
-        "alarm",
-        "warning",
-        "wrong"
-      ]
-    },
-    {
       "name": "clock-arrow-down",
       "file": "src/clock-arrow-down.svg",
       "properties": {},
@@ -7902,6 +7794,11 @@
       ]
     },
     {
+      "name": "clock-exclamation-point",
+      "file": "src/clock-exclamation-point.svg",
+      "properties": {}
+    },
+    {
       "name": "clock-fading",
       "file": "src/clock-fading.svg",
       "properties": {},
@@ -7954,23 +7851,6 @@
         "dialogue",
         "accessibility",
         "multimedia"
-      ]
-    },
-    {
-      "name": "cloud-alert",
-      "file": "src/cloud-alert.svg",
-      "properties": {},
-      "description": "Cloud shape with an internal warning sign indicating a network error or critical alert.",
-      "tags": [
-        "weather",
-        "danger",
-        "warning",
-        "alert",
-        "error",
-        "sync",
-        "network",
-        "exclamation",
-        "development"
       ]
     },
     {
@@ -8050,6 +7930,11 @@
         "weather",
         "shower"
       ]
+    },
+    {
+      "name": "cloud-exclamation-point",
+      "file": "src/cloud-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "cloud-fog",
@@ -13100,6 +12985,11 @@
       ]
     },
     {
+      "name": "globe-plus",
+      "file": "src/globe-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "globe-x",
       "file": "src/globe-x.svg",
       "properties": {},
@@ -13349,6 +13239,11 @@
         "layout",
         "design"
       ]
+    },
+    {
+      "name": "grid-3x3-off",
+      "file": "src/grid-3x3-off.svg",
+      "properties": {}
     },
     {
       "name": "grid-3x3",
@@ -16425,6 +16320,11 @@
       "properties": {}
     },
     {
+      "name": "mail-exclamation-point",
+      "file": "src/mail-exclamation-point.svg",
+      "properties": {}
+    },
+    {
       "name": "mail-minus",
       "file": "src/mail-minus.svg",
       "properties": {},
@@ -16501,20 +16401,6 @@
       ]
     },
     {
-      "name": "mail-warning",
-      "file": "src/mail-warning.svg",
-      "properties": {},
-      "description": "Envelope icon containing an exclamation mark, representing a mail warning or message delivery issue.",
-      "tags": [
-        "email",
-        "message",
-        "letter",
-        "delivery error",
-        "exclamation mark",
-        "mail"
-      ]
-    },
-    {
       "name": "mail-x",
       "file": "src/mail-x.svg",
       "properties": {},
@@ -16572,6 +16458,11 @@
         "copy",
         "mail"
       ]
+    },
+    {
+      "name": "mango",
+      "file": "src/mango.svg",
+      "properties": {}
     },
     {
       "name": "map-minus",
@@ -17132,6 +17023,11 @@
       ]
     },
     {
+      "name": "message-circle-exclamation-point",
+      "file": "src/message-circle-exclamation-point.svg",
+      "properties": {}
+    },
+    {
       "name": "message-circle-heart",
       "file": "src/message-circle-heart.svg",
       "properties": {},
@@ -17250,30 +17146,6 @@
       "name": "message-circle-text",
       "file": "src/message-circle-text.svg",
       "properties": {}
-    },
-    {
-      "name": "message-circle-warning",
-      "file": "src/message-circle-warning.svg",
-      "properties": {},
-      "description": "Speech bubble contained within a circle featuring an exclamation mark indicating a warning or alert.",
-      "tags": [
-        "comment",
-        "chat",
-        "conversation",
-        "dialog",
-        "feedback",
-        "speech bubble",
-        "report",
-        "abuse",
-        "offense",
-        "alert",
-        "danger",
-        "caution",
-        "protected",
-        "exclamation mark",
-        "social",
-        "notifications"
-      ]
     },
     {
       "name": "message-circle-x",
@@ -17414,6 +17286,11 @@
         "social",
         "notifications"
       ]
+    },
+    {
+      "name": "message-square-exclamation-point",
+      "file": "src/message-square-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "message-square-heart",
@@ -17582,30 +17459,6 @@
         "feedback",
         "speech bubble",
         "social"
-      ]
-    },
-    {
-      "name": "message-square-warning",
-      "file": "src/message-square-warning.svg",
-      "properties": {},
-      "description": "Square container with an exclamation mark indicating a caution or warning message.",
-      "tags": [
-        "comment",
-        "chat",
-        "conversation",
-        "dialog",
-        "feedback",
-        "speech bubble",
-        "report",
-        "abuse",
-        "offense",
-        "alert",
-        "danger",
-        "caution",
-        "protected",
-        "exclamation mark",
-        "social",
-        "notifications"
       ]
     },
     {
@@ -18282,6 +18135,11 @@
     {
       "name": "mop",
       "file": "src/mop.svg",
+      "properties": {}
+    },
+    {
+      "name": "moped",
+      "file": "src/moped.svg",
       "properties": {}
     },
     {
@@ -18973,18 +18831,9 @@
       ]
     },
     {
-      "name": "octagon-alert",
-      "file": "src/octagon-alert.svg",
-      "properties": {},
-      "description": "Exclamation mark contained within an octagon representing a warning or alert.",
-      "tags": [
-        "warning",
-        "alert",
-        "danger",
-        "exclamation mark",
-        "notifications",
-        "shapes"
-      ]
+      "name": "octagon-exclamation-point",
+      "file": "src/octagon-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "octagon-minus",
@@ -19068,6 +18917,11 @@
         "text",
         "science"
       ]
+    },
+    {
+      "name": "opacity",
+      "file": "src/opacity.svg",
+      "properties": {}
     },
     {
       "name": "option",
@@ -19175,6 +19029,11 @@
       ]
     },
     {
+      "name": "package-pen",
+      "file": "src/package-pen.svg",
+      "properties": {}
+    },
+    {
       "name": "package-plus",
       "file": "src/package-plus.svg",
       "properties": {},
@@ -19185,6 +19044,11 @@
         "create",
         "development"
       ]
+    },
+    {
+      "name": "package-question-mark",
+      "file": "src/package-question-mark.svg",
+      "properties": {}
     },
     {
       "name": "package-search",
@@ -22722,26 +22586,6 @@
       ]
     },
     {
-      "name": "search-alert",
-      "file": "src/search-alert.svg",
-      "properties": {},
-      "description": "Magnifying glass containing an exclamation mark represents a search alert or warning.",
-      "tags": [
-        "find",
-        "scan",
-        "magnifier",
-        "magnifying glass",
-        "stop",
-        "warning",
-        "alert",
-        "error",
-        "anomaly",
-        "lens",
-        "text",
-        "social"
-      ]
-    },
-    {
       "name": "search-check",
       "file": "src/search-check.svg",
       "properties": {},
@@ -22777,6 +22621,11 @@
         "social",
         "development"
       ]
+    },
+    {
+      "name": "search-exclamation-point",
+      "file": "src/search-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "search-slash",
@@ -23139,82 +22988,6 @@
       ]
     },
     {
-      "name": "shield-alert",
-      "file": "src/shield-alert.svg",
-      "properties": {},
-      "description": "A shield containing an exclamation mark indicating a security alert or vulnerability.",
-      "tags": [
-        "unshielded",
-        "cybersecurity",
-        "insecure",
-        "unsecured",
-        "safety",
-        "unsafe",
-        "protection",
-        "unprotected",
-        "guardian",
-        "unguarded",
-        "unarmored",
-        "unarmoured",
-        "defenseless",
-        "defenceless",
-        "undefended",
-        "defender",
-        "blocked",
-        "stopped",
-        "intercepted",
-        "interception",
-        "saved",
-        "thwarted",
-        "threat",
-        "prevention",
-        "unprevented",
-        "antivirus",
-        "vigilance",
-        "vigilant",
-        "detection",
-        "detected",
-        "scanned",
-        "found",
-        "exploit",
-        "vulnerability",
-        "vulnerable",
-        "weakness",
-        "infection",
-        "infected",
-        "comprimised",
-        "data leak",
-        "audited",
-        "admin",
-        "verification",
-        "unverified",
-        "uncertified",
-        "warning",
-        "emergency",
-        "attention",
-        "urgent",
-        "alarm",
-        "crest",
-        "bravery",
-        "strength",
-        "tough",
-        "attacked",
-        "damaged",
-        "injured",
-        "hit",
-        "expired",
-        "disabled",
-        "inactive",
-        "error",
-        "exclamation mark",
-        "account",
-        "security",
-        "development",
-        "notifications",
-        "gaming"
-      ]
-    },
-    {
       "name": "shield-ban",
       "file": "src/shield-ban.svg",
       "properties": {},
@@ -23495,6 +23268,11 @@
         "development",
         "gaming"
       ]
+    },
+    {
+      "name": "shield-exclamation-point",
+      "file": "src/shield-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "shield-half",
@@ -24937,6 +24715,26 @@
       ]
     },
     {
+      "name": "square-arrow-down-enter",
+      "file": "src/square-arrow-down-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-down-exit",
+      "file": "src/square-arrow-down-exit.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-down-left-enter",
+      "file": "src/square-arrow-down-left-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-down-left-exit",
+      "file": "src/square-arrow-down-left-exit.svg",
+      "properties": {}
+    },
+    {
       "name": "square-arrow-down-left",
       "file": "src/square-arrow-down-left.svg",
       "properties": {},
@@ -24952,6 +24750,16 @@
         "arrows",
         "gaming"
       ]
+    },
+    {
+      "name": "square-arrow-down-right-enter",
+      "file": "src/square-arrow-down-right-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-down-right-exit",
+      "file": "src/square-arrow-down-right-exit.svg",
+      "properties": {}
     },
     {
       "name": "square-arrow-down-right",
@@ -24988,6 +24796,16 @@
       ]
     },
     {
+      "name": "square-arrow-left-enter",
+      "file": "src/square-arrow-left-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-left-exit",
+      "file": "src/square-arrow-left-exit.svg",
+      "properties": {}
+    },
+    {
       "name": "square-arrow-left",
       "file": "src/square-arrow-left.svg",
       "properties": {},
@@ -25001,63 +24819,6 @@
         "keyboard",
         "button",
         "arrows"
-      ]
-    },
-    {
-      "name": "square-arrow-out-down-left",
-      "file": "src/square-arrow-out-down-left.svg",
-      "properties": {},
-      "description": "Square frame containing a southwest-pointing directional arrow.",
-      "tags": [
-        "outwards",
-        "direction",
-        "south-west",
-        "diagonal",
-        "arrows"
-      ]
-    },
-    {
-      "name": "square-arrow-out-down-right",
-      "file": "src/square-arrow-out-down-right.svg",
-      "properties": {},
-      "description": "Square container holding a diagonal arrow indicating movement or direction.",
-      "tags": [
-        "outwards",
-        "direction",
-        "south-east",
-        "diagonal",
-        "arrows"
-      ]
-    },
-    {
-      "name": "square-arrow-out-up-left",
-      "file": "src/square-arrow-out-up-left.svg",
-      "properties": {},
-      "description": "Diagonal arrow pointing northwest exiting a surrounding square, representing outward direction or external movement.",
-      "tags": [
-        "outwards",
-        "direction",
-        "north-west",
-        "diagonal",
-        "arrows"
-      ]
-    },
-    {
-      "name": "square-arrow-out-up-right",
-      "file": "src/square-arrow-out-up-right.svg",
-      "properties": {},
-      "description": "A square frame enclosing an arrow pointing diagonally up and right, representing opening externally or sharing.",
-      "tags": [
-        "outwards",
-        "direction",
-        "north-east",
-        "diagonal",
-        "share",
-        "open",
-        "external",
-        "link",
-        "arrows",
-        "social"
       ]
     },
     {
@@ -25113,6 +24874,26 @@
       ]
     },
     {
+      "name": "square-arrow-up-enter",
+      "file": "src/square-arrow-up-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-up-exit",
+      "file": "src/square-arrow-up-exit.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-up-left-enter",
+      "file": "src/square-arrow-up-left-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-up-left-exit",
+      "file": "src/square-arrow-up-left-exit.svg",
+      "properties": {}
+    },
+    {
       "name": "square-arrow-up-left",
       "file": "src/square-arrow-up-left.svg",
       "properties": {},
@@ -25126,6 +24907,16 @@
         "button",
         "arrows"
       ]
+    },
+    {
+      "name": "square-arrow-up-right-enter",
+      "file": "src/square-arrow-up-right-enter.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-arrow-up-right-exit",
+      "file": "src/square-arrow-up-right-exit.svg",
+      "properties": {}
     },
     {
       "name": "square-arrow-up-right",
@@ -25491,6 +25282,11 @@
     {
       "name": "square-dashed-plus",
       "file": "src/square-dashed-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "square-dashed-search",
+      "file": "src/square-dashed-search.svg",
       "properties": {}
     },
     {
@@ -26873,6 +26669,36 @@
         "format",
         "text"
       ]
+    },
+    {
+      "name": "stroke-line-cap-butt",
+      "file": "src/stroke-line-cap-butt.svg",
+      "properties": {}
+    },
+    {
+      "name": "stroke-line-cap-round",
+      "file": "src/stroke-line-cap-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "stroke-line-cap-square",
+      "file": "src/stroke-line-cap-square.svg",
+      "properties": {}
+    },
+    {
+      "name": "stroke-line-join-bevel",
+      "file": "src/stroke-line-join-bevel.svg",
+      "properties": {}
+    },
+    {
+      "name": "stroke-line-join-miter",
+      "file": "src/stroke-line-join-miter.svg",
+      "properties": {}
+    },
+    {
+      "name": "stroke-line-join-round",
+      "file": "src/stroke-line-join-round.svg",
+      "properties": {}
     },
     {
       "name": "subscript",
@@ -28527,22 +28353,6 @@
       ]
     },
     {
-      "name": "triangle-alert",
-      "file": "src/triangle-alert.svg",
-      "properties": {},
-      "description": "Warning triangle containing an exclamation mark indicating danger or caution.",
-      "tags": [
-        "warning",
-        "alert",
-        "danger",
-        "exclamation mark",
-        "linter",
-        "notifications",
-        "shapes",
-        "development"
-      ]
-    },
-    {
       "name": "triangle-dashed",
       "file": "src/triangle-dashed.svg",
       "properties": {},
@@ -28556,6 +28366,11 @@
         "dashed",
         "shapes"
       ]
+    },
+    {
+      "name": "triangle-exclamation-point",
+      "file": "src/triangle-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "triangle-right",
@@ -29078,6 +28893,11 @@
       ]
     },
     {
+      "name": "user-exclamation-point",
+      "file": "src/user-exclamation-point.svg",
+      "properties": {}
+    },
+    {
       "name": "user-group",
       "file": "src/user-group.svg",
       "properties": {}
@@ -29191,6 +29011,11 @@
         "gear",
         "account"
       ]
+    },
+    {
+      "name": "user-round-exclamation-point",
+      "file": "src/user-round-exclamation-point.svg",
+      "properties": {}
     },
     {
       "name": "user-round-group",
