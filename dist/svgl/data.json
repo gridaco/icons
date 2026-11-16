@@ -141,6 +141,14 @@
       }
     },
     {
+      "name": "affinity",
+      "file": "src/affinity.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
       "name": "affinity_designer",
       "file": "src/affinity_designer.svg",
       "properties": {
@@ -602,6 +610,38 @@
       "properties": {
         "theme": "light",
         "kind": "symbol"
+      }
+    },
+    {
+      "name": "attio-dark",
+      "file": "src/attio-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "attio-light",
+      "file": "src/attio-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
+      }
+    },
+    {
+      "name": "attio-wordmark-dark",
+      "file": "src/attio-wordmark-dark.svg",
+      "properties": {
+        "theme": "dark",
+        "kind": "wordmark"
+      }
+    },
+    {
+      "name": "attio-wordmark-light",
+      "file": "src/attio-wordmark-light.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "wordmark"
       }
     },
     {
@@ -1162,6 +1202,14 @@
       "properties": {
         "theme": "light",
         "kind": "wordmark"
+      }
+    },
+    {
+      "name": "claude-code",
+      "file": "src/claude-code.svg",
+      "properties": {
+        "theme": "light",
+        "kind": "symbol"
       }
     },
     {
