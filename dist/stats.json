@@ -1,14 +1,14 @@
 {
   "totals": {
-    "files": 14608,
-    "unique": 5258,
+    "files": 14672,
+    "unique": 5319,
     "icons": {
-      "files": 13490,
-      "unique": 4591
+      "files": 13548,
+      "unique": 4649
     },
     "logos": {
-      "files": 1118,
-      "unique": 667
+      "files": 1124,
+      "unique": 670
     }
   },
   "vendors": {
@@ -27,8 +27,8 @@
     "lucide-icons": {
       "name": "Lucide Icons",
       "kind": "icons",
-      "files": 2018,
-      "unique": 2018
+      "files": 2076,
+      "unique": 2076
     },
     "phosphor-icons": {
       "name": "Phosphor Icons",
@@ -45,8 +45,8 @@
     "svgl": {
       "name": "SVGL",
       "kind": "logos",
-      "files": 1118,
-      "unique": 667
+      "files": 1124,
+      "unique": 670
     }
   }
 }
