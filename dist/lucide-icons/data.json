@@ -695,6 +695,11 @@
       ]
     },
     {
+      "name": "app-window-plus",
+      "file": "src/app-window-plus.svg",
+      "properties": {}
+    },
+    {
       "name": "app-window",
       "file": "src/app-window.svg",
       "properties": {},
@@ -4164,6 +4169,11 @@
       ]
     },
     {
+      "name": "bot-check",
+      "file": "src/bot-check.svg",
+      "properties": {}
+    },
+    {
       "name": "bot-message-square",
       "file": "src/bot-message-square.svg",
       "properties": {},
@@ -4178,6 +4188,11 @@
       ]
     },
     {
+      "name": "bot-minus",
+      "file": "src/bot-minus.svg",
+      "properties": {}
+    },
+    {
       "name": "bot-off",
       "file": "src/bot-off.svg",
       "properties": {},
@@ -4190,6 +4205,16 @@
         "development",
         "social"
       ]
+    },
+    {
+      "name": "bot-plus",
+      "file": "src/bot-plus.svg",
+      "properties": {}
+    },
+    {
+      "name": "bot-x",
+      "file": "src/bot-x.svg",
+      "properties": {}
     },
     {
       "name": "bot",
@@ -4248,6 +4273,11 @@
         "gaming",
         "tools"
       ]
+    },
+    {
+      "name": "box-dashed",
+      "file": "src/box-dashed.svg",
+      "properties": {}
     },
     {
       "name": "box",
@@ -6588,6 +6618,11 @@
       ]
     },
     {
+      "name": "chocolate-bar",
+      "file": "src/chocolate-bar.svg",
+      "properties": {}
+    },
+    {
       "name": "church",
       "file": "src/church.svg",
       "properties": {},
@@ -6623,6 +6658,11 @@
         "transportation",
         "medical"
       ]
+    },
+    {
+      "name": "cinema",
+      "file": "src/cinema.svg",
+      "properties": {}
     },
     {
       "name": "circle-arrow-down-left-exit",
@@ -6708,6 +6748,11 @@
         "arrows",
         "gaming"
       ]
+    },
+    {
+      "name": "circle-bounce",
+      "file": "src/circle-bounce.svg",
+      "properties": {}
     },
     {
       "name": "circle-check-big",
@@ -7217,6 +7262,11 @@
       ]
     },
     {
+      "name": "circle-person-arms-spread",
+      "file": "src/circle-person-arms-spread.svg",
+      "properties": {}
+    },
+    {
       "name": "circle-pile",
       "file": "src/circle-pile.svg",
       "properties": {},
@@ -7405,6 +7455,11 @@
         "shapes",
         "medical"
       ]
+    },
+    {
+      "name": "circle-speed-lines",
+      "file": "src/circle-speed-lines.svg",
+      "properties": {}
     },
     {
       "name": "circle-star",
@@ -9329,6 +9384,11 @@
       "properties": {}
     },
     {
+      "name": "diagram-sankey",
+      "file": "src/diagram-sankey.svg",
+      "properties": {}
+    },
+    {
       "name": "diameter",
       "file": "src/diameter.svg",
       "properties": {},
@@ -9748,6 +9808,11 @@
         "canine",
         "animals"
       ]
+    },
+    {
+      "name": "doghouse",
+      "file": "src/doghouse.svg",
+      "properties": {}
     },
     {
       "name": "dollar-sign",
@@ -12116,6 +12181,11 @@
       ]
     },
     {
+      "name": "folder-network",
+      "file": "src/folder-network.svg",
+      "properties": {}
+    },
+    {
       "name": "folder-open-dot",
       "file": "src/folder-open-dot.svg",
       "properties": {},
@@ -12164,6 +12234,11 @@
         "rename",
         "files"
       ]
+    },
+    {
+      "name": "folder-plus-corner",
+      "file": "src/folder-plus-corner.svg",
+      "properties": {}
     },
     {
       "name": "folder-plus",
@@ -13203,6 +13278,11 @@
       "properties": {}
     },
     {
+      "name": "graph-path",
+      "file": "src/graph-path.svg",
+      "properties": {}
+    },
+    {
       "name": "graph-ring",
       "file": "src/graph-ring.svg",
       "properties": {}
@@ -13658,6 +13738,11 @@
         "food-beverage",
         "people"
       ]
+    },
+    {
+      "name": "hand-truck",
+      "file": "src/hand-truck.svg",
+      "properties": {}
     },
     {
       "name": "hand",
@@ -14242,6 +14327,11 @@
       "properties": {}
     },
     {
+      "name": "hole",
+      "file": "src/hole.svg",
+      "properties": {}
+    },
+    {
       "name": "hop-off",
       "file": "src/hop-off.svg",
       "properties": {},
@@ -14327,6 +14417,16 @@
         "sandglass",
         "gaming"
       ]
+    },
+    {
+      "name": "house-arrow-left",
+      "file": "src/house-arrow-left.svg",
+      "properties": {}
+    },
+    {
+      "name": "house-arrow-right",
+      "file": "src/house-arrow-right.svg",
+      "properties": {}
     },
     {
       "name": "house-cog",
@@ -14736,6 +14836,11 @@
     {
       "name": "iv-bag",
       "file": "src/iv-bag.svg",
+      "properties": {}
+    },
+    {
+      "name": "jacket",
+      "file": "src/jacket.svg",
       "properties": {}
     },
     {
@@ -19108,6 +19213,11 @@
       ]
     },
     {
+      "name": "package-arrow-bend-up-left",
+      "file": "src/package-arrow-bend-up-left.svg",
+      "properties": {}
+    },
+    {
       "name": "package-check",
       "file": "src/package-check.svg",
       "properties": {},
@@ -19234,6 +19344,11 @@
         "design",
         "tools"
       ]
+    },
+    {
+      "name": "paint-gun",
+      "file": "src/paint-gun.svg",
+      "properties": {}
     },
     {
       "name": "paint-roller",
@@ -21373,6 +21488,11 @@
         "shapes",
         "design"
       ]
+    },
+    {
+      "name": "rectangle-landscape-play",
+      "file": "src/rectangle-landscape-play.svg",
+      "properties": {}
     },
     {
       "name": "rectangle-vertical",
@@ -25956,6 +26076,11 @@
       ]
     },
     {
+      "name": "square-plus-corner",
+      "file": "src/square-plus-corner.svg",
+      "properties": {}
+    },
+    {
       "name": "square-plus",
       "file": "src/square-plus.svg",
       "properties": {},
@@ -26825,6 +26950,11 @@
     {
       "name": "stroke-line-join-round",
       "file": "src/stroke-line-join-round.svg",
+      "properties": {}
+    },
+    {
+      "name": "stroke-width",
+      "file": "src/stroke-width.svg",
       "properties": {}
     },
     {
@@ -29093,6 +29223,11 @@
       ]
     },
     {
+      "name": "user-round-clock",
+      "file": "src/user-round-clock.svg",
+      "properties": {}
+    },
+    {
       "name": "user-round-cog",
       "file": "src/user-round-cog.svg",
       "properties": {},
@@ -29881,6 +30016,11 @@
         "cursors",
         "photography"
       ]
+    },
+    {
+      "name": "warehouse-waves",
+      "file": "src/warehouse-waves.svg",
+      "properties": {}
     },
     {
       "name": "warehouse",

@@ -7006,6 +7006,20 @@
       ]
     },
     {
+      "name": "pin-fill-16",
+      "file": "src/pin-fill-16.svg",
+      "properties": {
+        "size": "16"
+      }
+    },
+    {
+      "name": "pin-fill-24",
+      "file": "src/pin-fill-24.svg",
+      "properties": {
+        "size": "24"
+      }
+    },
+    {
       "name": "pin-slash-16",
       "file": "src/pin-slash-16.svg",
       "properties": {
